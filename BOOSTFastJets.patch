@@ -1,0 +1,14 @@
+--- vanillaRivet/Rivet-1.8.1/include/Rivet/Projections/FastJets.hh	2012-06-29 11:05:32.000000000 -0400
++++ ./Rivet-1.8.1/include/Rivet/Projections/FastJets.hh	2013-05-06 11:38:02.333004512 -0400
+@@ -150,7 +150,10 @@
+     const fastjet::ClusterSequence* clusterSeq() const {
+       return _cseq.get();
+     }
+-
++    /// Return a map of associated particles 
++    const map<int, Particle>& particles() const{
++      return _particles;
++    }
+     /// Return the cluster sequence (FastJet-specific).
+     const fastjet::ClusterSequenceArea* clusterSeqArea() const {
+       /// @todo Throw error if no area def? Or just blindly call dynamic_cast?
