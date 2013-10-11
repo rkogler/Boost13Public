@@ -22,6 +22,8 @@ to use it please have a look at the header
 Obtaining and running
 ---------------------
 
+0. Clone this repository: git clone https://github.com/rkogler/Boost13Public.git
+
 1. Setup the rivet installation you want to use with
 (in the correct directory):
 
