@@ -15,6 +15,8 @@ rivet-charge: libBOOSTFastJets.so
 	$(CC) -shared -fPIC $(CFLAGS) -o "RivetMC_GENSTUDY_JETCHARGE.so" MC_GENSTUDY_JETCHARGE.cc -lBOOSTFastJets -L ./ $(LDFLAGS)
 rivet-substructure: libBOOSTFastJets.so
 	$(CC) -shared -fPIC $(CFLAGS) -o "RivetMC_GENSTUDY_JET_SUBSTRUCTURE.so" MC_GENSTUDY_JET_SUBSTRUCTURE.cc -lBOOSTFastJets -L ./ $(LDFLAGS)
+rivet-top: libBOOSTFastJets.so
+	$(CC) -shared -fPIC $(CFLAGS) -o "RivetMC_GENSTUDY_TOP_TAG.so" MC_GENSTUDY_TOP_TAG.cc -lBOOSTFastJets -L ./ $(LDFLAGS)
 libBOOSTFastJets.so:
 	$(CC) -shared -fPIC $(CFLAGS) src/BOOSTFastJets.cxx -o libBOOSTFastJets.so -lfastjet -lfastjettools $(LDFLAGS)
 install:
