@@ -1,0 +1,7 @@
+COMMANDS FOR TOP TAG:
+
+>> make top-tag
+
+>> rivet -a MC_GENSTUDY_TOP_TAG event_file.hepmc -H analysis_name.aida --runname=analysis_name --pwd
+
+>> rivet-mkhtml analysis_name.aida -o analysis_name
