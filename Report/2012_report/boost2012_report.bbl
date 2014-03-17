@@ -1,0 +1,621 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10%
+0}
+
+\bibitem{Butterworth:2008iy}
+J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam, {\it {Jet
+  substructure as a new Higgs search channel at the LHC}},  {\em
+  Phys.Rev.Lett.} {\bf 100} (2008) 242001,
+  [\href{http://arxiv.org/abs/0802.2470}{{\tt arXiv:0802.2470}}].
+
+\bibitem{Krohn:2009th}
+D.~Krohn, J.~Thaler, and L.-T. Wang, {\it {Jet Trimming}},  {\em JHEP} {\bf
+  1002} (2010) 084, [\href{http://arxiv.org/abs/0912.1342}{{\tt
+  arXiv:0912.1342}}].
+
+\bibitem{Ellis:2009me}
+S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, {\it {Recombination Algorithms
+  and Jet Substructure: Pruning as a Tool for Heavy Particle Searches}},  {\em
+  Phys.Rev.} {\bf D81} (2010) 094023,
+  [\href{http://arxiv.org/abs/0912.0033}{{\tt arXiv:0912.0033}}].
+
+\bibitem{boost12}
+{\em Boost2012},  IFIC Valencia, 23-27 July 2012. 
+ [\href{http://ific.uv.es/boost2012}{{\tt http://ific.uv.es/boost2012}}].
+
+\bibitem{boost09}
+{\em Boost2009, giving physics a new boost},  SLAC National Accelerator
+  Laboratory, 9-10 July, 2009. 
+ [\href{http://www-conf.slac.stanford.edu/Boost2009}{{\tt http://www-conf.slac.stanford.edu/Boost2009}}].
+
+\bibitem{boost10}
+{\em Boost2010},  University of Oxford, 22-25 June 2010. 
+  [\href{http://www.physics.ox.ac.uk/boost2010}{{\tt http://www.physics.ox.ac.uk/boost2010}}].
+
+\bibitem{boost11}
+{\em Boost2011},  Princeton University, 22-26 May 2011. 
+  [\href{http://boost2011.org}{{\tt http://boost2011.org}}].
+
+\bibitem{boost13}
+{\em Boost2013},  University of Arizona, 12-17 August 2013.
+ [\href{http://w3atlas.physics.arizona.edu/boost2013}{{\tt http://w3atlas.physics.arizona.edu/boost2013}}].
+
+\bibitem{Abdesselam:2010pt}
+A.~Abdesselam, E.~B. Kuutmann, U.~Bitenc, G.~Brooijmans, J.~Butterworth, {\em
+  et~al.}, {\it {Boosted objects: A Probe of beyond the Standard Model
+  physics}},  {\em Eur.Phys.J.} {\bf C71} (2011) 1661,
+  [\href{http://arxiv.org/abs/1012.5412}{{\tt arXiv:1012.5412}}].
+
+\bibitem{Altheimer:2012mn}
+A.~Altheimer, S.~Arora, L.~Asquith, G.~Brooijmans, J.~Butterworth, {\em
+  et~al.}, {\it {Jet Substructure at the Tevatron and LHC: New results, new
+  tools, new benchmarks}},  {\em J.Phys.} {\bf G39} (2012) 063001,
+  [\href{http://arxiv.org/abs/1201.0008}{{\tt arXiv:1201.0008}}].
+
+\bibitem{Aad:2011kq}
+{\bf Atlas} Collaboration, {\it {Study of
+  Jet Shapes in Inclusive Jet Production in $pp$ Collisions at $\sqrt{s}=7$ TeV
+  using the ATLAS Detector}},  {\em Phys.Rev.} {\bf D83} (2011) 052003,
+  [\href{http://arxiv.org/abs/1101.0070}{{\tt arXiv:1101.0070}}].
+
+\bibitem{Chatrchyan:2012mec}
+{\bf CMS} Collaboration,  {\it {Shape, transverse
+  size, and charged hadron multiplicity of jets in pp collisions at 7 TeV}},
+  {\em JHEP} {\bf 1206} (2012) 160, [\href{http://arxiv.org/abs/1204.3170}{{\tt
+  arXiv:1204.3170}}].
+
+\bibitem{ATLAS:2012am}
+{\bf ATLAS} Collaboration, {\it {Jet mass and substructure of inclusive jets in
+  $\sqrt{s}=7$ TeV $pp$ collisions with the ATLAS experiment}},  {\em JHEP}
+  {\bf 1205} (2012) 128, [\href{http://arxiv.org/abs/1203.4606}{{\tt
+  arXiv:1203.4606}}].
+
+\bibitem{Aad:2012meb}
+{\bf ATLAS} Collaboration, {\it {ATLAS measurements of the
+  properties of jets for boosted particle searches}},  {\em Phys.Rev.} {\bf
+  D86} (2012) 072006, [\href{http://arxiv.org/abs/1206.5369}{{\tt
+  arXiv:1206.5369}}].
+
+\bibitem{Aad:2013gja}
+{\bf ATLAS} Collaboration, {\it {Performance of jet substructure techniques for
+  large-$R$ jets in proton-proton collisions at $\sqrt{s} = 7$~TeV using the
+  ATLAS detector}},  {\em submitted to JHEP} (2013)
+  [\href{http://arxiv.org/abs/1306.4945}{{\tt arXiv:1306.4945}}].
+
+\bibitem{Chatrchyan:2013rla}
+{\bf CMS} Collaboration, {\it {Studies of jet mass
+  in dijet and W/Z + jet events}},  {\em JHEP} {\bf 1305} (2013) 090,
+  [\href{http://arxiv.org/abs/1303.4811}{{\tt arXiv:1303.4811}}].
+
+\bibitem{Sjostrand:2006za}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {PYTHIA 6.4 Physics and
+  Manual}},  {\em JHEP} {\bf 0605} (2006) 026,
+  [\href{http://arxiv.org/abs/hep-ph/0603175}{{\tt hep-ph/0603175}}].
+
+\bibitem{Sjostrand:2007gs}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {A Brief Introduction to PYTHIA
+  8.1}},  {\em Comput.Phys.Commun.} {\bf 178} (2008) 852--867,
+  [\href{http://arxiv.org/abs/0710.3820}{{\tt arXiv:0710.3820}}].
+
+\bibitem{Corcella:2000bw}
+G.~Corcella, I.~Knowles, G.~Marchesini, S.~Moretti, K.~Odagiri, {\em et~al.},
+  {\it {HERWIG 6: An Event generator for hadron emission reactions with
+  interfering gluons (including supersymmetric processes)}},  {\em JHEP} {\bf
+  0101} (2001) 010, [\href{http://arxiv.org/abs/hep-ph/0011363}{{\tt
+  hep-ph/0011363}}].
+
+\bibitem{Bahr:2008pv}
+M.~Bahr {\em et~al.}, {\it {Herwig++ Physics and Manual}},  {\em Eur. Phys. J.}
+  {\bf C58} (2008) 639--707, [\href{http://arxiv.org/abs/0803.0883}{{\tt
+  arXiv:0803.0883}}].
+
+\bibitem{Campbell:2002tg}
+J.~M. Campbell and R.~K. Ellis, {\it {Next-to-leading order corrections to
+  $W^+$ 2 jet and $Z^+$ 2 jet production at hadron colliders}},  {\em
+  Phys.Rev.} {\bf D65} (2002) 113007,
+  [\href{http://arxiv.org/abs/hep-ph/0202176}{{\tt hep-ph/0202176}}].
+
+\bibitem{Nagy:2003tz}
+Z.~Nagy, {\it {Next-to-leading order calculation of three jet observables in
+  hadron hadron collision}},  {\em Phys.Rev.} {\bf D68} (2003) 094002,
+  [\href{http://arxiv.org/abs/hep-ph/0307268}{{\tt hep-ph/0307268}}].
+
+\bibitem{Gleisberg:2008ta}
+T.~Gleisberg {\em et~al.}, {\it {Event generation with SHERPA 1.1}},  {\em
+  JHEP} {\bf 02} (2009) 007, [\href{http://arxiv.org/abs/0811.4622}{{\tt
+  arXiv:0811.4622}}].
+
+\bibitem{Dasgupta:2001sh}
+M.~Dasgupta and G.~Salam, {\it {Resummation of nonglobal QCD observables}},
+  {\em Phys.Lett.} {\bf B512} (2001) 323--330,
+  [\href{http://arxiv.org/abs/hep-ph/0104277}{{\tt hep-ph/0104277}}].
+
+\bibitem{Hatta:2013iba}
+Y.~Hatta and T.~Ueda, {\it {Resummation of non-global logarithms at finite
+  $N_c$}},  \href{http://arxiv.org/abs/1304.6930}{{\tt arXiv:1304.6930}}.
+
+\bibitem{Dasgupta:2002bw}
+M.~Dasgupta and G.~P. Salam, {\it {Accounting for coherence in interjet E(t)
+  flow: A Case study}},  {\em JHEP} {\bf 0203} (2002) 017,
+  [\href{http://arxiv.org/abs/hep-ph/0203009}{{\tt hep-ph/0203009}}].
+
+\bibitem{Banfi:2002hw}
+A.~Banfi, G.~Marchesini, and G.~Smye, {\it {Away from jet energy flow}},  {\em
+  JHEP} {\bf 0208} (2002) 006, [\href{http://arxiv.org/abs/hep-ph/0206076}{{\tt
+  hep-ph/0206076}}].
+
+\bibitem{Banfi:2005gj}
+A.~Banfi and M.~Dasgupta, {\it {Problems in resumming interjet energy flows
+  with $k_t$ clustering}},  {\em Phys.Lett.} {\bf B628} (2005) 49--56,
+  [\href{http://arxiv.org/abs/hep-ph/0508159}{{\tt hep-ph/0508159}}].
+
+\bibitem{Delenda:2006nf}
+Y.~Delenda, R.~Appleby, M.~Dasgupta, and A.~Banfi, {\it {On QCD resummation
+  with k(t) clustering}},  {\em JHEP} {\bf 0612} (2006) 044,
+  [\href{http://arxiv.org/abs/hep-ph/0610242}{{\tt hep-ph/0610242}}].
+
+\bibitem{Kelley:2012zs}
+R.~Kelley, J.~R. Walsh, and S.~Zuberi, {\it {Disentangling Clustering Effects
+  in Jet Algorithms}},  \href{http://arxiv.org/abs/1203.2923}{{\tt
+  arXiv:1203.2923}}.
+
+\bibitem{Delenda:2012mm}
+Y.~Delenda and K.~Khelifa-Kerfa, {\it {On the resummation of clustering
+  logarithms for non-global observables}},  {\em JHEP} {\bf 1209} (2012) 109,
+  [\href{http://arxiv.org/abs/1207.4528}{{\tt arXiv:1207.4528}}].
+
+\bibitem{Catani:2011st}
+S.~Catani, D.~de~Florian, and G.~Rodrigo, {\it {Space-like (versus time-like)
+  collinear limits in QCD: Is factorization violated?}},  {\em JHEP} {\bf 1207}
+  (2012) 026, [\href{http://arxiv.org/abs/1112.4405}{{\tt arXiv:1112.4405}}].
+
+\bibitem{Forshaw:2012bi}
+J.~R. Forshaw, M.~H. Seymour, and A.~Siodmok, {\it {On the Breaking of
+  Collinear Factorization in QCD}},  {\em JHEP} {\bf 1211} (2012) 066,
+  [\href{http://arxiv.org/abs/1206.6363}{{\tt arXiv:1206.6363}}].
+
+\bibitem{Kyrieleis:2005dt}
+A.~Kyrieleis and M.~Seymour, {\it {The Colour evolution of the process $q q
+  \rightarrow q q g$}},  {\em JHEP} {\bf 0601} (2006) 085,
+  [\href{http://arxiv.org/abs/hep-ph/0510089}{{\tt hep-ph/0510089}}].
+
+\bibitem{Forshaw:2008cq}
+J.~Forshaw, A.~Kyrieleis, and M.~Seymour, {\it {Super-leading logarithms in
+  non-global observables in QCD: Colour basis independent calculation}},  {\em
+  JHEP} {\bf 0809} (2008) 128, [\href{http://arxiv.org/abs/0808.1269}{{\tt
+  arXiv:0808.1269}}].
+
+\bibitem{Banfi:2010xy}
+A.~Banfi, G.~P. Salam, and G.~Zanderighi, {\it {Phenomenology of event shapes
+  at hadron colliders}},  {\em JHEP} {\bf 1006} (2010) 038,
+  [\href{http://arxiv.org/abs/1001.4082}{{\tt arXiv:1001.4082}}].
+
+\bibitem{Mateu:2012nk}
+V.~Mateu, I.~W. Stewart, and J.~Thaler, {\it {Power Corrections to Event Shapes
+  with Mass-Dependent Operators}},  {\em Phys.Rev.} {\bf D87} (2013) 014025,
+  [\href{http://arxiv.org/abs/1209.3781}{{\tt arXiv:1209.3781}}].
+
+%\cite{Dasgupta:2007wa}
+\bibitem{Dasgupta:2007wa} 
+  M.~Dasgupta, L.~Magnea and G.~P.~Salam, {\it {Non-perturbative QCD effects in jets at hadron colliders}}, \em{JHEP} {\bf 0802}, 055 (2008), [\href{http://arxiv.org/abs/0712.3014}{{\tt arXiv:0712.3014}}].
+  %%CITATION = ARXIV:0712.3014;%%
+  %82 citations counted in INSPIRE as of 10 Nov 2013
+
+%\cite{Li:2011hy}
+\bibitem{Li:2011hy}
+  H.~-n.~Li, Z.~Li and C.~-P.~Yuan,{\it {QCD resummation for jet substructures}}, Phys.\ Rev.\ Lett.\  {\bf 107} (2011) 152001
+  [\href{http://arxiv.org/abs/1107.4535}{{\tt arXiv:1107.4535}}].
+  %%CITATION = ARXIV:1107.4535;%%
+  %10 citations counted in INSPIRE as of 25 Nov 2013
+
+\bibitem{Dasgupta:2012hg}
+M.~Dasgupta, K.~Khelifa-Kerfa, S.~Marzani, and M.~Spannowsky, {\it {On jet mass
+  distributions in Z+jet and dijet processes at the LHC}},  {\em JHEP} {\bf
+  1210} (2012) 126, [\href{http://arxiv.org/abs/1207.1640}{{\tt
+  arXiv:1207.1640}}].
+
+\bibitem{Sjodahl:2008fz}
+M.~Sjodahl, {\it {Color evolution of 2 $\to$ 3 processes}},  {\em JHEP} {\bf
+  0812} (2008) 083, [\href{http://arxiv.org/abs/0807.0555}{{\tt
+  arXiv:0807.0555}}].
+
+\bibitem{Sjodahl:2009wx}
+M.~Sjodahl, {\it {Color structure for soft gluon resummation: A General
+  recipe}},  {\em JHEP} {\bf 0909} (2009) 087,
+  [\href{http://arxiv.org/abs/0906.1121}{{\tt arXiv:0906.1121}}].
+
+\bibitem{Forshaw:2006fk}
+J.~R. Forshaw, A.~Kyrieleis, and M.~Seymour, {\it {Super-leading logarithms in
+  non-global observables in QCD}},  {\em JHEP} {\bf 0608} (2006) 059,
+  [\href{http://arxiv.org/abs/hep-ph/0604094}{{\tt hep-ph/0604094}}].
+
+\bibitem{DuranDelgado:2011tp}
+R.~M. Duran~Delgado, J.~R. Forshaw, S.~Marzani, and M.~H. Seymour, {\it {The
+  dijet cross section with a jet veto}},  {\em JHEP} {\bf 1108} (2011) 157,
+  [\href{http://arxiv.org/abs/1107.2084}{{\tt arXiv:1107.2084}}].
+
+\bibitem{Banfi:2010pa}
+A.~Banfi, M.~Dasgupta, K.~Khelifa-Kerfa, and S.~Marzani, {\it {Non-global
+  logarithms and jet algorithms in high-pT jet shapes}},  {\em JHEP} {\bf 1008}
+  (2010) 064, [\href{http://arxiv.org/abs/1004.3483}{{\tt arXiv:1004.3483}}].
+
+\bibitem{KhelifaKerfa:2011zu}
+K.~Khelifa-Kerfa, {\it {Non-global logs and clustering impact on jet mass with
+  a jet veto distribution}},  {\em JHEP} {\bf 1202} (2012) 072,
+  [\href{http://arxiv.org/abs/1111.2016}{{\tt arXiv:1111.2016}}].
+
+\bibitem{Chien:2012ur}
+Y.-T. Chien, R.~Kelley, M.~D. Schwartz, and H.~X. Zhu, {\it {Resummation of Jet
+  Mass at Hadron Colliders}},  {\em Phys.Rev.} {\bf D87} (2013) 014010,
+  [\href{http://arxiv.org/abs/1208.0010}{{\tt arXiv:1208.0010}}].
+
+\bibitem{Laenen:1998qw} 
+  E.~Laenen, G.~Oderda and G.~F.~Sterman, {\it {Resummation of threshold corrections for single particle inclusive cross-sections}}, {\em Phys.Lett.} {\bf B 438} (1998), 173,
+  [\href{http://arxiv.org/abs/hep-ph/9806467}{{\tt hep-ph/9806467}}].
+
+\bibitem{Jouttenus:2013hs}
+T.~T. Jouttenus, I.~W. Stewart, F.~J. Tackmann, and W.~J. Waalewijn, {\it {Jet
+  Mass Spectra in Higgs + One Jet at NNLL}},
+  [\href{http://arxiv.org/abs/1302.0846}{{\tt arXiv:1302.0846}}].
+
+\bibitem{Berger:2010xi}
+  C.~F.~Berger, C.~Marcantonini, I.~W.~Stewart, F.~J.~Tackmann and W.~J.~Waalewijn, {\it {Higgs Production with a Central Jet Veto at NNLL+NNLO}}, JHEP {\bf 1104} (2011) 092,
+  [\href{http://arxiv.org/abs/1012.4480}{{\tt arXiv:1012.4480}}].
+  %%CITATION = ARXIV:1012.4480;%%
+  %55 citations counted in INSPIRE as of 25 Nov 2013
+
+\bibitem{Stewart:2010pd}
+  I.~W.~Stewart, F.~J.~Tackmann and W.~J.~Waalewijn, {\it {The Beam Thrust Cross Section for Drell-Yan at NNLL Order}}, Phys.\ Rev.\ Lett.\  {\bf 106} (2011) 032001,
+  [\href{http://arxiv.org/abs/1005.4060}{{\tt arXiv:1005.4060}}].
+  %%CITATION = ARXIV:1005.4060;%%
+  %23 citations counted in INSPIRE as of 25 Nov 2013
+
+ \bibitem{Stewart:2009yx}
+  I.~W.~Stewart, F.~J.~Tackmann and W.~J.~Waalewijn, {\it {Factorization at the LHC: From PDFs to Initial State Jets}}, Phys.\ Rev.\ D {\bf 81} (2010) 094035,
+   [\href{http://arxiv.org/abs/0910.0467}{{\tt arXiv:0910.0467}}].
+  %%CITATION = ARXIV:0910.0467;%%
+  %71 citations counted in INSPIRE as of 25 Nov 2013
+
+\bibitem{Hornig:2011iu}
+A.~Hornig, C.~Lee, I.~W. Stewart, J.~R. Walsh, and S.~Zuberi, {\it {Non-global
+  Structure of the O(${\alpha}_s^2$) Dijet Soft Function}},  {\em JHEP} {\bf
+  1108} (2011) 054, [\href{http://arxiv.org/abs/1105.4628}{{\tt
+  arXiv:1105.4628}}].
+
+\bibitem{Feige:2012vc}
+I.~Feige, M.~D. Schwartz, I.~W. Stewart, and J.~Thaler, {\it {Precision Jet
+  Substructure from Boosted Event Shapes}},  {\em Phys.Rev.Lett.} {\bf 109}
+  (2012) 092001, [\href{http://arxiv.org/abs/1204.3898}{{\tt
+  arXiv:1204.3898}}].
+
+\bibitem{Dasgupta:2013tia}
+M.~Dasgupta, A.~Fregoso, S.~Marzani, and G.~P. Salam, {\it {Towards an
+  understanding of jet substructure}},
+  \href{http://arxiv.org/abs/1307.0007}{{\tt arXiv:1307.0007}}.
+
+\bibitem{Dasgupta:2013via}
+M.~Dasgupta, A.~Fregoso, S.~Marzani, and A.~Powling, {\it {Jet substructure
+  with analytical methods}},  \href{http://arxiv.org/abs/1307.0013}{{\tt
+  arXiv:1307.0013}}.
+
+\bibitem{Larkoski:2013eya}
+A.~J. Larkoski, G.~P. Salam, and J.~Thaler, {\it {Energy Correlation Functions
+  for Jet Substructure}},  {\em JHEP} {\bf 1306} (2013) 108,
+  [\href{http://arxiv.org/abs/1305.0007}{{\tt arXiv:1305.0007}}].
+
+\bibitem{Skands:2009zm}
+P.~Skands, {\it The Perugia tunes}, FERMILAB-CONF-09-113-T, [\href{http://arXiv.org/abs/0905.3418}{{\tt arXiv:0905.3418}}].
+P.~Z.~Skands, {\it Tuning Monte Carlo Generators: The Perugia Tunes},
+  {\em Phys.\ Rev.\ } {\bf D82} (2010) 074018
+  [\href{http://arxiv.org/abs/1005.3458}{{\tt arXiv:1005.3457}}]. 
+  %%CITATION = ARXIV:1005.3457;%%
+  %340 citations counted in INSPIRE as of 31 Oct 2013
+
+\bibitem{Lai:1999wy}
+{\bf CTEQ Collaboration} Collaboration, H.~Lai {\em et~al.}, {\it {Global QCD
+  analysis of parton structure of the nucleon: CTEQ5 parton distributions}},
+  {\em Eur.Phys.J.} {\bf C12} (2000) 375--392,
+  [\href{http://arxiv.org/abs/hep-ph/9903282}{{\tt hep-ph/9903282}}].
+
+\bibitem{Sjostrand:2000wi}
+T.~Sjostrand, P.~Eden, C.~Friberg, L.~Lonnblad, G.~Miu, {\em et~al.}, {\it
+  {High-energy physics event generation with PYTHIA 6.1}},  {\em
+  Comput.Phys.Commun.} {\bf 135} (2001) 238--259,
+  [\href{http://arxiv.org/abs/hep-ph/0010017}{{\tt hep-ph/0010017}}].
+
+\bibitem{Corke:2010yf}
+R.~Corke and T.~Sjostrand, {\it {Interleaved parton showers and tuning
+  prospects}},  {\em JHEP} {\bf 03} (2011) 032,
+  [\href{http://arxiv.org/abs/1011.1759}{{\tt arXiv:1011.1759}}].
+
+\bibitem{cteq6}
+{Pumplin, J. and others}, {\it {New generation of parton distributions with
+  uncertainties from global QCD analysis}},  {\em JHEP} {\bf 07} (2002) 012,
+  [\href{http://arxiv.org/abs/hep-ph/0201195}{{\tt hep-ph/0201195}}].
+
+\bibitem{Gieseke:2012ft}
+S.~Gieseke, C.~Rohr, and A.~Siodmok, {\it {Colour reconnections in Herwig++}},
+  {\em Eur.Phys.J.} {\bf C72} (2012) 2225,
+  [\href{http://arxiv.org/abs/1206.0041}{{\tt arXiv:1206.0041}}].
+
+\bibitem{Gieseke:2011na}
+S.~Gieseke {\em et~al.}, {\it {Herwig++ 2.5 Release Note}},
+  \href{http://arxiv.org/abs/1102.1672}{{\tt arXiv:1102.1672}}.
+
+\bibitem{Lai:2010vv}
+H.-L. Lai {\em et~al.}, {\it {New parton distributions for collider physics}},
+  {\em Phys. Rev.} {\bf D82} (2010) 074024,
+  [\href{http://arxiv.org/abs/1007.2241}{{\tt arXiv:1007.2241}}].
+
+\bibitem{Cacciari:2011ma}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {FastJet User Manual}},  {\em
+  Eur.Phys.J.} {\bf C72} (2012) 1896,
+  [\href{http://arxiv.org/abs/1111.6097}{{\tt arXiv:1111.6097}}].
+
+\bibitem{Cacciari:2008gn}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {The Catchment Area of Jets}},
+  {\em JHEP} {\bf 0804} (2008) 005, [\href{http://arxiv.org/abs/0802.1188}{{\tt
+  arXiv:0802.1188}}].
+
+\bibitem{Buckley:2010ar}
+A.~Buckley, J.~Butterworth, L.~Lonnblad, H.~Hoeth, J.~Monk, {\em et~al.}, {\it
+  {Rivet user manual}},  \href{http://arxiv.org/abs/1003.0694}{{\tt
+  arXiv:1003.0694}}.
+
+\bibitem{rivetroutines}
+Boost2012 MC Working Group web page:
+[\href{http://ific.uv.es/boost2012/workingroups.html}{{\tt http://ific.uv.es/boost2012/workingroups.html}}]
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {The Anti-k(t) jet clustering
+  algorithm}},  {\em JHEP} {\bf 0804} (2008) 063,
+  [\href{http://arxiv.org/abs/0802.1189}{{\tt arXiv:0802.1189}}].
+
+\bibitem{Dokshitzer:1997in}
+Y.~L. Dokshitzer, G.~D. Leder, S.~Moretti, and B.~R. Webber, {\it {Better Jet
+  Clustering Algorithms}},  {\em JHEP} {\bf 08} (1997) 001,
+  [\href{http://arxiv.org/abs/hep-ph/9707323}{{\tt hep-ph/9707323}}].
+
+\bibitem{Wobisch:1998wt}
+M.~Wobisch and T.~Wengler, {\it {Hadronization corrections to jet cross
+  sections in deep- inelastic scattering}},
+  \href{http://arxiv.org/abs/hep-ph/9907280}{{\tt hep-ph/9907280}}.
+
+\bibitem{Jankowiak:2011qa}
+M.~Jankowiak and A.~J. Larkoski, {\it {Jet Substructure Without Trees}},  {\em
+  JHEP} {\bf 1106} (2011) 057, [\href{http://arxiv.org/abs/1104.1646}{{\tt
+  arXiv:1104.1646}}].
+
+\bibitem{Thaler:2010tr}
+J.~Thaler and K.~Van~Tilburg, {\it {Identifying Boosted Objects with
+  N-subjettiness}},  {\em JHEP} {\bf 1103} (2011) 015,
+  [\href{http://arxiv.org/abs/1011.2268}{{\tt arXiv:1011.2268}}].
+
+\bibitem{Thaler:2011gf}
+J.~Thaler and K.~Van~Tilburg, {\it {Maximizing Boosted Top Identification by
+  Minimizing N-subjettiness}},  {\em JHEP} {\bf 1202} (2012) 093,
+  [\href{http://arxiv.org/abs/1108.2701}{{\tt arXiv:1108.2701}}].
+
+\bibitem{Berger:2003iw}
+C.~F. Berger, T.~Kucs, and G.~F. Sterman, {\it {Event shape / energy flow
+  correlations}},  {\em Phys.Rev.} {\bf D68} (2003) 014012,
+  [\href{http://arxiv.org/abs/hep-ph/0303051}{{\tt hep-ph/0303051}}].
+
+\bibitem{Almeida:2008yp}
+L.~G. Almeida, S.~J. Lee, G.~Perez, G.~F. Sterman, I.~Sung, {\em et~al.}, {\it
+  {Substructure of high-$p_T$ Jets at the LHC}},  {\em Phys.Rev.} {\bf D79}
+  (2009) 074017, [\href{http://arxiv.org/abs/0807.0234}{{\tt
+  arXiv:0807.0234}}].
+
+\bibitem{Chekanov:2010vc}
+S.~Chekanov and J.~Proudfoot, {\it {Searches for TeV-scale particles at the LHC
+  using jet shapes}},  {\em Phys.Rev.} {\bf D81} (2010) 114038,
+  [\href{http://arxiv.org/abs/1002.3982}{{\tt arXiv:1002.3982}}].
+
+\bibitem{Gallicchio:2010sw}
+J.~Gallicchio and M.~D. Schwartz, {\it {Seeing in Color: Jet Superstructure}},
+  {\em Phys. Rev. Lett.} {\bf 105} (2010) 022001,
+  [\href{http://arxiv.org/abs/1001.5027}{{\tt arXiv:1001.5027}}].
+
+\bibitem{Hook:2011cq}
+A.~Hook, M.~Jankowiak, and J.~G. Wacker, {\it {Jet Dipolarity: Top Tagging with
+  Color Flow}},  \href{http://arxiv.org/abs/1102.1012}{{\tt arXiv:1102.1012}}.
+
+\bibitem{Feynman1978}
+R.~Feynman and R.~Field, {\it {A Parameterization of the properties of Quark
+  Jets}},  {\em Nucl. Phys. B} {\bf 136} (1978).
+
+\bibitem{Waalewijn2012}
+W.~J. Waalewijn, {\it Calculating the charge of a jet},  {\em Phys. Rev. D}
+  {\bf 86} (Nov, 2012) 094030.
+
+\bibitem{Krohn2012}
+D.~Krohn, T.~Lin, M.~D. Schwartz, and W.~J. Waalewijn, {\it {Jet Charge at the
+  LHC}},  \href{http://arxiv.org/abs/1209.2421}{{\tt arXiv:1209.2421}}.
+
+\bibitem{Antchev:2013iaa}
+{\bf TOTEM} Collaboration, G.~Antchev {\em et~al.}, {\it
+  {Luminosity-independent measurements of total, elastic and inelastic
+  cross-sections at $\sqrt{s} = 7$ TeV}},  {\em Europhys.Lett.} {\bf 101}
+  (2013) 21004.
+
+\bibitem{pythia}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {PYTHIA 6.4 Physics and
+  Manual}},  {\em JHEP} {\bf 05} (2006) 026,
+  [\href{http://arxiv.org/abs/hep-ph/0603175}{{\tt hep-ph/0603175}}]. for older
+  versions, see {http://home.thep.lu.se/~torbjorn/Pythia.html}.
+
+\bibitem{pythia8}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {A Brief Introduction to PYTHIA
+  8.1}},  {\em Comput. Phys. Commun.} {\bf 178} (2008) 852--867,
+  [\href{http://arxiv.org/abs/0710.3820}{{\tt arXiv:0710.3820}}].
+
+\bibitem{Cacciari:2007fd}
+M.~Cacciari and G.~P. Salam, {\it {Pileup subtraction using jet areas}},  {\em
+  Phys.Lett.} {\bf B659} (2008) 119--126,
+  [\href{http://arxiv.org/abs/0707.1378}{{\tt arXiv:0707.1378}}].
+
+\bibitem{Cacciari:2010te}
+M.~Cacciari, J.~Rojo, G.~P. Salam, and G.~Soyez, {\it {Jet Reconstruction in
+  Heavy Ion Collisions}},  {\em Eur. Phys. J. C} {\bf 71} (2011) 1539,
+  [\href{http://arxiv.org/abs/1010.1759}{{\tt arXiv:1010.1759}}].
+
+\bibitem{Cacciari:2008gd}
+M.~Cacciari, J.~Rojo, G.~P. Salam, and G.~Soyez, {\it {Quantifying the
+  performance of jet definitions for kinematic reconstruction at the LHC}},
+  {\em JHEP} {\bf 0812} (2008) 032, [\href{http://arxiv.org/abs/0810.1304}{{\tt
+  arXiv:0810.1304}}].
+
+\bibitem{Wobisch:2000dk}
+M.~Wobisch, {\em { Measurement and QCD analysis of jet cross-sections in deep
+  inelastic positron proton collisions at $\sqrt{s}= 300$ GeV }}.
+\newblock PhD thesis, University of Hamburg, 2000.
+\newblock DESY-THESIS-2000-049.
+
+\bibitem{Ellis:2009su}
+S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, {\it {Techniques for improved
+  heavy particle searches with jet substructure}},  {\em Phys. Rev.} {\bf D80}
+  (2009) 051501, [\href{http://arxiv.org/abs/0903.5081}{{\tt
+  arXiv:0903.5081}}].
+
+\bibitem{Campbell:2010ff}
+J.~M. Campbell and R.~Ellis, {\it {MCFM for the Tevatron and the LHC}},  {\em
+  Nucl.Phys.Proc.Suppl.} {\bf 205-206} (2010) 10--15,
+  [\href{http://arxiv.org/abs/1007.3492}{{\tt arXiv:1007.3492}}].
+
+\bibitem{Plehn:2011tg}
+T.~Plehn and M.~Spannowsky, {\it {Top Tagging}},  {\em J.Phys.} {\bf G39}
+  (2012) 083001, [\href{http://arxiv.org/abs/1112.4441}{{\tt
+  arXiv:1112.4441}}].
+
+\bibitem{Kaplan:2008ie}
+D.~E. Kaplan, K.~Rehermann, M.~D. Schwartz, and B.~Tweedie, {\it {Top Tagging:
+  A Method for Identifying Boosted Hadronically Decaying Top Quarks}},  {\em
+  Phys. Rev. Lett.} {\bf 101} (2008) 142001,
+  [\href{http://arxiv.org/abs/0806.0848}{{\tt arXiv:0806.0848}}].
+
+\bibitem{CMS-PAS-JME-09-001}
+{\bf CMS} Collaboration, {\it A cambridge-aachen (c-a) based jet algorithm for
+  boosted top-jet tagging},  Tech. Rep. CMS PAS JME-09-001, CERN, Geneva, 2009.
+
+\bibitem{Plehn:2010st}
+T.~Plehn, M.~Spannowsky, M.~Takeuchi, and D.~Zerwas, {\it {Stop Reconstruction
+  with Tagged Tops}},  \href{http://arxiv.org/abs/1006.2833}{{\tt
+  arXiv:1006.2833}}.
+
+\bibitem{Aad:2012raa}
+{\bf ATLAS} Collaboration, {\it {Search for resonances decaying into top-quark
+  pairs using fully hadronic decays in $pp$ collisions with ATLAS at
+  $\sqrt{s}=7$ TeV}},  {\em JHEP} {\bf 1301} (2013) 116,
+  [\href{http://arxiv.org/abs/1211.2202}{{\tt arXiv:1211.2202}}].
+
+\bibitem{Butterworth:2002tt}
+J.~M. Butterworth, B.~E. Cox, and J.~R. Forshaw, {\it {$W W$ scattering at the
+  CERN LHC}},  {\em Phys. Rev.} {\bf D65} (2002) 096014,
+  [\href{http://arxiv.org/abs/hep-ph/0201098}{{\tt hep-ph/0201098}}].
+
+\bibitem{Soper:2010xk}
+D.~E. Soper and M.~Spannowsky, {\it {Combining subjet algorithms to enhance ZH
+  detection at the LHC}},  \href{http://arxiv.org/abs/1005.0417}{{\tt
+  arXiv:1005.0417}}.
+
+\bibitem{Soper:2012pb}
+D.~E. Soper and M.~Spannowsky, {\it {Finding top quarks with shower
+  deconstruction}},  {\em Phys.Rev.} {\bf D87} (2013) 054012,
+  [\href{http://arxiv.org/abs/1211.3140}{{\tt arXiv:1211.3140}}].
+
+\bibitem{Aaltonen:2007ag}
+{\bf CDF} Collaboration, T.~Aaltonen {\em et~al.}, {\it {Limits
+  on the production of narrow $t \bar{t}$ resonances in $p \bar{p}$ collisions
+  at $\sqrt{s}$ = 1.96-TeV}},  {\em Phys.Rev.} {\bf D77} (2008) 051102,
+  [\href{http://arxiv.org/abs/0710.5335}{{\tt arXiv:0710.5335}}].
+
+\bibitem{Abazov:2008ny}
+{\bf D0} Collaboration, V.~Abazov {\em et~al.}, {\it {Search for
+  $t \bar{t}$ resonances in the lepton plus jets final state in $p \bar{p}$
+  collisions at $\sqrt{s}$ = 1.96-TeV}},  {\em Phys.Lett.} {\bf B668} (2008)
+  98--104, [\href{http://arxiv.org/abs/0804.3664}{{\tt arXiv:0804.3664}}].
+
+\bibitem{Aaltonen:2011vi}
+{\bf CDF} Collaboration, T.~Aaltonen {\em et~al.}, {\it {Search
+  for resonant production of $t\bar{t}$ decaying to jets in $p\bar p$
+  collisions at $\sqrt{s}=1.96$ TeV}},  {\em Phys.Rev.} {\bf D84} (2011)
+  072003, [\href{http://arxiv.org/abs/1108.4755}{{\tt arXiv:1108.4755}}].
+
+\bibitem{Abazov:2011gv}
+{\bf D0} Collaboration, V.~M. Abazov {\em et~al.}, {\it {Search
+  for a Narrow $t\bar{t}$ Resonance in $p\bar{p}$ Collisions at $\sqrt{s}=1.96$
+  TeV}},  {\em Phys.Rev.} {\bf D85} (2012) 051101,
+  [\href{http://arxiv.org/abs/1111.1271}{{\tt arXiv:1111.1271}}].
+
+\bibitem{Aaltonen:2012af}
+{\bf CDF Collaboration} Collaboration, T.~Aaltonen {\em et~al.}, {\it {Search
+  for Resonant $t\bar{t}$ Production in the Semi-leptonic Decay Mode Using the
+  Full CDF Data Set}},  {\em Phys.Rev.Lett.} {\bf 110} (Mar, 2013) 121802,
+  [\href{http://arxiv.org/abs/1211.5363}{{\tt arXiv:1211.5363}}].
+
+\bibitem{Aad:2012wm}
+{\bf ATLAS} Collaboration, {\it {A search for $t\bar{t}$ resonances with the
+  ATLAS detector in 2.05~\ifb{} of proton-proton collisions at $\sqrt{s}=$
+  7~\tev{}}},  {\em Eur.Phys.J.} {\bf C72} (2012) 2083,
+  [\href{http://arxiv.org/abs/1205.5371}{{\tt arXiv:1205.5371}}].
+
+\bibitem{Aad:2012dpa}
+{\bf ATLAS} Collaboration, {\it {A search for $t\bar{t}$
+  resonances in lepton+jets events with highly boosted top quarks collected in
+  $pp$ collisions at $\sqrt{s} = 7$ TeV with the ATLAS detector}},  {\em JHEP}
+  {\bf 1209} (2012) 041, [\href{http://arxiv.org/abs/1207.2409}{{\tt
+  arXiv:1207.2409}}].
+
+\bibitem{Aad:2013nca}
+{\bf ATLAS} Collaboration, {\it {A search for ttbar resonances in the lepton
+  plus jets final state with ATLAS using 4.7~\ifb{} of pp collisions at
+  $\sqrt{s} =$ 7~\tev{}}},  \href{http://arxiv.org/abs/1305.2756}{{\tt
+  arXiv:1305.2756}}.
+
+\bibitem{ATLAS-CONF-2013-052}
+{\bf ATLAS} Collaboration, {\it A search for \ttbar{} resonances in the lepton
+  plus jets final state with atlas using 14~\ifb{} of pp collisions at
+  $\sqrt{s}=$ 8~\tev{}},  Tech. Rep. ATLAS-CONF-2013-052, May, 2013.
+
+\bibitem{Chatrchyan:2012ku}
+{\bf CMS} Collaboration, {\it {Search for anomalous t t-bar production in the
+  highly-boosted all-hadronic final state}},  {\em JHEP} {\bf 1209} (2012) 029,
+  [\href{http://arxiv.org/abs/1204.2488}{{\tt arXiv:1204.2488}}].
+
+\bibitem{Chatrchyan:2012cx}
+{\bf CMS} Collaboration, {\it {Search for resonant $t\bar{t}$ production in
+  lepton+jets events in $pp$ collisions at $\sqrt{s}=7$ TeV}},  {\em JHEP} {\bf
+  1212} (2012) 015, [\href{http://arxiv.org/abs/1209.4397}{{\tt
+  arXiv:1209.4397}}].
+
+\bibitem{Chatrchyan:2012yca}
+{\bf CMS} Collaboration, {\it {Search for $Z$ ' resonances decaying to
+  $t\bar{t}$ in dilepton+jets final states in $pp$ collisions at $\sqrt{s}=7$
+  TeV}},  {\em Phys.Rev.} {\bf D87} (2013) 072002,
+  [\href{http://arxiv.org/abs/1211.3338}{{\tt arXiv:1211.3338}}].
+
+\bibitem{CMS-PAS-B2G-12-005}
+{\bf CMS} collaboration, {\it Search for anomalous top quark pair production in the boosted all-hadronic final state using pp collisions at $\sqrt{s} =$
+  8~\tev{}},  Tech. Rep. CMS-PAS-B2G-12-005, CERN, Geneva, May, 2013.
+
+\bibitem{CMS-PAS-B2G-12-006}
+{\bf CMS} collaboration, {\it Search for \ttbar{} resonances in semileptonic final states in pp collisions at $\sqrt{s}=$ 8~\tev{}},  Tech. Rep.
+  CMS-PAS-B2G-12-006, CERN, Geneva, April, 2013.
+
+\bibitem{Backovic:2012jj}
+M.~Backovic, J.~Juknevich, and G.~Perez, {\it {Boosting the Standard Model
+  Higgs Signal with the Template Overlap Method}},  {\em JHEP} {\bf 1307}
+  (2013) 114, [\href{http://arxiv.org/abs/1212.2977}{{\tt arXiv:1212.2977}}].
+
+\bibitem{Ellis:2012sn}
+S.~D. Ellis, A.~Hornig, T.~S. Roy, D.~Krohn, and M.~D. Schwartz, {\it {Qjets: A
+  Non-Deterministic Approach to Tree-Based Jet Substructure}},  {\em
+  Phys.Rev.Lett.} {\bf 108} (2012) 182003,
+  [\href{http://arxiv.org/abs/1201.1914}{{\tt arXiv:1201.1914}}].
+
+\bibitem{Plehn:2009rk}
+T.~Plehn, G.~P. Salam, and M.~Spannowsky, {\it {Fat Jets for a Light Higgs}},
+  {\em Phys.Rev.Lett.} {\bf 104} (2010) 111801,
+  [\href{http://arxiv.org/abs/0910.5472}{{\tt arXiv:0910.5472}}].
+
+\end{thebibliography}\endgroup

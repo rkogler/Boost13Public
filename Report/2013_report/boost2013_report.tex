@@ -1,0 +1,421 @@
+
+\documentclass[twocolumn,epjc]{svjour3}
+\pdfoutput=1
+\usepackage{lineno}
+\usepackage{authblk}
+\usepackage[section]{placeins}% to prevent "too many unprocessed floats" error.
+\usepackage{subfigure}
+\usepackage{tabulary}
+\usepackage{booktabs}
+\usepackage{mathrsfs}
+\usepackage{rotating}
+\usepackage{float} 
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{graphicx}
+%\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{xspace}
+\usepackage{hyperref}
+
+%\documentclass[twocolumn,epjc3]{svjour3}  
+%
+\smartqed  % flush right qed marks, e.g. at end of proof
+%
+\RequirePackage{graphicx}
+\RequirePackage{amssymb}
+\RequirePackage{placeins}
+\RequirePackage{amsmath}
+
+\graphicspath{ {./Plots/} }
+
+
+\def\TeV{\ifmmode {\mathrm{\ Te\kern -0.1em V}}\else
+                   \textrm{Te\kern -0.1em V}\fi}%
+\def\GeV{\ifmmode {\mathrm{\ Ge\kern -0.1em V}}\else
+                   \textrm{Ge\kern -0.1em V}\fi}%
+\def\MeV{\ifmmode {\mathrm{\ Me\kern -0.1em V}}\else
+                   \textrm{Me\kern -0.1em V}\fi}%
+\def\keV{\ifmmode {\mathrm{\ ke\kern -0.1em V}}\else
+                   \textrm{ke\kern -0.1em V}\fi}%
+\def\eV{\ifmmode  {\mathrm{\ e\kern -0.1em V}}\else
+                   \textrm{e\kern -0.1em V}\fi}%
+\let\tev=\TeV
+\let\gev=\GeV
+\let\mev=\MeV
+\let\kev=\keV
+\let\ev=\eV
+\def\iab{\mbox{ab$^{-1}$} \xspace}%  Inverse atobarns.
+\def\ifb{\mbox{fb$^{-1}$} \xspace}%  Inverse femtobarns.
+\def\ipb{\mbox{pb$^{-1}$} \xspace}%  Inverse picobarns.
+\def\inb{\mbox{nb$^{-1}$} \xspace}%  Inverse nanobarns.
+
+%\def\Zprime{\mbox{Z'} \xspace}
+
+
+\newcommand{\Wboson}{\ensuremath{W}}
+\newcommand{\Zboson}{\ensuremath{Z}}
+\newcommand{\ZprimeM}{\ensuremath{M_{\Zprime}}}
+
+\newcommand{\ttbar}{\ensuremath{t\overline{t}} }
+\newcommand{\Zprime}{\ensuremath{Z'} }
+\newcommand{\pt}{\ensuremath{p_T} }
+\newcommand{\hpp}{\textsc{Herwig}\texttt{++} }
+\newcommand{\eq}[1]{Eq.~\eqref{eq:#1}}
+\newcommand{\eqs}[2]{Eqs.~\eqref{eq:#1} and \eqref{eq:#2}}
+\newcommand{\eqss}[3]{Eqs.~\eqref{eq:#1}, \eqref{eq:#2}, and \eqref{eq:#3}}
+\renewcommand{\sec}[1]{Sec.~\ref{sec:#1}}
+\newcommand{\secs}[2]{Secs.~\ref{sec:#1} and \ref{sec:#2}}
+\newcommand{\subsec}[1]{Sec.~\ref{subsec:#1}}
+\newcommand{\subsubsec}[1]{Sec.~\ref{subsubsec:#1}}
+
+\newcommand{\nn}{\nonumber}
+\newcommand{\new}{\nn\\}
+
+% text abbrev.
+\newcommand{\ie}{i.e.}
+\newcommand{\eg}{e.g.}
+\newcommand{\cf}{cf.}
+\newcommand{\TODO}[1]{\marginpar{\textbf{TODO} \footnotesize{#1}} (\textbf{TODO})}
+
+\newcommand{\figwidth}{0.45\textwidth}
+\newcommand{\pythia}  {{\sc Pyth\-ia}}
+\newcommand{\pythiasix}  {{\sc Pyth\-ia~6}}
+\newcommand{\pythiaeight}  {{\sc Pyth\-ia~8}}
+\newcommand{\PYTHIA}{{\sc Py\-thi\-a}}
+\newcommand{\ATLAS}{ATLAS}
+\newcommand{\CMS}{CMS}
+\newcommand{\LHC}{LHC}
+\newcommand{\MC}{MC}
+
+\newcommand{\pp}{proton-proton}
+\newcommand{\pu}{pile-up}
+\newcommand{\PU}{Pile-up}
+\newcommand{\pujet}{pile-up jet}
+\newcommand{\qcdjet}{QCD jet}
+\newcommand{\stojet}{stochastic jet}
+\newcommand{\cms}{center-of-mass}
+\newcommand{\sqrts}[1]{\ensuremath{\sqrt{s} = #1} \TeV}
+\newcommand{\Rpt}{\ensuremath{R_{p_T}}}
+\newcommand{\ptmatch}{\ensuremath{p_T^{match}}}
+\newcommand{\ptcorr}{\ensuremath{p_T^{corr}}}
+\newcommand{\minimumbias}{minimum bias}
+\newcommand{\MB}{MB}
+\newcommand{\pT}{\ensuremath{p_{\mathrm{T}}}}
+\newcommand{\pTmin}{\ensuremath{p_{\mathrm{T}}^{\mathrm{min}}}}
+\newcommand{\pTave}{\ensuremath{\langle\pT\rangle}}
+\newcommand{\pseudorapidity}{pseu\-do\-ra\-pi\-di\-ty}
+\newcommand{\pseudorapidities}{pseu\-do\-ra\-pi\-di\-ties}
+\newcommand{\rap}{\ensuremath{y}}
+\newcommand{\prap}{\ensuremath{\eta}}
+\newcommand{\azi}{\ensuremath{\phi}}
+\newcommand{\etaphispace}{(\prap,\azi) space}
+\newcommand{\rapphispace}{(\rap,\azi) space}
+\newcommand{\deltaR}{\ensuremath{\Delta R}}
+\newcommand{\Rcone}{\ensuremath{R}}
+\newcommand{\Rcore}{\ensuremath{R_{\mathrm{core}}}}
+\newcommand{\Ecore}{\ensuremath{E_{\mathrm{core}}}}
+\newcommand{\Ejet}{\ensuremath{E_{\mathrm{jet}}}}
+%\newcommand{\deltaRrap}{\ensuremath{\
+\newcommand{\Vprim}{\ensuremath{V_{0}}}
+
+
+\newcommand{\Ntrk}{\ensuremath{N_{\mathrm{trk}}}}
+\newcommand{\Npart}{\ensuremath{N_{\mathrm{part}}}}
+ \newcommand{\coreF}{\ensuremath{\mathcal{F}_{\mathrm{core}}}}
+
+\newcommand{\Nvtx}{\ensuremath{N_{\mathrm{vtx}}}}
+\newcommand{\Ncoll}{\ensuremath{N_{\mathrm{coll}}}}
+\newcommand{\axing}{\ensuremath{\langle\mu\rangle}}
+\newcommand{\jcf}{\ensuremath{\mathcal{F}_{\mathrm{core}}}}
+\newcommand{\bjet}{\ensuremath{b}\mbox{-}{\rm jet}}
+\newcommand{\FJ}{{\sc Fast\-Jet}}
+\newcommand{\JVF}{\ensuremath{\mathcal{F}_{\mathrm{jvf}}}}
+%\newcommand{\dfrac}[2]{\frac{\displaystyle{#1}}{\displaystyle{#2}}}
+
+\newcommand{\kT}{\ensuremath{k_{\mathrm{T}}}}
+\newcommand{\antikt}{{\rm anti-}\kT}
+
+% greek
+\newcommand{\w}{\omega}
+\newcommand{\W}{\Omega}
+%\newcommand{\al}{\alpha}
+%\newcommand{\ga}{\gamma}
+%\newcommand{\de}{\delta}
+%\newcommand{\ep}{\epsilon}
+%\newcommand{\ze}{\zeta}
+%\newcommand{\ka}{\kappa}
+%\newcommand{\la}{\lambda}
+%\newcommand{\si}{\sigma}
+%\newcommand{\up}{\upsilon}
+%\newcommand{\Ga}{\Gamma}
+%\newcommand{\De}{\Delta}
+%\newcommand{\La}{\Lambda}
+%\newcommand{\Si}{\Sigma}
+%\newcommand{\Up}{\Upsilon}
+
+% vectors:
+\renewcommand{\vec}[1]{\mathbf{#1}} 
+%\newcommand{\vj}{\vec{j}}
+%\newcommand{\vk}{\vec{k}}
+%\newcommand{\vn}{\vec{n}}
+%\newcommand{\vp}{\vec{p}}
+%\newcommand{\vt}{\vec{t}}
+
+
+% mathcal letters
+\newcommand{\cA}{ \mathcal{A} }
+\newcommand{\cD}{ \mathcal{D} }
+\newcommand{\cE}{ \mathcal{E} }
+\newcommand{\hcE}{ \hat{\mathcal{E}}}
+\newcommand{\cJ}{ \mathcal{J} }
+\newcommand{\cL}{ \mathcal{L} }
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{ \mathcal{O} }
+\newcommand{\cP}{ \mathcal{P} }
+\newcommand{\cQ}{ \mathcal{Q} }
+\newcommand{\cR}{ \mathcal{R} }
+\newcommand{\cY}{ \mathcal{Y} }
+
+
+% physics constants
+\newcommand{\as}{\alpha_s} 
+
+%---------- math macros ------------------------------------------------------------------------------------------------
+
+\newcommand{\ord}[1]{\mathcal{O}(#1)} % order of magnitude
+
+%%%%%
+
+
+%
+% \RequirePackage{mathptmx}      % use Times fonts if available on your TeX system
+%
+% insert here the call for the packages your document requires
+%\RequirePackage{latexsym}
+%\RequirePackage[numbers,sort&compress]{natbib}
+%\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
+% etc.
+%
+% please place your own definitions here and don't use \def but
+% \newcommand{}{}
+%
+\journalname{Eur. Phys. J. C}
+%
+
+%\linenumbers
+\title{\vskip -1cm Boost 2013 Report Title}
+\subtitle{Report of BOOST2013, hosted by the University of Arizona, 12$^{rd}$-16$^{th}$ of August 2013.}
+\titlerunning{Boosted objects at the LHC}
+\authorrunning{BOOST2013 participants} % if too long for running head
+%%%%%%%%%%%%%%
+%
+% NEED TO UPDATE PARTICIPANT LIST AND AFFILIATIONS!!!
+%
+%%%%%%%%%%%%%%
+\author[1]{\mbox{D. Adams}}
+\author[2]{\mbox{A. Arce}} 
+\author[3]{\mbox{L. Asquith}} 
+\author[4]{\mbox{J. Backus Mayes}} 
+\author[5]{\mbox{E. Bergeaas Kuutmann}} 
+\author[6]{\mbox{J. Berger}} 
+\author[2]{\mbox{D. Bjergaard}} 
+\author[7]{\mbox{L. Bryngemark}} 
+\author[8]{\mbox{A. Buckley}} 
+\author[9]{\mbox{J. Butterworth}}
+\author[10]{\mbox{M. Cacciari}} 
+\author[9]{\mbox{M. Campanelli}} 
+\author[11]{\mbox{T. Carli}} 
+\author[12]{\mbox{M. Chala}}
+\author[13]{\mbox{B. Chapleau}} \author[14]{\mbox{C. Chen}} 
+\author[15]{\mbox{J.P. Chou}} 
+\author[16]{\mbox{Th. Cornelissen}} 
+\author[17]{\mbox{D. Curtin}} 
+\author[18]{\mbox{M. Dasgupta}} 
+\author[9]{\mbox{A. Davison}} 
+\author[19]{\mbox{F. de Almeida Dias}} 
+\author[20]{\mbox{A. de Cosa}} 
+\author[11]{\mbox{A. de Roeck}} 
+\author[8]{\mbox{C. Debenedetti}} 
+\author[21]{\mbox{C. Doglioni}} 
+\author[22]{\mbox{S.~D. Ellis}} 
+\author[23]{\mbox{F. Fassi}} 
+\author[24]{\mbox{J. Ferrando}} 
+\author[16]{\mbox{S. Fleischmann}} 
+\author[25]{\mbox{M. Freytsis}} 
+\author[26]{\mbox{M.L. Gonzalez Silva}} 
+\author[23]{\mbox{S. Gonzalez de la Hoz}} 
+\author[21]{\mbox{F. Guescini}} 
+\author[27]{\mbox{Z. Han}} 
+\author[4]{\mbox{A. Hook}} 
+\author[22]{\mbox{A. Hornig}} 
+%% Los Alamos National Lab, Los Alamos, NM 87544
+\author[4]{\mbox{E. Izaguirre}} 
+\author[4]{\mbox{M. Jankowiak}} 
+\author[28]{\mbox{J. Juknevich}} 
+\author[23]{\mbox{M. Kaci}} 
+\author[24]{\mbox{D. Kar}} 
+\author[29]{\mbox{G. Kasieczka}} 
+\author[30]{\mbox{R. Kogler}} 
+\author[4]{\mbox{A. Larkoski}} 
+\author[31]{\mbox{P. Loch}} 
+\author[27]{\mbox{D. Lopez Mateos}} 
+\author[32]{\mbox{S. Marzani}} 
+\author[33]{\mbox{L. Masetti}} 
+\author[34]{\mbox{V. Mateu}} 
+\author[35]{\mbox{D.~W. Miller}} 
+\author[36]{\mbox{K. Mishra}} 
+\author[4]{\mbox{P. Nef}}
+\author[24]{\mbox{K. Nordstrom}}
+\author[23]{\mbox{E. Oliver Garcia}} 
+\author[37]{\mbox{J. Penwell}} 
+\author[38]{\mbox{J. Pilot}} 
+\author[29]{\mbox{T. Plehn}} 
+\author[39]{\mbox{S. Rappoccio}} 
+\author[40]{\mbox{A. Rizzi}} 
+\author[23]{\mbox{G. Rodrigo}} 
+\author[41]{\mbox{A. Safonov}} 
+\author[10,11]{\mbox{G.~P. Salam}} 
+\author[23]{\mbox{J. Salt}} 
+\author[29]{\mbox{S. Schaetzel}} 
+\author[42]{\mbox{M. Schioppa}} 
+\author[29]{\mbox{A. Schmidt}} 
+\author[22]{\mbox{J. Scholtz}} 
+\author[4]{\mbox{A. Schwartzman}} 
+\author[27]{\mbox{M.~D. Schwartz}} 
+\author[43]{\mbox{M. Segala}} 
+\author[44]{\mbox{M. Son}}
+\author[45]{\mbox{G. Soyez}} 
+\author[32]{\mbox{M. Spannowsky}} 
+\author[34]{\mbox{I. Stewart}} 
+\author[46]{\mbox{D. Strom}}
+\author[4]{\mbox{M. Swiatlowski}} 
+\author[23]{\mbox{V. Sanchez Martinez}} 
+\author[29]{\mbox{M. Takeuchi}} 
+\author[34]{\mbox{J. Thaler}} 
+\author[1]{\mbox{E. Thompson}} 
+\author[36]{\mbox{N.~V. Tran}} 
+\author[25]{\mbox{C. Vermilion}} 
+\author[23]{\mbox{M. Villaplana}} 
+\author[23]{\mbox{M. Vos}} 
+\author[4]{\mbox{J. Wacker}} 
+\author[47]{\mbox{J. Walsh}}
+
+\affil[1]{Columbia University, Nevis Laboratory, Irvington, NY 10533, USA}
+\affil[2]{Duke University, Durham, NC 27708, USA}
+\affil[3]{Argonne National Laboratory, Lemont, IL 60439, USA}
+\affil[4]{SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA}
+\affil[5]{Deutsches Elektronen-Synchrotron, DESY, D-15738 Zeuthen, Germany}
+\affil[6]{Cornell University, Ithaca, NY 14853, USA}
+\affil[7]{Lund University, Lund, SE 22100, Sweden}
+\affil[8]{University of Edinburgh, EH9 3JZ, UK}
+\affil[9]{University College London, WC1E 6BT, UK}
+\affil[10]{LPTHE, UPMC Univ.~Paris 6 and CNRS UMR 7589, Paris, France}
+\affil[11]{CERN, CH-1211 Geneva 23, Switzerland}
+\affil[12]{CAFPE and U. of Granada, Granada, E-18071, Spain}
+\affil[13]{McGill University, Montreal, Quebec H3A 2T8, Canada}
+\affil[14]{Iowa State University, Ames, Iowa 50011, USA}
+\affil[15]{Rutgers University, Piscataway, NJ 08854, USA}
+\affil[16]{Bergische Universitaet Wuppertal, Wuppertal, D-42097, Germany}
+\affil[17]{YITP, Stony Brook University, Stony Brook, NY 11794-3840, USA}
+\affil[18]{University of Manchester, Manchester, M13 9PL, UK}
+\affil[19]{UNESP - Universidade Estadual Paulista, Sao Paulo, 01140-070, Brazil}
+\affil[20]{INFN and University of Naples, IT80216, Italy}
+\affil[21]{University of Geneva, CH-1211 Geneva 4, Switzerland}
+\affil[22]{University of Washington, Seattle, WA 98195, USA}
+\affil[23]{Instituto de F\'isica Corpuscular, IFIC/CSIC-UVEG, E-46071 Valencia, Spain}
+\affil[24]{University of Glasgow, Glasgow, G12 8QQ, UK}
+\affil[25]{Berkeley National Laboratory, University of California, Berkeley, CA 94720, USA}
+\affil[26]{Universidad de Buenos Aires, AR-1428, Argentina}   
+\affil[27]{Harvard University, Cambridge, MA 02138, USA}
+\affil[28]{Weizmann Institute, 76100 Rehovot, Israel}
+\affil[29]{Universitaet Hamburg, DE-22761, Germany}
+\affil[30]{Universitaet Heidelberg, DE-69117, Germany}
+\affil[31]{University of Arizona, Tucson, AZ 85719, USA}
+\affil[32]{IPPP, University of Durham, Durham, DH1 3LE, UK}
+\affil[33]{Universitaet Mainz, DE 55099, Germany}
+\affil[34]{MIT, Cambridge, MA 02139, USA}
+\affil[35]{University of Chicago, IL 60637, USA}
+\affil[36]{Fermi National Accelerator Laboratory, Batavia, IL 60510, USA}
+\affil[37]{Indiana University, Bloomington, IN 47405, USA}
+\affil[38]{University of California, Davis, CA 95616, USA}
+\affil[39]{Johns Hopkins University, Baltimore, MD 21218, USA}
+\affil[40]{INFN and University of Pisa, Pisa, IT-56127, Italy}
+\affil[41]{Texas A \& M University, College Station, TX 77843, USA}
+%\affil[42]{Princeton University, Princeton, NJ 08544, USA}
+\affil[42]{INFN and University of Calabria, Rende, IT-87036, Italy}
+\affil[43]{Brown University, Richmond, RI 02912, USA}
+\affil[44]{Yale University, New Haven, CT 06511, USA}
+\affil[45]{CEA Saclay, Gif-sur-Yvette, FR-91191, France}
+\affil[46]{University of Illinois, Chicago, IL 60607, USA}
+\affil[47]{University of California, Berkeley, CA 94720, USA}
+%placed here. General acknowledgments should be placed at the end of the article.
+%%\thankstext{e1}{e-mail: fauthor@example.com}
+%%$^*$ Editors, contact e-mail: \email{b.cooper@ucl.ac.uk,roman.kogler@cern.ch,larkoski@mit.edu}
+%
+
+%\date{??st of ???, 2014}
+% The correct dates will be entered by the editor
+%\authorrunning{XXX, YYY, ZZZ (editors)}
+
+
+
+
+\begin{document}
+%\renewcommand\Authfont{\footnotesize}
+\renewcommand\Affilfont{\textnormal\itshape\it\small}
+\maketitle
+
+\begin{abstract}
+Abstract for BOOST2013 report
+\keywords{boosted objects \and jet substructure \and beyond-the-Standard-Model physics searches \and Large Hadron Collider}
+% \PACS{PACS code1 \and PACS code2 \and more}
+% \subclass{MSC code1 \and MSC code2 \and more}
+\end{abstract}
+
+
+
+\section{Introduction}
+\label{sec:intro}
+\input{introduction}
+
+\section{Correlations between jet observables}
+\label{sec:corr}
+\input{correlations}
+
+\section{Summary \& Conclusions}
+\label{sec:conclusions}
+\input{conclusions}  %% please uncomment it once the tex file is created
+
+\section*{Acknowledgements}
+
+We thank the Department of Physics at the University of Arizona and for hosting the conference at the Little America Hotel.  We also thank Harvard University for hosting the event samples used in this report.  
+We also thank Hallie Bolonkin for the BOOST2013 poster design and Jackson Boelts' ART465 class (fall 2012) at the University of Arizona School of Arts VisCom program. (NEED TO ASK PETER LOCH FOR MORE ACKNOWLEDGEMENTS)
+
+% BibTeX users please use one of
+%\bibliographystyle{spbasic}      % basic style, author-year citations
+%\bibliographystyle{spmpsci}      % mathematics and physical sciences
+\bibliographystyle{JHEP}       % APS-like style for physics
+\bibliography{boost2013_report}   % name your BibTeX data base
+
+% Non-BibTeX users please use
+%\begin{thebibliography}{}
+%
+% and use \bibitem to create references. Consult the Instructions
+% for authors for reference list style.
+%
+%\bibitem{RefJ}
+% Format for Journal Reference
+%Author, Article title, Journal, Volume, page numbers (year)
+% Format for books
+%\bibitem{RefB}
+%Author, Book title, page numbers. Publisher, place (year)
+%% etc
+%\end{thebibliography}
+
+\end{document}
+% end of file template.tex
+

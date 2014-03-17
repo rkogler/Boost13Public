@@ -1,0 +1,20 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{Abdesselam:2010pt}
+A.~Abdesselam, E.~B. Kuutmann, U.~Bitenc, G.~Brooijmans, J.~Butterworth,
+  et~al., {\it {Boosted objects: A Probe of beyond the Standard Model
+  physics}},  {\em Eur.Phys.J.} {\bf C71} (2011) 1661,
+  [\href{http://xxx.lanl.gov/abs/1012.5412}{{\tt arXiv:1012.5412}}].
+
+\bibitem{Altheimer:2012mn}
+A.~Altheimer, S.~Arora, L.~Asquith, G.~Brooijmans, J.~Butterworth, et~al., {\it
+  {Jet Substructure at the Tevatron and LHC: New results, new tools, new
+  benchmarks}},  {\em J.Phys.} {\bf G39} (2012) 063001,
+  [\href{http://xxx.lanl.gov/abs/1201.0008}{{\tt arXiv:1201.0008}}].
+
+\bibitem{Altheimer:2013yza}
+A.~Altheimer, A.~Arce, L.~Asquith, J.~Backus~Mayes, E.~Bergeaas~Kuutmann,
+  et~al., {\it {Boosted objects and jet substructure at the LHC}},
+  \href{http://xxx.lanl.gov/abs/1311.2708}{{\tt arXiv:1311.2708}}.
+
+\end{thebibliography}\endgroup
