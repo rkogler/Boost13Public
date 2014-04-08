@@ -22,9 +22,29 @@ samples....(presumably this will vary depending on which kinematic bin
 is used, as will the actual samples used - maybe summarize in a table).
 
 Show some basic distributions of the background versus signal -
-groomed jet pT, groomed jet mass for the different algorithms.
+groomed jet pT, groomed jet mass for the different
+algorithms. Figure~\ref{fig:pt500_basics_AKt_R08} shows these basic
+distributions. {\it Do we want to reweight signal kinematics to
+background or vice versa? Do we want to study quarks/gluons separately?}
 
 Go on to explain how we produce the ROC curves.
+
+\begin{figure*}
+\begin{center}
+\subfigure[Leading jet
+\pT]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt1.png}}
+\subfigure[Sub-leading jet
+\pT]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt2.png}}
+\subfigure[Leading jet
+$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jeta1.png}}
+\subfigure[Sub-leading jet
+$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jeta2.png}}
+
+\caption{The BDT combinations of each mass variable with every other
+variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+\label{fig:pt500_basics_AKt_R08}
+\end{center}
+\end{figure*}
 
 \subsection{Performance at Moderate Boosts}
 
@@ -32,6 +52,8 @@ Go on to explain how we produce the ROC curves.
 500-600 GeV using $\sqrt{s} = 8$ TeV samples)
 
 \subsubsection{Single Variable Performance}
+
+{\it Show plots of signal versus background for all single variables investigated}.
 
 Figure~\ref{fig:pt500_single_AKt_R08} shows the single variable ROC curves in
 the \pT 500 GeV bin for the anti-\kT R=0.8 algorithm, compared to the
@@ -77,7 +99,9 @@ improvement the combination gives, and the ``all variables'' curve.}
 No combination with other variables can recover the poor performance
 of the ungroomed mass and the soft drop mass with $\beta=-1$. The
 other groomed/filtered masses are all most improved by combination
-with the $C_{2}^{\beta=1}$ energy correlation function.
+with the $C_{2}^{\beta=1}$ energy correlation function. {\it Show 2-D
+correlation plot of $C_{2}^{\beta=1}$ vs groomed mass - show that it
+is largely uncorrelated.}
 {\it Now show a plot which compares on one plot the best combined performance for
 each mass + X. e.g. mass + $C_{2}^{\beta=1}$, and compared also to the
 all variables curve. This plot is just for
