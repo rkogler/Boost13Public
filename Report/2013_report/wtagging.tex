@@ -21,9 +21,8 @@ previous section. The following event selection is then applied to these
 samples....(presumably this will vary depending on which kinematic bin
 is used, as will the actual samples used - maybe summarize in a table).
 
-Show some basic distributions of the background versus signal -
-groomed jet pT, groomed jet mass for the different
-algorithms. Figure~\ref{fig:pt500_basics_AKt_R08} shows these basic
+Figure~\ref{fig:pt500_basics_AKt_R08} shows
+background versus signal in some basic kinematic
 distributions. {\it Do we want to reweight signal kinematics to
 background or vice versa? Do we want to study quarks/gluons separately?}
 
@@ -39,12 +38,12 @@ Go on to explain how we produce the ROC curves.
 $\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jeta1.png}}
 \subfigure[Sub-leading jet
 $\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jeta2.png}}
-
-\caption{The BDT combinations of each mass variable with every other
-variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: basic
+  kinematic distributons.}
 \label{fig:pt500_basics_AKt_R08}
 \end{center}
 \end{figure*}
+
 
 \subsection{Performance at Moderate Boosts}
 
@@ -54,6 +53,38 @@ variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 \subsubsection{Single Variable Performance}
 
 {\it Show plots of signal versus background for all single variables investigated}.
+
+Figure~\ref{fig:pt500_mass_AKt_R08} the compares signal and background
+ in the mass distributions for the different groomers, and Figure~\ref{fig:pt500_subst_AKt_R08}
+in the different substructure variables. 
+
+\begin{figure*}
+\begin{center}
+\subfigure[Ungroomed mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/jmass1.png}}
+\subfigure[Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_prun.png}}
+\subfigure[Trimmed mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_trim.png}}
+\subfigure[mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png}}
+\subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png}}
+\subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png}}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: leading
+  jet mass distributions.}
+\label{fig:pt500_mass_AKt_R08}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[$C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_c2_b1.png}}
+\subfigure[$C_2^{\beta=2}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_c2_b2.png}}
+\subfigure[$\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_qjetVol.png}}
+\subfigure[$\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png}}
+\subfigure[$\tau_{21}^{\beta=2}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png}}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm:
+  substructure variables.}
+\label{fig:pt500_subst_AKt_R08}
+\end{center}
+\end{figure*}
+
 
 Figure~\ref{fig:pt500_single_AKt_R08} shows the single variable ROC curves in
 the \pT 500 GeV bin for the anti-\kT R=0.8 algorithm, compared to the
@@ -125,6 +156,17 @@ involve mass? Practically I think we will always be making mass + X though.}
 \caption{The BDT combinations of each mass variable with every other
 variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 \label{fig:pt500_masscomb_AKt_R08}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png}}
+\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png}}
+\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png}}
+\caption{2-D plots showing the correlation between mMDT mass and
+  various substructure vairables in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+\label{fig:pt500_2d_mmdt_AKt_R08}
 \end{center}
 \end{figure*}
 
