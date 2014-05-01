@@ -120,6 +120,8 @@ tagging in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 
 \subsubsection{Combined Performance}
 
+\subsubsection*{Mass + X Performance}
+
 Figure~\ref{fig:pt500_masscomb_AKt_R08} shows the BDT combinations of each mass variable with every other
 variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8
 algorithm. {\it Can we drop the combinations of mass + mass
@@ -175,6 +177,48 @@ variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 \end{center}
 \end{figure*}
 
+\subsubsection*{Mass + Mass Performance}
+
+It's interesting also to study and understand how the different
+groomed masses relate to each other and how they are correlated.
+
+Figures~\ref{fig:pt500_2d_massQQ_AKt_R08} and Figures~\ref{fig:pt500_2d_massGG_AKt_R08} shows 2-D correlation plots of
+the different types of groomed mass in the \pt 500 GeV bin using the anti-\kT R=0.8
+algorithm.
+
+{\it Worth also showing some ROC curves for mass + mass combinations?}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Trimmed mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png}}
+\subfigure[Trimmed mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.png}}
+\subfigure[Trimmed mass vs mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png}}
+\subfigure[mMDT mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png}}
+\subfigure[Pruned mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png}}
+\subfigure[mMDT mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png}}
+\caption{2-D plots showing the correlation between different types of
+  groomed mass in the \pt 500 GeV bin using the anti-\kT R=0.8
+  algorithm, separately for the jets in the $X \rightarrow WW$ sample and the
+  jets in the quark-quark sample.}
+\label{fig:pt500_2d_massQQ_AKt_R08}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Trimmed mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png}}
+\subfigure[Trimmed mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png}}
+\subfigure[Trimmed mass vs mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png}}
+\subfigure[mMDT mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png}}
+\subfigure[Pruned mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png}}
+\subfigure[mMDT mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png}}
+\caption{2-D plots showing the correlation between different types of
+  groomed mass in the \pt 500 GeV bin using the anti-\kT R=0.8
+  algorithm, separately for the jets in the $X \rightarrow WW$ sample and the
+  jets in the gluon-gluon sample.}
+\label{fig:pt500_2d_massGG_AKt_R08}
+\end{center}
+\end{figure*}
 
 
 \subsection{Performance at High Boosts}
