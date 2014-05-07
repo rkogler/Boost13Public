@@ -1,6 +1,99 @@
-q/g tagging studies go here.
+In this section we examine the differences between quark and gluon initiated jets in terms of the substructure variables, and to what extent these variables are correlated. Along the way, we attempt to provide some theoretical understanding of these observations. The motivation for these studies comes not only from the desire to ``tag'' a jet as being quark or gluon initiated, but also from the point of view of understanding the quark and gluon components to the QCD background to boosted boson and boosted top tagging.  
 
-Start adding outline/discussion of theoretical understanding
+\subsection{Methodology}
+
+%{\it Start adding outline/discussion of theoretical understanding}
+
+These studies use the XXX samples described previously in Section~\ref{sec:samples}.
+
+Jets are reconstructed using the XXX jet algorithms described in Section~\ref{sec:jetalgs}. The following event selection is then applied to these
+samples....(presumably this will vary depending on which kinematic bin
+is used, as will the actual samples used - maybe summarize in a table).
+
+Figure~\ref{fig:qg_pt500_basics_AKt_R08} shows
+background versus signal in some basic kinematic
+distributions. {\it Do we want to reweight quark kinematics to gluon or vice versa?}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Leading jet
+\pT]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/jpt1.png}}
+\subfigure[Sub-leading jet
+\pT]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/jpt2.png}}
+\subfigure[Leading jet
+$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/jeta1.png}}
+\subfigure[Sub-leading jet
+$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/jeta2.png}}
+\caption{Comparisons of quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: basic
+  kinematic distributons.}
+\label{fig:qg_pt500_basics_AKt_R08}
+\end{center}
+\end{figure*}
+
+\subsection{Single Variable Discrimination}
+
+Figure~\ref{fig:qg_pt500_mass_AKt_R08} the compares the quark and gluon samples
+ in the mass distributions for the different groomers, and Figure~\ref{fig:qg_pt500_subst_AKt_R08}
+in the different substructure variables. 
+
+\begin{figure*}
+\begin{center}
+\subfigure[Ungroomed mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/jmass1.png}}
+\subfigure[Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png}}
+\subfigure[Trimmed mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png}}
+\subfigure[mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png}}
+\subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png}}
+\subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png}}
+\caption{Comparisons of quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: leading
+  jet mass distributions.}
+\label{fig:qg_pt500_mass_AKt_R08}
+\end{center}
+\end{figure*}
+
+
+\begin{figure*}
+\begin{center}
+\subfigure[$C_1^{\beta=0}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png}}
+\subfigure[$C_1^{\beta=1}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png}}
+\subfigure[$C_1^{\beta=2}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png}}
+\subfigure[$\Gamma_{Qjet}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png}}
+\subfigure[$\rm{n_ {constits}}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png}}
+\subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png}}
+\subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png}}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm:
+  substructure variables.}
+\label{fig:qg_pt500_subst_AKt_R08}
+\end{center}
+\end{figure*}
+
+Figure~\ref{fig:qg_pt500_single_AKt_R08} shows the single variable ROC curves in
+the \pT 500 GeV bin for the anti-\kT R=0.8 algorithm, compared to the
+ROC curve for a BDT combination of all the variables. Only the ungroomed mass is shown. One can see that the single most discriminant variables are $\rm{n_ {constits}}$ and $C_1^{\beta=0}$.
+
+{\it We want to look also at:
+\begin{itemize}
+\item Dependence on R.
+\item Dependence on pT.
+\end{itemize}
+}
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png}
+\caption{The ROC curve for all single variables considered for quark-gluon discrimination in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+\label{fig:qg_pt500_single_AKt_R08}
+\end{center}
+\end{figure*}
+
+\subsection{Correlations}
+
+{\it Put in 2-D plots of correlations between variables (see theory discussions below)}
+
+\subsection{Combined Performance of Quark-Gluon Tagging}
+
+{\it Put in ROC curves of BDT combination of variables}
+
+
 
 \subsection{QJets Volatility and $\ptd$ ($\C{1}{\beta=0}$)}
 

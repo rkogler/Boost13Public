@@ -1,26 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 MAY 2014 13:27
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.5.27)  7 MAY 2014 17:57
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**boost2013_report.tex
+**boost2013_report
 (./boost2013_report.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
+, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, u
+kenglish, usenglishmax, esperanto, estonian, farsi, finnish, french, galician, 
+german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese,
+ bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, 
+telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
+ turkmen, ukrainian, uppersorbian, welsh, loaded.
 (./svjour3.cls
 Document Class: svjour3 2007/05/08 v3.2 
 LaTeX document class for Springer journals
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 )
@@ -92,7 +90,7 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
 \figgap=\dimen113
 \bibindent=\dimen114
 \@tempcntc=\count104
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count105
 \output=\toks16
@@ -110,7 +108,7 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box29
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/authblk.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2009/11/18 1.3 (PWD)
 \affilsep=\skip43
 \@affilsep=\skip44
@@ -118,10 +116,10 @@ Package: authblk 2009/11/18 1.3 (PWD)
 \c@authors=\count113
 \c@affil=\count114
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip45
 \subfigcapskip=\skip46
@@ -137,14 +135,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip49
 \subfig@bottom=\skip50
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tabulary/tabulary.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2008/12/01 v0.9 tabulary package (DPC)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -158,7 +156,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \tymax=\dimen126
 \TY@tablewidth=\dimen127
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen128
 \lightrulewidth=\dimen129
@@ -178,46 +176,39 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count123
 \@thisrulewidth=\dimen140
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 \Gread@gobject=\count124
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count125
@@ -226,7 +217,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box30
 \rot@mess@toks=\toks19
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count126
 \float@exts=\toks20
@@ -234,198 +225,201 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box32
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 436.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen143
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2010/06/18 v6.81g Hypertext links for LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/pdfescape.sty
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/letltxmacro.sty
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
 )
 \@linkdim=\dimen144
 \Hy@linkcounter=\count127
 \Hy@pagecounter=\count128
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2010/06/18 v6.81g Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count129
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4300.
-\c@Hy@tempcnt=\count130
-LaTeX Info: Redefining \url on input line 4653.
-\Fld@menulength=\count131
+Package hyperref Info: Hyper figures OFF on input line 3658.
+Package hyperref Info: Link nesting OFF on input line 3663.
+Package hyperref Info: Hyper index ON on input line 3666.
+Package hyperref Info: Plain pages OFF on input line 3673.
+Package hyperref Info: Backreferencing OFF on input line 3678.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3874.
+LaTeX Info: Redefining \url on input line 4159.
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count129
 \Field@Width=\dimen145
 \Fld@charsize=\dimen146
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
-\Hy@abspage=\count132
-\c@Item=\count133
-\c@Hfootnote=\count134
+\Field@toks=\toks22
+Package hyperref Info: Hyper figures OFF on input line 5137.
+Package hyperref Info: Link nesting OFF on input line 5142.
+Package hyperref Info: Hyper index ON on input line 5145.
+Package hyperref Info: backreferencing OFF on input line 5152.
+Package hyperref Info: Link coloring OFF on input line 5157.
+Package hyperref Info: Link coloring with OCG OFF on input line 5162.
+Package hyperref Info: PDF/A mode OFF on input line 5167.
+LaTeX Info: Redefining \ref on input line 5207.
+LaTeX Info: Redefining \pageref on input line 5211.
+
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
 )
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
+)
+* hyperref using default driver hpdftex *
+(/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2010/06/18 v6.81g Hyperref driver for pdfTeX
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/atveryend.sty
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
-\Fld@listcount=\count135
-\c@bookmark@seq@number=\count136
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/uniquecounter.sty
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+71.
 )
 \Hy@SectionHShift=\skip55
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks23
+\@emptytoks=\toks24
 \ex@=\dimen147
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen148
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count137
+\inf@bad=\count135
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count138
-\leftroot@=\count139
+\uproot@=\count136
+\leftroot@=\count137
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count140
-\DOTSCASE@=\count141
+\classnum@=\count138
+\DOTSCASE@=\count139
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -438,26 +432,26 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 
 Package amsmath Warning: Unable to redefine math accent \vec.
 
-\macc@depth=\count142
-\c@MaxMatrixCols=\count143
+\macc@depth=\count140
+\c@MaxMatrixCols=\count141
 \dotsspace@=\muskip11
-\c@parentequation=\count144
-\dspbrk@lvl=\count145
-\tag@help=\toks24
-\row@=\count146
-\column@=\count147
-\maxfields@=\count148
-\andhelp@=\toks25
+\c@parentequation=\count142
+\dspbrk@lvl=\count143
+\tag@help=\toks25
+\row@=\count144
+\column@=\count145
+\maxfields@=\count146
+\andhelp@=\toks26
 \eqnshift@=\dimen150
 \alignsep@=\dimen151
 \tagshift@=\dimen152
 \tagwidth@=\dimen153
 \totwidth@=\dimen154
 \lineht@=\dimen155
-\@envbody=\toks26
+\@envbody=\toks27
 \multlinegap=\skip57
 \multlinetaggap=\skip58
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -483,29 +477,31 @@ LaTeX Font Info:    ... okay on input line 375.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 375.
 LaTeX Font Info:    ... okay on input line 375.
 
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
+\scratchcounter=\count147
 \scratchdimen=\dimen156
 \scratchbox=\box35
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count152
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count150
 \MPscratchDim=\dimen157
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count151
+\everyMPtoPDFconversion=\toks30
 )
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring OFF on input line 375.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count155
+(/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count152
 )
 LaTeX Info: Redefining \ref on input line 375.
 LaTeX Info: Redefining \pageref on input line 375.
@@ -523,17 +519,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 379.
 
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 379.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 379.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 379.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
@@ -581,7 +577,7 @@ Overfull \vbox (30.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.0pt too high) has occurred while \output is active []
 
- [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -595,396 +591,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--392
 
  []
 
-(./samples.tex) (./jetalgs.tex) (./substructure.tex)
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 405.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 405.
-
-(./wtagging.tex
-<./Figures/WTagging/pT500/AKtR08/jpt1.png, id=55, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/jpt1.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/jpt1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jpt1.png used on input
- line 34.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/jpt2.png, id=56, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/jpt2.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/jpt2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jpt2.png used on input
- line 36.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/jeta1.png, id=57, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/jeta1.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/jeta1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jeta1.png used on inpu
-t line 38.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/jeta2.png, id=58, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/jeta2.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/jeta2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jeta2.png used on inpu
-t line 40.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 42.
-
-<./Figures/WTagging/pT500/AKtR08/jmass1.png, id=61, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/jmass1.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/jmass1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jmass1.png used on inp
-ut line 63.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_mass_prun.png, id=62, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_mass_prun.png Graphic file (type png)
-<use ./Figures/WTagging/pT500/AKtR08/h_mass_prun.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_prun.png used o
-n input line 64.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_mass_trim.png, id=63, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_mass_trim.png Graphic file (type png)
-<use ./Figures/WTagging/pT500/AKtR08/h_mass_trim.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_trim.png used o
-n input line 65.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png, id=64, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png Graphic file (type png)
-<use ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png used o
-n input line 66.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png, id=65, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png Graphic file (type png)
-<use ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png used o
-n input line 67.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png, id=66, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png Graphic file (type png)
-<use ./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png used o
-n input line 68.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_c2_b1.png, id=67, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_c2_b1.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h_c2_b1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_c2_b1.png used on in
-put line 77.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_c2_b2.png, id=68, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_c2_b2.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h_c2_b2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_c2_b2.png used on in
-put line 78.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_qjetVol.png, id=69, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_qjetVol.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h_qjetVol.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_qjetVol.png used on 
-input line 79.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png, id=70, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png used on
- input line 80.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
-
-<./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png, id=71, 999.735pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png used on
- input line 81.
-(pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
- [2]
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png, id=92, 2505.36pt x 975.645
-pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png Graphic file (type png
-)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png use
-d on input line 114.
-(pdftex.def)             Requested size: 396.00151pt x 154.20084pt.
- [3 <./Figures/WTagging/pT500/AKtR08/jpt1.png> <./Figures/WTagging/pT500/AKtR08
-/jpt2.png> <./Figures/WTagging/pT500/AKtR08/jeta1.png> <./Figures/WTagging/pT50
-0/AKtR08/jeta2.png>] [4 <./Figures/WTagging/pT500/AKtR08/jmass1.png> <./Figures
-/WTagging/pT500/AKtR08/h_mass_prun.png> <./Figures/WTagging/pT500/AKtR08/h_mass
-_trim.png> <./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png> <./Figures/WTaggin
-g/pT500/AKtR08/h_mass_sdb2.png> <./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.pn
-g>] [5 <./Figures/WTagging/pT500/AKtR08/h_c2_b1.png> <./Figures/WTagging/pT500/
-AKtR08/h_c2_b2.png> <./Figures/WTagging/pT500/AKtR08/h_qjetVol.png> <./Figures/
-WTagging/pT500/AKtR08/h_tau21_b1.png> <./Figures/WTagging/pT500/AKtR08/h_tau21_
-b2.png>]
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png, id=130, 2505.36pt x 975.645
-pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png Graphic file (type png)
-
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png used
- on input line 157.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png, id=131, 2505.36pt x 9
-75.645pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png Graphic file (typ
-e png)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.pn
-g used on input line 158.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png, id=132, 2505.36pt x 9
-75.645pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png Graphic file (typ
-e png)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.pn
-g used on input line 159.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png, id=133, 2505.36pt x 9
-75.645pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png Graphic file (typ
-e png)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.pn
-g used on input line 160.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png, id=134, 2505.36pt x 9
-75.645pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png Graphic file (typ
-e png)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.pn
-g used on input line 161.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png, id=135, 2505.36pt x 9
-75.645pt>
-File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png Graphic file (typ
-e png)
- <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.pn
-g used on input line 162.
-(pdftex.def)             Requested size: 237.59789pt x 92.52347pt.
-
-<./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png, id=136, 
-1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png Grap
-hic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt
-_WW_onSame.png used on input line 171.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png, id=13
-7, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png G
-raphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_m
-mdt_WW_onSame.png used on input line 172.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png, id=13
-8, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png G
-raphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_m
-mdt_WW_onSame.png used on input line 173.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
-, id=141, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j
-_mass_sdb2_WW_onSame.png used on input line 209.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
-, id=142, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j
-_mass_prun_WW_onSame.png used on input line 210.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
-, id=143, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j
-_mass_mmdt_WW_onSame.png used on input line 211.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
-, id=144, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j
-_mass_sdb2_WW_onSame.png used on input line 212.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
-, id=145, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j
-_mass_sdb2_WW_onSame.png used on input line 213.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
-, id=146, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j
-_mass_prun_WW_onSame.png used on input line 214.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
-, id=147, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j
-_mass_sdb2_WW_onSame.png used on input line 225.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
-, id=148, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j
-_mass_prun_WW_onSame.png used on input line 226.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
-, id=149, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j
-_mass_mmdt_WW_onSame.png used on input line 227.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
-, id=150, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j
-_mass_sdb2_WW_onSame.png used on input line 228.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
-, id=151, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j
-_mass_sdb2_WW_onSame.png used on input line 229.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
-, id=152, 1601.985pt x 774.895pt>
-File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
-e.png Graphic file (type png)
-
-<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame
-.png>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j
-_mass_prun_WW_onSame.png used on input line 230.
-(pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-
-Overfull \hbox (19.72862pt too wide) in paragraph at lines 245--246
-[]\OT1/cmr/m/it/10 Maybe we don't need to di-vide into dif-fer-ent medium/high
+(./samples.tex) (./jetalgs.tex) (./substructure.tex) (./qgtagging.tex
+Overfull \hbox (0.98059pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/10 In this sec-tion we ex-am-ine the dif-fer-ences be-tween quark
  []
 
-) [6 <./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png>] [7 <./Figures/WTaggi
-ng/pT500/AKtR08/Rocs_1D_jmass.png> <./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_m
-ass_trim.png> <./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png> <./Figu
-res/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png> <./Figures/WTagging/pT500/AK
-tR08/Rocs_1D_j_mass_sdb2.png> <./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_m
-mdt.png>] [8 <./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.
-png> <./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png> 
-<./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png>]
-[9 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.
-png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSam
-e.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onS
-ame.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_o
-nSame.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW
-_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_
-WW_onSame.png>] [10 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mas
-s_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_m
-ass_prun_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j
-_mass_mmdt_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt
-_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_pr
-un_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_
-mmdt_j_mass_prun_WW_onSame.png>] (./toptagging.tex) (./qgtagging.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<./Figures/QGTagging/pT500/AKtR08/jpt1.png, id=57, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/jpt1.png Graphic file (type png)
 
+<use ./Figures/QGTagging/pT500/AKtR08/jpt1.png>
+<./Figures/QGTagging/pT500/AKtR08/jpt2.png, id=58, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/jpt2.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/jpt2.png>
+<./Figures/QGTagging/pT500/AKtR08/jeta1.png, id=59, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/jeta1.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/jeta1.png>
+<./Figures/QGTagging/pT500/AKtR08/jeta2.png, id=60, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/jeta2.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/jeta2.png>
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 28.
+
+<./Figures/QGTagging/pT500/AKtR08/jmass1.png, id=63, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/jmass1.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/jmass1.png>
+<./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png, id=64, 999.735pt x 774.895pt
+>
+File: ./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png Graphic file (type png)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png>
+<./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png, id=65, 999.735pt x 774.895pt
+>
+File: ./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png Graphic file (type png)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png>
+<./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png, id=66, 999.735pt x 774.895pt
+>
+File: ./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png Graphic file (type png)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png>
+<./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png, id=67, 999.735pt x 774.895pt
+>
+File: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png Graphic file (type png)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png>
+<./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png, id=68, 999.735pt x 774.895pt
+>
+File: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png Graphic file (type png)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png, id=69, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png, id=70, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png, id=71, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png>
+<./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png, id=72, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png>
+<./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png, id=73, 999.735pt x 774.89
+5pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png Graphic file (type pn
+g)
+ <use ./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png>
+<./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png, id=74, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png>
+<./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png, id=75, 999.735pt x 774.895pt>
+File: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png Graphic file (type png)
+
+<use ./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png>
+
+LaTeX Warning: Float too large for page by 42.41945pt on input line 67.
+
+
+<./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png, id=77, 2505.36pt x 975.64
+5pt>
+File: ./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png Graphic file (type pn
+g)
+ <use ./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png> [2]
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ð in font cmr10!
@@ -994,69 +687,325 @@ Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
-Missing character: There is no Õ in font cmr10!
 
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+ [3 <./Figures/QGTagging/pT500/AKtR08/jpt1.png (PNG copy)> <./Figures/QGTagging
+/pT500/AKtR08/jpt2.png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/jeta1.png 
+(PNG copy)> <./Figures/QGTagging/pT500/AKtR08/jeta2.png (PNG copy)>] [4 <./Figu
+res/QGTagging/pT500/AKtR08/jmass1.png (PNG copy)> <./Figures/QGTagging/pT500/AK
+tR08/h_mass_prun.png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/h_mass_trim.
+png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png (PNG copy)> <
+./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png (PNG copy)> <./Figures/QGTaggi
+ng/pT500/AKtR08/h_mass_sdm1.png (PNG copy)>] [5 <./Figures/QGTagging/pT500/AKtR
+08/h_c1_b0.png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png (PNG c
+opy)> <./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png (PNG copy)> <./Figures/QGTa
+gging/pT500/AKtR08/h_qjetVol.png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/
+h_multiplicity.png (PNG copy)> <./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png 
+(PNG copy)> <./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png (PNG copy)>]
+Missing character: There is no Õ in font cmr10!
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 409.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 409.
+
+(./wtagging.tex
+<./Figures/WTagging/pT500/AKtR08/jpt1.png, id=133, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/jpt1.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/jpt1.png>
+<./Figures/WTagging/pT500/AKtR08/jpt2.png, id=134, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/jpt2.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/jpt2.png>
+<./Figures/WTagging/pT500/AKtR08/jeta1.png, id=135, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/jeta1.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/jeta1.png>
+<./Figures/WTagging/pT500/AKtR08/jeta2.png, id=136, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/jeta2.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/jeta2.png>
+<./Figures/WTagging/pT500/AKtR08/jmass1.png, id=139, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/jmass1.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/jmass1.png>
+<./Figures/WTagging/pT500/AKtR08/h_mass_prun.png, id=140, 999.735pt x 774.895pt
+>
+File: ./Figures/WTagging/pT500/AKtR08/h_mass_prun.png Graphic file (type png)
+ <use ./Figures/WTagging/pT500/AKtR08/h_mass_prun.png>
+<./Figures/WTagging/pT500/AKtR08/h_mass_trim.png, id=141, 999.735pt x 774.895pt
+>
+File: ./Figures/WTagging/pT500/AKtR08/h_mass_trim.png Graphic file (type png)
+ <use ./Figures/WTagging/pT500/AKtR08/h_mass_trim.png>
+<./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png, id=142, 999.735pt x 774.895pt
+>
+File: ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png Graphic file (type png)
+ <use ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png>
+<./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png, id=143, 999.735pt x 774.895pt
+>
+File: ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png Graphic file (type png)
+ <use ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png>
+<./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png, id=144, 999.735pt x 774.895pt
+>
+File: ./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png Graphic file (type png)
+ <use ./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png>
+<./Figures/WTagging/pT500/AKtR08/h_c2_b1.png, id=145, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h_c2_b1.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h_c2_b1.png>
+<./Figures/WTagging/pT500/AKtR08/h_c2_b2.png, id=146, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h_c2_b2.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h_c2_b2.png>
+<./Figures/WTagging/pT500/AKtR08/h_qjetVol.png, id=147, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h_qjetVol.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h_qjetVol.png>
+<./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png, id=148, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png Graphic file (type png)
+<use ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png>
+<./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png, id=149, 999.735pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png Graphic file (type png)
+<use ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png> [6 <./Figures/QGTagging/pT
+500/AKtR08/Rocs_1D_single.png (PNG copy)>]
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png, id=164, 2505.36pt x 975.64
+5pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png Graphic file (type png
+)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png> [7 <./Figures/WTaggin
+g/pT500/AKtR08/jpt1.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/jpt2.png (
+PNG copy)> <./Figures/WTagging/pT500/AKtR08/jeta1.png (PNG copy)> <./Figures/WT
+agging/pT500/AKtR08/jeta2.png (PNG copy)>] [8 <./Figures/WTagging/pT500/AKtR08/
+jmass1.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/h_mass_prun.png (PNG co
+py)> <./Figures/WTagging/pT500/AKtR08/h_mass_trim.png (PNG copy)> <./Figures/WT
+agging/pT500/AKtR08/h_mass_mmdt.png (PNG copy)> <./Figures/WTagging/pT500/AKtR0
+8/h_mass_sdb2.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/h_mass_sdm1.png 
+(PNG copy)>] [9 <./Figures/WTagging/pT500/AKtR08/h_c2_b1.png (PNG copy)> <./Fig
+ures/WTagging/pT500/AKtR08/h_c2_b2.png (PNG copy)> <./Figures/WTagging/pT500/AK
+tR08/h_qjetVol.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png 
+(PNG copy)> <./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png (PNG copy)>]
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png, id=199, 2505.36pt x 975.645
+pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png Graphic file (type png)
+
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png>
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png, id=200, 2505.36pt x 9
+75.645pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png Graphic file (typ
+e png)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.png>
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png, id=201, 2505.36pt x 9
+75.645pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png Graphic file (typ
+e png)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.png>
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png, id=202, 2505.36pt x 9
+75.645pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png Graphic file (typ
+e png)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.png>
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png, id=203, 2505.36pt x 9
+75.645pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png Graphic file (typ
+e png)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.png>
+<./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png, id=204, 2505.36pt x 9
+75.645pt>
+File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png Graphic file (typ
+e png)
+ <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png>
+<./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png, id=205, 
+1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png Grap
+hic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png>
+<./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png, id=20
+6, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png G
+raphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png>
+<./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png, id=20
+7, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png G
+raphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
+, id=210, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
+, id=211, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
+, id=212, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
+, id=213, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
+, id=214, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
+, id=215, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
+, id=216, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
+, id=217, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
+, id=218, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
+, id=219, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
+, id=220, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame
+.png>
+<./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
+, id=221, 1601.985pt x 774.895pt>
+File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
+e.png Graphic file (type png)
+
+<use ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame
+.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
 
-])
-(./conclusions.tex) (./boost2013_report.bbl
+Overfull \hbox (19.72862pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/m/it/10 Maybe we don't need to di-vide into dif-fer-ent medium/high
+ []
+
+) [10 <./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png (PNG copy)>] [11 <./F
+igures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png (PNG copy)> <./Figures/WTagging/
+pT500/AKtR08/Rocs_1D_j_mass_trim.png (PNG copy)> <./Figures/WTagging/pT500/AKtR
+08/Rocs_1D_j_mass_prun.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/Rocs_1D
+_j_mass_sdm1.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sd
+b2.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.png (PN
+G copy)>] [12 <./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame
+.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_
+onSame.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mm
+dt_WW_onSame.png (PNG copy)>] [13 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_m
+ass_trim_j_mass_sdb2_WW_onSame.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08
+/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.png (PNG copy)> <./Figures/WTagging
+/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png (PNG copy)> <./Fig
+ures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png (PNG 
+copy)> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onS
+ame.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mas
+s_prun_WW_onSame.png (PNG copy)>] [14 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d
+_j_mass_trim_j_mass_sdb2_WW_onSame.png (PNG copy)> <./Figures/WTagging/pT500/AK
+tR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png (PNG copy)> <./Figures/WTag
+ging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png (PNG copy)> <.
+/Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png (
+PNG copy)> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW
+_onSame.png (PNG copy)> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j
+_mass_prun_WW_onSame.png (PNG copy)>] (./toptagging.tex) (./conclusions.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./boost2013_report.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <8.5> not available
 (Font)              size <8> substituted on input line 7.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 451.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 452.
+ [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 451.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 452.
  (./boost2013_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 451.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 451.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 452.
 Package rerunfilecheck Info: File `boost2013_report.out' has not changed.
-(rerunfilecheck)             Checksum: F42736275EDE5B7454914F58AB64E3D0;450.
+(rerunfilecheck)             Checksum: 5D2F5054A537A1F3BCCC4A5F4ED80894;457.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 451.
  ) 
 Here is how much of TeX's memory you used:
- 7515 strings out of 493488
- 113221 string characters out of 3141326
- 210525 words of memory out of 3000000
- 10539 multiletter control sequences out of 15000+200000
+ 7323 strings out of 493747
+ 113528 string characters out of 3143546
+ 201690 words of memory out of 3000000
+ 10270 multiletter control sequences out of 15000+200000
  18950 words of font info for 75 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 42i,15n,33p,1137b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/tex
+ 714 hyphenation exceptions out of 8191
+ 41i,15n,33p,1133b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
+al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2010/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2010/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on boost2013_report.pdf (12 pages, 1040181 bytes).
+Output written on boost2013_report.pdf (15 pages, 1337270 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 266 compressed objects within 3 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 340 words of extra memory for PDF output out of 10000 (max. 10000000)
 
