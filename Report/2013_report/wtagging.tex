@@ -118,6 +118,24 @@ tagging in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 \end{center}
 \end{figure*}
 
+Figure~\ref{fig:pt500_single_AKt_R12} shows the single variable ROC curves in
+the \pT 500 GeV bin for the anti-\kT R=1.2 algorithm, compared to the
+ROC curve for a BDT combination of all the variables. Comparing to
+Figure~\ref{fig:pt500_single_AKt_R08}, one can see that the
+performance of the groomed masses is quite similar. However, the
+performance of the other non-mass substructure variables is markedly
+different, and better in the R=0.8 case.
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.png}
+\caption{The ROC curve for all single variables considered for $W$
+tagging in the \pt 500 GeV bin using the anti-\kT R=1.2 algorithm.}
+\label{fig:pt500_single_AKt_R12}
+\end{center}
+\end{figure*}
+
+
 \subsubsection{Combined Performance}
 
 \subsubsection*{Mass + X Performance}
@@ -140,18 +158,6 @@ see that there is substantially less correlation between the mass and
 $C_{2}^{\beta=1}$ than the other variables. Similar results are seen
 for the other groomed masses.
 
-{\it Now show a plot which compares on one plot the best combined performance for
-each mass + X. e.g. mass + $C_{2}^{\beta=1}$, and compared also to the
-all variables curve. This plot is just for
-one R and one kinematic bin.}
-
-{\it Repeat these studies for different R and different kinematic
-bins. Finally make plots which compare best combined performance for
-different R and kinematics.}
-
-{\it Do we want to look at other combinations of variables which don't
-involve mass? Practically I think we will always be making mass + X though.}
-
 \begin{figure*}
 \begin{center}
 \subfigure[Ungroomed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.png}}
@@ -168,14 +174,80 @@ variable considered in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
 
 \begin{figure*}
 \begin{center}
-\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_WW_onSame.png}}
-\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_WW_onSame.png}}
-\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_WW_onSame.png}}
+\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_mmdt_gg.png}}
+\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_j_qjetVol_j_mass_mmdt_gg.png}}
+\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jtau21_b1_j_mass_mmdt_gg.png}}
 \caption{2-D plots showing the correlation between mMDT mass and
-  various substructure vairables in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+  various substructure variables in the \pt 500 GeV bin using the
+  anti-\kT R=0.8 algorithm in the gg sample.}
 \label{fig:pt500_2d_mmdt_AKt_R08}
 \end{center}
 \end{figure*}
+
+Figure~\ref{fig:pt500_masscomb_AKt_R12} shows the BDT combinations of
+the bset performant groomed masses with every other
+variable considered in the \pt 500 GeV bin using the anti-\kT R=1.2
+algorithm. Interestingly, the groomed masses are now all most improved by combination
+with the $\tau_{21}^{\beta=1}$ variable, in contrast with
+$C_{2}^{\beta=1}$ which performed best for the smaller radius of
+R=0.8. One can see from Figure~\ref{fig:pt500_single_AKt_R12} that the
+single variable discrimination of $\tau_{21}^{\beta=1}$ and
+$C_{2}^{\beta=1}$ changes quite markedly when the distance parameter R
+is varied, although in both cases $C_{2}^{\beta=1}$ is a better single
+variable discriminant (except for very high signal
+efficiencies). Figure~\ref{fig:pt500_2d_mmdt_AKt_R12} shows the 2-D
+correlation plots between between the mMDT mass and the $C_{2}^{\beta=1}$,
+$\Gamma_{Qjet}$ and $\tau_{21}^{\beta=1}$ variables for the R=1.2
+case. It is hard to see a substantial difference in the correlations
+here versus Figure~\ref{fig:pt500_2d_mmdt_AKt_R08}, but perhaps
+$C_{2}^{\beta=1}$ is marginally more correlated with the mass for
+R=1.2 compared to R=0.8.
+
+{\it Now show a plot which compares on one plot the best combined performance for
+each groomed mass + X for both R=0.8 and 1.2 cases e.g. mass +
+$C_{2}^{\beta=1}$ for R=0.8 and mass + $\tau_{21}^{\beta=1}$ for R=1.2,
+  and draw on also the
+all variables curve for both R=0.8,1.2. 
+Then we can see if there is much dependence on choice of mass once you
+combine with another variable, and compare directly the two distance parameters.
+This plot is just for
+one kinematic bin, we should make the same plot for others.}
+
+{\it Repeat these studies for different R and different kinematic
+bins. Finally make plots which compare best combined performance for
+different R and kinematics.}
+
+{\it Do we want to look at other combinations of variables which don't
+involve mass? Practically I think we will always be making mass + X though.}
+
+
+
+\begin{figure*}
+\begin{center}
+%\subfigure[Ungroomed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_jmass.png}}
+\subfigure[Trimmed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_trim.png}}
+\subfigure[Pruned mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_prun.png}}
+%\subfigure[Soft drop mass ($\beta=-1$) +X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_sdm1.png}}
+\subfigure[Soft drop mass ($\beta=2$) + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_sdb2.png}}
+\subfigure[mMDT mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_mmdt.png}}
+\caption{The BDT combinations of each mass variable with every other
+variable considered in the \pt 500 GeV bin using the anti-\kT R=1.2 algorithm.}
+\label{fig:pt500_masscomb_AKt_R12}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/h2d_jc2_b1_j_mass_mmdt_gg.png}}
+\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/h2d_j_qjetVol_j_mass_mmdt_gg.png}}
+\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/h2d_jtau21_b1_j_mass_mmdt_gg.png}}
+\caption{2-D plots showing the correlation between mMDT mass and
+  various substructure variables in the \pt 500 GeV bin using the
+  anti-\kT R=1.2 algorithm in the gg sample.}
+\label{fig:pt500_2d_mmdt_AKt_R12}
+\end{center}
+\end{figure*}
+
 
 \subsubsection*{Mass + Mass Performance}
 
