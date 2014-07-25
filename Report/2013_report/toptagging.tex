@@ -1,7 +1,9 @@
-Introduce top-tagging study, cite earlier studies of top tagging.
+In this section, we study the identification of boosted top quarks at Run II of the LHC. Boosted top quarks result in large-radius jets with complex substructure, containing a $b$-subjet and a boosted $W$. The additional kinematic handles coming from the reconstruction of the $W$ mass and $b$-tagging allows a very high degree of discrimination of top quark jets from QCD backgrounds. 
+
+We consider top quarks with moderate boost (600-1000 GeV), and perhaps most interestingly, at high boost ($\gtrsim1500$ GeV). Top tagging faces several challenges in the high-$\pt$ regime. For such high-$\pt$ jets, the $b$-tagging efficiencies are no longer reliably known. Also, the top jet can also accompanied by additional radiation with $\pt\sim m_t$, leading to combinatoric ambiguities of reconstructing the top and $W$, and the possibility that existing taggers or observables shape the background by looking for subjet combinations that reconstruct $m_t$/$m_W$. To study this, we examine the performance of both mass-reconstruction variables, as well as shape observables that probe the three-pronged nature of the top jet and the accompanying radiation pattern.
 
 \subsection{Methodology}
-We examine a number of top-tagging strategies. The taggers attempt to reconstruct the top and $W$ mass for a candidate boosted top. We consider
+We study a number of top-tagging strategies, in particular:
 %
 \begin{enumerate}
 \item HEPTopTagger
@@ -10,11 +12,11 @@ We examine a number of top-tagging strategies. The taggers attempt to reconstruc
 \item Pruning
 \end{enumerate}
 %
-The grooming algorithms (trimming and pruning) do not automatically incorporate a $W$-identification step. For a level playing field, we construct a $W$ candidate from the three leading subjets by taking the pair of subjets with the smallest invariant mass.
+The top taggers have criteria for reconstructing a top and $W$ candidate, while the grooming algorithms (trimming and pruning) do not incorporate a $W$-identification step. For a level playing field, we construct a $W$ candidate from the three leading subjets by taking the pair of subjets with the smallest invariant mass; in the case that only two subjets are reconstructed, we take the mass of the leading subjet. All of the above taggers and groomers incorporate a step to remove pile-up and other soft radiation.
 
-We also consider the above taggers supplemented with jet shape information. In particular, we consider $N$-subjettiness ratios $\tau_{32}^{\beta=1}$ and $\tau_{21}^{\beta=1}$, energy correlation function ratios $C_3^{\beta=1}$ and $C_2^{\beta=1}$, and the Qjet mass volatility $\Gamma$.
+We also consider the performance of jet shape observables. In particular, we consider the $N$-subjettiness ratios $\tau_{32}^{\beta=1}$ and $\tau_{21}^{\beta=1}$, energy correlation function ratios $C_3^{\beta=1}$ and $C_2^{\beta=1}$, and the Qjet mass volatility $\Gamma$. In addition to the jet shape performance, we combine the jet shapes with the mass-reconstruction methods listed above to determine the optimal combined performance.
 
-To determine the performance of each tagger, we combine the tagger output observables and jet shapes into a boosted decision tree (BDT), which determines the optimal multivariable cut. Additionally, because each tagger has two inputs (list, or maybe refer back to Section 3), we scan over reasonable values of the inputs to determine the optimal value for each top tagging signal efficiency. This allows us a direct comparison of the optimized version of each tagger. 
+To quantify the performance of each tagger, we combine the relevant tagger output observables and jet shapes into a boosted decision tree (BDT), which determines the optimal multivariable cut. Additionally, because each tagger has two inputs (list, or maybe refer back to Section 3), we scan over reasonable values of the inputs to determine the optimal value for each top tagging signal efficiency. This allows  a direct comparison of the optimized version of each tagger. 
 
 \subsection{Performance at moderate boost}
 
