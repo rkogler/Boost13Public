@@ -16,25 +16,116 @@ The top taggers have criteria for reconstructing a top and $W$ candidate, while 
 
 We also consider the performance of jet shape observables. In particular, we consider the $N$-subjettiness ratios $\tau_{32}^{\beta=1}$ and $\tau_{21}^{\beta=1}$, energy correlation function ratios $C_3^{\beta=1}$ and $C_2^{\beta=1}$, and the Qjet mass volatility $\Gamma$. In addition to the jet shape performance, we combine the jet shapes with the mass-reconstruction methods listed above to determine the optimal combined performance.
 
-To quantify the performance of each tagger, we combine the relevant tagger output observables and jet shapes into a boosted decision tree (BDT), which determines the optimal multivariable cut. Additionally, because each tagger has two inputs (list, or maybe refer back to Section 3), we scan over reasonable values of the inputs to determine the optimal value for each top tagging signal efficiency. This allows  a direct comparison of the optimized version of each tagger. 
+To quantify the performance of each set of variables, we combine the relevant tagger output observables and/or jet shapes into a boosted decision tree (BDT), which determines the optimal multivariable cut. Additionally, because each tagger has two inputs (list, or maybe refer back to Section 3), we scan over reasonable values of the inputs to determine the optimal value for each top tagging signal efficiency. This allows  a direct comparison of the optimized version of each tagger. 
 
-\subsection{Performance at moderate boost}
+\subsection{Single-observable performance}
+We start by investigating the behavior of individual jet substructure observables. Because of the rich, three-pronged structure of the top decay, it is expected that combinations of masses and jet shapes will far outperform single observables in identifying boosted tops. However, a study of the top-tagging performance of single variables facilitates a direct comparison with the $W$ tagging results in Section \ref{sec:wtagging}, and also allows a straightforward examination of the performance of each observable for different $\pt$ and jet radius.
+
+Fig.~\ref{fig:single_variable_ROC} shows the ROC curves for each of the top-tagging observables, with the bare jet mass also plotted for comparison. Unlike $W$ tagging, the jet shape observables perform more poorly than jet mass. \emph{(Check reasoning: this argument due to Andrew Larkoski)}. As an example illustrating why this is the case, consider $N$-subjettiness. The $W$ is two-pronged and the top is three-pronged; therefore, we expect $\tau_{21}$ and $\tau_{32}$ to be the best-performant $N$-subjettiness ratio, respectively. However, $\tau_{21}$ also contains an implicit cut on the denominator, $\tau_1$, which is strongly correlated with jet mass. Therefore, $\tau_{21}$ combines both mass and shape information to some extent. By contrast, and as is clear in Fig.\ref{fig:single_variable_ROC}(a), the best shape for top tagging is $\tau_{32}$, which contains no information on the mass. Therefore, it is  unsurprising that the  shapes most useful for top tagging are less sensitive to the jet mass, and under-perform relative to the corresponding observables for $W$ tagging.
 
 \begin{figure*}
 \begin{center}
-\subfigure[HEPTopTagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_HEP_few.pdf}}
-\subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_JH_few.pdf}}
-\subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_prune_few.pdf}}
-\subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_trim_few.pdf}}
-\subfigure[HEP+JH comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_tagger_shape_few.pdf}}
-\subfigure[Grooming comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_groom_shape_few.pdf}}
-\subfigure[Comparison of Tagger+Shape]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/0p5TeV_0p8/Rocs_optimum_few.pdf}}
-\caption{The BDT combinations in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
-\label{fig:pt500_taggers_AKt_R08}
+\subfigure[Jet shapes]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_shape.pdf}}
+\subfigure[Top mass]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_top_mass.pdf}}
+\subfigure[$W$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass.pdf}}
+\caption{Comparison of single-variable top-tagging performance in the \pt 1000-1100 GeV bin using the anti-\kT, R=0.8 algorithm.}
+\label{fig:single_variable_ROC}
 \end{center}
 \end{figure*}
 
-\subsection{Performance at high boost}
+Of the two top tagging algorithms, the Johns Hopkins (JH) tagger out-performs the HEPTopTagger in its signal-to-background separation of both the top and $W$ candidate masses, with larger discrepancy at higher $\pt$ and larger jet radius. In Fig.~\ref{fig:topmass_histogram_HEP_JH}, we show the histograms for the top mass output from the JH and HEPTopTagger for different $\pt$ and $R$. The likely reason for this behavior is that, in the HEPTopTagger algorithm, the jet is filtered to select the five hardest subjets, and then three subjets are chosen which reconstruct the top mass. This requirement tends to shape a peak in the QCD background around $m_t$ for the HEPTopTagger, while the JH tagger has no such requirement. It has been suggested by Anders \emph{et al.} \cite{Anders:2013oga} that performance in the HEPTopTagger may be improved by selecting the three subjets reconstructing the top only among those that pass the $W$ mass constraints, which somewhat reduces the shaping of the background. \emph{Maybe try this out with my code to see if it helps?}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Johns Hopkins Tagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.png}}
+\subfigure[HEPTopTagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.png}}
+\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.png}}
+\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.png}}
+\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV,$R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.png}}
+\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.png}}
+\caption{Comparison of individual jet shape performance at different \pt using the anti-\kT R=0.8 algorithm.}
+\label{fig:topmass_histogram_HEP_JH}
+\end{center}
+\end{figure*}
+
+
+
+We also directly compare each variable's performance for different jet $\pt$ and radius. The results are shown in Figs.~\ref{fig:ptcomparison_singleshape_top}-\ref{fig:ptcomparison_singlewmass_top} for different $\pt$ bins and Figs.~\ref{fig:Rcomparison_singleshape_top}-\ref{fig:Rcomparison_singlewmass_top} for different $R$ values. The input parameters of the taggers, groomers, and shape variables are separately optimized for each $\pt$ and radius. If we only optimize the tagger inputs for one value of $\pt$ and $R$, the ROC curve behavior does not change substantially from one where the inputs are optimized at each $\pt$ and $R$ value; however, not all signal efficiencies are possible for every choice of tagger input, since the baseline selection efficiency might be too low. 
+
+
+\begin{figure*}
+\begin{center}
+\subfigure[C2]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf}}
+\subfigure[C3]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare.pdf}}
+\subfigure[$\tau_{21}$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare.pdf}}
+\subfigure[$\tau_{32}$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare.pdf}}
+\subfigure[Mass volatility]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pdf}}
+\caption{Comparison of individual jet shape performance at different \pt using the anti-\kT R=0.8 algorithm.}
+\label{fig:ptcomparison_singleshape_top}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[HEPTopTagger $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf}}
+\subfigure[Johns Hopkins Tagger $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf}}
+\subfigure[Pruning $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf}}
+\subfigure[Trimming $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare.pdf}}
+\caption{Comparison of top mass performance of different taggers at different \pt using the anti-\kT R=0.8 algorithm.}
+\label{fig:ptcomparison_singletopmass_top}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[HEPTopTagger $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf}}
+\subfigure[Johns Hopkins Tagger $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf}}
+\subfigure[Pruning $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare.pdf}}
+\subfigure[Trimming $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare.pdf}}
+\caption{Comparison of $W$ mass performance of different taggers at different \pt using the anti-\kT R=0.8 algorithm.}
+\label{fig:ptcomparison_singlewmass_top}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[C2]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf}}
+\subfigure[C3]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf}}
+\subfigure[$\tau_{21}$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare.pdf}}
+\subfigure[$\tau_{32}$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf}}
+\subfigure[Mass volatility]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf}}
+\caption{Comparison of individual jet shape performance at different $R$ in the $\pt=1500-1600$ GeV bin.}
+\label{fig:Rcomparison_singleshape_top}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[HEPTopTagger $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf}}
+\subfigure[Johns Hopkins Tagger $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare.pdf}}
+\subfigure[Pruning $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf}}
+\subfigure[Trimming $m_t$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf}}
+\caption{Comparison of top mass performance of different taggers at different $R$ in the $\pt=1500-1600$ GeV bin.}
+\label{fig:Rcomparison_singletopmass_top}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[HEPTopTagger $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf}}
+\subfigure[Johns Hopkins Tagger $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf}}
+\subfigure[Pruning $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf}}
+\subfigure[Trimming $m_W$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf}}
+\caption{Comparison of $W$ mass performance of different taggers at different $R$ in the $\pt=1500-1600$ GeV bin.}
+\label{fig:Rcomparison_singlewmass_top}
+\end{center}
+\end{figure*}
+
+
+\subsection{Performance of multivariable combinations}
+
+
+
 
 \begin{figure*}
 \begin{center}
@@ -45,26 +136,14 @@ To quantify the performance of each tagger, we combine the relevant tagger outpu
 \subfigure[HEP+JH comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape_few.pdf}}
 \subfigure[Grooming comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_groom_shape_few.pdf}}
 \subfigure[Comparison of Tagger+Shape]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_optimum_few.pdf}}
-\caption{The BDT combinations in the \pt 1000 GeV bin using the anti-\kT R=0.8 algorithm.}
+\caption{The BDT combinations in the \pt 1000-1100 GeV bin using the anti-\kT R=0.8 algorithm.}
 \label{fig:pt1000_taggers_AKt_R08}
 \end{center}
 \end{figure*}
 
-\begin{figure*}
-\begin{center}
-\subfigure[HEPTopTagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_HEP_few.pdf}}
-\subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_JH_few.pdf}}
-\subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_prune_few.pdf}}
-\subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_trim_few.pdf}}
-\subfigure[HEP+JH comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_tagger_shape_few.pdf}}
-\subfigure[Grooming comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_groom_shape_few.pdf}}
-\subfigure[Comparison of Tagger+Shape]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1p5TeV_0p8/Rocs_optimum_few.pdf}}
-\caption{The BDT combinations in the \pt 1500 GeV bin using the anti-\kT R=0.8 algorithm.}
-\label{fig:pt1500_taggers_AKt_R08}
-\end{center}
-\end{figure*}
 
-\subsection{Direct comparison at different boost}
+
+
 \begin{figure*}
 \begin{center}
 \subfigure[C2]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf}}
@@ -81,7 +160,7 @@ To quantify the performance of each tagger, we combine the relevant tagger outpu
 \end{center}
 \end{figure*}
 
-\subsection{Direct comparison at different radius}
+
 \begin{figure*}
 \begin{center}
 \subfigure[C2]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/R_compare/Rocs_C2b1_Rcompare.pdf}}
@@ -93,7 +172,9 @@ To quantify the performance of each tagger, we combine the relevant tagger outpu
 \subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf}}
 \subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.pdf}}
 \subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare.pdf}}
-\caption{Comparison of tagger and jet shape performance at different radius at \pt = 1.5 TeV.}
+\caption{Comparison of tagger and jet shape performance at different radius at \pt = 1.5-1.6 TeV.}
 \label{fig:Rcomparison_top}
 \end{center}
 \end{figure*}
+
+\subsection{Performance at Sub-Optimal Working Points}
