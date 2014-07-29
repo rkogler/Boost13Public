@@ -1,1 +1,16 @@
-Give details about how the samples we use have been generated.
+Samples were generaated the $\sqrt{s} = 8\TeV$ for QCD dijets and $W^+W-$
+pairs decaying hadronically off a (psuedo)scalar resonance. The QCD events
+were split into subsamples of $gg$ and $q\bar{q}$ events, allowing for tests
+of both $W$ and quark-gluon discrimination. Top tagging was studies at
+$\sqrt{s} = 14\TeV$ by... 
+
+For events at $\sqrt{s} = 8\TeV$, individual quark and gluon samples were
+produced at leading order (LO) using \textsc{MadGraph5}, while $W^+W^-$ samples
+were generated using the \textsc{JHU Generator} to allow for separation
+of longitudinal and transverse polarizations. Both were produced in $p_T$
+bins of 100 \TeV. and generated using \textsc{CTEQ6L1} PDFs. These were
+then showered using \textsc{Pythia8} (version 8.176) using the default tune 4C.
+
+The analysis relies on clustering with \textsc{FastJet} 3.03, and,
+for 14 \TeV events, the \textsc{Rivet} analysis framework. Events were
+clusterd using the anti-$k_t$ algorithm, using jet radii of $R = 0.4, 0.8, 1.2$.
