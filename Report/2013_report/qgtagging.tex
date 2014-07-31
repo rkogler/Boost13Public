@@ -3,16 +3,18 @@ In this section we examine the differences between quark and gluon initiated jet
 \subsection{Methodology}
 
 %{\it Start adding outline/discussion of theoretical understanding}
+These studies use the $qq$ and $gg$ samples, described previously in Section~\ref{sec:samples}.
 
-These studies use the XXX samples described previously in Section~\ref{sec:samples}.
-
-Jets are reconstructed using the XXX jet algorithms described in Section~\ref{sec:jetalgs}. The following event selection is then applied to these
+Jets are reconstructed using the \antikt algorithm, and have various
+jet grooming approaches applied, as described in Section~\ref{sec:jetalgs}. The following event selection is then applied to these
 samples....(presumably this will vary depending on which kinematic bin
 is used, as will the actual samples used - maybe summarize in a table).
 
-Figure~\ref{fig:qg_pt500_basics_AKt_R08} shows
-background versus signal in some basic kinematic
-distributions. {\it Do we want to reweight quark kinematics to gluon or vice versa?}
+Go on to explain how we produce the ROC curves, how the BDT training
+is done etc.
+
+Figure~\ref{fig:qg_pt500_basics_AKt_R08} shows a comparison of the quark and gluon samples
+in some basic kinematic distributions. 
 
 \begin{figure*}
 \begin{center}
@@ -60,7 +62,7 @@ in the different substructure variables.
 \subfigure[$\rm{n_ {constits}}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png}}
 \subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png}}
 \subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.38\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png}}
-\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm:
+\caption{Comparisons of the quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm:
   substructure variables.}
 \label{fig:qg_pt500_subst_AKt_R08}
 \end{center}
