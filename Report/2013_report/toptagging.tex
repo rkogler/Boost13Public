@@ -33,16 +33,16 @@ Fig.~\ref{fig:single_variable_ROC} shows the ROC curves for each of the top-tagg
 \end{center}
 \end{figure*}
 
-Of the two top tagging algorithms, the Johns Hopkins (JH) tagger out-performs the HEPTopTagger in its signal-to-background separation of both the top and $W$ candidate masses, with larger discrepancy at higher $\pt$ and larger jet radius. In Fig.~\ref{fig:topmass_histogram_HEP_JH}, we show the histograms for the top mass output from the JH and HEPTopTagger for different $\pt$ and $R$. The likely reason for this behavior is that, in the HEPTopTagger algorithm, the jet is filtered to select the five hardest subjets, and then three subjets are chosen which reconstruct the top mass. This requirement tends to shape a peak in the QCD background around $m_t$ for the HEPTopTagger, while the JH tagger has no such requirement. It has been suggested by Anders \emph{et al.} \cite{Anders:2013oga} that performance in the HEPTopTagger may be improved by selecting the three subjets reconstructing the top only among those that pass the $W$ mass constraints, which somewhat reduces the shaping of the background. \emph{Maybe try this out with my code to see if it helps?}
+Of the two top tagging algorithms, the Johns Hopkins (JH) tagger out-performs the HEPTopTagger in its signal-to-background separation of both the top and $W$ candidate masses, with larger discrepancy at higher $\pt$ and larger jet radius. In Fig.~\ref{fig:topmass_histogram_HEP_JH}, we show the histograms for the top mass output from the JH and HEPTopTagger for different $\pt$ and $R$, optimized at a signal efficiency of 30\%. The likely reason for this behavior is that, in the HEPTopTagger algorithm, the jet is filtered to select the five hardest subjets, and then three subjets are chosen which reconstruct the top mass. This requirement tends to shape a peak in the QCD background around $m_t$ for the HEPTopTagger, while the JH tagger has no such requirement. It has been suggested by Anders \emph{et al.} \cite{Anders:2013oga} that performance in the HEPTopTagger may be improved by selecting the three subjets reconstructing the top only among those that pass the $W$ mass constraints, which somewhat reduces the shaping of the background. \emph{Maybe try this out with my code to see if it helps?}
 
 \begin{figure*}
 \begin{center}
-\subfigure[Johns Hopkins Tagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.png}}
-\subfigure[HEPTopTagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.png}}
-\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.png}}
-\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.png}}
-\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV,$R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.png}}
-\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.png}}
+\subfigure[Johns Hopkins Tagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.pdf}}
+\subfigure[HEPTopTagger, $\pt=600-700$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.pdf}}
+\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.pdf}}
+\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=0.8$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.pdf}}
+\subfigure[Johns Hopkins Tagger, $\pt=1500-1600$ GeV,$R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.pdf}}
+\subfigure[HEPTopTagger, $\pt=1500-1600$ GeV, $R=1.2$]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.pdf}}
 \caption{Comparison of individual jet shape performance at different \pt using the anti-\kT R=0.8 algorithm.}
 \label{fig:topmass_histogram_HEP_JH}
 \end{center}
@@ -129,13 +129,13 @@ We also directly compare each variable's performance for different jet $\pt$ and
 
 \begin{figure*}
 \begin{center}
-\subfigure[HEPTopTagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_HEP_few.pdf}}
-\subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_JH_few.pdf}}
-\subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_prune_few.pdf}}
-\subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_trim_few.pdf}}
-\subfigure[HEP+JH comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape_few.pdf}}
-\subfigure[Grooming comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_groom_shape_few.pdf}}
-\subfigure[Comparison of Tagger+Shape]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_optimum_few.pdf}}
+\subfigure[HEPTopTagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf}}
+\subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf}}
+\subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf}}
+\subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_trim.pdf}}
+\subfigure[HEP+JH comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf}}
+\subfigure[Grooming comparison]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_groom_shape.pdf}}
+\subfigure[Comparison of Tagger+Shape]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/1TeV_0p8/Rocs_optimum.pdf}}
 \caption{The BDT combinations in the \pt 1000-1100 GeV bin using the anti-\kT R=0.8 algorithm.}
 \label{fig:pt1000_taggers_AKt_R08}
 \end{center}
