@@ -1,31 +1,35 @@
 \subsection{Quark/gluon and $W$ taggging}
 
-Samples were generated the $\sqrt{s} = 8\TeV$ for QCD dijets and $W^+W^-$
-pairs decaying hadronically off a \\
-(pseudo)scalar resonance. The QCD events
+Samples were generated at $\sqrt{s} = 8\TeV$ for QCD dijets and $W^+W^-$
+pairs decaying hadronically off a (pseudo) scalar resonance. The QCD events
 were split into subsamples of $gg$ and $q\bar{q}$ events, allowing for tests
 of both $W$ and quark-gluon discrimination. 
 
-For events at $\sqrt{s} = 8\TeV$, individual quark and gluon samples were
-produced at leading order (LO) using \textsc{MadGraph5}, while $W^+W^-$ samples
-were generated using the \textsc{JHU Generator} to allow for separation
-of longitudinal and transverse polarizations. Both were produced in $p_T$
-bins of 100 \TeV. and generated using \textsc{CTEQ6L1} PDFs. These were
-then showered using \textsc{Pythia8} (version 8.176) using the default tune 4C.
+Individual quark and gluon samples were produced at leading order (LO)
+using \textsc{MadGraph5}, while $W^+W^-$ samples were generated using
+the \textsc{JHU Generator} to allow for separation of longitudinal and
+transverse polarizations. Both were produced in exclusive $p_T$ bins
+of 100 {\GeV} and generated using \textsc{CTEQ6L1} PDFs. The slicing parameter
+was chosen to be the $p_T$ of any final state parton or $W$. Since
+no matching was performed, a cut on any parton was equivalent. These were
+then showered through \textsc{Pythia8} (version 8.176) using the default tune 4C.
 
-The analysis relies on clustering with \textsc{FastJet} 3.03. Events were
-clustered using the anti-$k_t$ algorithm with jet radii of $R = 0.4, 0.8, 1.2$.
-A cut on the jet $\pt$ is once again applied after showering/clustering, to ensure
+The showered events were clustered with \textsc{FastJet} 3.03 using
+the anti-$k_t$ algorithm with jet radii of $R = 0.4, 0.8, 1.2$. A cut on
+the jet $\pt$ is once again applied after showering/clustering, to ensure
 similar $\pt$ spectra for signal and background in each bin.
 
 \subsection{Top tagging}
-Samples were generated at $\sqrt{s}=14\TeV$. Standard Model dijet and top pair samples were produced
-with \textsc{Sherpa} 2.0.0, with matrix elements with up to two extra partons matched
-to the shower. The top samples included only hadronic decays and
- were generated in exclusive $\pt$ bins of width 100 GeV, taking as slicing parameter the
- maximum of the top/anti-top $\pt$. The QCD samples were generated with a cut on the leading
- parton-level jet $\pt$, where parton-level jets are clustered with the anti-$k_t$ algorithm with jet radius
- $R=1.2$. The matching scale is selected to be $Q_{\rm cut}=40$, 60, 80 GeV for the $p_{T\,\mathrm{min}}=600$, 1000, and 1500 GeV bins, respectively.
+Samples were generated at $\sqrt{s}=14\TeV$. Standard Model dijet and top pair
+samples were produced with \textsc{Sherpa} 2.0.0, with matrix elements with up
+to two extra partons matched to the shower. The top samples included only
+hadronic decays and  were generated in exclusive $\pt$ bins of width 100 \GeV,
+taking as slicing parameter the maximum of the top/anti-top $\pt$. The QCD
+samples were generated with a cut on the leading parton-level jet $\pt$, where
+parton-level jets are clustered with the anti-$k_t$ algorithm with jet radius
+$R=1.2$. The matching scale is selected to be $Q_{\rm cut}=40, 60, 80 \GeV$ for
+the $p_{T\,\text{min}}=600, 1000$, and $1500 \GeV$ bins, respectively.
  
- The analysis relies on  \textsc{FastJet} 3.0.3 for jet clustering and calculation of jet substructure observables. Events were clustered using the anti-$k_t$ algorithm with jet radii of $R=0.4$, 0.8, and 1.2. A cut on the jet $\pt$ is once again applied after showering/clustering, to ensure
-similar $\pt$ spectra for signal and background in each bin.
+The analysis again relies on \textsc{FastJet} 3.0.3 for jet clustering and
+calculation of jet substructure observables, with the same cuts applied after
+showering and clustering as for $\sqrt{s} = 8\TeV$ data.
