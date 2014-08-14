@@ -1,16 +1,26 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.12)  13 AUG 2014 12:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 AUG 2014 00:34
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **boost2013_report.tex
 (./boost2013_report.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
 (./svjour3.cls
 Document Class: svjour3 2007/05/08 v3.2 
 LaTeX document class for Springer journals
-(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 )
@@ -82,7 +92,7 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
 \figgap=\dimen113
 \bibindent=\dimen114
 \@tempcntc=\count104
-) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count105
 \output=\toks16
@@ -100,7 +110,7 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box29
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2009/11/18 1.3 (PWD)
 \affilsep=\skip43
 \@affilsep=\skip44
@@ -108,10 +118,10 @@ Package: authblk 2009/11/18 1.3 (PWD)
 \c@authors=\count113
 \c@affil=\count114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip45
 \subfigcapskip=\skip46
@@ -127,14 +137,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip49
 \subfig@bottom=\skip50
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2008/12/01 v0.9 tabulary package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen122
 \extrarowheight=\dimen123
@@ -148,7 +158,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \tymax=\dimen126
 \TY@tablewidth=\dimen127
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen128
 \lightrulewidth=\dimen129
@@ -168,38 +178,38 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count123
 \@thisrulewidth=\dimen140
 )
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count124
@@ -207,7 +217,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count125
@@ -216,7 +226,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box30
 \rot@mess@toks=\toks19
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count126
 \float@exts=\toks20
@@ -224,32 +234,32 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -258,11 +268,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -276,24 +286,24 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen143
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -323,19 +333,19 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \@linkdim=\dimen144
 \Hy@linkcounter=\count127
 \Hy@pagecounter=\count128
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count129
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4062.
@@ -366,22 +376,22 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count135
 \c@bookmark@seq@number=\count136
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip55
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks22
 \symAMSa=\mathgroup5
@@ -389,24 +399,24 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
 \ex@=\dimen147
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen148
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count137
@@ -455,7 +465,11 @@ LaTeX Info: Redefining \] on input line 2667.
 LaTeX Warning: Unused global option(s):
     [epjc].
 
-(./boost2013_report.aux)
+(./boost2013_report.aux
+
+LaTeX Warning: Label `fig:pt1000_taggers_AKt_R08' multiply defined.
+
+)
 \openout1 = `boost2013_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 376.
@@ -472,8 +486,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 376.
 LaTeX Font Info:    ... okay on input line 376.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 376.
 LaTeX Font Info:    ... okay on input line 376.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
 \scratchdimen=\dimen156
@@ -489,10 +502,10 @@ LaTeX Font Info:    ... okay on input line 376.
 )
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring OFF on input line 376.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count155
@@ -513,17 +526,17 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 380.
 
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 380.
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 380.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 380.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
@@ -571,10 +584,11 @@ Overfull \vbox (30.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (16.0pt too high) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./introduction.tex)
+]
+(./introduction.tex)
 Overfull \hbox (1.06306pt too wide) in paragraph at lines 1--393
 \OT1/cmr/m/n/10 ous BOOST re-ports [[], [], []] stud-ied some of these things.
  []
@@ -590,12 +604,50 @@ Overfull \hbox (4.98744pt too wide) in paragraph at lines 8--16
 cmr/m/n/10 , while $\OML/cmm/m/it/10 W[]W[]$
  []
 
-) (./jetalgs.tex) (./substructure.tex) (./qgtagging.tex
+) (./jetalgs.tex) (./substructure.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Overfull \hbox (12.27171pt too wide) in paragraph at lines 8--9
+\OT1/cmr/bx/n/10 HEPTopTagger: \OT1/cmr/m/n/10 Re-cluster the jet us-ing the Ca
+mbridge-
+ []
+
+
+Overfull \hbox (8.24919pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/10 and at each step the softer prong is dis-carded if $\OML/cmm/m/
+it/10 m[]=m[] >
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+)
+Overfull \hbox (5.53317pt too wide) in paragraph at lines 12--405
+\OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 ^^AR[] > D[]$\OT1/cmr/m/n/10 . The sub-je
+ts are found by de-clustering
+ []
+
+(./qgtagging.tex
 Overfull \hbox (0.98059pt too wide) in paragraph at lines 1--2
 \OT1/cmr/m/n/10 In this sec-tion we ex-am-ine the dif-fer-ences be-tween quark
  []
 
-<./Figures/QGTagging/pT500/AKtR08/jpt1.png, id=57, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/jpt1.png, id=72, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/jpt1.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/jpt1.png>
@@ -603,7 +655,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/jpt1.png used on inpu
 t line 22.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/jpt2.png, id=58, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/jpt2.png, id=73, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/jpt2.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/jpt2.png>
@@ -611,7 +663,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/jpt2.png used on inpu
 t line 24.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/jeta1.png, id=59, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/jeta1.png, id=74, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/jeta1.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/jeta1.png>
@@ -619,7 +671,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/jeta1.png used on inp
 ut line 26.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/jeta2.png, id=60, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/jeta2.png, id=75, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/jeta2.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/jeta2.png>
@@ -631,8 +683,7 @@ ut line 28.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.5> not available
 (Font)              size <8> substituted on input line 30.
 
-[2]
-<./Figures/QGTagging/pT500/AKtR08/jmass1.png, id=79, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/jmass1.png, id=78, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/jmass1.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/jmass1.png>
@@ -640,7 +691,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/jmass1.png used on in
 put line 43.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png, id=80, 999.735pt x 774.895pt
+<./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png, id=79, 999.735pt x 774.895pt
 >
 File: ./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png Graphic file (type png)
  <use ./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png>
@@ -648,7 +699,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_mass_prun.png used
 on input line 44.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png, id=81, 999.735pt x 774.895pt
+<./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png, id=80, 999.735pt x 774.895pt
 >
 File: ./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png Graphic file (type png)
  <use ./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png>
@@ -656,7 +707,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_mass_trim.png used
 on input line 45.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png, id=82, 999.735pt x 774.895pt
+<./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png, id=81, 999.735pt x 774.895pt
 >
 File: ./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png Graphic file (type png)
  <use ./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png>
@@ -664,7 +715,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png used
 on input line 46.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png, id=83, 999.735pt x 774.895pt
+<./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png, id=82, 999.735pt x 774.895pt
 >
 File: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png Graphic file (type png)
  <use ./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png>
@@ -672,7 +723,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png used
 on input line 47.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png, id=84, 999.735pt x 774.895pt
+<./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png, id=83, 999.735pt x 774.895pt
 >
 File: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png Graphic file (type png)
  <use ./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png>
@@ -680,7 +731,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png used
 on input line 48.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png, id=85, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png, id=84, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png>
@@ -688,7 +739,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png used on i
 nput line 58.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png, id=86, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png, id=85, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png>
@@ -696,7 +747,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_c1_b1.png used on i
 nput line 59.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png, id=87, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png, id=86, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png>
@@ -704,7 +755,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png used on i
 nput line 60.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png, id=88, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png, id=87, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png>
@@ -712,7 +763,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png used on
  input line 61.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png, id=89, 999.735pt x 774.89
+<./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png, id=88, 999.735pt x 774.89
 5pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png Graphic file (type pn
 g)
@@ -721,7 +772,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png us
 ed on input line 62.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png, id=90, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png, id=89, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png>
@@ -729,7 +780,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png used on
  input line 63.
 (pdftex.def)             Requested size: 188.10242pt x 145.78906pt.
 
-<./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png, id=91, 999.735pt x 774.895pt>
+<./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png, id=90, 999.735pt x 774.895pt>
 File: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png Graphic file (type png)
 
 <use ./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png>
@@ -741,7 +792,7 @@ Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png used on
 LaTeX Warning: Float too large for page by 42.41945pt on input line 69.
 
 
-<./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png, id=93, 2505.36pt x 975.64
+<./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png, id=92, 2505.36pt x 975.64
 5pt>
 File: ./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png Graphic file (type pn
 g)
@@ -749,34 +800,34 @@ g)
 Package pdftex.def Info: ./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png us
 ed on input line 84.
 (pdftex.def)             Requested size: 396.00151pt x 154.20084pt.
-
-Underfull \vbox (badness 1365) has occurred while \output is active []
-
- [3 <./Figures/QGTagging/pT500/AKtR08/jpt1.png> <./Figures/QGTagging/pT500/AKtR
-08/jpt2.png> <./Figures/QGTagging/pT500/AKtR08/jeta1.png> <./Figures/QGTagging/
-pT500/AKtR08/jeta2.png>] [4 <./Figures/QGTagging/pT500/AKtR08/jmass1.png> <./Fi
-gures/QGTagging/pT500/AKtR08/h_mass_prun.png> <./Figures/QGTagging/pT500/AKtR08
-/h_mass_trim.png> <./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png> <./Figures
-/QGTagging/pT500/AKtR08/h_mass_sdb2.png> <./Figures/QGTagging/pT500/AKtR08/h_ma
-ss_sdm1.png>] [5 <./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png> <./Figures/QGTa
-gging/pT500/AKtR08/h_c1_b1.png> <./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png> 
-<./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png> <./Figures/QGTagging/pT500/AKt
-R08/h_multiplicity.png> <./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png> <./Fig
-ures/QGTagging/pT500/AKtR08/h_tau1_b2.png>]
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ð in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
-
-Underfull \vbox (badness 6808) has occurred while \output is active []
-
+ [3]
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
 Missing character: There is no Ò in font cmr10!
 Missing character: There is no Ó in font cmr10!
+
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
 Missing character: There is no Õ in font cmr10!
-)
+
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+ [4 <./Figures/QGTagging/pT500/AKtR08/jpt1.png> <./Figures/QGTagging/pT500/AKtR
+08/jpt2.png> <./Figures/QGTagging/pT500/AKtR08/jeta1.png> <./Figures/QGTagging/
+pT500/AKtR08/jeta2.png>] [5 <./Figures/QGTagging/pT500/AKtR08/jmass1.png> <./Fi
+gures/QGTagging/pT500/AKtR08/h_mass_prun.png> <./Figures/QGTagging/pT500/AKtR08
+/h_mass_trim.png> <./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png> <./Figures
+/QGTagging/pT500/AKtR08/h_mass_sdb2.png> <./Figures/QGTagging/pT500/AKtR08/h_ma
+ss_sdm1.png>] [6 <./Figures/QGTagging/pT500/AKtR08/h_c1_b0.png> <./Figures/QGTa
+gging/pT500/AKtR08/h_c1_b1.png> <./Figures/QGTagging/pT500/AKtR08/h_c1_b2.png> 
+<./Figures/QGTagging/pT500/AKtR08/h_qjetVol.png> <./Figures/QGTagging/pT500/AKt
+R08/h_multiplicity.png> <./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png> <./Fig
+ures/QGTagging/pT500/AKtR08/h_tau1_b2.png>])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 410.
@@ -790,8 +841,8 @@ Overfull \hbox (7.31407pt too wide) in paragraph at lines 1--18
 \OT1/cmr/m/n/10 com-bi-na-tions of groomed mass and sub-struc-ture, in terms
  []
 
-[6 <./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png>]
-<./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jpt1.png, id=147, 999.735p
+
+<./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jpt1.png, id=145, 999.735p
 t x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jpt1.png Graphic file
  (type png)
@@ -801,7 +852,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jp
 t1.png used on input line 43.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin300_ak12/oneD/jpt1.png, id=148, 999.735p
+<./Figures/figs072514/figs071614_Wg_bin300_ak12/oneD/jpt1.png, id=146, 999.735p
 t x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak12/oneD/jpt1.png Graphic file
  (type png)
@@ -811,7 +862,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak12/oneD/jp
 t1.png used on input line 44.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jpt1.png, id=149, 999.735p
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jpt1.png, id=147, 999.735p
 t x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jpt1.png Graphic file
  (type png)
@@ -821,7 +872,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jp
 t1.png used on input line 54.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/jpt1.png, id=150, 999.735p
+<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/jpt1.png, id=148, 999.735p
 t x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/jpt1.png Graphic file
  (type png)
@@ -831,7 +882,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/jp
 t1.png used on input line 55.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/jpt1.png, id=151, 999.735
+<./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/jpt1.png, id=149, 999.735
 pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/jpt1.png Graphic fil
 e (type png)
@@ -841,7 +892,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/j
 pt1.png used on input line 65.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak08/oneD/jpt1.png, id=152, 999.735
+<./Figures/figs072514/figs071614_Wg_bin1000_ak08/oneD/jpt1.png, id=150, 999.735
 pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/oneD/jpt1.png Graphic fil
 e (type png)
@@ -851,7 +902,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/oneD/j
 pt1.png used on input line 66.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak12/oneD/jpt1.png, id=153, 999.735
+<./Figures/figs072514/figs071614_Wg_bin1000_ak12/oneD/jpt1.png, id=151, 999.735
 pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak12/oneD/jpt1.png Graphic fil
 e (type png)
@@ -861,7 +912,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak12/oneD/j
 pt1.png used on input line 67.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jmass1.png, id=156, 999.73
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jmass1.png, id=154, 999.73
 5pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jmass1.png Graphic fi
 le (type png)
@@ -871,7 +922,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/jm
 ass1.png used on input line 113.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_prun.png, id=157, 9
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_prun.png, id=155, 9
 99.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_prun.png Graph
 ic file (type png)
@@ -881,7 +932,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 mass_prun.png used on input line 114.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_trim.png, id=158, 9
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_trim.png, id=156, 9
 99.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_trim.png Graph
 ic file (type png)
@@ -891,7 +942,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 mass_trim.png used on input line 115.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_mmdt.png, id=159, 9
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_mmdt.png, id=157, 9
 99.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_mmdt.png Graph
 ic file (type png)
@@ -901,7 +952,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 mass_mmdt.png used on input line 116.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdb2.png, id=160, 9
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdb2.png, id=158, 9
 99.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdb2.png Graph
 ic file (type png)
@@ -911,7 +962,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 mass_sdb2.png used on input line 117.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b1.png, id=161, 999.7
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b1.png, id=159, 999.7
 35pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b1.png Graphic f
 ile (type png)
@@ -921,7 +972,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 c2_b1.png used on input line 127.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b2.png, id=162, 999.7
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b2.png, id=160, 999.7
 35pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b2.png Graphic f
 ile (type png)
@@ -931,7 +982,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 c2_b2.png used on input line 128.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_qjetVol.png, id=163, 999
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_qjetVol.png, id=161, 999
 .735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_qjetVol.png Graphic
  file (type png)
@@ -941,7 +992,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 qjetVol.png used on input line 129.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b1.png, id=164, 99
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b1.png, id=162, 99
 9.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b1.png Graphi
 c file (type png)
@@ -951,7 +1002,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 tau21_b1.png used on input line 130.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b2.png, id=165, 99
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b2.png, id=163, 99
 9.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_tau21_b2.png Graphi
 c file (type png)
@@ -961,7 +1012,11 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 tau21_b2.png used on input line 131.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Rocs_1D_single.png, id=169
+[7 <./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Rocs_1D_single.png, id=181
 , 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Rocs_1D_single.png Gr
 aphic file (type png)
@@ -971,7 +1026,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Ro
 cs_1D_single.png used on input line 195.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Rocs_1D_single.png, id=170
+<./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Rocs_1D_single.png, id=182
 , 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Rocs_1D_single.png Gr
 aphic file (type png)
@@ -981,7 +1036,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Ro
 cs_1D_single.png used on input line 196.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_single.png, id=171
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_single.png, id=183
 , 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_single.png Gr
 aphic file (type png)
@@ -991,7 +1046,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Ro
 cs_1D_single.png used on input line 207.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_single.png, id=172
+<./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_single.png, id=184
 , 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_single.png Gr
 aphic file (type png)
@@ -1001,8 +1056,8 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Ro
 cs_1D_single.png used on input line 208.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/Rocs_1D_single.png, id=17
-3, 2003.485pt x 1276.77pt>
+<./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/Rocs_1D_single.png, id=18
+5, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/Rocs_1D_single.png G
 raphic file (type png)
 
@@ -1011,8 +1066,8 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/R
 ocs_1D_single.png used on input line 218.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/Rocs_1D_single.png, id=17
-4, 2003.485pt x 1276.77pt>
+<./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/Rocs_1D_single.png, id=18
+6, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/Rocs_1D_single.png G
 raphic file (type png)
 
@@ -1021,8 +1076,8 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/R
 ocs_1D_single.png used on input line 219.
 (pdftex.def)             Requested size: 346.49849pt x 220.80803pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/Rocs_1D_single.png, id=17
-5, 2003.485pt x 1276.77pt>
+<./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/Rocs_1D_single.png, id=18
+7, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/Rocs_1D_single.png G
 raphic file (type png)
 
@@ -1035,7 +1090,16 @@ ocs_1D_single.png used on input line 220.
 LaTeX Warning: Float too large for page by 94.12961pt on input line 226.
 
 
-<./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/effBkg2D.png, id=179, 999.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jpt1.png> <./Figures/f
+igs072514/figs071614_Wg_bin300_ak12/oneD/jpt1.png> <./Figures/figs072514/figs07
+1614_Wg_bin500_ak08/oneD/jpt1.png> <./Figures/figs072514/figs071614_Wg_bin500_a
+k12/oneD/jpt1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/effBkg2D.png, id=206, 999.
 735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/effBkg2D.png Graphic 
 file (type png)
@@ -1045,7 +1109,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/ef
 fBkg2D.png used on input line 273.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/effBkg2D.png, id=180, 999.
+<./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/effBkg2D.png, id=207, 999.
 735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/effBkg2D.png Graphic 
 file (type png)
@@ -1055,7 +1119,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/ef
 fBkg2D.png used on input line 274.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/effBkg2D.png, id=181, 999.
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/effBkg2D.png, id=208, 999.
 735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/effBkg2D.png Graphic 
 file (type png)
@@ -1065,7 +1129,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/ef
 fBkg2D.png used on input line 288.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/effBkg2D.png, id=182, 999.
+<./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/effBkg2D.png, id=209, 999.
 735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/effBkg2D.png Graphic 
 file (type png)
@@ -1075,7 +1139,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/ef
 fBkg2D.png used on input line 289.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/effBkg2D.png, id=183, 999
+<./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/effBkg2D.png, id=210, 999
 .735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/effBkg2D.png Graphic
  file (type png)
@@ -1085,7 +1149,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/e
 ffBkg2D.png used on input line 300.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/effBkg2D.png, id=184, 999
+<./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/effBkg2D.png, id=211, 999
 .735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/effBkg2D.png Graphic
  file (type png)
@@ -1095,7 +1159,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/e
 ffBkg2D.png used on input line 301.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
-<./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/effBkg2D.png, id=185, 999
+<./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/effBkg2D.png, id=212, 999
 .735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/effBkg2D.png Graphic
  file (type png)
@@ -1105,18 +1169,25 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/e
 ffBkg2D.png used on input line 302.
 (pdftex.def)             Requested size: 247.5pt x 191.83144pt.
 
+[9 <./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/jpt1.png> <./Figures/f
+igs072514/figs071614_Wg_bin1000_ak08/oneD/jpt1.png> <./Figures/figs072514/figs0
+71614_Wg_bin1000_ak12/oneD/jpt1.png>] [10 <./Figures/figs072514/figs071614_Wg_b
+in500_ak08/oneD/jmass1.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/one
+D/h_mass_prun.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_
+trim.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_mmdt.png>
+ <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdb2.png>]
+[11 <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b1.png> <./Figure
+s/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b2.png> <./Figures/figs072514/
+figs071614_Wg_bin500_ak08/oneD/h_qjetVol.png> <./Figures/figs072514/figs071614_
+Wg_bin500_ak08/oneD/h_tau21_b1.png> <./Figures/figs072514/figs071614_Wg_bin500_
+ak08/oneD/h_tau21_b2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./Figures/figs072514/figs071614_Wg_bin300_ak08/oneD/jpt1.png> <./Figures/f
-igs072514/figs071614_Wg_bin300_ak12/oneD/jpt1.png> <./Figures/figs072514/figs07
-1614_Wg_bin500_ak08/oneD/jpt1.png> <./Figures/figs072514/figs071614_Wg_bin500_a
-k12/oneD/jpt1.png>]
+ [12 <./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Rocs_1D_single.png> <
+./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Rocs_1D_single.png>]
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/effBkg2D.png Graphic 
 file (type png)
 
@@ -1125,7 +1196,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/ef
 fBkg2D.png used on input line 348.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_jmass.png, id=224,
+<./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_jmass.png, id=255,
  2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_jmass.png Gra
 phic file (type png)
@@ -1136,7 +1207,7 @@ cs_1D_jmass.png used on input line 360.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_trim.png, i
-d=225, 2003.485pt x 1276.77pt>
+d=256, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_trim.p
 ng Graphic file (type png)
 
@@ -1147,7 +1218,7 @@ cs_1D_j_mass_trim.png used on input line 361.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_prun.png, i
-d=226, 2003.485pt x 1276.77pt>
+d=257, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_prun.p
 ng Graphic file (type png)
 
@@ -1158,7 +1229,7 @@ cs_1D_j_mass_prun.png used on input line 362.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_sdb2.png, i
-d=227, 2003.485pt x 1276.77pt>
+d=258, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_sdb2.p
 ng Graphic file (type png)
 
@@ -1169,7 +1240,7 @@ cs_1D_j_mass_sdb2.png used on input line 364.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_mmdt.png, i
-d=228, 2003.485pt x 1276.77pt>
+d=259, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_mmdt.p
 ng Graphic file (type png)
 
@@ -1180,7 +1251,7 @@ cs_1D_j_mass_mmdt.png used on input line 365.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jc2_b1_j_mass_mmdt_gg.
-png, id=229, 798.985pt x 774.895pt>
+png, id=260, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jc2_b1_j_mass_mmd
 t_gg.png Graphic file (type png)
 
@@ -1191,7 +1262,7 @@ d_jc2_b1_j_mass_mmdt_gg.png used on input line 375.
 (pdftex.def)             Requested size: 237.59789pt x 230.43657pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_j_qjetVol_j_mass_mmdt_
-gg.png, id=230, 798.985pt x 774.895pt>
+gg.png, id=261, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_j_qjetVol_j_mass_
 mmdt_gg.png Graphic file (type png)
 
@@ -1202,7 +1273,7 @@ d_j_qjetVol_j_mass_mmdt_gg.png used on input line 376.
 (pdftex.def)             Requested size: 237.59789pt x 230.43657pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jtau21_b1_j_mass_mmdt_
-gg.png, id=231, 798.985pt x 774.895pt>
+gg.png, id=262, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jtau21_b1_j_mass_
 mmdt_gg.png Graphic file (type png)
 
@@ -1213,31 +1284,22 @@ d_jtau21_b1_j_mass_mmdt_gg.png used on input line 377.
 (pdftex.def)             Requested size: 237.59789pt x 230.43657pt.
 
 
-LaTeX Warning: Reference `fig:pt500_single_AKt_R12' on page 9 undefined on inpu
-t line 405.
+LaTeX Warning: Reference `fig:pt500_single_AKt_R12' on page 13 undefined on inp
+ut line 405.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./Figures/figs072514/figs071614_Wg_bin1000_ak04/oneD/jpt1.png> <./Figures/
-figs072514/figs071614_Wg_bin1000_ak08/oneD/jpt1.png> <./Figures/figs072514/figs
-071614_Wg_bin1000_ak12/oneD/jpt1.png>] [10 <./Figures/figs072514/figs071614_Wg_
-bin500_ak08/oneD/jmass1.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/on
-eD/h_mass_prun.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass
-_trim.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_mmdt.png
-> <./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdb2.png>] [11 <.
-/Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b1.png> <./Figures/figs
-072514/figs071614_Wg_bin500_ak08/oneD/h_c2_b2.png> <./Figures/figs072514/figs07
-1614_Wg_bin500_ak08/oneD/h_qjetVol.png> <./Figures/figs072514/figs071614_Wg_bin
-500_ak08/oneD/h_tau21_b1.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/o
-neD/h_tau21_b2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/Rocs_1D_single.png> <
-./Figures/figs072514/figs071614_Wg_bin300_ak12/rocs/Rocs_1D_single.png>]
+ [13 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_single.png> <
+./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_single.png>] [14 <.
+/Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/Rocs_1D_single.png> <./Figu
+res/figs072514/figs071614_Wg_bin1000_ak08/rocs/Rocs_1D_single.png> <./Figures/f
+igs072514/figs071614_Wg_bin1000_ak12/rocs/Rocs_1D_single.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/effBkg2D.png Graphic 
 file (type png)
 
@@ -1247,7 +1309,7 @@ fBkg2D.png used on input line 443.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_trim.png, i
-d=274, 2003.485pt x 1276.77pt>
+d=286, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_trim.p
 ng Graphic file (type png)
 
@@ -1258,7 +1320,7 @@ cs_1D_j_mass_trim.png used on input line 455.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_prun.png, i
-d=275, 2003.485pt x 1276.77pt>
+d=287, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_prun.p
 ng Graphic file (type png)
 
@@ -1269,7 +1331,7 @@ cs_1D_j_mass_prun.png used on input line 456.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_sdb2.png, i
-d=276, 2003.485pt x 1276.77pt>
+d=288, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_sdb2.p
 ng Graphic file (type png)
 
@@ -1280,7 +1342,7 @@ cs_1D_j_mass_sdb2.png used on input line 458.
 (pdftex.def)             Requested size: 237.59789pt x 151.41345pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_mmdt.png, i
-d=277, 2003.485pt x 1276.77pt>
+d=289, 2003.485pt x 1276.77pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_mmdt.p
 ng Graphic file (type png)
 
@@ -1296,7 +1358,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 c2_b1.png used on input line 468.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_c2_b1.png, id=278, 999.7
+<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_c2_b1.png, id=290, 999.7
 35pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_c2_b1.png Graphic f
 ile (type png)
@@ -1313,7 +1375,7 @@ Package pdftex.def Info: ./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_
 tau21_b1.png used on input line 470.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_tau21_b1.png, id=279, 99
+<./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_tau21_b1.png, id=291, 99
 9.735pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_tau21_b1.png Graphi
 c file (type png)
@@ -1324,7 +1386,7 @@ tau21_b1.png used on input line 471.
 (pdftex.def)             Requested size: 237.59789pt x 184.15771pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jc2_b1_j_mass_mmdt_gg.
-png, id=280, 798.985pt x 774.895pt>
+png, id=292, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jc2_b1_j_mass_mmd
 t_gg.png Graphic file (type png)
 
@@ -1335,7 +1397,7 @@ d_jc2_b1_j_mass_mmdt_gg.png used on input line 482.
 (pdftex.def)             Requested size: 237.59789pt x 230.43657pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_j_qjetVol_j_mass_mmdt_
-gg.png, id=281, 798.985pt x 774.895pt>
+gg.png, id=293, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_j_qjetVol_j_mass_
 mmdt_gg.png Graphic file (type png)
 
@@ -1346,7 +1408,7 @@ d_j_qjetVol_j_mass_mmdt_gg.png used on input line 483.
 (pdftex.def)             Requested size: 237.59789pt x 230.43657pt.
 
 <./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jtau21_b1_j_mass_mmdt_
-gg.png, id=282, 798.985pt x 774.895pt>
+gg.png, id=294, 798.985pt x 774.895pt>
 File: ./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jtau21_b1_j_mass_
 mmdt_gg.png Graphic file (type png)
 
@@ -1358,9 +1420,10 @@ d_jtau21_b1_j_mass_mmdt_gg.png used on input line 484.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [15 <./Figures/figs072514/figs071614_Wg_bin300_ak08/rocs/effBkg2D.png> <./Figu
+res/figs072514/figs071614_Wg_bin300_ak12/rocs/effBkg2D.png>]
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
-, id=285, 1601.985pt x 774.895pt>
+, id=305, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1371,7 +1434,7 @@ _mass_sdb2_WW_onSame.png used on input line 522.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
-, id=286, 1601.985pt x 774.895pt>
+, id=306, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSam
 e.png Graphic file (type png)
 
@@ -1382,7 +1445,7 @@ _mass_prun_WW_onSame.png used on input line 523.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
-, id=287, 1601.985pt x 774.895pt>
+, id=307, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
 e.png Graphic file (type png)
 
@@ -1393,7 +1456,7 @@ _mass_mmdt_WW_onSame.png used on input line 524.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
-, id=288, 1601.985pt x 774.895pt>
+, id=308, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1404,7 +1467,7 @@ _mass_sdb2_WW_onSame.png used on input line 525.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
-, id=289, 1601.985pt x 774.895pt>
+, id=309, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1415,7 +1478,7 @@ _mass_sdb2_WW_onSame.png used on input line 526.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
-, id=290, 1601.985pt x 774.895pt>
+, id=310, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
 e.png Graphic file (type png)
 
@@ -1426,7 +1489,7 @@ _mass_prun_WW_onSame.png used on input line 527.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png
-, id=291, 1601.985pt x 774.895pt>
+, id=311, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1437,7 +1500,7 @@ _mass_sdb2_WW_onSame.png used on input line 538.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png
-, id=292, 1601.985pt x 774.895pt>
+, id=312, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSam
 e.png Graphic file (type png)
 
@@ -1448,7 +1511,7 @@ _mass_prun_WW_onSame.png used on input line 539.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png
-, id=293, 1601.985pt x 774.895pt>
+, id=313, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSam
 e.png Graphic file (type png)
 
@@ -1459,7 +1522,7 @@ _mass_mmdt_WW_onSame.png used on input line 540.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png
-, id=294, 1601.985pt x 774.895pt>
+, id=314, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1470,7 +1533,7 @@ _mass_sdb2_WW_onSame.png used on input line 541.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png
-, id=295, 1601.985pt x 774.895pt>
+, id=315, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSam
 e.png Graphic file (type png)
 
@@ -1481,7 +1544,7 @@ _mass_sdb2_WW_onSame.png used on input line 542.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
 
 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png
-, id=296, 1601.985pt x 774.895pt>
+, id=316, 1601.985pt x 774.895pt>
 File: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSam
 e.png Graphic file (type png)
 
@@ -1490,48 +1553,41 @@ e.png Graphic file (type png)
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j
 _mass_prun_WW_onSame.png used on input line 543.
 (pdftex.def)             Requested size: 237.59789pt x 114.9286pt.
-) [13 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_single.png> 
-<./Figures/figs072514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_single.png>]
-[14 <./Figures/figs072514/figs071614_Wg_bin1000_ak04/rocs/Rocs_1D_single.png> <
-./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/Rocs_1D_single.png> <./Fig
-ures/figs072514/figs071614_Wg_bin1000_ak12/rocs/Rocs_1D_single.png>] [15 <./Fig
-ures/figs072514/figs071614_Wg_bin300_ak08/rocs/effBkg2D.png> <./Figures/figs072
-514/figs071614_Wg_bin300_ak12/rocs/effBkg2D.png>] [16 <./Figures/figs072514/fig
-s071614_Wg_bin500_ak08/rocs/effBkg2D.png> <./Figures/figs072514/figs071614_Wg_b
-in500_ak12/rocs/effBkg2D.png>] [17 <./Figures/figs072514/figs071614_Wg_bin1000_
-ak04/rocs/effBkg2D.png> <./Figures/figs072514/figs071614_Wg_bin1000_ak08/rocs/e
-ffBkg2D.png> <./Figures/figs072514/figs071614_Wg_bin1000_ak12/rocs/effBkg2D.png
->] [18] [19 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_jmass.
-png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_trim.p
-ng> <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_prun.pn
-g> <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_sdb2.png
-> <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/Rocs_1D_j_mass_mmdt.png>
-] [20 <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jc2_b1_j_mass_mm
-dt_gg.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_j_qjetVol_j
-_mass_mmdt_gg.png> <./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jta
-u21_b1_j_mass_mmdt_gg.png>] [21 <./Figures/figs072514/figs071614_Wg_bin500_ak12
-/rocs/Rocs_1D_j_mass_trim.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/
-rocs/Rocs_1D_j_mass_prun.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/r
-ocs/Rocs_1D_j_mass_sdb2.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/ro
-cs/Rocs_1D_j_mass_mmdt.png>] [22 <./Figures/figs072514/figs071614_Wg_bin500_ak1
-2/oneD/h_c2_b1.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/oneD/h_tau2
-1_b1.png>] [23 <./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jc2_b1_
-j_mass_mmdt_gg.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_j_
-qjetVol_j_mass_mmdt_gg.png> <./Figures/figs072514/figs071614_Wg_bin500_ak12/two
-D/h2d_jtau21_b1_j_mass_mmdt_gg.png>] [24 <./Figures/WTagging/pT500/AKtR08/WvsQ/
-h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/Wvs
-Q/h2d_j_mass_trim_j_mass_prun_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/W
-vsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08
-/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR
-08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AK
-tR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png>] [25 <./Figures/WTagging/p
-T500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging
-/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.png> <./Figures/WTaggi
-ng/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.png> <./Figures/WTag
-ging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.png> <./Figures/WT
-agging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.png> <./Figures/
-WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.png>]
-(./toptagging.tex
+) [16 <./Figures/figs072514/figs071614_Wg_bin500_ak08/rocs/effBkg2D.png> <./Fig
+ures/figs072514/figs071614_Wg_bin500_ak12/rocs/effBkg2D.png>] [17 <./Figures/fi
+gs072514/figs071614_Wg_bin1000_ak04/rocs/effBkg2D.png> <./Figures/figs072514/fi
+gs071614_Wg_bin1000_ak08/rocs/effBkg2D.png> <./Figures/figs072514/figs071614_Wg
+_bin1000_ak12/rocs/effBkg2D.png>] [18] [19 <./Figures/figs072514/figs071614_Wg_
+bin500_ak08/rocs/Rocs_1D_jmass.png> <./Figures/figs072514/figs071614_Wg_bin500_
+ak08/rocs/Rocs_1D_j_mass_trim.png> <./Figures/figs072514/figs071614_Wg_bin500_a
+k08/rocs/Rocs_1D_j_mass_prun.png> <./Figures/figs072514/figs071614_Wg_bin500_ak
+08/rocs/Rocs_1D_j_mass_sdb2.png> <./Figures/figs072514/figs071614_Wg_bin500_ak0
+8/rocs/Rocs_1D_j_mass_mmdt.png>] [20 <./Figures/figs072514/figs071614_Wg_bin500
+_ak08/twoD/h2d_jc2_b1_j_mass_mmdt_gg.png> <./Figures/figs072514/figs071614_Wg_b
+in500_ak08/twoD/h2d_j_qjetVol_j_mass_mmdt_gg.png> <./Figures/figs072514/figs071
+614_Wg_bin500_ak08/twoD/h2d_jtau21_b1_j_mass_mmdt_gg.png>] [21 <./Figures/figs0
+72514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_trim.png> <./Figures/figs07
+2514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_prun.png> <./Figures/figs072
+514/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_sdb2.png> <./Figures/figs0725
+14/figs071614_Wg_bin500_ak12/rocs/Rocs_1D_j_mass_mmdt.png>] [22 <./Figures/figs
+072514/figs071614_Wg_bin500_ak12/oneD/h_c2_b1.png> <./Figures/figs072514/figs07
+1614_Wg_bin500_ak12/oneD/h_tau21_b1.png>] [23 <./Figures/figs072514/figs071614_
+Wg_bin500_ak12/twoD/h2d_jc2_b1_j_mass_mmdt_gg.png> <./Figures/figs072514/figs07
+1614_Wg_bin500_ak12/twoD/h2d_j_qjetVol_j_mass_mmdt_gg.png> <./Figures/figs07251
+4/figs071614_Wg_bin500_ak12/twoD/h2d_jtau21_b1_j_mass_mmdt_gg.png>]
+[24 <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame
+.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSa
+me.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_on
+Same.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_
+onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_W
+W_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun
+_WW_onSame.png>] [25 <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_ma
+ss_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_
+mass_prun_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_
+j_mass_mmdt_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmd
+t_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_p
+run_j_mass_sdb2_WW_onSame.png> <./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass
+_mmdt_j_mass_prun_WW_onSame.png>] (./toptagging.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1541,7 +1597,7 @@ Overfull \hbox (3.06412pt too wide) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (0.59184pt too wide) in paragraph at lines 19--20
+Overfull \hbox (0.59184pt too wide) in paragraph at lines 19--21
 \OT1/cmr/m/n/10 (BDT), which de-ter-mines the op-ti-mal mul-ti-vari-able cut.
  []
 
@@ -1555,7 +1611,7 @@ ile (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_shape.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
-shape.pdf used on input line 28.
+shape.pdf used on input line 35.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_top_mass.pdf, id=413, 56
@@ -1565,7 +1621,7 @@ c file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_top_mass.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
-top_mass.pdf used on input line 29.
+top_mass.pdf used on input line 36.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass.pdf, id=414, 569.
@@ -1575,641 +1631,1929 @@ file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
-w_mass.pdf used on input line 30.
+w_mass.pdf used on input line 37.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.pdf, id=418, 569.12
-625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.pdf Graphic fi
-le (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf, id=418,
+ 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf Gra
+phic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt.pdf>
-Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_J
-H_mt.pdf used on input line 40.
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_J
+H_mt_opt_mt.pdf used on input line 47.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-<./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.pdf, id=419, 569.1
-2625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.pdf Graphic f
-ile (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf, id=419
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf Gr
+aphic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.pdf>
-Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_H
-EP_mt.pdf used on input line 41.
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_H
+EP_mt_opt_mt.pdf used on input line 48.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.pdf, id=420, 569.12
-625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.pdf Graphic fi
-le (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_mt.pdf, id=420,
+ 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_mt.pdf Gra
+phic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.pdf>
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_mt.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_J
-H_mt.pdf used on input line 42.
+H_mt_opt_mt.pdf used on input line 49.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.pdf, id=421, 569.1
-2625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.pdf Graphic f
-ile (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_mt.pdf, id=421
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_mt.pdf Gr
+aphic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt.pdf>
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_mt.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_H
-EP_mt.pdf used on input line 43.
+EP_mt_opt_mt.pdf used on input line 50.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.pdf, id=422, 569.12
-625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.pdf Graphic fi
-le (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf, id=422,
+ 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf Gra
+phic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt.pdf>
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_J
-H_mt.pdf used on input line 44.
+H_mt_opt_mt.pdf used on input line 51.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.pdf, id=423, 569.1
-2625pt x 440.64626pt>
-File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.pdf Graphic f
-ile (type pdf)
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf, id=423
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf Gr
+aphic file (type pdf)
 
-<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt.pdf>
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_H
-EP_mt.pdf used on input line 45.
+EP_mt_opt_mt.pdf used on input line 52.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-Overfull \hbox (3.78621pt too wide) in paragraph at lines 53--54
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all.pdf, id=424
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_J
+H_mt_opt_all.pdf used on input line 60.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all.pdf, id=42
+5, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_H
+EP_mt_opt_all.pdf used on input line 61.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all.pdf, id=426
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_J
+H_mt_opt_all.pdf used on input line 62.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all.pdf, id=42
+7, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_H
+EP_mt_opt_all.pdf used on input line 63.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all.pdf, id=428
+, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_J
+H_mt_opt_all.pdf used on input line 64.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all.pdf, id=42
+9, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_H
+EP_mt_opt_all.pdf used on input line 65.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all_once.pdf, i
+d=430, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all_once.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_all_once.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_J
+H_mt_opt_all_once.pdf used on input line 73.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all_once.pdf, 
+id=431, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all_once.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all_once.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_H
+EP_mt_opt_all_once.pdf used on input line 74.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all_once.pdf, i
+d=432, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all_once.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all_once.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_J
+H_mt_opt_all_once.pdf used on input line 75.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all_once.pdf, 
+id=433, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all_once.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_opt_all_once.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_H
+EP_mt_opt_all_once.pdf used on input line 76.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all_once.pdf, i
+d=434, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all_once.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_all_once.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_J
+H_mt_opt_all_once.pdf used on input line 77.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all_once.pdf, 
+id=435, 569.12625pt x 440.64626pt>
+File: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all_once.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all_once.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_H
+EP_mt_opt_all_once.pdf used on input line 78.
+(pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
+
+Overfull \hbox (3.78621pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10 We also di-rectly com-pare each vari-able's per-for-mance
  []
 
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf, id=428,
+<./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf, id=440,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b
-1_pTcompare.pdf used on input line 58.
+1_pTcompare.pdf used on input line 91.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare.pdf, id=429,
+<./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare.pdf, id=441,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b
-1_pTcompare.pdf used on input line 59.
+1_pTcompare.pdf used on input line 92.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare.pdf, id=4
-30, 569.12625pt x 221.82875pt>
+42, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare.pdf 
 Graphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau
-21b1_pTcompare.pdf used on input line 60.
+21b1_pTcompare.pdf used on input line 93.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare.pdf, id=4
-31, 569.12625pt x 221.82875pt>
+43, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare.pdf 
 Graphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau
-32b1_pTcompare.pdf used on input line 61.
+32b1_pTcompare.pdf used on input line 94.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pdf, id=432,
+<./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pdf, id=444,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_Qje
-t_pTcompare.pdf used on input line 62.
+t_pTcompare.pdf used on input line 95.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf, id=43
-3, 569.12625pt x 221.82875pt>
+<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf, id=44
+5, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf G
 raphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP
-_mt_pTcompare.pdf used on input line 70.
+_mt_pTcompare.pdf used on input line 103.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf, id=434
+<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf, id=446
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_
-mt_pTcompare.pdf used on input line 71.
+mt_pTcompare.pdf used on input line 104.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf, id=435
+<./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf, id=447
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_pru
-ne_pTcompare.pdf used on input line 72.
+ne_pTcompare.pdf used on input line 105.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare.pdf, id=436,
+<./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare.pdf, id=448,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tri
-m_pTcompare.pdf used on input line 73.
+m_pTcompare.pdf used on input line 106.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf, id=43
-7, 569.12625pt x 221.82875pt>
+<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf, id=44
+9, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf G
 raphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP
-_mw_pTcompare.pdf used on input line 81.
+_mw_pTcompare.pdf used on input line 114.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf, id=438
+<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf, id=450
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_
-mw_pTcompare.pdf used on input line 82.
+mw_pTcompare.pdf used on input line 115.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare.pdf, id=
-439, 569.12625pt x 221.82875pt>
+451, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare.pdf
  Graphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_pru
-ne_mw_pTcompare.pdf used on input line 83.
+ne_mw_pTcompare.pdf used on input line 116.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
 <./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare.pdf, id=4
-40, 569.12625pt x 221.82875pt>
+52, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare.pdf 
 Graphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tri
-m_mw_pTcompare.pdf used on input line 84.
+m_mw_pTcompare.pdf used on input line 117.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf, id=441, 5
+<./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf, id=453, 5
 69.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1
-_Rcompare.pdf used on input line 92.
+_Rcompare.pdf used on input line 125.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf, id=442, 5
+<./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf, id=454, 5
 69.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1
-_Rcompare.pdf used on input line 93.
+_Rcompare.pdf used on input line 126.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare.pdf, id=443
+<./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare.pdf, id=455
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_tau2
-1b1_Rcompare.pdf used on input line 94.
+1b1_Rcompare.pdf used on input line 127.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf, id=444
+<./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf, id=456
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_tau3
-2b1_Rcompare.pdf used on input line 95.
+2b1_Rcompare.pdf used on input line 128.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf, id=445, 5
+<./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf, id=457, 5
 69.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet
-_Rcompare.pdf used on input line 96.
+_Rcompare.pdf used on input line 129.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf, id=446,
+<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf, id=458,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_
-mt_Rcompare.pdf used on input line 104.
+mt_Rcompare.pdf used on input line 137.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare.pdf, id=447, 
+<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare.pdf, id=459, 
 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare.pdf Grap
 hic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_m
-t_Rcompare.pdf used on input line 105.
+t_Rcompare.pdf used on input line 138.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf, id=448, 
+<./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf, id=460, 
 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf Grap
 hic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_prun
-e_Rcompare.pdf used on input line 106.
+e_Rcompare.pdf used on input line 139.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf, id=449, 5
+<./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf, id=461, 5
 69.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_trim
-_Rcompare.pdf used on input line 107.
+_Rcompare.pdf used on input line 140.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf, id=450,
+<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf, id=462,
  569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_
-mw_Rcompare.pdf used on input line 115.
+mw_Rcompare.pdf used on input line 148.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf, id=451, 
+<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf, id=463, 
 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf Grap
 hic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_m
-w_Rcompare.pdf used on input line 116.
+w_Rcompare.pdf used on input line 149.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf, id=45
-2, 569.12625pt x 221.82875pt>
+<./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf, id=46
+4, 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf G
 raphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_prun
-e_mw_Rcompare.pdf used on input line 117.
+e_mw_Rcompare.pdf used on input line 150.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf, id=453
+<./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf, id=465
 , 569.12625pt x 221.82875pt>
 File: ./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf>
 Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_trim
-_mw_Rcompare.pdf used on input line 118.
+_mw_Rcompare.pdf used on input line 151.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf, id=454, 569.12625pt x 221.82875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf Graphic file (type pdf)
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom.pdf, id=466,
+ 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom.pdf Gra
+phic file (type pdf)
 
-<use ./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf used on input
- line 132.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
+agger_groom.pdf used on input line 163.
+(pdftex.def)             Requested size: 346.49849pt x 135.06146pt.
 
-<./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf, id=455, 569.12625pt x 221.82875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf Graphic file (type pdf)
-
-<use ./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf used on input 
-line 133.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf, id=456, 569.12625pt x 221.82875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf Graphic file (type pdf)
-<use ./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf used on inp
-ut line 134.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/1TeV_0p8/Rocs_trim.pdf, id=457, 569.12625pt x 221.82875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_trim.pdf Graphic file (type pdf)
-
-<use ./Figures/TTagging/1TeV_0p8/Rocs_trim.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_trim.pdf used on inpu
-t line 135.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf, id=458, 569.12625pt x 221.8
-2875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf Graphic file (type pdf)
-
- <use ./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf used
- on input line 136.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/1TeV_0p8/Rocs_groom_shape.pdf, id=459, 569.12625pt x 221.82
-875pt>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_groom_shape.pdf Graphic file (type pdf)
- <use ./Figures/TTagging/1TeV_0p8/Rocs_groom_shape.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_groom_shape.pdf used 
-on input line 137.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/1TeV_0p8/Rocs_optimum.pdf, id=460, 569.12625pt x 221.82875p
-t>
-File: ./Figures/TTagging/1TeV_0p8/Rocs_optimum.pdf Graphic file (type pdf)
- <use ./Figures/TTagging/1TeV_0p8/Rocs_optimum.pdf>
-Package pdftex.def Info: ./Figures/TTagging/1TeV_0p8/Rocs_optimum.pdf used on i
-nput line 138.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf, id=461, 569.12625pt x 2
-21.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf Graphic file (type 
-pdf)
- <use ./Figures/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf 
-used on input line 149.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_C3b1_pTcompare.pdf, id=462, 569.12625pt x 2
-21.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_C3b1_pTcompare.pdf Graphic file (type 
-pdf)
- <use ./Figures/TTagging/pT_compare/Rocs_C3b1_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_C3b1_pTcompare.pdf 
-used on input line 150.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_tau21b1_pTcompare.pdf, id=463, 569.12625pt 
-x 221.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_tau21b1_pTcompare.pdf Graphic file (ty
-pe pdf)
- <use ./Figures/TTagging/pT_compare/Rocs_tau21b1_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_tau21b1_pTcompare.p
-df used on input line 151.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_tau32b1_pTcompare.pdf, id=464, 569.12625pt 
-x 221.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_tau32b1_pTcompare.pdf Graphic file (ty
-pe pdf)
- <use ./Figures/TTagging/pT_compare/Rocs_tau32b1_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_tau32b1_pTcompare.p
-df used on input line 152.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_Qjet_pTcompare.pdf, id=465, 569.12625pt x 2
-21.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_Qjet_pTcompare.pdf Graphic file (type 
-pdf)
- <use ./Figures/TTagging/pT_compare/Rocs_Qjet_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_Qjet_pTcompare.pdf 
-used on input line 153.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_HEP_pTcompare.pdf, id=466, 569.12625pt x 22
-1.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_HEP_pTcompare.pdf Graphic file (type p
-df)
- <use ./Figures/TTagging/pT_compare/Rocs_HEP_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_HEP_pTcompare.pdf u
-sed on input line 154.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_JH_pTcompare.pdf, id=467, 569.12625pt x 221
-.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_JH_pTcompare.pdf Graphic file (type pd
-f)
- <use ./Figures/TTagging/pT_compare/Rocs_JH_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_JH_pTcompare.pdf us
-ed on input line 155.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_trim_wmass_pTcompare.pdf, id=468, 569.12625
-pt x 221.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_trim_wmass_pTcompare.pdf Graphic file 
-(type pdf)
-
-<use ./Figures/TTagging/pT_compare/Rocs_trim_wmass_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_trim_wmass_pTcompar
-e.pdf used on input line 156.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/pT_compare/Rocs_prune_wmass_pTcompare.pdf, id=469, 569.1262
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP.pdf, id=467, 569.1262
 5pt x 221.82875pt>
-File: ./Figures/TTagging/pT_compare/Rocs_prune_wmass_pTcompare.pdf Graphic file
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP.pdf Graphic file
  (type pdf)
 
-<use ./Figures/TTagging/pT_compare/Rocs_prune_wmass_pTcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/pT_compare/Rocs_prune_wmass_pTcompa
-re.pdf used on input line 157.
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_H
+EP.pdf used on input line 172.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_C2b1_Rcompare.pdf, id=470, 569.12625pt x 221
-.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_C2b1_Rcompare.pdf Graphic file (type pd
-f)
- <use ./Figures/TTagging/R_compare/Rocs_C2b1_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_C2b1_Rcompare.pdf us
-ed on input line 166.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH.pdf, id=468, 569.12625
+pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH.pdf Graphic file 
+(type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_J
+H.pdf used on input line 173.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_C3b1_Rcompare.pdf, id=471, 569.12625pt x 221
-.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_C3b1_Rcompare.pdf Graphic file (type pd
-f)
- <use ./Figures/TTagging/R_compare/Rocs_C3b1_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_C3b1_Rcompare.pdf us
-ed on input line 167.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune.pdf, id=469, 569.12
+625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune.pdf Graphic fi
+le (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_p
+rune.pdf used on input line 174.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_tau21b1_Rcompare.pdf, id=472, 569.12625pt x 
-221.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_tau21b1_Rcompare.pdf Graphic file (type
- pdf)
- <use ./Figures/TTagging/R_compare/Rocs_tau21b1_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_tau21b1_Rcompare.pdf
- used on input line 168.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim.pdf, id=470, 569.126
+25pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim.pdf Graphic fil
+e (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
+rim.pdf used on input line 175.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_tau32b1_Rcompare.pdf, id=473, 569.12625pt x 
-221.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_tau32b1_Rcompare.pdf Graphic file (type
- pdf)
- <use ./Figures/TTagging/R_compare/Rocs_tau32b1_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_tau32b1_Rcompare.pdf
- used on input line 169.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape.pdf, id=471,
+ 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape.pdf Gra
+phic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
+agger_shape.pdf used on input line 176.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_Qjet_Rcompare.pdf, id=474, 569.12625pt x 221
-.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_Qjet_Rcompare.pdf Graphic file (type pd
-f)
- <use ./Figures/TTagging/R_compare/Rocs_Qjet_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_Qjet_Rcompare.pdf us
-ed on input line 170.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape.pdf, id=472, 
+569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape.pdf Grap
+hic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_g
+room_shape.pdf used on input line 177.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
 
-<./Figures/TTagging/R_compare/Rocs_HEP_Rcompare.pdf, id=475, 569.12625pt x 221.
-82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_HEP_Rcompare.pdf Graphic file (type pdf
-)
- <use ./Figures/TTagging/R_compare/Rocs_HEP_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_HEP_Rcompare.pdf use
-d on input line 171.
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum.pdf, id=473, 569.
+12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum.pdf Graphic 
+file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_o
+ptimum.pdf used on input line 178.
 (pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf, id=476, 569.12625pt x 221.8
-2875pt>
-File: ./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf Graphic file (type pdf)
-
- <use ./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf used
- on input line 172.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.pdf, id=477, 569.12625pt
- x 221.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.pdf Graphic file (t
-ype pdf)
-
-<use ./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.
-pdf used on input line 173.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-
-<./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare.pdf, id=478, 569.12625p
-t x 221.82875pt>
-File: ./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare.pdf Graphic file (
-type pdf)
-
-<use ./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare.pdf>
-Package pdftex.def Info: ./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare
-.pdf used on input line 174.
-(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
-) [27] [28 <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_shape.pdf, pa
-ge is rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Roc
-s_top_mass.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable
-/pT.1TeV.R.0.8/Rocs_w_mass.pdf, page is rotated 90 degrees>] [29 <./Figures/TTa
-gging/single_variable/pT.600GeV.R.0.8/h_JH_mt.pdf, page is rotated 90 degrees> 
-<./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt.pdf, page is rotat
-ed 90 degrees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt.pdf,
- page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.
-8/h_HEP_mt.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable
-/pT.1.5TeV.R.1.2/h_JH_mt.pdf, page is rotated 90 degrees> <./Figures/TTagging/s
-ingle_variable/pT.1.5TeV.R.1.2/h_HEP_mt.pdf, page is rotated 90 degrees>] [30 <
-./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare.pdf, page is 
-rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pT
-compare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT
-_compare/Rocs_tau21b1_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTa
-gging/single_variable/pT_compare/Rocs_tau32b1_pTcompare.pdf, page is rotated 90
- degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare.pd
-f, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/R
-ocs_HEP_mt_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/singl
-e_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf, page is rotated 90 degrees> <./
-Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare.pdf, page is r
-otated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTc
-ompare.pdf, page is rotated 90 degrees>] [31 <./Figures/TTagging/single_variabl
-e/pT_compare/Rocs_HEP_mw_pTcompare.pdf, page is rotated 90 degrees> <./Figures/
-TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare.pdf, page is rotated 9
-0 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompa
-re.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_comp
-are/Rocs_trim_mw_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging
-/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf, page is rotated 90 degrees> 
-<./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare.pdf, page is r
-otated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_R
-compare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_
-compare/Rocs_tau32b1_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagg
-ing/single_variable/R_compare/Rocs_Qjet_Rcompare.pdf, page is rotated 90 degree
-s>] [32 <./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare.pdf,
+ [27]
+[28 <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_shape.pdf, page is r
+otated 90 degrees> <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_top_m
+ass.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1Te
+V.R.0.8/Rocs_w_mass.pdf, page is rotated 90 degrees>] [29 <./Figures/TTagging/s
+ingle_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf, page is rotated 90 degrees> 
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf, page i
+s rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_
+mt_opt_mt.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/
+pT.1.5TeV.R.0.8/h_HEP_mt_opt_mt.pdf, page is rotated 90 degrees> <./Figures/TTa
+gging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf, page is rotated 90 de
+grees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf,
+ page is rotated 90 degrees>] [30 <./Figures/TTagging/single_variable/pT.1.5TeV
+.R.0.4/h_JH_mt_opt_all.pdf, page is rotated 90 degrees> <./Figures/TTagging/sin
+gle_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_all.pdf, page is rotated 90 degrees> 
+<./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all.pdf, page i
+s rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP
+_mt_opt_all.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variabl
+e/pT.1.5TeV.R.1.2/h_JH_mt_opt_all.pdf, page is rotated 90 degrees> <./Figures/T
+Tagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all.pdf, page is rotated 9
+0 degrees>] [31 <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt
+_all_once.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/
+pT.1.5TeV.R.0.4/h_HEP_mt_opt_all_once.pdf, page is rotated 90 degrees> <./Figur
+es/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_opt_all_once.pdf, page is r
+otated 90 degrees> <./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt
+_opt_all_once.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_varia
+ble/pT.1.5TeV.R.1.2/h_JH_mt_opt_all_once.pdf, page is rotated 90 degrees> <./Fi
+gures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_all_once.pdf, page 
+is rotated 90 degrees>] [32 <./Figures/TTagging/single_variable/pT_compare/Rocs
+_C2b1_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_var
+iable/pT_compare/Rocs_C3b1_pTcompare.pdf, page is rotated 90 degrees> <./Figure
+s/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare.pdf, page is rotat
+ed 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTco
+mpare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_c
+ompare/Rocs_Qjet_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging
+/single_variable/pT_compare/Rocs_HEP_mt_pTcompare.pdf, page is rotated 90 degre
+es> <./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare.pdf, pa
+ge is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_p
+rune_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_vari
+able/pT_compare/Rocs_trim_pTcompare.pdf, page is rotated 90 degrees>] [33 <./Fi
+gures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare.pdf, page is ro
+tated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTc
+ompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_
+compare/Rocs_prune_mw_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTa
+gging/single_variable/pT_compare/Rocs_trim_mw_pTcompare.pdf, page is rotated 90
+ degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare.pdf,
  page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs
-_JH_mt_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_var
-iable/R_compare/Rocs_prune_Rcompare.pdf, page is rotated 90 degrees> <./Figures
-/TTagging/single_variable/R_compare/Rocs_trim_Rcompare.pdf, page is rotated 90 
-degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare.pdf
-, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Roc
-s_JH_mw_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_va
-riable/R_compare/Rocs_prune_mw_Rcompare.pdf, page is rotated 90 degrees> <./Fig
-ures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare.pdf, page is rota
-ted 90 degrees>] [33 <./Figures/TTagging/1TeV_0p8/Rocs_HEP.pdf, page is rotated
- 90 degrees> <./Figures/TTagging/1TeV_0p8/Rocs_JH.pdf, page is rotated 90 degre
-es> <./Figures/TTagging/1TeV_0p8/Rocs_prune.pdf, page is rotated 90 degrees> <.
-/Figures/TTagging/1TeV_0p8/Rocs_trim.pdf, page is rotated 90 degrees> <./Figure
-s/TTagging/1TeV_0p8/Rocs_tagger_shape.pdf, page is rotated 90 degrees> <./Figur
-es/TTagging/1TeV_0p8/Rocs_groom_shape.pdf, page is rotated 90 degrees> <./Figur
-es/TTagging/1TeV_0p8/Rocs_optimum.pdf, page is rotated 90 degrees>] [34 <./Figu
-res/TTagging/pT_compare/Rocs_C2b1_pTcompare.pdf, page is rotated 90 degrees> <.
-/Figures/TTagging/pT_compare/Rocs_C3b1_pTcompare.pdf, page is rotated 90 degree
-s> <./Figures/TTagging/pT_compare/Rocs_tau21b1_pTcompare.pdf, page is rotated 9
-0 degrees> <./Figures/TTagging/pT_compare/Rocs_tau32b1_pTcompare.pdf, page is r
-otated 90 degrees> <./Figures/TTagging/pT_compare/Rocs_Qjet_pTcompare.pdf, page
- is rotated 90 degrees> <./Figures/TTagging/pT_compare/Rocs_HEP_pTcompare.pdf, 
-page is rotated 90 degrees> <./Figures/TTagging/pT_compare/Rocs_JH_pTcompare.pd
-f, page is rotated 90 degrees> <./Figures/TTagging/pT_compare/Rocs_trim_wmass_p
-Tcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/pT_compare/Rocs_p
-rune_wmass_pTcompare.pdf, page is rotated 90 degrees>] [35 <./Figures/TTagging/
-R_compare/Rocs_C2b1_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTaggi
-ng/R_compare/Rocs_C3b1_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTa
-gging/R_compare/Rocs_tau21b1_Rcompare.pdf, page is rotated 90 degrees> <./Figur
-es/TTagging/R_compare/Rocs_tau32b1_Rcompare.pdf, page is rotated 90 degrees> <.
-/Figures/TTagging/R_compare/Rocs_Qjet_Rcompare.pdf, page is rotated 90 degrees>
- <./Figures/TTagging/R_compare/Rocs_HEP_Rcompare.pdf, page is rotated 90 degree
-s> <./Figures/TTagging/R_compare/Rocs_JH_Rcompare.pdf, page is rotated 90 degre
-es> <./Figures/TTagging/R_compare/Rocs_trim_wmass_Rcompare.pdf, page is rotated
- 90 degrees> <./Figures/TTagging/R_compare/Rocs_prune_wmass_Rcompare.pdf, page 
-is rotated 90 degrees>] (./conclusions.tex) (./boost2013_report.bbl
+_C3b1_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_vari
+able/R_compare/Rocs_tau21b1_Rcompare.pdf, page is rotated 90 degrees> <./Figure
+s/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare.pdf, page is rotated
+ 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare.p
+df, page is rotated 90 degrees>] [34 <./Figures/TTagging/single_variable/R_comp
+are/Rocs_HEP_mt_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/s
+ingle_variable/R_compare/Rocs_JH_mt_Rcompare.pdf, page is rotated 90 degrees> <
+./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare.pdf, page is r
+otated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcom
+pare.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_com
+pare/Rocs_HEP_mw_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/
+single_variable/R_compare/Rocs_JH_mw_Rcompare.pdf, page is rotated 90 degrees> 
+<./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare.pdf, page 
+is rotated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_trim_
+mw_Rcompare.pdf, page is rotated 90 degrees>] [35 <./Figures/TTagging/multi_var
+iable/pT.1TeV.R.0.8/Rocs_tagger_groom.pdf, page is rotated 90 degrees> <./Figur
+es/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP.pdf, page is rotated 90 degre
+es> <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH.pdf, page is rotat
+ed 90 degrees> <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune.pdf,
+ page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/R
+ocs_trim.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT
+.1TeV.R.0.8/Rocs_tagger_shape.pdf, page is rotated 90 degrees> <./Figures/TTagg
+ing/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape.pdf, page is rotated 90 degre
+es> <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum.pdf, page is 
+rotated 90 degrees>]
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare.pdf, id=2955, 
+569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare.pdf Graph
+ic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+pTcompare.pdf used on input line 191.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare.pdf, id=2956, 5
+69.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare.pdf Graphi
+c file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_p
+Tcompare.pdf used on input line 192.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare.pdf, id
+=2957, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare.pd
+f Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare.pdf
+>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_pTcompare.pdf used on input line 193.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare.pdf, i
+d=2958, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_pTcompare.pdf used on input line 194.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare.pdf, id=2959,
+ 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare.pdf Grap
+hic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C
+_pTcompare.pdf used on input line 202.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare.pdf, id=296
+0, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_t
+au_pTcompare.pdf used on input line 203.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare.pdf, id=29
+61, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Q
+jet_pTcompare.pdf used on input line 204.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare.pdf, id=2
+962, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare.pdf 
+Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_s
+hape_pTcompare.pdf used on input line 205.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare.pdf, id=2963
+, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare.pdf Gra
+phic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+C_pTcompare.pdf used on input line 213.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare.pdf, id=29
+64, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+tau_pTcompare.pdf used on input line 214.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare.pdf, id=2
+965, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare.pdf 
+Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+Qjet_pTcompare.pdf used on input line 215.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare.pdf, id=
+2966, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare.pdf
+ Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+shape_pTcompare.pdf used on input line 216.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare.pdf, 
+id=2967, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_C_pTcompare.pdf used on input line 224.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompare.pdf
+, id=2968, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompar
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompare
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_tau_pTcompare.pdf used on input line 225.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompare.pd
+f, id=2969, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompa
+re.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompar
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_Qjet_pTcompare.pdf used on input line 226.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcompare.p
+df, id=2970, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcomp
+are.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcompa
+re.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_shape_pTcompare.pdf used on input line 227.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare.pdf,
+ id=2971, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_C_pTcompare.pdf used on input line 235.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompare.pd
+f, id=2972, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompa
+re.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompar
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_tau_pTcompare.pdf used on input line 236.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompare.p
+df, id=2973, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcomp
+are.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompa
+re.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_Qjet_pTcompare.pdf used on input line 237.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcompare.
+pdf, id=2974, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcom
+pare.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcomp
+are.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_shape_pTcompare.pdf used on input line 238.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+ [36
+
+
+] [37 <./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare.pdf, pag
+e is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_
+pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/p
+T_compare/Rocs_trim_mt_mw_pTcompare.pdf, page is rotated 90 degrees> <./Figures
+/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare.pdf, page is rot
+ated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcomp
+are.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_comp
+are/Rocs_JH_tau_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/
+multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare.pdf, page is rotated 90 degree
+s> <./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare.pdf, p
+age is rotated 90 degrees>] [38 <./Figures/TTagging/multi_variable/pT_compare/R
+ocs_HEP_C_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_
+variable/pT_compare/Rocs_HEP_tau_pTcompare.pdf, page is rotated 90 degrees> <./
+Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare.pdf, page is
+ rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_sha
+pe_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variabl
+e/pT_compare/Rocs_trim_mt_mw_C_pTcompare.pdf, page is rotated 90 degrees> <./Fi
+gures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompare.pdf, pag
+e is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_tri
+m_mt_mw_Qjet_pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/mul
+ti_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcompare.pdf, page is rotated 90 
+degrees>] [39 <./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_
+pTcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/p
+T_compare/Rocs_prune_mt_mw_tau_pTcompare.pdf, page is rotated 90 degrees> <./Fi
+gures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompare.pdf, p
+age is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_p
+rune_mt_mw_shape_pTcompare.pdf, page is rotated 90 degrees>]
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare.pdf, id=3882, 56
+9.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare.pdf Graphic
+ file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_R
+compare.pdf used on input line 249.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare.pdf, id=3883, 569
+.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare.pdf Graphic 
+file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rc
+ompare.pdf used on input line 250.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare.pdf, id=3
+884, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare.pdf 
+Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_Rcompare.pdf used on input line 251.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare.pdf, id=
+3885, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare.pdf
+ Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_Rcompare.pdf used on input line 252.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare.pdf, id=3886, 5
+69.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare.pdf Graphi
+c file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_
+Rcompare.pdf used on input line 260.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare.pdf, id=3887,
+ 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare.pdf Grap
+hic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_ta
+u_Rcompare.pdf used on input line 261.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare.pdf, id=3888
+, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare.pdf Gra
+phic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qj
+et_Rcompare.pdf used on input line 262.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare.pdf, id=388
+9, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_sh
+ape_Rcompare.pdf used on input line 263.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare.pdf, id=3890, 
+569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare.pdf Graph
+ic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C
+_Rcompare.pdf used on input line 271.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare.pdf, id=3891
+, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare.pdf Gra
+phic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_t
+au_Rcompare.pdf used on input line 272.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare.pdf, id=389
+2, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare.pdf Gr
+aphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Q
+jet_Rcompare.pdf used on input line 273.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare.pdf, id=38
+93, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare.pdf G
+raphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_s
+hape_Rcompare.pdf used on input line 274.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare.pdf, id
+=3894, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare.pd
+f Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare.pdf
+>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_C_Rcompare.pdf used on input line 282.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare.pdf, 
+id=3895, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_tau_Rcompare.pdf used on input line 283.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare.pdf,
+ id=3896, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_Qjet_Rcompare.pdf used on input line 284.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompare.pdf
+, id=3897, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompar
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompare
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_shape_Rcompare.pdf used on input line 285.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare.pdf, i
+d=3898, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_C_Rcompare.pdf used on input line 293.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare.pdf,
+ id=3899, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_tau_Rcompare.pdf used on input line 294.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompare.pdf
+, id=3900, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompar
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompare
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_Qjet_Rcompare.pdf used on input line 295.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompare.pd
+f, id=3901, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompa
+re.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompar
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_shape_Rcompare.pdf used on input line 296.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+ [40
+
+
+] [41 <./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare.pdf, page 
+is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rco
+mpare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_com
+pare/Rocs_trim_mt_mw_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagg
+ing/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare.pdf, page is rotated 90 
+degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare.pdf, p
+age is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_JH
+_tau_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variab
+le/R_compare/Rocs_JH_Qjet_Rcompare.pdf, page is rotated 90 degrees> <./Figures/
+TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare.pdf, page is rotated 9
+0 degrees>] [42 <./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompar
+e.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare
+/Rocs_HEP_tau_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/mul
+ti_variable/R_compare/Rocs_HEP_Qjet_Rcompare.pdf, page is rotated 90 degrees> <
+./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare.pdf, page i
+s rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt
+_mw_C_Rcompare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_varia
+ble/R_compare/Rocs_trim_mt_mw_tau_Rcompare.pdf, page is rotated 90 degrees> <./
+Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare.pdf, pa
+ge is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_tri
+m_mt_mw_shape_Rcompare.pdf, page is rotated 90 degrees>] [43 <./Figures/TTaggin
+g/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare.pdf, page is rotated 90 
+degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcom
+pare.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_comp
+are/Rocs_prune_mt_mw_Qjet_Rcompare.pdf, page is rotated 90 degrees> <./Figures/
+TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompare.pdf, page is 
+rotated 90 degrees>]
+<./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare_optOnce.pdf,
+ id=4809, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_C2b
+1_pTcompare_optOnce.pdf used on input line 311.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare_optOnce.pdf,
+ id=4810, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b1_pTcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_C3b
+1_pTcompare_optOnce.pdf used on input line 312.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare_optOnce.p
+df, id=4811, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_tau21b1_pTcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau
+21b1_pTcompare_optOnce.pdf used on input line 313.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare_optOnce.p
+df, id=4812, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pTcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tau
+32b1_pTcompare_optOnce.pdf used on input line 314.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare_optOnce.pdf,
+ id=4813, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_Qjet_pTcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_Qje
+t_pTcompare_optOnce.pdf used on input line 315.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare_optOnce.pd
+f, id=4814, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP
+_mt_pTcompare_optOnce.pdf used on input line 323.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare_optOnce.pdf
+, id=4815, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mt_pTcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_
+mt_pTcompare_optOnce.pdf used on input line 324.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare_optOnce.pdf
+, id=4816, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_pTcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_pru
+ne_pTcompare_optOnce.pdf used on input line 325.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare_optOnce.pdf,
+ id=4817, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tri
+m_pTcompare_optOnce.pdf used on input line 326.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare_optOnce.pd
+f, id=4818, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mw_pTcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_HEP
+_mw_pTcompare_optOnce.pdf used on input line 334.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare_optOnce.pdf
+, id=4819, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_JH_
+mw_pTcompare_optOnce.pdf used on input line 335.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare_optOnce.
+pdf, id=4820, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare_opt
+Once.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_prune_mw_pTcompare_optO
+nce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_pru
+ne_mw_pTcompare_optOnce.pdf used on input line 336.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare_optOnce.p
+df, id=4821, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/pT_compare/Rocs_trim_mw_pTcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/pT_compare/Rocs_tri
+m_mw_pTcompare_optOnce.pdf used on input line 337.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+ [44
+
+
+] [45 <./Figures/TTagging/single_variable/pT_compare/Rocs_C2b1_pTcompare_optOnc
+e.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compa
+re/Rocs_C3b1_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTag
+ging/single_variable/pT_compare/Rocs_tau21b1_pTcompare_optOnce.pdf, page is rot
+ated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_tau32b1_pT
+compare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_var
+iable/pT_compare/Rocs_Qjet_pTcompare_optOnce.pdf, page is rotated 90 degrees> <
+./Figures/TTagging/single_variable/pT_compare/Rocs_HEP_mt_pTcompare_optOnce.pdf
+, page is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Ro
+cs_JH_mt_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging
+/single_variable/pT_compare/Rocs_prune_pTcompare_optOnce.pdf, page is rotated 9
+0 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_trim_pTcompare_o
+ptOnce.pdf, page is rotated 90 degrees>] [46 <./Figures/TTagging/single_variabl
+e/pT_compare/Rocs_HEP_mw_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./
+Figures/TTagging/single_variable/pT_compare/Rocs_JH_mw_pTcompare_optOnce.pdf, p
+age is rotated 90 degrees> <./Figures/TTagging/single_variable/pT_compare/Rocs_
+prune_mw_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging
+/single_variable/pT_compare/Rocs_trim_mw_pTcompare_optOnce.pdf, page is rotated
+ 90 degrees>]
+<./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare_optOnce.pdf, i
+d=5414, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_C2b1
+_Rcompare_optOnce.pdf used on input line 348.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare_optOnce.pdf, i
+d=5415, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1_Rcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_C3b1
+_Rcompare_optOnce.pdf used on input line 349.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare_optOnce.pdf
+, id=5416, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_tau21b1_Rcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_tau2
+1b1_Rcompare_optOnce.pdf used on input line 350.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare_optOnce.pdf
+, id=5417, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_tau3
+2b1_Rcompare_optOnce.pdf used on input line 351.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare_optOnce.pdf, i
+d=5418, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet_Rcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_Qjet
+_Rcompare_optOnce.pdf used on input line 352.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare_optOnce.pdf,
+ id=5419, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_
+mt_Rcompare_optOnce.pdf used on input line 360.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare_optOnce.pdf, 
+id=5420, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare_optOnce.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcompare_optOnce.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_m
+t_Rcompare_optOnce.pdf used on input line 361.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare_optOnce.pdf, 
+id=5421, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare_optOnce.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_prune_Rcompare_optOnce.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_prun
+e_Rcompare_optOnce.pdf used on input line 362.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare_optOnce.pdf, i
+d=5422, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_trim
+_Rcompare_optOnce.pdf used on input line 363.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare_optOnce.pdf,
+ id=5423, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_mw_Rcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_HEP_
+mw_Rcompare_optOnce.pdf used on input line 371.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare_optOnce.pdf, 
+id=5424, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare_optOnce.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_JH_mw_Rcompare_optOnce.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_JH_m
+w_Rcompare_optOnce.pdf used on input line 372.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare_optOnce.pd
+f, id=5425, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_prun
+e_mw_Rcompare_optOnce.pdf used on input line 373.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare_optOnce.pdf
+, id=5426, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/single_variable/R_compare/Rocs_trim_mw_Rcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/single_variable/R_compare/Rocs_trim
+_mw_Rcompare_optOnce.pdf used on input line 374.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+ [47
+
+
+] [48 <./Figures/TTagging/single_variable/R_compare/Rocs_C2b1_Rcompare_optOnce.
+pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_compare/
+Rocs_C3b1_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging
+/single_variable/R_compare/Rocs_tau21b1_Rcompare_optOnce.pdf, page is rotated 9
+0 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_tau32b1_Rcompare_
+optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_
+compare/Rocs_Qjet_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/
+TTagging/single_variable/R_compare/Rocs_HEP_mt_Rcompare_optOnce.pdf, page is ro
+tated 90 degrees> <./Figures/TTagging/single_variable/R_compare/Rocs_JH_mt_Rcom
+pare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variab
+le/R_compare/Rocs_prune_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Fi
+gures/TTagging/single_variable/R_compare/Rocs_trim_Rcompare_optOnce.pdf, page i
+s rotated 90 degrees>] [49 <./Figures/TTagging/single_variable/R_compare/Rocs_H
+EP_mw_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/sin
+gle_variable/R_compare/Rocs_JH_mw_Rcompare_optOnce.pdf, page is rotated 90 degr
+ees> <./Figures/TTagging/single_variable/R_compare/Rocs_prune_mw_Rcompare_optOn
+ce.pdf, page is rotated 90 degrees> <./Figures/TTagging/single_variable/R_compa
+re/Rocs_trim_mw_Rcompare_optOnce.pdf, page is rotated 90 degrees>]
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare_optOnce.pdf, i
+d=6018, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+pTcompare_optOnce.pdf used on input line 386.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare_optOnce.pdf, id
+=6019, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare_optOnce.pd
+f Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_pTcompare_optOnce.pdf
+>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_p
+Tcompare_optOnce.pdf used on input line 387.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare_optOnce
+.pdf, id=6020, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare_op
+tOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare_opt
+Once.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_pTcompare_optOnce.pdf used on input line 388.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare_optOnc
+e.pdf, id=6021, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare_o
+ptOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pTcompare_op
+tOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_pTcompare_optOnce.pdf used on input line 389.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare_optOnce.pdf, 
+id=6022, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare_optOnce.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C_pTcompare_optOnce.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_C
+_pTcompare_optOnce.pdf used on input line 397.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare_optOnce.pdf
+, id=6023, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_t
+au_pTcompare_optOnce.pdf used on input line 398.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare_optOnce.pd
+f, id=6024, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Qjet_pTcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_Q
+jet_pTcompare_optOnce.pdf used on input line 399.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare_optOnce.p
+df, id=6025, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_shape_pTcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_JH_s
+hape_pTcompare_optOnce.pdf used on input line 400.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare_optOnce.pdf,
+ id=6026, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+C_pTcompare_optOnce.pdf used on input line 408.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare_optOnce.pd
+f, id=6027, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_tau_pTcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+tau_pTcompare_optOnce.pdf used on input line 409.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare_optOnce.p
+df, id=6028, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+Qjet_pTcompare_optOnce.pdf used on input line 410.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare_optOnce.
+pdf, id=6029, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare_opt
+Once.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_shape_pTcompare_optO
+nce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_
+shape_pTcompare_optOnce.pdf used on input line 411.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare_optOn
+ce.pdf, id=6030, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare_
+optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare_o
+ptOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_C_pTcompare_optOnce.pdf used on input line 419.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompare_opt
+Once.pdf, id=6031, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompar
+e_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_tau_pTcompare
+_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_tau_pTcompare_optOnce.pdf used on input line 420.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompare_op
+tOnce.pdf, id=6032, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompa
+re_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompar
+e_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_Qjet_pTcompare_optOnce.pdf used on input line 421.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcompare_o
+ptOnce.pdf, id=6033, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcomp
+are_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw_shape_pTcompa
+re_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_trim
+_mt_mw_shape_pTcompare_optOnce.pdf used on input line 422.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare_optO
+nce.pdf, id=6034, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare
+_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare_
+optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_C_pTcompare_optOnce.pdf used on input line 430.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompare_op
+tOnce.pdf, id=6035, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompa
+re_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_tau_pTcompar
+e_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_tau_pTcompare_optOnce.pdf used on input line 431.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompare_o
+ptOnce.pdf, id=6036, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcomp
+are_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompa
+re_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_Qjet_pTcompare_optOnce.pdf used on input line 432.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcompare_
+optOnce.pdf, id=6037, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcom
+pare_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_shape_pTcomp
+are_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT_compare/Rocs_prun
+e_mt_mw_shape_pTcompare_optOnce.pdf used on input line 433.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+ [50
+
+
+] [51 <./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_pTcompare_optOnce.
+pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/
+Rocs_JH_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/
+multi_variable/pT_compare/Rocs_trim_mt_mw_pTcompare_optOnce.pdf, page is rotate
+d 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_pT
+compare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_vari
+able/pT_compare/Rocs_JH_C_pTcompare_optOnce.pdf, page is rotated 90 degrees> <.
+/Figures/TTagging/multi_variable/pT_compare/Rocs_JH_tau_pTcompare_optOnce.pdf, 
+page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_
+JH_Qjet_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/
+multi_variable/pT_compare/Rocs_JH_shape_pTcompare_optOnce.pdf, page is rotated 
+90 degrees>] [52 <./Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_C_pTcom
+pare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variabl
+e/pT_compare/Rocs_HEP_tau_pTcompare_optOnce.pdf, page is rotated 90 degrees> <.
+/Figures/TTagging/multi_variable/pT_compare/Rocs_HEP_Qjet_pTcompare_optOnce.pdf
+, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Roc
+s_HEP_shape_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagg
+ing/multi_variable/pT_compare/Rocs_trim_mt_mw_C_pTcompare_optOnce.pdf, page is 
+rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_
+mw_tau_pTcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/m
+ulti_variable/pT_compare/Rocs_trim_mt_mw_Qjet_pTcompare_optOnce.pdf, page is ro
+tated 90 degrees> <./Figures/TTagging/multi_variable/pT_compare/Rocs_trim_mt_mw
+_shape_pTcompare_optOnce.pdf, page is rotated 90 degrees>]
+[53 <./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_C_pTcompare_
+optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_
+compare/Rocs_prune_mt_mw_tau_pTcompare_optOnce.pdf, page is rotated 90 degrees>
+ <./Figures/TTagging/multi_variable/pT_compare/Rocs_prune_mt_mw_Qjet_pTcompare_
+optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/pT_
+compare/Rocs_prune_mt_mw_shape_pTcompare_optOnce.pdf, page is rotated 90 degree
+s>]
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare_optOnce.pdf, id=
+6944, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare_optOnce.pdf
+ Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_R
+compare_optOnce.pdf used on input line 444.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare_optOnce.pdf, id=6
+945, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare_optOnce.pdf 
+Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rc
+ompare_optOnce.pdf used on input line 445.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare_optOnce.p
+df, id=6946, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare_optO
+nce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare_optOn
+ce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_Rcompare_optOnce.pdf used on input line 446.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare_optOnce.
+pdf, id=6947, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare_opt
+Once.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare_optO
+nce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_Rcompare_optOnce.pdf used on input line 447.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare_optOnce.pdf, id
+=6948, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare_optOnce.pd
+f Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_Rcompare_optOnce.pdf
+>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_C_
+Rcompare_optOnce.pdf used on input line 455.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare_optOnce.pdf, 
+id=6949, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare_optOnce.
+pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare_optOnce.p
+df>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_ta
+u_Rcompare_optOnce.pdf used on input line 456.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare_optOnce.pdf,
+ id=6950, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qj
+et_Rcompare_optOnce.pdf used on input line 457.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare_optOnce.pdf
+, id=6951, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_shape_Rcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_JH_sh
+ape_Rcompare_optOnce.pdf used on input line 458.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare_optOnce.pdf, i
+d=6952, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare_optOnce.p
+df Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare_optOnce.pd
+f>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C
+_Rcompare_optOnce.pdf used on input line 466.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare_optOnce.pdf,
+ id=6953, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare_optOnce
+.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_tau_Rcompare_optOnce.
+pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_t
+au_Rcompare_optOnce.pdf used on input line 467.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare_optOnce.pdf
+, id=6954, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare_optOnc
+e.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Qjet_Rcompare_optOnce
+.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Q
+jet_Rcompare_optOnce.pdf used on input line 468.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare_optOnce.pd
+f, id=6955, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare_optOn
+ce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare_optOnc
+e.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_s
+hape_Rcompare_optOnce.pdf used on input line 469.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare_optOnce
+.pdf, id=6956, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare_op
+tOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_C_Rcompare_opt
+Once.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_C_Rcompare_optOnce.pdf used on input line 477.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare_optOn
+ce.pdf, id=6957, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare_
+optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare_o
+ptOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_tau_Rcompare_optOnce.pdf used on input line 478.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare_optO
+nce.pdf, id=6958, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare
+_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Qjet_Rcompare_
+optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_Qjet_Rcompare_optOnce.pdf used on input line 479.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompare_opt
+Once.pdf, id=6959, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompar
+e_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompare
+_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_trim_
+mt_mw_shape_Rcompare_optOnce.pdf used on input line 480.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare_optOnc
+e.pdf, id=6960, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare_o
+ptOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_C_Rcompare_op
+tOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_C_Rcompare_optOnce.pdf used on input line 488.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare_optO
+nce.pdf, id=6961, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare
+_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare_
+optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_tau_Rcompare_optOnce.pdf used on input line 489.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompare_opt
+Once.pdf, id=6962, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompar
+e_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Qjet_Rcompare
+_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_Qjet_Rcompare_optOnce.pdf used on input line 490.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+
+<./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompare_op
+tOnce.pdf, id=6963, 569.12625pt x 221.82875pt>
+File: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompa
+re_optOnce.pdf Graphic file (type pdf)
+
+<use ./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompar
+e_optOnce.pdf>
+Package pdftex.def Info: ./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_shape_Rcompare_optOnce.pdf used on input line 491.
+(pdftex.def)             Requested size: 237.59789pt x 92.60893pt.
+) [54
+
+] [55 <./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_Rcompare_optOnce.pd
+f, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Roc
+s_JH_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/mult
+i_variable/R_compare/Rocs_trim_mt_mw_Rcompare_optOnce.pdf, page is rotated 90 d
+egrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare_
+optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_c
+ompare/Rocs_JH_C_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/T
+Tagging/multi_variable/R_compare/Rocs_JH_tau_Rcompare_optOnce.pdf, page is rota
+ted 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Qjet_Rcomp
+are_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable
+/R_compare/Rocs_JH_shape_Rcompare_optOnce.pdf, page is rotated 90 degrees>] [56
+ <./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_C_Rcompare_optOnce.pdf, 
+page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_H
+EP_tau_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/mu
+lti_variable/R_compare/Rocs_HEP_Qjet_Rcompare_optOnce.pdf, page is rotated 90 d
+egrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_HEP_shape_Rcompare_op
+tOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_com
+pare/Rocs_trim_mt_mw_C_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Fig
+ures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_tau_Rcompare_optOnce.pdf
+, page is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs
+_trim_mt_mw_Qjet_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/T
+Tagging/multi_variable/R_compare/Rocs_trim_mt_mw_shape_Rcompare_optOnce.pdf, pa
+ge is rotated 90 degrees>] [57 <./Figures/TTagging/multi_variable/R_compare/Roc
+s_prune_mt_mw_C_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TT
+agging/multi_variable/R_compare/Rocs_prune_mt_mw_tau_Rcompare_optOnce.pdf, page
+ is rotated 90 degrees> <./Figures/TTagging/multi_variable/R_compare/Rocs_prune
+_mt_mw_Qjet_Rcompare_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTaggi
+ng/multi_variable/R_compare/Rocs_prune_mt_mw_shape_Rcompare_optOnce.pdf, page i
+s rotated 90 degrees>] (./conclusions.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./boost2013_report.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <8.5> not available
 (Font)              size <8> substituted on input line 7.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 453.
- [36
+ [58
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 453.
-
-(./boost2013_report.aux)
+ (./boost2013_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 453.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 453.
 Package rerunfilecheck Info: File `boost2013_report.out' has not changed.
@@ -2222,39 +3566,43 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 453.
  ) 
 Here is how much of TeX's memory you used:
- 8195 strings out of 495059
- 145874 string characters out of 3182030
- 234905 words of memory out of 3000000
- 10850 multiletter control sequences out of 15000+200000
+ 8883 strings out of 493488
+ 187962 string characters out of 3141326
+ 240659 words of memory out of 3000000
+ 11404 multiletter control sequences out of 15000+200000
  19251 words of font info for 76 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  42i,15n,33p,1182b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb>
-Output written on boost2013_report.pdf (36 pages, 2792725 bytes).
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on boost2013_report.pdf (58 pages, 4074683 bytes).
 PDF statistics:
- 3311 PDF objects out of 3580 (max. 8388607)
- 1595 compressed objects within 16 object streams
- 247 named destinations out of 1000 (max. 500000)
- 755 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8033 PDF objects out of 8907 (max. 8388607)
+ 3648 compressed objects within 37 object streams
+ 402 named destinations out of 1000 (max. 500000)
+ 1260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
