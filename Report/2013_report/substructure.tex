@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-%Describe the specific substructure variables and tagging approaches
-%that we will be using in this report e.g. n-subjettiness, Q-jets, HTT,
-%JH tagger. Give the nomenclature that we will use to refer to these
-%variables/taggers in the rest of the report.
-
 \noindent
 In this section, we describe the observables that we consider in this study.  
 Originally we considered a larger set of observables but in the final analysis we reduced redundant observables in the final set for presentation purposes.
@@ -29,11 +23,8 @@ The list of observables for W vs. gluon discrimination is as follows:
 \item N-subjettiness ratio, $\tau_2 / \tau_1 (\beta = 2)$: the N-subjettiness uses one-pass $k_T$ axis optimization, we also considered $\beta=2$ but it showed poor discrimination power
 \item Qjet volatility: same as in the q vs. g case
 \end{itemize}
-=======
-Describe the specific substructure variables and tagging approaches
-that we will be using in this report e.g. n-subjettiness, Q-jets, HTT,
-JH tagger. Give the nomenclature that we will use to refer to these
-variables/taggers in the rest of the report.\\
+
+The list of observables/taggers considered for top-tagging is as follows: 
 
 \noindent {\bf Johns Hopkins Tagger:} Re-cluster the jet using the Cambridge-Aachen algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if its $p_{\rm T}$ is less than $\delta_p\,p_{\mathrm{T\,jet}}$. This continues until both prongs are harder than the $p_{\rm T}$ threshold, both prongs are softer than the $p_{\rm T}$ threshold, or if they are too close ($|\Delta\eta_{ij}|+|\Delta\phi_{ij}|<\delta_R$); the jet is rejected if either of the latter conditions apply. If both are harder than the $p_{\rm T}$ threshold, the same procedure is applied to each: this results in 2, 3, or 4 subjets. If there exist 3 or 4 subjets, then the jet is accepted: the top candidate is the sum of the subjets, and $W$ candidate is the pair of subjets closest to the $W$ mass. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$, a helicity angle defined as the angle, measured in the rest frame of the $W$ candidate, between the top direction and one of the $W$ decay products.\\
 
@@ -42,4 +33,3 @@ variables/taggers in the rest of the report.\\
 \noindent {\bf Trimming:} Re-cluster the jet using the $k_{\rm T}$ algorithm and radius $R_{\rm trim}$. Discard all subjets with $p_{\rm T\,sj}/p_{\rm T\,jet} < f_{\rm cut}$. A $W$ candidate is reconstructed as follows: if there are two subjets, the highest-mass subjet is the $W$ candidate; if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.\\
 
 \noindent {\bf Pruning:} Iteratively de-cluster the jet. At each step, discard the softer branch if $\mathrm{min}(p_{\rm T1},p_{\rm T2}) / p_{\rm T12} < z_{\rm cut}$ and $\Delta R_{12}>D_{\rm cut}$. The subjets are found by de-clustering the pruned jet by up to three splittings. A $W$ candidate is reconstructed as follows: if there are two subjets, the highest-mass subjet is the $W$ candidate; if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.
->>>>>>> e7185e1a1aa2d4e21885181dd706f17fd0d8ff6e
