@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+%Describe the specific substructure variables and tagging approaches
+%that we will be using in this report e.g. n-subjettiness, Q-jets, HTT,
+%JH tagger. Give the nomenclature that we will use to refer to these
+%variables/taggers in the rest of the report.
+
+\noindent
+In this section, we describe the observables that we consider in this study.  
+Originally we considered a larger set of observables but in the final analysis we reduced redundant observables in the final set for presentation purposes.
+
+\noindent
+The list of observables for quark vs. gluon discrimination is as follows: 
+\begin{itemize}
+\item mass: this is the plain jet mass
+\item 1-subjettiness, $\tau_1^{\beta}$: the N-subjettiness uses one-pass $k_T$ axis optimization where we consider $\beta = 1,2$
+\item 1-point energy correlation functions, $C_1^\beta$: the energy correlation functions consider $\beta=0,1,2$
+\item Qjet volatility, $\Gamma_{\rm Qjet}$: the number of trees considered is $N_{\rm trees} = 25$, the rigidity factor is $\alpha = 0.1$, the truncation factor is 0.01, and the pruning parameters are $D_{\rm cut} = 0.5$ and $z_{\rm cut} = 0.1$
+\item number of constituents ($N_{\rm constits}$)
+\end{itemize}
+
+\noindent
+The list of observables for W vs. gluon discrimination is as follows: 
+\begin{itemize}
+\item mass: same as in the q vs. g case
+\item trimmed mass, $m_{\rm trimmed}$: the parameter values are $f_{\rm cut} = 0.03$ and $r_{\rm filt} = 0.2$
+\item pruned mass, $m_{\rm pruned}$: the parameter values are $D_{\rm cut} = 0.5$ and $z_{\rm cut} = 0.1$
+\item soft drop mass, $m_{\rm soft drop}^{\beta}$: $z_{\rm cut}$ is set always to 0.1, we consider $\beta=0,2$ where $\beta=0$ is a generalization of the modified mass drop tagger
+\item 2-point energy correlation functions, $C_2^{\beta=1}$: we also considered $\beta=2$ but it showed poor discrimination power
+\item N-subjettiness ratio, $\tau_2 / \tau_1 (\beta = 2)$: the N-subjettiness uses one-pass $k_T$ axis optimization, we also considered $\beta=2$ but it showed poor discrimination power
+\item Qjet volatility: same as in the q vs. g case
+\end{itemize}
+=======
 Describe the specific substructure variables and tagging approaches
 that we will be using in this report e.g. n-subjettiness, Q-jets, HTT,
 JH tagger. Give the nomenclature that we will use to refer to these
@@ -10,3 +42,4 @@ variables/taggers in the rest of the report.\\
 \noindent {\bf Trimming:} Re-cluster the jet using the $k_{\rm T}$ algorithm and radius $R_{\rm trim}$. Discard all subjets with $p_{\rm T\,sj}/p_{\rm T\,jet} < f_{\rm cut}$. A $W$ candidate is reconstructed as follows: if there are two subjets, the highest-mass subjet is the $W$ candidate; if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.\\
 
 \noindent {\bf Pruning:} Iteratively de-cluster the jet. At each step, discard the softer branch if $\mathrm{min}(p_{\rm T1},p_{\rm T2}) / p_{\rm T12} < z_{\rm cut}$ and $\Delta R_{12}>D_{\rm cut}$. The subjets are found by de-clustering the pruned jet by up to three splittings. A $W$ candidate is reconstructed as follows: if there are two subjets, the highest-mass subjet is the $W$ candidate; if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.
+>>>>>>> e7185e1a1aa2d4e21885181dd706f17fd0d8ff6e
