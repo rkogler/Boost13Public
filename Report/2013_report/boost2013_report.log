@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 OCT 2014 12:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 OCT 2014 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,14 +644,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
  []
 
 )
-Overfull \hbox (30.07758pt too wide) in paragraph at lines 35--405
-\OT1/cmr/bx/n/10 Pruning: \OT1/cmr/m/n/10 Re-cluster the jet con-stituents us-i
-ng the Cambridge-
+Overfull \hbox (7.46643pt too wide) in paragraph at lines 35--405
+\OT1/cmr/bx/n/10 Pruning: \OT1/cmr/m/n/10 Re-cluster the jet us-ing the Cambrid
+ge-Aachen
  []
 
 
-Overfull \hbox (6.03621pt too wide) in paragraph at lines 35--405
-\OT1/cmr/m/n/10 Aachen al-go-rithm. At each step, dis-card the softer branch
+Overfull \hbox (6.66519pt too wide) in paragraph at lines 35--405
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; p[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =
+p[] < z[]$ \OT1/cmr/m/n/10 and $\OML/cmm/m/it/10 ^^AR[] > \OT1/cmr/m/n/10 2\OML
+/cmm/m/it/10 R[]m[]=p[]$\OT1/cmr/m/n/10 .
  []
 
 (./qgtagging.tex
@@ -3531,7 +3533,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on boost2013_report.pdf (55 pages, 4199258 bytes).
+Output written on boost2013_report.pdf (55 pages, 4199413 bytes).
 PDF statistics:
  8201 PDF objects out of 8907 (max. 8388607)
  3716 compressed objects within 38 object streams
