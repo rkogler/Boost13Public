@@ -25,9 +25,7 @@ testlatex:
 pdflatex:
 	make clean
 	pdflatex  ${BASENAME}
-	pdflatex  ${BASENAME}
 	bibtex    ${BASENAME}
-	pdflatex  ${BASENAME}
 	pdflatex  ${BASENAME}
 
 pdflatexnobibtex:

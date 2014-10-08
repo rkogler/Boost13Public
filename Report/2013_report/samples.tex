@@ -1,4 +1,4 @@
-\subsection{Quark/gluon and $W$ taggging}
+\subsection{Quark/gluon and $W$ tagging}
 
 Samples were generated at $\sqrt{s} = 8\TeV$ for QCD dijets and $W^+W^-$
 pairs decaying hadronically off a (pseudo) scalar resonance. The QCD events
@@ -10,14 +10,19 @@ using \textsc{MadGraph5}, while $W^+W^-$ samples were generated using
 the \textsc{JHU Generator} to allow for separation of longitudinal and
 transverse polarizations. Both were produced in exclusive $p_T$ bins
 of 100 {\GeV} and generated using \textsc{CTEQ6L1} PDFs. The slicing parameter
-was chosen to be the $p_T$ of any final state parton or $W$. Since
+was chosen to be the $p_T$ of any final state parton or $W$. At the
+parton-level the \pt bins investigated were 300-400 GeV, 500-600 GeV
+and 1.0-1.1 TeV. Since
 no matching was performed, a cut on any parton was equivalent. These were
 then showered through \textsc{Pythia8} (version 8.176) using the default tune 4C.
 
 The showered events were clustered with \textsc{FastJet} 3.03 using
-the anti-$k_t$ algorithm with jet radii of $R = 0.4, 0.8, 1.2$. A cut on
-the jet $\pt$ is once again applied after showering/clustering, to ensure
-similar $\pt$ spectra for signal and background in each bin.
+the anti-$k_t$ algorithm with jet radii of $R = 0.4, 0.8, 1.2$. In
+both signal and background an upper and lower cut on
+the leading jet $\pt$ is applied after showering/clustering, to ensure
+similar $\pt$ spectra for signal and background in each bin. The bins
+in leading jet \pt that are investigated in the W-tagging and
+q/g tagging studies are 300-450 GeV, 500-650 GeV, 1.0-1.2 TeV.
 
 \subsection{Top tagging}
 Samples were generated at $\sqrt{s}=14\TeV$. Standard Model dijet and top pair

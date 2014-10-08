@@ -8,7 +8,7 @@ substructure variables that are
 capable of providing discrimination between signal and background. A
 range of different distance parameter settings for the \antikt~jet
 algorithm are explored, in a variety of kinematic regimes
-(lead jet \pt 200-300 GeV, 500-600 GeV, 1.0-1.1 TeV), to explore the
+(lead jet \pt 300-450 GeV, 500-650 GeV, 1.0-1.2 TeV), to explore the
 performance as a function of jet radius and jet boost, and to see
 where substructure approaches may break down. The groomed
 mass and substructure variables are then combined in a Boosted Decision Tree (BDT), and the performance of the resulting BDT discriminant
@@ -30,10 +30,10 @@ samples....(presumably this will vary depending on which kinematic bin
 is used, as will the actual samples used - maybe summarize in a table).
 
 Figure~\ref{fig:pt300_basics} shows a comparison of the
-leading jet \pt for the signal and background in the \pt 300-400 GeV bin, for the two different \antikt jet
+leading jet \pt for the signal and background in the \pt 300-450 GeV bin, for the two different \antikt jet
 algorithm distance parameters explored in this bin (R=0.8 and R=1.2). Figures~\ref{fig:pt500_basics} and~\ref{fig:pt1000_basics}  show the same for the
-\pt 500-600 GeV bin and \pt 1.0-1.1 TeV bin respectively, where for
-the \pt 1.0-1.1 TeV bin the distance parameter R=0.4 is also explored.
+\pt 500-650 GeV bin and \pt 1.0-1.2 TeV bin respectively, where for
+the \pt 1.0-1.2 TeV bin the distance parameter R=0.4 is also explored.
 
 Go on to explain how we produce the ROC curves, how the BDT training
 is done etc.
@@ -43,7 +43,7 @@ is done etc.
 \subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR08/jpt1.png}}
 \subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR12/jpt1.png}}
 \caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 300-400 GeV bin using the
+  background to the WW signal in the \pt 300-450 GeV bin using the
   different \antikt jet distance parameters explored.}
 \label{fig:pt300_basics}
 \end{center}
@@ -54,7 +54,7 @@ is done etc.
 \subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt1.png}}
 \subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR12/jpt1.png}}
 \caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 500-600 GeV bin using the
+  background to the WW signal in the \pt 500-650 GeV bin using the
   different \antikt jet distance parameters explored.}
 \label{fig:pt500_basics}
 \end{center}
@@ -66,7 +66,7 @@ is done etc.
 \subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR08/jpt1.png}}
 \subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR12/jpt1.png}}
 \caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 1.0-1.1 TeV bin using the
+  background to the WW signal in the \pt 1.0-1.2 TeV bin using the
   different \antikt jet distance parameters explored.}
 \label{fig:pt1000_basics}
 \end{center}
@@ -100,10 +100,10 @@ kinematic bin and jet radius considered.
 
 Figure~\ref{fig:pt500_mass_AKt_R08} the compares the signal and
 background in terms of the different groomed masses explored for the
-\antikt R=0.8 algorithm in the \pt 500-600 bin. One can clearly see
+\antikt R=0.8 algorithm in the \pt 500-650 bin. One can clearly see
 that in terms of separating signal and background the groomed masses
 will be significantly more performant than the ungroomed \antikt R=0.8
-mass. {\it Need to comment on the soft drop B=-1 mass here}
+mass.
 Figure~\ref{fig:pt500_subst_AKt_R08}
 compares signal and background in the different substructure variables
 explored for the same jet radius and kinematic bin. 
@@ -116,8 +116,8 @@ explored for the same jet radius and kinematic bin.
 \subfigure[mMDT mass]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.png}}
 \subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.png}}
 %\subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdm1.png}}
-\caption{Comparisons of the QCD background to the WW signal in the \pt 500-600 GeV bin using the anti-\kT R=0.8 algorithm: leading
-  jet mass distributions.}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500-650 GeV bin using the anti-\kT R=0.8 algorithm: leading
+ jet mass distributions.}
 \label{fig:pt500_mass_AKt_R08}
 \end{center}
 \end{figure*}
@@ -129,8 +129,8 @@ explored for the same jet radius and kinematic bin.
 \subfigure[$\Gamma_{Qjet}$]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_qjetVol.png}}\\
 \subfigure[$\tau_{21}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_tau21_b1.png}}
 \subfigure[$\tau_{21}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_tau21_b2.png}}
-\caption{Comparisons of the QCD background to the WW signal in the \pt 500-600 GeV bin using the anti-\kT R=0.8 algorithm:
-  substructure variables.}
+\caption{Comparisons of the QCD background to the WW signal in the \pt 500-650 GeV bin using the anti-\kT R=0.8 algorithm:
+ substructure variables.}
 \label{fig:pt500_subst_AKt_R08}
 \end{center}
 \end{figure*}
@@ -145,10 +145,8 @@ kinematic bins. One can see that, in all cases, the ``allvars'' option
 is considerably more performant than any of the individual single variables
 considered, indicating that there is considerable complimentarity
 between the variables, that will be explored further in the next
-section. The best performant individual variables for a reasonable signal
-efficiency are the groomed masses, which all have a similar
-level of performance that is superior to that of any of the
-substructure variables considered. 
+section. 
+
 %Comparing the impact of increasing the jet
 %radius in the same kinematic bin, one can see that the groomed mass
 %performance does not vary greatly, but that the performance of the
@@ -192,10 +190,10 @@ substructure variables considered.
 
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.8, \pt 300-400 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR08/Rocs_1D_single.png}}
-\subfigure[\antikt R=1.2, \pt 300-400 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.png}}
+\subfigure[\antikt R=0.8, \pt 300-450 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR08/Rocs_1D_single.png}}
+\subfigure[\antikt R=1.2, \pt 300-450 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.png}}
 \caption{The ROC curve for all single variables considered for $W$
-tagging in the \pt 300-400 GeV bin using the anti-\kT R=0.8 algorithm
+tagging in the \pt 300-450 GeV bin using the anti-\kT R=0.8 algorithm
 (top) and R=1.2 algorithm (bottom).}
 \label{fig:pt300_single}
 \end{center}
@@ -204,10 +202,10 @@ tagging in the \pt 300-400 GeV bin using the anti-\kT R=0.8 algorithm
 
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.8, \pt 500-600 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png}}
-\subfigure[\antikt R=1.2, \pt 500-600 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.png}}
+\subfigure[\antikt R=0.8, \pt 500-650 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.png}}
+\subfigure[\antikt R=1.2, \pt 500-650 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.png}}
 \caption{The ROC curve for all single variables considered for $W$
-tagging in the \pt 500-600 GeV bin using the anti-\kT R=0.8 algorithm
+tagging in the \pt 500-650 GeV bin using the anti-\kT R=0.8 algorithm
 (top) and R=1.2 algorithm (bottom).}
 \label{fig:pt500_single}
 \end{center}
@@ -215,11 +213,11 @@ tagging in the \pt 500-600 GeV bin using the anti-\kT R=0.8 algorithm
 
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.4, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.png}}
-\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.png}}\\
-\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.png}}
+\subfigure[\antikt R=0.4, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.png}}
+\subfigure[\antikt R=0.8, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.png}}\\
+\subfigure[\antikt R=1.2, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.png}}
 \caption{The ROC curve for all single variables considered for $W$
-tagging in the \pt 1.0-1.1 TeV bin using the anti-\kT R=0.4 algorithm (top), anti-\kT R=0.8 algorithm
+tagging in the \pt 1.0-1.2 TeV bin using the anti-\kT R=0.4 algorithm (top), anti-\kT R=0.8 algorithm
 (middle) and R=1.2 algorithm (bottom).}
 \label{fig:pt1000_single}
 \end{center}
@@ -244,38 +242,83 @@ tagging in the \pt 1.0-1.1 TeV bin using the anti-\kT R=0.4 algorithm (top), ant
 
 Although the ROC curves give all the relavant information, it is hard
 to compare performance quantitatively. In
-Figures~\ref{fig:pt300_comb2D},\ref{fig:pt500_comb2D}
-and~\ref{fig:pt1000_comb2D} matrices are shown which give the
+Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
+and~\ref{fig:pt1000_comb2D} are shown matrices which give the
 background rejection for a signal efficiency of 50\% when two
 variables (that on the x-axis and that on the y-axis) are combined in
-a BDT. Thus, the diagonal of these plots can be examined to see
-quantitatively the individual single variable performance. Because we
-have not attempted to optimise the grooming parameter settings of
-each grooming algorithm, we do not want to place too much emphasis
-here on the relative performance of the groomed masses, but instead
-look at the trends veresus \pt and R. One
-can see clearly that the background rejection power of the groomed mass
-variables increases as the \pt is increased. Within a \pt
-bin, one can also see that the groomed mass performance is rather invariant to
-changes in the jet radius. In contrast, the substructure variable
-performance varies considerably as the jet radius is changed. In
-general, the background rejection power of individual jet substructure
-variables gets worse as the jet radius is increased. The only
-exception to this is in the highest \pt~bin, where the background
-rejection power of $C_2^{\beta=1}$ improves when going from jet radius
-R=0.4 to R=0.8, but then gets worse again as we go to R=1.2. {\it
+a BDT. These are shown separately for each \pt~bin and jet radius
+considered. The diagonal of these plots correspond to the background
+rejections for a single variable BDT, and can thus be examined to get a
+quantitative measure of the individual single variable performance,
+and to study how this changes with jet radius and momenta.
+
+One can see that in general the most performant single variables are
+the groomed masses. However, in certain kinematic bins and for certain
+jet radii, $C_2^{\beta=1}$ has a background rejection that is
+comparable to or better than the groomed masses. 
+
+%By comparing Figures~\ref{fig:pt300_comb2D_08}
+%and~\ref{fig:pt300_comb2D_12}, Figures 
+By comparing
+Figures~\ref{fig:pt300_comb2D_08},~\ref{fig:pt500_comb2D_08}
+and~\ref{fig:pt1000_comb2D_08}, we can see how the background
+rejection performance evolves as we increase momenta whilst keeping the jet
+radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
+and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
+\pt~for R=1.2. The background rejection power of
+the groomed masses increases slowly with increasing \pt, with at
+most a factor two increase in rejection in going from the 300-450 to
+900-1000 GeV bin. 
+However, for a jet radius of R=0.8, the rejection power of
+$C_2^{\beta=1}$ increases dramatically with \pt, by a factor of 7 in going from
+the 300-450 to 900-1000 GeV bins. {\it Can we explain this?} Conversely, the background rejection
+of the other substructure variables ($\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$) slowly reduces with increasing \pt, at most
+decreasing by a factor of two.
+
+By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
+and~\ref{fig:pt1000_comb2D} we can see how the background rejection
+performance depends on jet radius within the same \pt bin. To within
+~40\%, the background rejection power of the groomed masses remains
+constant with respect to the jet radius. However, we again see rather
+different behaviour for $C_2^{\beta=1}$.
+{\it
   Insert some nice discussion/explanation of why jet substructure
   power generally gets worse as we go to large jet radius, but groomed
 mass performance does not}
 
+%The best performant individual variables for a reasonable signal
+%efficiency are the groomed masses, which all have a similar
+%level of performance that is superior to that of any of the
+%substructure variables considered. 
+%
+%Because we
+%have not attempted to optimise the grooming parameter settings of
+%each grooming algorithm, we do not want to place too much emphasis
+%here on the relative performance of the groomed masses, but instead
+%look at the trends veresus \pt and R. One
+%can see clearly that the background rejection power of the groomed mass
+%variables increases as the \pt is increased. Within a \pt
+%bin, one can also see that the groomed mass performance is rather invariant to
+%changes in the jet radius. In contrast, the substructure variable
+%performance varies considerably as the jet radius is changed. In
+%general, the background rejection power of individual jet substructure
+%variables gets worse as the jet radius is increased. The only
+%exception to this is in the highest \pt~bin, where the background
+%rejection power of $C_2^{\beta=1}$ improves when going from jet radius
+%R=0.4 to R=0.8, but then gets worse again as we go to R=1.2. {\it
+%  Insert some nice discussion/explanation of why jet substructure
+%  power generally gets worse as we go to large jet radius, but groomed
+%mass performance does not}
+
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.8, \pt 300-400 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR08/effBkg2D.png}}
-\subfigure[\antikt R=1.2, \pt 300-400 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR12/effBkg2D.png}}
+\subfigure[\antikt R=0.8, \pt 300-450 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR08/effBkg2D.png}}
+\subfigure[\antikt R=1.2, \pt 300-450 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR12/effBkg2D.png}}
 \caption{
 The background rejection
 for a fixed signal efficiency (50\%) of each BDT combination of
-each pair of variables considered, in the \pt 300-400 GeV bin using the anti-\kT R=0.8
+each pair of variables considered, in the \pt 300-450 GeV bin using the anti-\kT R=0.8
 algorithm (top) and R=1.2 algorithm (bottom).
 }
 \label{fig:pt300_comb2D}
@@ -285,11 +328,11 @@ algorithm (top) and R=1.2 algorithm (bottom).
 
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.8, \pt 500-600 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/effBkg2D.png}}
-\subfigure[\antikt R=1.2, \pt 500-600 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/effBkg2D.png}}
+\subfigure[\antikt R=0.8, \pt 500-650 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/effBkg2D.png}}
+\subfigure[\antikt R=1.2, \pt 500-650 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/effBkg2D.png}}
 \caption{The background rejection
 for a fixed signal efficiency (50\%) of each BDT combination of
-each pair of variables considered, in the \pt 500-600 GeV bin using the anti-\kT R=0.8
+each pair of variables considered, in the \pt 500-650 GeV bin using the anti-\kT R=0.8
 algorithm (top) and R=1.2 algorithm (bottom).}
 \label{fig:pt500_comb2D}
 \end{center}
@@ -297,9 +340,9 @@ algorithm (top) and R=1.2 algorithm (bottom).}
 
 \begin{figure*}
 \begin{center}
-\subfigure[\antikt R=0.4, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}
-\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}\\
-\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}
+\subfigure[\antikt R=0.4, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}
+\subfigure[\antikt R=0.8, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}\\
+\subfigure[\antikt R=1.2, \pt 1.0-1.2 TeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT1000/AKtR04/effBkg2D.png}}
 \caption{}
 \label{fig:pt1000_comb2D}
 \end{center}
