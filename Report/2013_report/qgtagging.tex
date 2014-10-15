@@ -1,4 +1,4 @@
-In this section we examine the differences between quark and gluon initiated jets in terms of the substructure variables, and to what extent these variables are correlated. Along the way, we attempt to provide some theoretical understanding of these observations. The motivation for these studies comes not only from the desire to ``tag'' a jet as being quark or gluon initiated, but also from the point of view of understanding the quark and gluon components to the QCD background to boosted boson and boosted top tagging.  
+In this section we examine the differences between quark and gluon initiated jets in terms of the substructure variables, and to what extent these variables are correlated. Along the way, we attempt to provide some theoretical understanding of these observations. The motivation for these studies comes not only from the desire to ``tag'' a jet as being quark or gluon initiated, but also from the point of view of understanding the quark and gluon components of the QCD background to boosted boson and boosted top tagging.  
 
 \subsection{Methodology}
 
@@ -6,16 +6,17 @@ In this section we examine the differences between quark and gluon initiated jet
 These studies use the $qq$ and $gg$ samples, described previously in Section~\ref{sec:samples}.
 
 Jets are reconstructed using the \antikt algorithm, and have various
-jet grooming approaches applied, as described in Section~\ref{sec:jetalgs}. The following event selection is then applied to these
-samples....(presumably this will vary depending on which kinematic bin
-is used, as will the actual samples used - maybe summarize in a table).
+jet grooming approaches applied, as described in Section~\ref{sec:jetalgs}. 
+Radius parameters of 0.4, 0.8 and 1.2 are used for these studies. 
+Only leading and subleading jets well above the generation cut are used
+in the study. Samples generated in different $\pt$ slices are used to study 
+different $\pt$ ranges as described in Sec.~\ref{sec:samples}. {\bf [edit: maybe summarize in a table]}. 
 
 Go on to explain how we produce the ROC curves, how the BDT training
 is done etc.
 
 Figure~\ref{fig:qg_pt500_basics_AKt_R08} shows a comparison of the quark and gluon samples
-in some basic kinematic distributions. 
-
+$\pt$ and $\eta$ distributions for the sample used to study jets of $\pt=500-600$~GeV. 
 \begin{figure*}
 \begin{center}
 \subfigure[Leading jet
@@ -26,18 +27,24 @@ in some basic kinematic distributions.
 $\eta$]{\includegraphics[width=0.40\textwidth]{./Figures/QGTagging/pT500/AKtR08/jeta1.png}}
 \subfigure[Sub-leading jet
 $\eta$]{\includegraphics[width=0.40\textwidth]{./Figures/QGTagging/pT500/AKtR08/jeta2.png}}
-\caption{Comparisons of quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: basic
-  kinematic distributons.}
+\caption{Comparisons of quark and gluon $\pt$ and $\eta$ 
+distributions in the sample used for the jets of $\pt=500-600 \GeV$ bin using the anti-\kT R=0.8 algorithm.}
 \label{fig:qg_pt500_basics_AKt_R08}
 \end{center}
 \end{figure*}
+The differences in the $\pt$ distributions can be attributed to different out-of-cone radiation
+patterns for quark and gluons, while the different $\eta$ distributions are related to the different
+parton density functions involved in $qq$ and $gg$ production. The qualitative features of the 
+$\eta$ distributions do not change as the $R$ parameter is changed. As the $\pt$ increases, 
+the $\eta$ distributions peak more strongly near zero, as expected. Differences in the $\pt$ distributions 
+between the leading and sub-leading (and quark and gluon-induced) jets become smaller as the 
+$R$ parameter is increased, as expected from the physics behind these differences, outlined above. 
 
 \subsection{Single Variable Discrimination}
 
-Figure~\ref{fig:qg_pt500_mass_AKt_R08} the compares the quark and gluon samples
- in the mass distributions for the different groomers, and Figure~\ref{fig:qg_pt500_subst_AKt_R08}
-in the different substructure variables. 
-
+Figure~\ref{fig:qg_pt500_mass_AKt_R08} shows the mass of jets in the quark and gluon samples when using
+different groomers, and Figure~\ref{fig:qg_pt500_subst_AKt_R08} shows similar comparisons for different 
+substructure variables. Jets built with the anti-\kT algorithm with R=0.8 and with $\pt=500-650 \GeV$ are used. 
 \begin{figure*}
 \begin{center}
 \subfigure[Ungroomed mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/jmass1.png}}
@@ -46,12 +53,21 @@ in the different substructure variables.
 \subfigure[mMDT mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_mmdt.png}}
 \subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png}}
 \subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png}}
-\caption{Comparisons of quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: leading
-  jet mass distributions.}
+\caption{Comparisons of ungroomed and groomed quark and gluon mass distributions for leading jets in the 
+$\pt=500-650 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
 \label{fig:qg_pt500_mass_AKt_R08}
 \end{center}
 \end{figure*}
-
+Qualitatively, the application of grooming shifts the mass distributions towards
+lower values as expected. No clear gain in discrimination can be seen, and for
+certain grooming parameters, such as the use of soft drop with $\beta=-1$ a clear
+loss in discrimination power is observed. Few variations are observed as the 
+radius parameter of the jet reconstruction is increased in the two highest $\pt$ bins. 
+However, for the $300-400\GeV$ bin, the use of small-R jets produces a shift in the
+mass distributions towards lower values, so that large-R jet masses are more stable
+with $\pt$ and small-R jet masses are smaller at low-$\pt$ as expected from the spatial
+constraints imposed by the R parameter. These statements are explored more 
+quantitatively later in this section. 
 
 \begin{figure*}
 \begin{center}
@@ -62,36 +78,81 @@ in the different substructure variables.
 \subfigure[$\rm{n_ {constits}}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_multiplicity.png}}
 \subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png}}\\
 \subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png}}
-\caption{Comparisons of the quark and gluon distributions in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm:
-  substructure variables.}
+\caption{Comparisons of quark and gluon distributions of different substructure variables for leading jets in the 
+$\pt=500-650 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
 \label{fig:qg_pt500_subst_AKt_R08}
 \end{center}
 \end{figure*}
 
-Figure~\ref{fig:qg_pt500_single_AKt_R08} shows the single variable ROC curves in
-the \pT 500 GeV bin for the anti-\kT R=0.8 algorithm, compared to the
-ROC curve for a BDT combination of all the variables. Only the ungroomed mass is shown. One can see that the single most discriminant variables are $\rm{n_ {constits}}$ and $C_1^{\beta=0}$.
+Among the different substructure variables explored, $n_{\rm constituents}$ provides the highest separation
+power, followed by $C_1^{\beta=0}$ and $C_1^{\beta=1}$ as was also found by the CMS and ATLAS Collaborations 
+{\bf [add citations]}. The evolution of some of these distributions with $\pt$ and R is a bit more interesting than what
+was discussed for the jet mass. In particular, changing the R parameter at high $\pt$ changes significantly the $C_a^{\beta}$
+for $\beta>0$ and the $n_{\rm constits}$ distributions, while leaving all other distributions qualitatively unchanged. 
+This is illustrated in Figure~\ref{fig:Rdep_qg_C_pt1000} for $\beta=0$ and $\beta=1$ using $a=1$ in both cases for
+jets with $\pt=1-1.2\TeV$. 
+\begin{figure*}
+\begin{center}
+\subfigure[$C_1^{\beta=0}$, $R=0.4$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR04/h_c1_b0.png}}
+\subfigure[$C_1^{\beta=0}$, $R=0.8$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR08/h_c1_b0.png}}
+\subfigure[$C_1^{\beta=0}$, $R=1.2$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR12/h_c1_b0.png}}\\
+\subfigure[$C_1^{\beta=1}$, $R=0.4$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR04/h_c1_b1.png}}
+\subfigure[$C_1^{\beta=1}$, $R=0.8$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR08/h_c1_b1.png}}
+\subfigure[$C_1^{\beta=1}$, $R=1.2$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR12/h_c1_b1.png}}\\
+\caption{Comparisons of quark and gluon distributions of $C_1^{\beta=0}$ (top) and $C_1^{\beta=1}$ (bottom) 
+for leading jets in the $\pt=1-1.2 \TeV$ bin using the anti-\kT algorithm with R=0.4,0.8 and 1.2. }
+\label{fig:Rdep_qg_C_pt1000}
+\end{center}
+\end{figure*}
+The shift towards lower values with changing R is evident for the $C_1^{\beta=1}$ distributions, while the stability
+of $C_1^{\beta=0}$ can also be observed. These features are present in all $\pt$ bins studied, but are even more
+pronounced for lower $\pt$ bins. The shape of the Q-jet volatility distribution shows some non-trivial shape that
+deserves some explanation. Two peaks are observed, one at low volatility values and one at mid-volatility. These
+peaks are generated by two somewhat distinct populations. The high volatility peak arises from jets that get their
+mass primarily from soft (and sometimes wide-angle) emissions. The removal of some of the constituents when
+building Q-jets thus changes the mass significantly, increasing the volatility. The lower volatility peak corresponds
+to jets for which mass is generated by a hard emission. 
 
-{\it We want to look also at:
-\begin{itemize}
-\item Dependence on R.
-\item Dependence on pT.
-\end{itemize}
-}
+
+ lowest peak corresponds to jets for which mass is generated by soft emissions primarily. 
+The 
+
+In order to be more quantitative about these results and the power of each variable as a
+discriminator for quark/gluon tagging, ROC curves are built by scanning each distribution
+and plotting the background efficiency (efficiency to select gluon jets) vs the efficiency for
+quark selection. 
+Figure~\ref{fig:qg_pt300_single} shows these ROC curves for all of the variables shown in 
+Figure~\ref{fig:qg_pt500_subst_AKt_R08} and the ungroomed mass, representing the 
+best performing mass variable for jets of $\pt=300-400\GeV$. In addition, the ROC curve for 
+the tagger built from a BDT combining all the variables. The details of how the BDT is constructed 
+are explained in Section~\ref{sec:qg_combi}. 
 
 \begin{figure*}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{./Figures/QGTagging/pT500/AKtR08/Rocs_1D_single.png}
+\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR04/Rocs_1D_single.png}
+%\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR04/Rocs_1D_single.png}\\
+\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR08/Rocs_1D_single.png}
+%\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR08/Rocs_1D_single.png}\\
+\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR12/Rocs_1D_single.png}
+%\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR12/Rocs_1D_single.png}\\
 \caption{The ROC curve for all single variables considered for quark-gluon discrimination in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
-\label{fig:qg_pt500_single_AKt_R08}
+\label{fig:qg_pt300_single}
 \end{center}
 \end{figure*}
+Clearly, $n_{\rm constits}$ is the best performing variable for all Rs, even though $C_1^{\beta=0}$ is close, particularly
+for R=0.8. Most other variables have similar performance, except the Q-jet volatility, which shows significantly worse
+discrimination. The combination of all variables shows somewhat better discrimination. The overall discriminating 
+power decreases with increasing R, and the features discussed for this $\pt$ bin also apply to the higher
+$\pt$ bins. This statement is quantified in later sections. 
+
+
+
 
 \subsection{Correlations}
 
 {\it Put in 2-D plots of correlations between variables (see theory discussions below)}
 
-\subsection{Combined Performance of Quark-Gluon Tagging}
+\subsection{Combined Performance of Quark-Gluon Tagging}\label{sec:qg_combi}
 
 {\it Put in ROC curves of BDT combination of variables}
 
