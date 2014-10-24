@@ -12,7 +12,7 @@ where $\Delta R_{ij}^2=(\Delta \eta)^2+(\Delta\phi)^2$. In this analysis, we use
 We also perform non-deterministic jet clustering  called Qjets \cite{?}. Instead of always clustering the particle pair with smallest distance $d_{ij}$, the pair selected for combination is chosen probabilistically according to a measure
 %
 \begin{equation}
-P_{ij} \propto \,e^{-\alpha \,d_{ij}/d_{\rm min}},
+P_{ij} \propto \,e^{-\alpha \,(d_{ij}-d_{\rm min})/d_{\rm min}},
 \end{equation}
 %
 where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorithm at a particular step. The parameter $\alpha$ is called the stiffness and is used to control how sharply peaked the probability distribution is around the ``classical'' value. Qjets uses statistical methods to extract more information from the jet than can be found in the usual cluster sequence. In our analyses, we use $\alpha=0.1$.
