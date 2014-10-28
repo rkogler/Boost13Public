@@ -17,14 +17,14 @@ where $\Delta R_{ij}^2=(\Delta \eta)^2+(\Delta\phi)^2$. In this analysis, we use
 P_{ij} \propto \,e^{-\alpha \,(d_{ij}-d_{\rm min})/d_{\rm min}},
 \end{equation}
 %
-where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorithm at a particular step. The parameter $\alpha$ is called the stiffness and is used to control how sharply peaked the probability distribution is around the ``classical'' value. Qjets uses statistical methods to extract more information from the jet than can be found in the usual cluster sequence. In our analyses, we use $\alpha=0.1$.
+where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorithm at a particular step. This leads to a different cluster sequence for the jet, and consequently different substructure properties. The parameter $\alpha$ is called the stiffness and is used to control how sharply peaked the probability distribution is around the ``classical'' value. Qjets uses statistical methods to extract more information from the jet than can be found in the usual cluster sequence. In our analyses, we use $\alpha=0.1$ and 25 trees per event.
 
 \subsection{Jet Grooming Algorithms}
  
  {\bf Pruning:}~Given a jet, re-cluster the constituents using the Cambridge/Aachen algorithm. At each step, proceed with the merger as usual unless both
  %
  \begin{equation}
- \frac{\mathrm{min}(p_{Ti},p_{Tj})}{p_{Tij}} < z_{\rm cut},\,\,\Delta R_{ij} > \frac{2m_j}{p_{Tj}} R_{\rm cut},
+ \frac{\mathrm{min}(p_{Ti},p_{Tj})}{p_{Tij}} < z_{\rm cut}\,\,\,\mathrm{and}\,\,\,\Delta R_{ij} > \frac{2m_j}{p_{Tj}} R_{\rm cut},
  \end{equation}
  %
  in which case the merger is vetoed and the soft branch is discarded. The default parameters for pruning are $z_{\rm cut}=0.1$ and $R_{\rm cut}=0.5$. One advantage of pruning is that the thresholds used
@@ -38,7 +38,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  %
  The default parameters for trimming are $R_{\rm trim}=0.2$ and $f_{\rm cut}=0.03$.\\
  
- \noindent {\bf Soft drop:}~Given a jet, re-cluster the constituents using the Cambridge/Aachen algorithm. Iteratively undo the last stage of the C/A clustering from $j$ into subjets $j_1$, $j_2$. If
+ \noindent {\bf Soft drop:}~Given a jet, re-cluster all of the constituents using the Cambridge/Aachen algorithm. Iteratively undo the last stage of the C/A clustering from $j$ into subjets $j_1$, $j_2$. If
  %
  \begin{equation}
  \frac{\mathrm{min}(p_{T1},p_{T2})}{p_{T1}+p_{T2}} < z_{\rm cut} \left(\frac{\Delta R_{12}}{R}\right)^\beta,
@@ -49,7 +49,13 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  
 \subsection{Jet Tagging Algorithms}
 
-\noindent {\bf Modified Mass Drop Tagger:}~Jasdf\\
+\noindent {\bf Modified Mass Drop Tagger:}~Given a jet, re-cluster all of the constituents using the Cambridge/Aachen algorithm. Iteratively undo the last stage of the C/A clustering from $j$ into subjets $j_1$, $j_2$ with $m_{j_1}>m_{j_2}$. If either
+%
+\begin{equation}
+m_{j_1} > \mu \, m_j\,\,\,\mathrm{or}\,\,\, \frac{\mathrm{min}(p_{T1}^2,p_{T2}^2)}{m_j^2}\,\Delta R_{12}^2 < y_{\rm cut},
+\end{equation}
+%
+then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_{Ti}^2}$ and re-define $j$ as the branch with the larger transverse mass. Otherwise, the jet is tagged. If de-clustering continues until only one branch remains, the jet is untagged. \emph{What are the default values we use?}\\
 
 
 \noindent {\bf Johns Hopkins Tagger:}~Re-cluster the jet using the \\Cambridge/Aachen algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if its $p_{\rm T}$ is less than $\delta_p\,p_{\mathrm{T\,jet}}$. This continues until both prongs are harder than the $p_{\rm T}$ threshold, both prongs are softer than the $p_{\rm T}$ threshold, or if they are too close ($|\Delta\eta_{ij}|+|\Delta\phi_{ij}|<\delta_R$); the jet is rejected if either of the latter conditions apply. If both are harder than the $p_{\rm T}$ threshold, the same procedure is applied to each: this results in 2, 3, or 4 subjets. If there exist 3 or 4 subjets, then the jet is accepted: the top candidate is the sum of the subjets, and $W$ candidate is the pair of subjets closest to the $W$ mass. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$, a helicity angle defined as the angle, measured in the rest frame of the $W$ candidate, between the top direction and one of the $W$ decay products.\\
@@ -62,7 +68,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
 
 \subsection{Other Jet Substructure Observables}
 
-\noindent {\bf Qjet mass volatility:}~As described above, Qjet algorithms re-cluster the same jet non-deterministically to obtain a collection of interpretations of the jet. For each jet interpretation, the jet mass is computed; the mass volatility, $\Gamma_{\rm Qjet}$, is defined as
+\noindent {\bf Qjet mass volatility:}~As described above, Qjet algorithms re-cluster the same jet non-deterministically to obtain a collection of interpretations of the jet. For each jet interpretation, the pruned jet mass is computed with the default pruning parameters; the mass volatility, $\Gamma_{\rm Qjet}$, is defined as
 %
 \begin{equation}
 \Gamma_{\rm Qjet} = \frac{\sqrt{\langle m_J^2 \rangle-\langle m_J\rangle^2}}{\langle m_J\rangle},
@@ -82,37 +88,62 @@ where distances are between particles $i$ in the jet and the axes,
 d_0 = \sum_i p_{Ti}\,R^\beta
 \end{equation}
 %
-and $R$ is the radius of the jet clustering algorithm. The most powerful discriminants involving $N$-subjettiness are the ratios,
+and $R$ is the jet clustering radius. The exponent $\beta$ is a free parameter. There is also some choice in how the axes used to compute $N$-subjettiness are determined. The optimal configuration of axes is the one that minimizes
+$N$-subjettiness; recently, it was shown that the ``winner-takes-all'' axes can be easily computed and have superior performance compared to other minimization techniques \cite{}. 
+
+A more powerful discriminant is often the ratio,
 %
 \begin{equation}
 \tau_{N,N-1} \equiv \frac{\tau_N}{\tau_{N-1}}.
 \end{equation}
 %
-The exponent $\beta$ is a free parameter. There is also some choice in how the axes used to compute $N$-subjettiness are determined. The optimal configuration of axes is the one that minimizes
-$N$-subjettiness; recently, it was shown that the ``winner-take-all'' axes can be easily computed and have superior performance compared to other minimization techniques \cite{}. \\
+While this is not an infrared-collinear (IRC) safe observable, it is calculable \cite{} and can be made IRC safe with a loose cut on $\tau_{N-1}$.\\
 
-\noindent {\bf Quark/gluon discrimination:}  The list of observables  is as follows: 
+
+\noindent {\bf Energy correlation functions:}~The transverse momentum version of the energy correlation functions are defined as \cite{}
+%
+\begin{equation}
+\mathrm{ECF}(N,\beta) = \sum_{i_1 < i_2<\ldots<i_N \in j} \left(\prod_{a=1}^N p_{T i_a}\right)\left( \prod_{b=1}^{N-1} \prod_{c=b+1}^N \Delta R_{i_b i_c}\right)^\beta,
+\end{equation}
+%
+where $i$ is a particle inside the jet. It is preferable to work in terms of dimensionless quantities, in particular the energy correlation function double ratio:
+%
+\begin{equation}
+C_N^{(\beta)} = \frac{\mathrm{ECF}(N+1,\beta)\,\mathrm{ECF}(N-1,\beta)}{\mathrm{ECF}(N,\beta)^2}.
+\end{equation}
+%
+This observable measures higher-order radiation from leading-order substructure.
+
+\subsection{Observables for Each Analysis}
+
+\noindent {\bf Quark/gluon discrimination:}
 \begin{itemize}
-\item mass: this is the plain jet mass
-\item 1-subjettiness, $\tau_1^{\beta}$: the N-subjettiness uses one-pass $k_T$ axis optimization where we consider $\beta = 1,2$
-\item 1-point energy correlation functions, $C_1^\beta$: the energy correlation functions consider $\beta=0,1,2$
-\item Qjet volatility, $\Gamma_{\rm Qjet}$: the number of trees considered is $N_{\rm trees} = 25$, the rigidity factor is $\alpha = 0.1$, the truncation factor is 0.01, and the pruning parameters are $D_{\rm cut} = 0.5$ and $z_{\rm cut} = 0.1$
-\item number of constituents ($N_{\rm constits}$)
+\item The ungroomed jet mass.
+\item 1-subjettiness, $\tau_1^{\beta}$ with $\beta=1,\,2$. The $N$-subjettiness axes are computed using one-pass $k_T$ axis optimization.
+\item 1-point energy correlation functions, $C_1^{(\beta)}$ with $\beta=1,\,2$.
+\item The pruned Qjet mass volatility.
+\item The number of constituents ($N_{\rm constits}$).
 \end{itemize}
 
-\noindent {\bf W vs.~gluon discrimination:} The list of observables is as follows: 
+\noindent {\bf W vs.~gluon discrimination:} 
 \begin{itemize}
-\item mass: same as in the q vs. g case
-\item trimmed mass, $m_{\rm trimmed}$: the parameter values are $f_{\rm cut} = 0.03$ and $r_{\rm filt} = 0.2$
-\item pruned mass, $m_{\rm pruned}$: the parameter values are $D_{\rm cut} = 0.5$ and $z_{\rm cut} = 0.1$
-\item soft drop mass, $m_{\rm soft drop}^{\beta}$: $z_{\rm cut}$ is set always to 0.1, we consider $\beta=0,2$ where $\beta=0$ is a generalization of the modified mass drop tagger
-\item 2-point energy correlation functions, $C_2^{\beta=1}$: we also considered $\beta=2$ but it showed poor discrimination power
-\item N-subjettiness ratio, $\tau_2 / \tau_1 (\beta = 2)$: the N-subjettiness uses one-pass $k_T$ axis optimization, we also considered $\beta=2$ but it showed poor discrimination power
-\item Qjet volatility: same as in the q vs. g case
+\item The ungroomed, trimmed, and pruned jet masses.
+\item The mass output from the modified mass drop tagger.
+\item The soft drop mass with $\beta=0,\,2$ ($\beta=0$ is a generalization of the modified mass drop tagger).
+\item 2-point energy correlation function ratio $C_2^{(\beta=1)}$  (we also studied $\beta=2$ but did not show its results because it showed poor discrimination power).
+\item $N$-subjettiness ratio $\tau_2 / \tau_1$ with $\beta=1$ and with axes computed using one-pass $k_T$ axis optimization (we also studied $\beta=2$ but did not show its results because it showed poor discrimination power).
+\item The pruned Qjet mass volatility.
 \end{itemize}
 
-\noindent {\bf Top vs.~QCD discrimination:} We now describe the list of observables/taggers considered for top tagging. Note that for trimming, the subjet identification is optimized for identifying soft radiation, \emph{not} for reconstructing the hard decay products of the top. Pruning does not even contain an inherent subject identification step. For both trimming and pruning, we introduce an arbitrary method for reconstructing the subjets corresponding to the $b$ and $W$ decay products for a fair comparison with other top taggers, but the $W$ reconstruction is consequently poorer than for algorithms that are optimized for $W$ identification inside the top.\\
-
+\noindent {\bf Top vs.~QCD discrimination:}
+\begin{itemize}
+\item The ungroomed jet mass.
+\item The HEPTopTagger and the Johns Hopkins tagger.
+\item Trimming and grooming supplemented with W candidate identification.
+\item $N$-subjettiness ratios $\tau_2 / \tau_1$ and $\tau_3/\tau_2$ with $\beta=1$ and the ``winner-takes-all'' axes.
+\item 2-point energy correlation function ratios $C_2^{\beta=1}$ and $C_3^{\beta=1}$.
+\item The pruned Qjet mass volatility.
+\end{itemize}
 
 
 
