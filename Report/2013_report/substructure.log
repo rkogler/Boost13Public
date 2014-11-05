@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 OCT 2014 11:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 NOV 2014 09:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -45,5 +45,5 @@ Here is how much of TeX's memory you used:
  3412 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 5i,0n,4p,263b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,4p,266b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
 ./substructure.tex:1:  ==> Fatal error occurred, no output PDF file produced!
