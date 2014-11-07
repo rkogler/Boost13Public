@@ -1,2 +1,17 @@
 \noindent
-\emph{Put in description of BDT methods here (Nhan?)}
+
+Multivariate techniques are used to combine variables into an optimal discriminant.  
+In all cases variables are combined using a boosted decision tree (BDT) as implemented in the TMVA package~\cite{Hocker:2007ht}.
+We use the BDT implementation including gradient boost.  
+An example of the BDT settings are as follows: 
+\begin{itemize}
+\item NTrees=1000
+\item BoostType=Grad
+\item Shrinkage=0.1
+\item UseBaggedGrad=F
+\item nCuts=10000
+\item MaxDepth=3
+\item UseYesNoLeaf=F
+\item nEventsMin=200
+\end{itemize}
+Exact parameter values are chosen to best reduce the effect of overtraining.
