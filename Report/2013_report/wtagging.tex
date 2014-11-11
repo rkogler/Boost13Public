@@ -136,7 +136,7 @@ explored for the same jet radius and kinematic bin.
 \end{figure*}
 
 
-Figures~\ref{fig:pt300_single},\ref{fig:pt500_single}
+Figures~\ref{fig:pt300_single},~\ref{fig:pt500_single}
 and~\ref{fig:pt1000_single} show the single variable ROC curves
 compared to the ROC curve for a BDT combination of all the variables
 (labelled ``allvars''),
@@ -242,7 +242,7 @@ Although the ROC curves give all the relevant information, it is hard
 to compare performance quantitatively. In
 Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
 and~\ref{fig:pt1000_comb2D} are shown matrices which give the
-background rejection for a signal efficiency of 50\% when two
+background rejection for a signal efficiency of 70\% when two
 variables (that on the x-axis and that on the y-axis) are combined in
 a BDT. These are shown separately for each \pt~bin and jet radius
 considered. The diagonal of these plots correspond to the background
@@ -263,16 +263,17 @@ and~\ref{fig:pt1000_comb2D_08}, we can see how the background
 rejection performance evolves as we increase momenta whilst keeping the jet
 radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
 and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
-\pt~for R=1.2. The background rejection power of
-the groomed masses increases slowly with increasing \pt, with at
-most a factor two increase in rejection in going from the 300-450 GeV to
-1.0-1.2 TeV bins. 
-However, for a jet radius of R=0.8, the rejection power of
-$C_2^{\beta=1}$ increases dramatically with \pt, by a factor of 7 in going from
-the 300-450 GeV to 1.0-1.2 TeV bins. {\it Can we explain this?} Conversely, the background rejection
-of the other substructure variables ($\Gamma_{Qjet}$ and
-$\tau_{21}^{\beta=1}$) slowly reduces with increasing \pt, at most
-decreasing by a factor of two.
+\pt~for R=1.2. For both R=0.8 and R=1.2 the background rejection power of
+the groomed masses increases with increasing \pt, with a factor 1.5-2 increase in rejection in going from the 300-450 GeV to
+1.0-1.2 TeV bins. However, the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$ substructure variables behave somewhat
+differently. The background rejection power of the $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$ variables both decrease with increasing \pt, by
+up to a factor two in going from the 300-450 GeV to
+1.0-1.2 TeV bins. Conversely the rejection power of $C_2^{\beta=1}$
+dramatically increases with increasing \pt~for R=0.8, but does not
+improve with \pt~for the larger jet radius R=1.2. {\it BS:Can we
+  explain this?}
 
 By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
 and~\ref{fig:pt1000_comb2D} we can see how the background rejection
@@ -283,12 +284,13 @@ different behaviour for the substructure variables. In all \pt bins
 considered the most performant substructure variable, $C_2^{\beta=1}$,
 performs best for an \antikt distance parameter of R=0.8. The
 performance of this variable is dramatically worse for the larger jet
-radius of R=1.2 (more than an order of magnitude worse background rejection in
+radius of R=1.2 (a factor eight worse background rejection in
 the 1.0-1.2 TeV bin), and substantially worse for R=0.4. For the other
-jet substructure variables considered, their background rejection
+jet substructure variables considered, $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$, their background rejection
 power also reduces for larger jet radius.
 {\it
-  Insert some nice discussion/explanation of why jet substructure
+  BS Insert some nice discussion/explanation of why jet substructure
   power generally gets worse as we go to large jet radius, but groomed
 mass performance does not.}
 
