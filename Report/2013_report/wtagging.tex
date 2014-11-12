@@ -265,7 +265,8 @@ radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12}
 and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
 \pt~for R=1.2. For both R=0.8 and R=1.2 the background rejection power of
 the groomed masses increases with increasing \pt, with a factor 1.5-2 increase in rejection in going from the 300-450 GeV to
-1.0-1.2 TeV bins. However, the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
+1.0-1.2 TeV bins. {\it BS: Add some of the 1-D plots comparing signal and bkgd
+  in the different masses and pT bins here?} However, the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
 $\tau_{21}^{\beta=1}$ substructure variables behave somewhat
 differently. The background rejection power of the $\Gamma_{Qjet}$ and
 $\tau_{21}^{\beta=1}$ variables both decrease with increasing \pt, by
@@ -273,7 +274,7 @@ up to a factor two in going from the 300-450 GeV to
 1.0-1.2 TeV bins. Conversely the rejection power of $C_2^{\beta=1}$
 dramatically increases with increasing \pt~for R=0.8, but does not
 improve with \pt~for the larger jet radius R=1.2. {\it BS:Can we
-  explain this?}
+  explain this? Again, should we add some of the 1-D plots?}
 
 By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
 and~\ref{fig:pt1000_comb2D} we can see how the background rejection
@@ -398,9 +399,92 @@ ungroomed mass, indicating that grooming removes some useful
 discriminatory information from the jet. These observations are
 explored further in the section below.
 
-\subsubsection{Dependence on \pt}
+%\subsubsection{Dependence on \pt and R}
+\subsubsection{Mass + Substructure Performance}
+%maybe change title to "Mass + Substructure Performance"
+%then can have a final section titled "All Variables Performance"
 
-\subsubsection{Dependence on R}
+As already noted, the largest background rejection at 70\% signal
+efficiency are in general achieved using those two variable BDT combinations
+which involve a groomed mass and a non-mass substructure variable. For
+both R=0.8 and R=1.2 jets, the rejection power of these two variable
+combinations increases substantially with increasing \pt, at least
+within the \pt~range considered here.
+
+For a jet radius of R=0.8, across the full \pt~range considered, the
+groomed mass + substructure variable combinations with the
+largest background rejection are those which
+involve $C_2^{\beta=1}$. For example, in combination with
+$m_{sd}^{\beta=2}$, this produces a five-, seven- and ten-fold
+increase in background rejection compared to using the groomed mass
+alone. In Figure~\ref{fig:2d_c2b1_AKt_R08} the low degree of
+correlation between $m_{sd}^{\beta=2}$ versus $C_2^{\beta=1}$ that
+leads to these large improvements in background rejection can be
+seen. One can also see that what little correlation exists is rather
+non-linear in nature, changing from a negative to a positive
+correlation as a function of the groomed mass, something which helps
+to improve the background rejection in the region of the W mass peak.
+
+\begin{figure*}
+\begin{center}
+\subfigure[\pt 300-450 GeV]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt300_2d_c2b1_AKt_R08}}
+\subfigure[\pt 500-650 GeV]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt500_2d_c2b1_AKt_R08}}
+\subfigure[\pt 1.0-1.2 TeV]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_c2b1_AKt_R08}}
+\caption{2-D plots showing $m_{sd}^{\beta=2}$ versus $C_2^{\beta=1}$
+  for R=0.8 jets in the various \pt~bins considered.}
+\label{fig:2d_c2b1_AKt_R08}
+\end{center}
+\end{figure*}
+
+
+However, when we switch to a jet radius of R=1.2 the picture for
+$C_2^{\beta=1}$ combinations changes dramatically. These become
+significantly less powerful, and the most powerful variable in groomed
+mass combinations becomes $\tau_{21}^{\beta=1}$ for all jet
+\pt~considered. Figure~\ref{fig:2d_c2b1_pt1000} shows the correlation between
+$m_{sd}^{\beta=2}$ and $C_2^{\beta=1}$ in the \pt 1.0 - 1.2 TeV bin for
+the various jet radii considered. Figure~\ref{fig:2d_tau21_pt1000} is
+the equivalent set of distributions for $m_{sd}^{\beta=2}$ and
+$\tau_{21}^{\beta=1}$. One can see from
+Figure~\ref{fig:2d_c2b1_pt1000} that, due to the sensitivity of the
+observable to to soft, wide-angle radiation, as the jet radius increases
+$C_2^{\beta=1}$ increases and becomes more and more smeared out for both signal and
+background, leading to worse discrimination power. This does not
+happen to the same extent for $\tau_{21}^{\beta=1}$. We can see from Figure~\ref{fig:2d_c2b1_pt1000} that
+the negative correlation between $m_{sd}^{\beta=2}$ and
+$\tau_{21}^{\beta=1}$ that is clearly visible for R=0.4 decreases for
+larger jet radius, such that the groomed mass and substructure variable
+are far less correlated and $\tau_{21}^{\beta=1}$ offers improved
+discrimination within a $m_{sd}^{\beta=2}$ mass window.
+
+% all variables results
+
+
+\begin{figure*}
+\begin{center}
+\subfigure[\pt R=0.4]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR04/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_c2b1_AKt_R04}}
+\subfigure[\pt R=0.8]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_c2b1_AKt_R08_b}}
+\subfigure[\pt R=1.2]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR12/h2d_jc2_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_c2b1_AKt_R12}}
+\caption{2-D plots showing $m_{sd}^{\beta=2}$ versus $C_2^{\beta=1}$
+  for R=0.4, 0.8 and 1.2 jets in the \pt~1.0-1.2 TeV bin.}
+\label{fig:2d_c2b1_pt1000}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[\pt R=0.4]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR04/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_tau21_AKt_R04}}
+\subfigure[\pt R=0.8]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR08/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_tau21_AKt_R08_b}}
+\subfigure[\pt R=1.2]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR12/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.png}\label{fig:pt1000_2d_tau21_AKt_R12}}
+\caption{2-D plots showing $m_{sd}^{\beta=2}$ versus $\tau_{21}^{\beta=1}$
+  for R=0.4, 0.8 and 1.2 jets in the \pt~1.0-1.2 TeV bin.}
+\label{fig:2d_tau21_pt1000}
+\end{center}
+\end{figure*}
+
+
+
+
 
 \subsubsection{Mass + Mass Performance}
 
@@ -472,6 +556,8 @@ exploit this.
 \label{fig:pt1000_2d_masses_AKt_R12}
 \end{center}
 \end{figure*}
+
+\subsubsection{``All Variables'' Performance}
 
 %\subsubsection*{Mass + X Performance}
 %
