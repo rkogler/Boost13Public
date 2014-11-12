@@ -290,7 +290,7 @@ jet substructure variables considered, $\Gamma_{Qjet}$ and
 $\tau_{21}^{\beta=1}$, their background rejection
 power also reduces for larger jet radius.
 {\it
-  BS Insert some nice discussion/explanation of why jet substructure
+  BS: Insert some nice discussion/explanation of why jet substructure
   power generally gets worse as we go to large jet radius, but groomed
 mass performance does not.}
 
@@ -377,26 +377,101 @@ One can see that in general the most powerful two-variable
 combinations involve a groomed mass and a non-mass substructure
 variable ($C_2^{\beta=1}$, $\Gamma_{Qjet}$ or
 $\tau_{21}^{\beta=1}$). Two-variable combinations of the substructure
-variables are not powerful in comparison. The background rejection of
-the most powerful mass + substructure combination comes very close to
-that achieved in the ``all variables'' case, indicating that there is
-little to be gained by making a BDT that is more complex, and that
-there is little more complementary information available, at least in
-terms of that which is offered by the variables considered here.
+variables are not powerful in comparison.  Which particular mass +
+substructure variable combination is the most
+powerful depends strongly on the \pt and R of the jet, as discussed
+in the sections that follow. 
 
-One can also see that there is a modest improvement in
+%The background rejection of
+%the most powerful mass + substructure combination comes very close to
+%that achieved in the ``all variables'' case, indicating that there is
+%little to be gained by making a BDT that is more complex, and that
+%there is little more complementary information available, at least in
+%terms of that which is offered by the variables considered here.
+
+There is also modest improvement in
 the background rejection when different groomed masses are combined,
 compared to the single variable groomed mass performance, indicating that there is complementary information between the
-different groomed masses. There is also an improvement in the
+different groomed masses. In addition, there is an improvement in the
 background rejection when the groomed masses are combined with the
 ungroomed mass, indicating that grooming removes some useful
-discriminatory information from the jet.
+discriminatory information from the jet. These observations are
+explored further in the section below.
 
 \subsubsection{Dependence on \pt}
 
 \subsubsection{Dependence on R}
 
+\subsubsection{Mass + Mass Performance}
 
+The different groomed masses and the ungroomed mass are of course not
+fully correlated, and thus one can always see some kind of improvement
+in the background rejection (relative to the single mass performance) when two different mass variables are combined
+in the BDT. However, in some cases the improvement can be dramatic,
+particularly at higher \pt, and particularly for combinations with the
+ungroomed mass. For example, in Figure~\ref{fig:pt1000_comb2D} we can
+see that in the \pt~1.0-1.2 TeV bin the combination of pruned mass with
+ungroomed mass produces a greater than seven-fold improvement in the
+background rejection for R=0.4 jets, a greater than four-fold
+improvement for R=0.8 jets, and a factor $\sim$two improvement for
+R=1.2 jets. A similar behaviour can be seen for mMDT mass. 
+In Figures~\ref{fig:pt1000_2d_masses_AKt_R04},~\ref{fig:pt1000_2d_masses_AKt_R08}
+and~\ref{fig:pt1000_2d_masses_AKt_R12} is shown the 2-D correlation plots of the pruned mass versus the
+ungroomed mass separately for the WW signal and $gg$ background
+samples in the \pt~1.0-1.2 TeV bin, for the various jet radii
+considered. For comparison, the correlation of the trimmed mass with
+the ungroomed mass, a combination that does not improve on the single
+mass as dramatically, is shown. In all cases one can see that there is
+a much smaller degree of correlation between the pruned mass and the
+ungroomed mass in the backgrounds sample than for the trimmed mass and the ungroomed mass. This
+is most obvious in Figure~\ref{fig:pt1000_2d_masses_AKt_R04}, where
+the high degree of correlation between the trimmed and ungroomed mass
+is expected, since with the parameters used (in particular
+$R_{trim} = 0.2$) we cannot expect trimming to have a significant
+impact on an R=0.4 jet. The reduced correlation with ungroomed mass
+for pruning in the background means that, once we have made the requirement that the
+pruned mass is consistent with a W (i.e. $\sim$80 GeV), a relatively large difference
+between signal and background in the ungroomed mass still remains, and
+can be exploited to improve the background rejection further. In other
+words, many of the background events which pass the pruned mass
+requirement do so because they are shifted to lower mass (to be within
+a signal mass window) by the grooming, but these events still have the
+property that they look very much like background events before the
+grooming. A single requirement on the groomed mass only does not
+exploit this.
+
+\begin{figure*}
+\begin{center}
+\subfigure[Pruned mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_prun_WW_onSame.png}\label{fig:pt1000_2d_prun_AKt_R04}}
+\subfigure[Trimmed mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_trim_WW_onSame.png}\label{fig:pt1000_2d_trim_AKt_R04}}
+\caption{2-D plots showing the correlation between groomed and
+  ungroomed mass for $WW$ and $gg$ events in the \pt 1.0-1.2 TeV bin using the
+  anti-\kT R=0.4 algorithm.}
+\label{fig:pt1000_2d_masses_AKt_R04}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Pruned mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_prun_WW_onSame.png}\label{fig:pt1000_2d_prun_AKt_R08}}
+\subfigure[Trimmed mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_trim_WW_onSame.png}\label{fig:pt1000_2d_trim_AKt_R08}}
+\caption{2-D plots showing the correlation between groomed and
+  ungroomed mass for $WW$ and $gg$ events in the \pt 1.0-1.2 TeV bin using the
+  anti-\kT R=0.8 algorithm.}
+\label{fig:pt1000_2d_masses_AKt_R08}
+\end{center}
+\end{figure*}
+
+\begin{figure*}
+\begin{center}
+\subfigure[Pruned mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_prun_WW_onSame.png}\label{fig:pt1000_2d_prun_AKt_R12}}
+\subfigure[Trimmed mass vs ungroomed mass]{\includegraphics[width=0.78\textwidth]{./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_trim_WW_onSame.png}\label{fig:pt1000_2d_trim_AKt_R12}}
+\caption{2-D plots showing the correlation between groomed and
+  ungroomed mass for $WW$ and $gg$ events in the \pt 1.0-1.2 TeV bin using the
+  anti-\kT R=1.2 algorithm.}
+\label{fig:pt1000_2d_masses_AKt_R12}
+\end{center}
+\end{figure*}
 
 %\subsubsection*{Mass + X Performance}
 %
