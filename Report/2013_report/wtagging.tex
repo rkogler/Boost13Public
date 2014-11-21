@@ -1,42 +1,40 @@
-In this section we study the performance of various groomed jet
+In this section, we study the discrimination of a boosted hadronically decaying $W$ signal against a gluon
+background, comparing the performance of various groomed jet
 masses, substructure variables, and BDT combinations of groomed mass
-and substructure, in terms of the
-identification of a boosted hadronically decaying $W$ signal aginst a gluon-gluon
-background. We produce Receiver Operating Characteristic (ROC)
+and substructure. We produce ROC
 curves that elucidate the performance of the various groomed mass and
-substructure variables that are
-capable of providing discrimination between signal and background. A
-range of different distance parameter settings for the \antikt~jet
-algorithm are explored, in a variety of kinematic regimes
-(lead jet \pt 300-450 GeV, 500-650 GeV, 1.0-1.2 TeV), to explore the
-performance as a function of jet radius and jet boost, and to see
-where substructure approaches may break down. The groomed
-mass and substructure variables are then combined in a Boosted Decision Tree (BDT), and the performance of the resulting BDT discriminant
+substructure variables. A
+range of different distance parameters $R$ for the \antikt~jet
+algorithm are explored, as well as a variety of kinematic regimes
+(lead jet \pt 300-450 GeV, 500-650 GeV, 1.0-1.2 TeV). This allows us to determine the
+performance of observables as a function of jet radius and jet boost, and to see
+where different approaches may break down. The groomed
+mass and substructure variables are then combined in a BDT as described in Section~\ref{sec:multivariate}, and the performance of the resulting BDT discriminant
 explored through ROC curves to understand the degree to which
-variables are correlated and exploiting the same information, and how
+variables are correlated, and how
 this changes with jet boost and jet radius. 
 
 \subsection{Methodology}
 
-These studies use the $X \rightarrow WW$ samples as signal and the $gg$
+These studies use the $X \rightarrow WW$ samples as signal and the dijet $gg$
 samples to model the QCD background, described previously in Section~\ref{sec:samples}. Whilst only gluonic backgrounds
 are explored here, the conclusions as to the dependence of the
 performance and correlations on the jet boost and radius have been
 verified to hold also for $qq$ backgrounds. {\it To be checked!}
 
 Jets are reconstructed using the \antikt algorithm, and have various
-jet grooming approaches applied, as described in Section~\ref{sec:jetalgs}. The following event selection is then applied to these
+jet grooming approaches applied as described in Section~\ref{sec:substructure}. The following event selection is then applied to these
 samples....(presumably this will vary depending on which kinematic bin
 is used, as will the actual samples used - maybe summarize in a table).
 
 Figure~\ref{fig:pt300_basics} shows a comparison of the
 leading jet \pt for the signal and background in the \pt 300-450 GeV bin, for the two different \antikt jet
 algorithm distance parameters explored in this bin (R=0.8 and R=1.2). Figures~\ref{fig:pt500_basics} and~\ref{fig:pt1000_basics}  show the same for the
-\pt 500-650 GeV bin and \pt 1.0-1.2 TeV bin respectively, where for
-the \pt 1.0-1.2 TeV bin the distance parameter R=0.4 is also explored.
+\pt = 500-650 GeV bin and \pt = 1.0-1.2 TeV bin respectively, where for
+the \pt = 1.0-1.2 TeV bin the distance parameter R=0.4 is also explored because the W radiation at this boost is typically confined to 
+a cone of this size.
 
-Go on to explain how we produce the ROC curves, how the BDT training
-is done etc.
+\emph{(BS: Do we need to show the \pt spectra? Since we end up cutting in a narrow bin, it hopefully shouldn't make a difference.)}
 
 \begin{figure*}
 \begin{center}
@@ -142,9 +140,9 @@ compared to the ROC curve for a BDT combination of all the variables
 (labelled ``allvars''),
 for each of the \antikt distance parameters considered in each of the
 kinematic bins. One can see that, in all cases, the ``allvars'' option
-is considerably more performant than any of the individual single variables
+is considerably better performant than any of the individual single variables
 considered, indicating that there is considerable complementarity
-between the variables, that will be explored further in the next
+between the variables, and this will be explored further in the next
 section. 
 
 %Comparing the impact of increasing the jet
