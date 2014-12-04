@@ -262,7 +262,7 @@ rejection performance evolves as we increase momenta whilst keeping the jet
 radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
 and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
 \pt~for R=1.2. For both R=0.8 and R=1.2 the background rejection power of
-the groomed masses increases with increasing \pt, with a factor 1.5-2 increase in rejection in going from the 300-400 GeV to
+the groomed masses increases with increasing \pt, with a factor 1.5-2.5 increase in rejection in going from the 300-400 GeV to
 1.0-1.1 TeV bins. {\bf ED: Add some of the 1-D plots comparing signal and bkgd
   in the different masses and pT bins here?} However, the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
 $\tau_{21}^{\beta=1}$ substructure variables behave somewhat
@@ -277,17 +277,17 @@ improve with \pt~for the larger jet radius R=1.2. {\bf ED: Can we
 By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
 and~\ref{fig:pt1000_comb2D} we can see how the background rejection
 performance depends on jet radius within the same \pt bin. To within
-~40\%, the background rejection power of the groomed masses remains
+$\sim$~25\%, the background rejection power of the groomed masses remains
 constant with respect to the jet radius. However, we again see rather
 different behaviour for the substructure variables. In all \pt bins
 considered the most performant substructure variable, $C_2^{\beta=1}$,
 performs best for an \antikt distance parameter of R=0.8. The
 performance of this variable is dramatically worse for the larger jet
-radius of R=1.2 (a factor eight worse background rejection in
+radius of R=1.2 (a factor seven worse background rejection in
 the 1.0-1.1 TeV bin), and substantially worse for R=0.4. For the other
 jet substructure variables considered, $\Gamma_{Qjet}$ and
 $\tau_{21}^{\beta=1}$, their background rejection
-power also reduces for larger jet radius.
+power also reduces for larger jet radius, but not to the same extent.
 {\bf
   ED: Insert some nice discussion/explanation of why jet substructure
   power generally gets worse as we go to large jet radius, but groomed
@@ -397,6 +397,13 @@ ungroomed mass, indicating that grooming removes some useful
 discriminatory information from the jet. These observations are
 explored further in the section below.
 
+Generally one can see that the R=0.8 jets offer the best two-variable
+combined performance in all \pt~bins explored here. This is despite
+the fact that in the highest 1.0-1.1 GeV \pt~bin the average
+separation of the quarks from the W decay is much smaller than 0.8,
+and well within 0.4. This conclusion could of course be susceptible to
+pile-up, which is not considered in this study.
+
 %\subsubsection{Dependence on \pt and R}
 \subsubsection{Mass + Substructure Performance}
 %maybe change title to "Mass + Substructure Performance"
@@ -413,7 +420,7 @@ For a jet radius of R=0.8, across the full \pt~range considered, the
 groomed mass + substructure variable combinations with the
 largest background rejection are those which
 involve $C_2^{\beta=1}$. For example, in combination with
-$m_{sd}^{\beta=2}$, this produces a five-, seven- and ten-fold
+$m_{sd}^{\beta=2}$, this produces a five-, eight- and fifteen-fold
 increase in background rejection compared to using the groomed mass
 alone. In Figure~\ref{fig:2d_c2b1_AKt_R08} the low degree of
 correlation between $m_{sd}^{\beta=2}$ versus $C_2^{\beta=1}$ that
@@ -493,8 +500,8 @@ in the BDT. However, in some cases the improvement can be dramatic,
 particularly at higher \pt, and particularly for combinations with the
 ungroomed mass. For example, in Figure~\ref{fig:pt1000_comb2D} we can
 see that in the \pt~1.0-1.1 TeV bin the combination of pruned mass with
-ungroomed mass produces a greater than seven-fold improvement in the
-background rejection for R=0.4 jets, a greater than four-fold
+ungroomed mass produces a greater than eight-fold improvement in the
+background rejection for R=0.4 jets, a greater than five-fold
 improvement for R=0.8 jets, and a factor $\sim$two improvement for
 R=1.2 jets. A similar behaviour can be seen for mMDT mass. 
 In Figures~\ref{fig:pt1000_2d_masses_AKt_R04},~\ref{fig:pt1000_2d_masses_AKt_R08}
@@ -520,7 +527,9 @@ requirement do so because they are shifted to lower mass (to be within
 a signal mass window) by the grooming, but these events still have the
 property that they look very much like background events before the
 grooming. A single requirement on the groomed mass only does not
-exploit this.
+exploit this. Of course, the impact of pile-up, not considered in this
+study, could significantly limit the degree to which the ungroomed
+mass could be used to improve discrimination in this way. 
 
 \begin{figure*}
 \begin{center}
@@ -556,6 +565,26 @@ exploit this.
 \end{figure*}
 
 \subsubsection{``All Variables'' Performance}
+
+As well as the background rejection at a fixed 70\% signal efficiency
+for two-variable combinations, Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
+and~\ref{fig:pt1000_comb2D} also report the background rejection
+achieved by a combination of all the variables considered into a
+single BDT discriminant. One can see that, in all cases, the rejection
+power of this ``all variables'' BDT is significantly larger than the
+best two-variable combination, by between a factor 2-3. This indicates
+that beyond the best two-variable combination there is still
+significant complementary information availiable in the remaining
+variables in order to improve the discrimination of signal and background.
+
+
+{\bf
+  ED: This section will be filled in when we have got the 3-variable
+  combination studies, so we have a better idea where the dramatic
+  increase in rejection power with ``all variables'' is coming
+  from. Would also be good to show perhaps some of the ``all
+  variables'' BDT discriminants in 1-D plots.}
+
 
 %\subsubsection*{Mass + X Performance}
 %
