@@ -16,74 +16,66 @@ this changes with jet boost and jet radius.
 
 \subsection{Methodology}
 
-These studies use the $X \rightarrow WW$ samples as signal and the dijet $gg$
-samples to model the QCD background, described previously in Section~\ref{sec:samples}. Whilst only gluonic backgrounds
+These studies use the $WW$ samples as signal and the dijet $gg$
+samples to model the QCD background, as described previously in Section~\ref{sec:samples}. Whilst only gluonic backgrounds
 are explored here, the conclusions as to the dependence of the
 performance and correlations on the jet boost and radius have been
 verified to hold also for $qq$ backgrounds. {\bf ED: To be checked!}
 
-Jets are reconstructed using the \antikt algorithm, and have various
-jet grooming approaches applied as described in Section~\ref{sec:substructure}. The following event selection is then applied to these
-samples....(presumably this will vary depending on which kinematic bin
-is used, as will the actual samples used - maybe summarize in a table).
+In each of the three \pt slices considered jets are reconstructed using the
+\antikt algorithm with distance parameter R=0.4, 0.8 and 1.2, as
+described in Section~\ref{sec:samples}. They then have various
+grooming approaches applied as described in
+Section~\ref{sec:observables}. 
+{\bf (ED: Probably better if some of the information from
+  Sections~\ref{sec:samples} and~\ref{sec:observables} is brought into
+  this section to avoid this back-referencing.)}
 
-Figure~\ref{fig:pt300_basics} shows a comparison of the
-leading jet \pt for the signal and background in the \pt 300-400 GeV bin, for the two different \antikt jet
-algorithm distance parameters explored in this bin (R=0.8 and R=1.2). Figures~\ref{fig:pt500_basics} and~\ref{fig:pt1000_basics}  show the same for the
-\pt = 500-600 GeV bin and \pt = 1.0-1.1 TeV bin respectively, where for
-the \pt = 1.0-1.1 TeV bin the distance parameter R=0.4 is also explored because the W radiation at this boost is typically confined to 
-a cone of this size.
-
-{\bf (ED: Do we need to show the \pt spectra? Since we end up cutting in a narrow bin, it hopefully shouldn't make a difference.)}
-
-\begin{figure*}
-\begin{center}
-\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR08/jpt1.png}}
-\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR12/jpt1.png}}
-\caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 300-400 GeV bin using the
-  different \antikt jet distance parameters explored.}
-\label{fig:pt300_basics}
-\end{center}
-\end{figure*}
-
-\begin{figure*}
-\begin{center}
-\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt1.png}}
-\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR12/jpt1.png}}
-\caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 500-600 GeV bin using the
-  different \antikt jet distance parameters explored.}
-\label{fig:pt500_basics}
-\end{center}
-\end{figure*}
-
-\begin{figure*}
-\begin{center}
-\subfigure[\antikt R=0.4]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR04/jpt1.png}}
-\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR08/jpt1.png}}
-\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR12/jpt1.png}}
-\caption{Comparisons of the leading jet \pt spectrum of the $gg$
-  background to the WW signal in the \pt 1.0-1.1 TeV bin using the
-  different \antikt jet distance parameters explored.}
-\label{fig:pt1000_basics}
-\end{center}
-\end{figure*}
-
-
+% and have various
+%jet grooming approaches applied as described in Section~\ref{sec:substructure}. The following event selection is then applied to these
+%samples....(presumably this will vary depending on which kinematic bin
+%is used, as will the actual samples used - maybe summarize in a table).
+%
+%Figure~\ref{fig:pt300_basics} shows a comparison of the
+%leading jet \pt for the signal and background in the \pt 300-400 GeV bin, for the two different \antikt jet
+%algorithm distance parameters explored in this bin (R=0.8 and R=1.2). Figures~\ref{fig:pt500_basics} and~\ref{fig:pt1000_basics}  show the same for the
+%\pt = 500-600 GeV bin and \pt = 1.0-1.1 TeV bin respectively, where for
+%the \pt = 1.0-1.1 TeV bin the distance parameter R=0.4 is also explored because the W radiation at this boost is typically confined to 
+%a cone of this size.
+%
+%
+%
 %\begin{figure*}
 %\begin{center}
-%\subfigure[Leading jet
-%\pT]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/jpt1.png}}
-%\subfigure[Sub-leading jet
-%\pT]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/jpt2.png}}
-%\subfigure[Leading jet
-%$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/jeta1.png}}
-%\subfigure[Sub-leading jet
-%$\eta$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/jeta2.png}}
-%\caption{Comparisons of the QCD background to the WW signal in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm: basic
-%  kinematic distributons.}
-%\label{fig:pt500_basics_AKt_R08}
+%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR08/jpt1.png}}
+%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR12/jpt1.png}}
+%\caption{Comparisons of the leading jet \pt spectrum of the $gg$
+%  background to the WW signal in the \pt 300-400 GeV bin using the
+%  different \antikt jet distance parameters explored.}
+%\label{fig:pt300_basics}
+%\end{center}
+%\end{figure*}
+%
+%\begin{figure*}
+%\begin{center}
+%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt1.png}}
+%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR12/jpt1.png}}
+%\caption{Comparisons of the leading jet \pt spectrum of the $gg$
+%  background to the WW signal in the \pt 500-600 GeV bin using the
+%  different \antikt jet distance parameters explored.}
+%\label{fig:pt500_basics}
+%\end{center}
+%\end{figure*}
+%
+%\begin{figure*}
+%\begin{center}
+%\subfigure[\antikt R=0.4]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR04/jpt1.png}}
+%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR08/jpt1.png}}
+%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR12/jpt1.png}}
+%\caption{Comparisons of the leading jet \pt spectrum of the $gg$
+%  background to the WW signal in the \pt 1.0-1.1 TeV bin using the
+%  different \antikt jet distance parameters explored.}
+%\label{fig:pt1000_basics}
 %\end{center}
 %\end{figure*}
 

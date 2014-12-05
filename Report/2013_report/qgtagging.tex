@@ -1,4 +1,16 @@
-In this section, we examine the differences between quark- and gluon-initiated jets in terms of substructure variables, and to determine to what extent these variables are correlated. Along the way, we provide some theoretical understanding of these observations. The motivation for these studies comes not only from the desire to ``tag'' a jet as originating from a quark or gluon, but also to improve our  understanding of the quark and gluon components of the QCD background relative to boosted resonances.  While recent studies have suggested that quark/gluon tagging efficiencies depend highly on the Monte Carlo generator used, we are more interested in understanding the scaling performance with $\pt$ and $R$, and the correlations between observables, which are expected to be treated consistently within a single shower scheme. (\emph{BS: How about this?})
+In this section, we examine the differences between quark- and
+gluon-initiated jets in terms of substructure variables, and to
+determine to what extent these variables are correlated. Along the
+way, we provide some theoretical understanding of these
+observations. The motivation for these studies comes not only from the
+desire to ``tag'' a jet as originating from a quark or gluon, but also
+to improve our  understanding of the quark and gluon components of the
+QCD background relative to boosted resonances.  While recent studies
+have suggested that quark/gluon tagging efficiencies depend highly on
+the Monte Carlo generator used, we are more interested in
+understanding the scaling performance with $\pt$ and $R$, and the
+correlations between observables, which are expected to be treated
+consistently within a single shower scheme. {\bf ED: How about this?}
 
 \subsection{Methodology}
 
@@ -27,20 +39,25 @@ distributions in the sample used for the jets of $\pt=500-600 \GeV$ bin using th
 \end{center}
 \end{figure*}
 The differences in the $\pt$ distributions can be attributed to different out-of-cone radiation
-patterns for quark and gluons (\emph{BS: Is this just due to an increased likelihood of hard ISR/FSR for $gg$ states due to the larger QCD charge?}), while the different $\eta$ distributions are related to the different
+patterns for quark and gluons {\bf ED: Is this just due to an increased likelihood of hard ISR/FSR for $gg$ states due to the larger QCD charge?}, while the different $\eta$ distributions are related to the different
 parton distribution functions initiating $qq$ and $gg$ production. The qualitative features of the 
 $\eta$ distributions do not change as the $R$ parameter is changed. As the $\pt$ increases, 
 the $\eta$ distributions peak more strongly near zero, as expected. Differences in the $\pt$ distributions 
 between the leading and sub-leading (and quark and gluon-induced) jets become smaller as the 
 $R$ parameter is increased, as expected from the physics behind these differences, outlined above. 
+{\bf ED: But in the end don't we make narrow cuts on the \pt~of the
+  leading/sub-leading jets in the q/g study, and so these differences
+  aren't so important? (or are these cuts only made for the W-tagging study?)}
 
 \subsection{Single Variable Discrimination}
 
-(\emph{BS: Do we want to organize this section similar to for top tagging, where we first discuss the performance of each observable at fixed $R$/$\pt$, and then discuss the variations? It's a little mixed right now.})
+({\bf ED: Do we want to organize this section similar to for top tagging, where we first discuss the performance of each observable at fixed $R$/$\pt$, and then discuss the variations? It's a little mixed right now.})
 
 Figure~\ref{fig:qg_pt500_mass_AKt_R08} shows the mass of jets in the quark and gluon samples when using
 different groomers, and Figure~\ref{fig:qg_pt500_subst_AKt_R08} shows similar comparisons for different 
-substructure variables. Jets built with the anti-\kT algorithm with R=0.8 and with $\pt=500-650 \GeV$ are used. 
+substructure variables. Jets built with the anti-\kT algorithm with
+R=0.8 and with $\pt=500-650 \GeV$ are used {\bf ED: Are these pT bins
+  right? Should this be 500-600 GeV?}. 
 \begin{figure*}
 \begin{center}
 \subfigure[Ungroomed mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/jmass1.png}}
@@ -82,8 +99,7 @@ $\pt=500-650 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
 \end{figure*}
 
 Among the different substructure variables explored, $n_{\rm constits}$ provides the highest separation
-power, followed by $C_1^{\beta=0}$ and $C_1^{\beta=1}$ as was also found by the CMS and ATLAS Collaborations 
-{\bf [add citations]}. The evolution of some of these distributions with $\pt$ and R is less trivial than
+power, followed by $C_1^{\beta=0}$ and $C_1^{\beta=1}$ as was also found by the CMS and ATLAS Collaborations\refneeded. The evolution of some of these distributions with $\pt$ and R is less trivial than
  for the jet masses. In particular, changing the R parameter at high $\pt$ changes significantly the $C_a^{\beta}$
 for $\beta>0$ and the $n_{\rm constits}$ distributions, while leaving all other distributions qualitatively unchanged. 
 This is illustrated in Figure~\ref{fig:Rdep_qg_C_pt1000} for $\beta=0$ and $\beta=1$ using $a=1$ in both cases for
