@@ -16,7 +16,7 @@ The top taggers have criteria for reconstructing a top and $W$ candidate, and a 
 
 We also consider the performance of jet shape observables. In particular, we consider the $N$-subjettiness ratios $\tau_{32}^{\beta=1}$ and $\tau_{21}^{\beta=1}$, energy correlation function ratios $C_3^{\beta=1}$ and $C_2^{\beta=1}$, and the Qjet mass volatility $\Gamma$. In addition to the jet shape performance, we combine the jet shapes with the mass-reconstruction methods described above to determine the optimal combined performance.
 
-For determining the performance of multiple variables, we combine the relevant tagger output observables and/or jet shapes into a boosted decision tree (BDT), which determines the optimal cut. Additionally, because each tagger has two input parameters, as described in Section~\ref{sec:taggers}, we scan over reasonable values of the parameters to determine the optimal value for each top tagging signal efficiency. This allows a direct comparison of the optimized version of each tagger. The input values scanned for the various algorithms are:
+For determining the performance of multiple variables, we combine the relevant tagger output observables and/or jet shapes into a boosted decision tree (BDT), which determines the optimal cut. Additionally, because each tagger has two input parameters, as described in Section~\ref{sec:taggers}, we scan over reasonable values of the parameters to determine the optimal value for each top tagging signal efficiency {\bf ED: Optimal value is that which gives largest bkgd rejection?}. This allows a direct comparison of the optimized version of each tagger. The input values scanned for the various algorithms are:
 %
 \begin{itemize}
 \item {\bf HEPTopTagger:} $m\in[30,100]$ GeV, $\mu\in[0.5,1]$
@@ -360,19 +360,12 @@ In Figure ~\ref{fig:Rcomparison_top} we compare the BDT combinations of tagger o
 \end{center}
 \end{figure*}
 
-%%%% Ben modified down to here
-
-\clearpage
 \subsection{Performance at Sub-Optimal Working Points}
 
-Up until now, we have re-optimized our tagger and groomer parameters for each $\pt$, $R$, and signal efficiency working point. In reality, experiments will choose a finite set of working points to use. How do our results hold up when this is taken into account?
-
-To address this concern, we replicate our analyses, but only optimize the top taggers for a particular $\pt$/$R$/efficiency and apply the same parameters to other scenarios. This allows us to determine the extent to which re-optimization is necessary to maintain the high signal-background discrimination power seen in the top tagging algorithms we study.\\
-
-The shape observables typically do not have any input parameters to optimize. Therefore, we focus on the taggers and groomers, and their combination with shape observables, in this section.
+Up until now, we have re-optimized our tagger and groomer parameters for each $\pt$, $R$, and signal efficiency working point. In reality, experiments will choose a finite set of working points to use. How do our results hold up when this is taken into account? To address this concern, we replicate our analyses, but only optimize the top taggers for a particular $\pt$/$R$/efficiency and apply the same parameters to other scenarios. This allows us to determine the extent to which re-optimization is necessary to maintain the high signal-background discrimination power seen in the top tagging algorithms we study. The shape observables typically do not have any input parameters to optimize. Therefore, we focus on the taggers and groomers, and their combination with shape observables, in this section.
 
 \noindent {\bf Optimizing at a single \pt:}
-We show in Fig.~\ref{fig:ptcomparison_singletopmass_top_optOnce} the performance of the top taggers with all input parameters optimized to the $\pt=1.5-1.6$ TeV relative to the performance optimized at each $\pt$. We see that while the performance degrades by about 50\% when the high-\pt optimized points are used at other momenta, this is only an $O(1)$ adjustment of the tagger performance, with trimming and the Johns Hopkins tagger degrading the most. The jagged behaviour of the points is due to the finite resolution of the scan. We also observe a particular effect associated with using suboptimal taggers:~since taggers sometimes fail to return a top candidate, parameters optimized for a particular efficiency $\varepsilon_S$ at $\pt=1.5-1.6$ TeV may not return enough signal candidates to reach the same efficiency at a different $\pt$. Consequently, no point appears for that $\pt$ value. This is not often a practical concern, as the largest gains in signal discrimination and significance are for smaller values of $\varepsilon_S$, but it is something that must be considered when selecting benchmark tagger parameters and signal efficiencies.
+We show in Figure~\ref{fig:ptcomparison_singletopmass_top_optOnce} the performance of the top taggers, using just the reconstructed top mass as the discriminating variable, with all input parameters optimized to the $\pt=1.5-1.6$ TeV bin, relative to the performance optimized at each $\pt$. We see that while the performance degrades by about 50\% when the high-\pt optimized points are used at other momenta, this is only an $O(1)$ adjustment of the tagger performance {\bf ED: what does $O(1)$ mean?}, with trimming and the Johns Hopkins tagger degrading the most. The jagged behaviour of the points is due to the finite resolution of the scan. We also observe a particular effect associated with using suboptimal taggers:~since taggers sometimes fail to return a top candidate, parameters optimized for a particular efficiency $\varepsilon_S$ at $\pt=1.5-1.6$ TeV may not return enough signal candidates to reach the same efficiency at a different $\pt$. Consequently, no point appears for that $\pt$ value. This is not often a practical concern, as the largest gains in signal discrimination and significance are for smaller values of $\varepsilon_S$, but it is something that must be considered when selecting benchmark tagger parameters and signal efficiencies.
 
 \begin{figure*}
 \begin{center}
@@ -385,9 +378,7 @@ We show in Fig.~\ref{fig:ptcomparison_singletopmass_top_optOnce} the performance
 \end{center}
 \end{figure*}
 
-The degradation in performance is more pronounced for the BDT combinations of the full tagger outputs (see Fig.~\ref{fig:ptcomparison_top_optOnce}), particularly at very low signal efficiency where the optimization picks out a cut on the tail of some distribution that depends precisely on the $\pt$/$R$ of the jet. Once again, trimming and the Johns Hopkins tagger degrade more markedly.   
-
-Similar behaviour holds for the BDT combinations of taggers + shape observables, although we do not show the plots here because they look similar to Fig.~\ref{fig:ptcomparison_top_optOnce}.\\
+The degradation in performance is more pronounced for the BDT combinations of the full tagger outputs, shown in Figure~\ref{fig:ptcomparison_top_optOnce}), particularly at very low signal efficiency where the optimization picks out a cut on the tail of some distribution that depends precisely on the $\pt$/$R$ of the jet. Once again, trimming and the Johns Hopkins tagger degrade more markedly.  Similar behaviour holds for the BDT combinations of tagger outputs plus all shape observables.\\
 
 \begin{figure*}
 \begin{center}
@@ -400,9 +391,9 @@ Similar behaviour holds for the BDT combinations of taggers + shape observables,
 \end{center}
 \end{figure*}
 
-\noindent {\bf Optimizing at a single $R$:}
 
-We perform a similar analysis, optimizing tagger parameters for each signal efficiency at $R=1.2$, and then use the same parameters for smaller $R$. We show the ratio of the performance of the top taggers with all input parameters optimized to the $R=1.2$ values compared to input parameters optimized separately at each radius, in Fig.~\ref{fig:Rcomparison_singletopmass_top_optOnce}. While the performance of each observable degrades at small $\epsilon_{\rm sig}$ compared to the optimized search, the HEPTopTagger fares the worst as the observed is quite sensitive to the selected value of $R$. It is not surprising that a tagger whose top mass reconstruction is susceptible to background-shaping at large $R$ and $\pt$ would require a more careful optimization of parameters to obtain the best performance.
+\noindent {\bf Optimizing at a single $R$:}
+We perform a similar analysis, optimizing tagger parameters for each signal efficiency at $R=1.2$, and then use the same parameters for smaller $R$, in the \pt 1.5-1.6 TeV bin. In Figure~\ref{fig:Rcomparison_singletopmass_top_optOnce} we show the ratio of the performance of the top taggers, using just the reconstructed top mass as the discriminating variable, with all input parameters optimized to the $R=1.2$ values compared to input parameters optimized separately at each radius. While the performance of each observable degrades at small $\epsilon_{\rm sig}$ compared to the optimized search, the HEPTopTagger fares the worst as the observed is quite sensitive to the selected value of $R$. It is not surprising that a tagger whose top mass reconstruction is susceptible to background-shaping at large $R$ and $\pt$ would require a more careful optimization of parameters to obtain the best performance.
 
 \begin{figure*}
 \begin{center}
@@ -415,7 +406,7 @@ We perform a similar analysis, optimizing tagger parameters for each signal effi
 \end{center}
 \end{figure*}
 
-The same holds true for the BDT combinations of the full tagger outputs (see Fig.~\ref{fig:Rcomparison_top_optOnce}). The performance for the sub-optimal taggers is still within an O(1) factor of the optimized performance, and the HEPTopTagger performs better with the combination of all of its outputs relative to the performance with just $m_t$. The same behaviour holds for the BDT combinations of tagger outputs and shape observables. \\
+The same holds true for the BDT combinations of the full tagger outputs, shown in Figure~\ref{fig:Rcomparison_top_optOnce}). The performance for the sub-optimal taggers is still within an $O(1)$ factor of the optimized performance, and the HEPTopTagger performs better with the combination of all of its outputs relative to the performance with just $m_t$. The same behaviour holds for the BDT combinations of tagger outputs and shape observables. \\
 
 
 \begin{figure*}
@@ -424,16 +415,15 @@ The same holds true for the BDT combinations of the full tagger outputs (see Fig
 \subfigure[Johns Hopkins Tagger]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/multi_variable/R_compare/Rocs_JH_Rcompare_optOnce.pdf}}
 \subfigure[Trimming]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/multi_variable/R_compare/Rocs_trim_mt_mw_Rcompare_optOnce.pdf}}
 \subfigure[Pruning]{\includegraphics[width=0.48\textwidth]{./Figures/TTagging/multi_variable/R_compare/Rocs_prune_mt_mw_Rcompare_optOnce.pdf}}
-\caption{Comparison of tagger and jet shape performance at different radius at \pt = 1.5-1.6 TeV; the tagger inputs are set to the optimum value for $R=1.2$.}
+\caption{Comparison of BDT combination of tagger performance at different radius at \pt = 1.5-1.6 TeV; the tagger inputs are set to the optimum value for $R=1.2$.}
 \label{fig:Rcomparison_top_optOnce}
 \end{center}
 \end{figure*}
 
 \noindent {\bf Optimizing at a single efficiency:}
+The strongest assumption we have made so far is that the taggers can be reoptimized for each signal efficiency point. This is useful for making a direct comparison of the power of different top tagging algorithms, but is not particularly practical for the LHC analyses. We now consider the effects when the tagger inputs are optimized once, in the $\varepsilon_S=0.3-0.35$ bin, and then used to determine the full ROC curve. We do this in the  $\pt 1-1.1$ TeV bin and with $R=0.8$.
 
-The strongest assumption we have made so far is that the taggers can be reoptimized for each signal efficiency point. This is useful for making a direct comparison of different top tagging algorithms, but is not particularly practical for the LHC analyses. We now consider the effects when the tagger inputs are optimized once, in the $\varepsilon_S=0.3-0.35$ bin, and then used to determine the full ROC curve. We do this at $\pt=1-1.1$ TeV and with $R=0.8$.
-
-The performance of each tagger, normalized to its performance optimized in each bin, is shown in Fig.~\ref{fig:single_variable_ROC_eps0_35} for cuts on the top mass and W mass, and in Fig.~\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} for BDT combinations of tagger outputs and shape variables. In both plots, it is apparent that optimizing the taggers in the 0.3-0.35 efficiency bin gives comparable performance over efficiencies ranging from 0.2-0.5, although performance degrades at small and large signal efficiencies. Pruning appears to give especially robust signal/background discrimination without re-optimization, possibly due to the fact that there are no absolute distance or $\pt$ scales that appear in the algorithm. Figs.~\ref{fig:single_variable_ROC_eps0_35}-\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} suggest that, while optimization at all signal efficiencies is a useful tool for comparing different algorithms, it is not crucial to achieve good top-tagging performance in experiments.
+The performance of each tagger, normalized to its performance optimized in each bin, is shown in Figure~\ref{fig:single_variable_ROC_eps0_35} for cuts on the top mass and W mass, and in Figure~\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} for BDT combinations of tagger outputs and shape variables. In both plots, it is apparent that optimizing the taggers in the 0.3-0.35 efficiency bin gives comparable performance over efficiencies ranging from 0.2-0.5, although performance degrades at small and large signal efficiencies. Pruning appears to give especially robust signal-background discrimination without re-optimization, possibly due to the fact that there are no absolute distance or $\pt$ scales that appear in the algorithm. Figures~\ref{fig:single_variable_ROC_eps0_35} and~\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} suggest that, while optimization at all signal efficiencies is a useful tool for comparing different algorithms, it is not crucial to achieve good top-tagging performance in experiments.
 
 \begin{figure*}
 \begin{center}
@@ -560,6 +550,8 @@ The performance of each tagger, normalized to its performance optimized in each 
 
 
 \subsection{Conclusions}
+
+{\bf ED: Conclusions to be added}
 
 % Comment on comparison of simple groomer based taggers (with the W candidate mass) versus the complex HTT and JH.
 
