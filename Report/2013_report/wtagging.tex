@@ -27,9 +27,9 @@ In each of the three \pt slices considered jets are reconstructed using the
 described in Section~\ref{sec:samples}. They then have various
 grooming approaches applied as described in
 Section~\ref{sec:observables}. 
-{\bf (ED: Probably better if some of the information from
+{\bf (ED: Better if some of the information from
   Sections~\ref{sec:samples} and~\ref{sec:observables} is brought into
-  this section to avoid this back-referencing.)}
+  this section to avoid this back-referencing?)}
 
 % and have various
 %jet grooming approaches applied as described in Section~\ref{sec:substructure}. The following event selection is then applied to these
@@ -235,10 +235,13 @@ and~\ref{fig:pt1000_comb2D} are shown matrices which give the
 background rejection for a signal efficiency of 70\% when two
 variables (that on the x-axis and that on the y-axis) are combined in
 a BDT. These are shown separately for each \pt~bin and jet radius
-considered. The diagonal of these plots correspond to the background
+considered. In the
+final column of these plots are shown the background rejection
+performance for three-variable BDT combinations of $m_{sd}^{\beta=2} +
+C_2^{\beta=1} + X$. These results will be discussed later in Section~\ref{sec:Wtagallvars}. The diagonal of these plots correspond to the background
 rejections for a single variable BDT, and can thus be examined to get a
 quantitative measure of the individual single variable performance,
-and to study how this changes with jet radius and momenta.
+and to study how this changes with jet radius and momenta. 
 
 One can see that in general the most performant single variables are
 the groomed masses. However, in certain kinematic bins and for certain
@@ -556,7 +559,7 @@ mass could be used to improve discrimination in this way.
 \end{center}
 \end{figure*}
 
-\subsubsection{``All Variables'' Performance}
+\subsubsection{``All Variables'' Performance}\label{sec:Wtagallvars}
 
 As well as the background rejection at a fixed 70\% signal efficiency
 for two-variable combinations, Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
@@ -564,18 +567,84 @@ and~\ref{fig:pt1000_comb2D} also report the background rejection
 achieved by a combination of all the variables considered into a
 single BDT discriminant. One can see that, in all cases, the rejection
 power of this ``all variables'' BDT is significantly larger than the
-best two-variable combination, by between a factor 2-3. This indicates
+best two-variable combination. This indicates
 that beyond the best two-variable combination there is still
 significant complementary information availiable in the remaining
-variables in order to improve the discrimination of signal and background.
+variables in order to improve the discrimination of signal and
+background. How much complementary information is available appears to
+be \pt dependent. In the lower \pt 300-400 and 500-600 GeV bins the
+background rejection of the ``all variables'' combination is a factor
+$\sim 1.5$ greater than the best two-variable combination, but in the
+highest \pt bin it is a factor $\sim 2.5$ greater. 
+
+The final column in Figures ~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
+and~\ref{fig:pt1000_comb2D} allows us to explore the all variables
+performance a little further. It shows the background rejection for 
+three variable BDT combinations of $m_{sd}^{\beta=2} + C_2^{\beta=1} +
+X$, where $X$ is the variable on the y-axis. For jets with R=0.4 and
+R=0.8, the combination $m_{sd}^{\beta=2} + C_2^{\beta=1}$
+is the best performant (or very close to the best performant)
+two-variable combination in every \pt bin considered. For R=1.2 this
+is not the case, as $C_2^{\beta=1}$ is superceded by
+$\tau_{21}^{\beta=1}$ in performance, as discussed earlier. Thus, in
+considering the three-variable combination results it is best to focus
+on the R=0.4 and R=0.8 cases. Here we see that, for the lower \pt
+300-400 and 500-600 GeV bins, adding the third variable to the best
+two-variable combination brings us to within $\sim 15\%$ of the ``all
+variables'' background rejection. However, in the highest \pt 1.0-1.1 TeV bin, whilst adding the third
+variable does improve the performance considerably, we are still $\sim
+40\%$ from the observed ``all variables'' background rejection, and
+clearly adding a fourth or maybe even fifth variable would bring
+considerable gains. In terms of which variable offers the best
+improvement when added to the $m_{sd}^{\beta=2} + C_2^{\beta=1}$
+combination, it is hard to see an obvious pattern; the best third
+variable changes depending on the \pt and R considered.
+
+In conclusion, it appears that there is a rich and
+complex structure in terms of the degree to which the discriminatory
+information provided by the set of variables considered overlaps, with
+the degree of overlap apparently decreasing at higher \pt. This
+suggests that in all \pt ranges, but especially at higher \pt, there
+are substantial performance gains to be made by designing a more
+complex multivariate W tagger.
+
+\subsection{Conclusions}
+
+We have studied the performance, in terms of the degree to which a
+hadronically decaying W boson can be separated from a gluonic
+background, of a number of groomed jet masses, substructure variables,
+and BDT combinations of the above. We have used this to build a
+picture of how the discriminatory information contained in the
+variables overlaps, and how this complementarity between the variables
+changes with \pt and \antikt distance parameter R. 
+
+In terms of the performance of individual variables, we find that, in
+agreement with other studies\refneeded, in
+general the groomed masses perform best, with a background rejection
+power that increases with increasing \pt, but which is more constant
+with respect to changes in R. Conversely, the performance of other
+substructure variables, such as $C_2^{\beta=1}$ and
+$\tau_{21}^{\beta=1}$ is more susceptible to changes in radius, with
+background rejection power decreasing with increasing R.
+
+The best two-variable performance is obtained by combining a groomed
+mass with a substructure variable. Which particular substructure
+variable works best in combination is strongly dependent on \pt and
+R. $C_2^{\beta=1}$ offers significant complimentarity to groomed mass
+at smaller R, owing to the small degree of correlation between the
+variables. However, the sensitivity of $C_2^{\beta=1}$ to soft,
+wide-angle radiation leads to worse discrimination power at large R,
+where $\tau_{21}^{\beta=1}$ performs better in combination. Our
+studies also demonstrate the potential for enhanced discrmination by
+combining groomed and ungroomed mass information, although the use of
+ungroomed mass in this may in practice be limited by the presence of
+pile-up that is not considered in these studies.
+
+By examining the performance of a BDT combination of all the variables
+considered, it is clear that there are potentially substantial performance gains to be made by designing a more
+complex multivariate W tagger, especially at higher \pt.
 
 
-{\bf
-  ED: This section will be filled in when we have got the 3-variable
-  combination studies, so we have a better idea where the dramatic
-  increase in rejection power with ``all variables'' is coming
-  from. Would also be good to show perhaps some of the ``all
-  variables'' BDT discriminants in 1-D plots.}
 
 
 %\subsubsection*{Mass + X Performance}
