@@ -3,7 +3,7 @@ In this section, we define the jet algorithms and observables used in our analys
 \subsection{Jet Clustering Algorithms}
 \label{sec:jetalgs}
 
-{\bf Jet clustering:}~Jets were clustered using sequential jet clustering algorithms\refneeded. Final state particles $i$, $j$ are assigned a mutual distance $d_{ij}$ and a distance to the beam, $d_{i\mathrm{B}}$. The particle pair with smallest $d_{ij}$ are  recombined and the algorithm repeated until the smallest distance is instead the distance to the beam, $d_{i\mathrm{B}}$, in which case $i$ is set aside and labelled as a jet. The distance metrics are defined as
+{\bf Jet clustering:}~Jets were clustered using sequential jet clustering algorithms\refneeded implemented in \textsc{FastJet} 3.0.3. Final state particles $i$, $j$ are assigned a mutual distance $d_{ij}$ and a distance to the beam, $d_{i\mathrm{B}}$. The particle pair with smallest $d_{ij}$ are  recombined and the algorithm repeated until the smallest distance is instead the distance to the beam, $d_{i\mathrm{B}}$, in which case $i$ is set aside and labelled as a jet. The distance metrics are defined as
 %
 \begin{eqnarray}
 d_{ij} &=& \mathrm{min}(p_{Ti}^{2\gamma},p_{Tj}^{2\gamma})\,\frac{\Delta R_{ij}^2}{R^2},\\
