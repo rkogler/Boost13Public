@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 DEC 2014 00:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  19 DEC 2014 01:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2872,7 +2872,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2012/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on boost2013_report.pdf (48 pages, 3426662 bytes).
+Output written on boost2013_report.pdf (48 pages, 3426590 bytes).
 PDF statistics:
  5513 PDF objects out of 6186 (max. 8388607)
  2602 compressed objects within 27 object streams
