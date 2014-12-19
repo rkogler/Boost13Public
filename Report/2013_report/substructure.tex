@@ -40,7 +40,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  %
  The default parameters used for trimming\refneeded in this study are $R_{\rm trim}=0.2$ and $f_{\rm cut}=0.03$.\\
  
-   \noindent {\bf Filtering:}\refneeded~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm filt}$ with the C/A algorithm. Re-define the jet to consist of only the hardest $N$ subjets, where $N$ is determined by the final state topology and is typically one more than the number of hard prongs in the resonance decay (to include the leading final-state gluon emission). {\bf ED: Do we actually use filtering as described here anywhere?}\\
+   \noindent {\bf Filtering:}\refneeded~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm filt}$ with the C/A algorithm. Re-define the jet to consist of only the hardest $N$ subjets, where $N$ is determined by the final state topology and is typically one more than the number of hard prongs in the resonance decay (to include the leading final-state gluon emission). {\bf ED: Do we actually use filtering as described here anywhere?} {\bf (BS: Yes, it is used in the HEPTopTagger.)}\\
  
  \noindent {\bf Soft drop:}~Given a jet, re-cluster all of the constituents using the C/A algorithm. Iteratively undo the last stage of the C/A clustering from $j$ into subjets $j_1$, $j_2$. If
  %
@@ -97,7 +97,7 @@ d_0 = \sum_i p_{Ti}\,R^\beta
 \end{equation}
 %
 and $R$ is the jet clustering radius. The exponent $\beta$ is a free parameter. There is also some choice in how the axes used to compute $N$-subjettiness are determined. The optimal configuration of axes is the one that minimizes
-$N$-subjettiness; recently, it was shown that the ``winner-takes-all'' axes can be easily computed and have superior performance compared to other minimization techniques\refneeded. {\bf ED: Do we use WTA? Otherwise why do we mention this?}
+$N$-subjettiness; recently, it was shown that the ``winner-takes-all'' (WTA) axes can be easily computed and have superior performance compared to other minimization techniques\refneeded. We use both the WTA and one-pass $k_t$ optimization axes in our analyses.
 
 A more powerful discriminant is often the ratio,
 %

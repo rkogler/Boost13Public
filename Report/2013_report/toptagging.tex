@@ -2,6 +2,13 @@ In this section, we study the identification of boosted top quarks at Run II of 
 
 We consider top quarks with moderate boost (600-1000 GeV), and perhaps most interestingly, at high boost ($\gtrsim1500$ GeV). Top tagging faces several challenges in the high-$\pt$ regime. For such high-$\pt$ jets, the $b$-tagging efficiencies are no longer reliably known. Also, the top jet can also accompanied by additional radiation with $\pt\sim m_t$, leading to combinatoric ambiguities of reconstructing the top and $W$, and the possibility that existing taggers or observables shape the background by looking for subjet combinations that reconstruct $m_t$/$m_W$. To study this, we examine the performance of both mass-reconstruction variables, as well as shape observables that probe the three-pronged nature of the top jet and the accompanying radiation pattern.
 
+We use the top quark MC samples described in Section \ref{sec:top-samples}. The analysis  relies on \textsc{FastJet} 3.0.3 for jet clustering and
+calculation of jet substructure observables. Jets are clustered using the anti-$k_t$ algorithm. An upper and lower $\pt$ cut are applied after jet clustering
+to each sample to ensure similar $\pt$ spectra in each bin. The bins in leading jet $\pt$
+that are investigated for top tagging are 600-700 GeV, 1-1.1 TeV, and
+1.5-1.6 TeV. Jets are clustered with radii $R=0.4$, 0.8, and 1.2; $R=0.4$ jets are only studied in the 1.5-1.6 TeV bin
+because for top quarks with this boost, the top decay products are all contained within an $R=0.4$ jet.
+
 \subsection{Methodology}\label{sec:topmethod}
 We study a number of top-tagging strategies, in particular:
 %
@@ -45,28 +52,36 @@ Of the two top tagging algorithms, we can see from Figure~\ref{fig:single_variab
 
 \begin{figure*}
 \begin{center}
-\subfigure[Johns Hopkins Tagger, $R=0.4$]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf}}
-\subfigure[HEPTopTagger, $R=0.4$]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf}}
-\subfigure[Johns Hopkins Tagger, $R=1.2$]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf}}
-\subfigure[HEPTopTagger, $R=1.2$]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf}}
-\caption{Comparison of top mass reconstruction with the JH and HEPTopTaggers at different $R$ using the anti-\kT algorithm, $p_{\rm T}=1.5-1.6$ TeV. Each histogram is shown for the working point optimized for best performance with $m_t$ in the $0.3-0.35$ signal efficiency bin, and is normalized to the fraction of events passing the tagger. In this and subsequent plots, the HEPTopTagger distribution cuts off at 500 GeV because the tagger fails to tag jets with a larger mass.}
+\subfigure[JH, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_JH_mt_opt_mt.pdf}}
+\subfigure[HEP, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_HEP_mt_opt_mt.pdf}}
+\subfigure[JH, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_JH_mt_opt_mt.pdf}}
+\subfigure[HEP, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_HEP_mt_opt_mt.pdf}}\\
+\subfigure[prune, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_prun_R_0_4.pdf}}
+\subfigure[trim, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_trim_R_0_4.pdf}}
+\subfigure[prune, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_prun_R_1_2.pdf}}
+\subfigure[trim, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_trim_R_1_2.pdf}}
+\caption{Comparison of top mass reconstruction with the Johns Hopkins (JH), HEPTopTaggers (HEP), pruning, and trimming at different $R$ using the anti-\kT algorithm, $p_{\rm T}=1.5-1.6$ TeV. Each histogram is shown for the working point optimized for best performance with $m_t$ in the $0.3-0.35$ signal efficiency bin, and is normalized to the fraction of events passing the tagger. In this and subsequent plots, the HEPTopTagger distribution cuts off at 500 GeV because the tagger fails to tag jets with a larger mass.}
 \label{fig:topmass_histogram_HEP_JH}
 \end{center}
 \end{figure*}
 
 \begin{figure*}
 \begin{center}
-\subfigure[Johns Hopkins Tagger, $\pt=600-700$ GeV]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt_pT_0_6.pdf}}
-\subfigure[HEPTopTagger, $\pt=600-700$ GeV]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt_pT_0_6.pdf}}
-\subfigure[Johns Hopkins Tagger, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_pT_1_5.pdf}}
-\subfigure[HEPTopTagger, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.4\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_pT_1_5.pdf}}
-\caption{Comparison of top mass reconstruction with the JH and HEPTopTaggers at different $\pt$ using the anti-\kT algorithm, $R=0.8$. Each histogram is shown for the working point optimized for best performance with $m_t$ in the $0.3-0.35$ signal efficiency bin, and is normalized to the fraction of events passing the tagger.}
+\subfigure[JH, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_JH_mt_pT_0_6.pdf}}
+\subfigure[HEP, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_HEP_mt_pT_0_6.pdf}}
+\subfigure[JH, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_JH_mt_pT_1_5.pdf}}
+\subfigure[HEP, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_HEP_mt_pT_1_5.pdf}}\\
+\subfigure[prune, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_prun_pT_0_6.pdf}}
+\subfigure[trim, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_trim_pT_0_6.pdf}}
+\subfigure[prune, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_prun_pT_1_5.pdf}}
+\subfigure[trim, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_trim_pT_1_5.pdf}}
+\caption{Comparison of top mass reconstruction with the Johns Hopkins (JH), HEPTopTaggers (HEP), pruning, and trimming at different $\pt$ using the anti-\kT algorithm, $R=0.8$. Each histogram is shown for the working point optimized for best performance with $m_t$ in the $0.3-0.35$ signal efficiency bin, and is normalized to the fraction of events passing the tagger.}
 \label{fig:topmass_histogram_HEP_JH_pT}
 \end{center}
 \end{figure*}
 
 
-In Figures~\ref{fig:ptcomparison_singleshape_top} and~\ref{fig:ptcomparison_singletopmass_top} we directly compare ROC curves for jet shape observable performance and top mass performance respectively in the three different \pt bins considered whilst keeping the jet radius fixed at R=0.8. The input parameters of the taggers, groomers and shape variables are separately optimized in each \pt bin.  One can see from Figure~\ref{fig:ptcomparison_singleshape_top} that the tagging performance of jet shapes do not change substantially with $\pt$. The observables $\tau_{32}^{(\beta=1)}$ and Qjet volatility $\Gamma$ have the most variation and tend to degrade with higher $\pt$, as can be seen in Figures~\ref{fig:Qjet_comparison_pT} and~\ref{fig:tau_comparison_pT}). This makes sense, as higher-$\pt$ QCD jets have more, harder emissions within the jet, giving rise to substructure that fakes the signal. By contrast, from Figure~\ref{fig:ptcomparison_singletopmass_top} we can see that most of the top mass observables have superior performance at higher $\pt$ due to the radiation from the top quark becoming more collimated. The notable exception is the HEPTopTagger, which degrades at higher $\pt$, likely in part due to the background-shaping effects discussed earlier.
+In Figures~\ref{fig:ptcomparison_singleshape_top} and~\ref{fig:ptcomparison_singletopmass_top} we directly compare ROC curves for jet shape observable performance and top mass performance respectively in the three different \pt bins considered whilst keeping the jet radius fixed at R=0.8. The input parameters of the taggers, groomers and shape variables are separately optimized in each \pt bin.  One can see from Figure~\ref{fig:ptcomparison_singleshape_top} that the tagging performance of jet shapes do not change substantially with $\pt$. The observables $\tau_{32}^{(\beta=1)}$ and Qjet volatility $\Gamma$ have the most variation and tend to degrade with higher $\pt$, as can be seen in Figure~\ref{fig:Qjet_comparison_pT}. This makes sense, as higher-$\pt$ QCD jets have more, harder emissions within the jet, giving rise to substructure that fakes the signal. By contrast, from Figure~\ref{fig:ptcomparison_singletopmass_top} we can see that most of the top mass observables have superior performance at higher $\pt$ due to the radiation from the top quark becoming more collimated. The notable exception is the HEPTopTagger, which degrades at higher $\pt$, likely in part due to the background-shaping effects discussed earlier.
 
 %In Figure~\ref{fig:ptcomparison_singleshape_top} we directly compare ROC curves for jet shape observable performance in the three different \pt bins considered whilst keeping the jet radius fixed at R=0.8. The input parameters of the shape variables are separately optimized in each \pt bin.  One can see that the tagging performance of jet shapes do not change substantially with $\pt$. The observables $\tau_{32}^{(\beta=1)}$ and Qjet volatility $\Gamma$ have the most variation and tend to degrade with higher $\pt$, as can be seen in Figures~\ref{fig:Qjet_comparison_pT} and~\ref{fig:tau_comparison_pT}). This makes sense, as higher-$\pt$ QCD jets have more, harder emissions within the jet, giving rise to substructure that fakes the signal. 
 
@@ -101,26 +116,37 @@ In Figures~\ref{fig:ptcomparison_singleshape_top} and~\ref{fig:ptcomparison_sing
 
 \begin{figure*}
 \begin{center}
-\subfigure[$\Gamma_{\rm Qjet}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_qjetVol_pT_0_6.pdf}}
-\subfigure[$\Gamma_{\rm Qjet}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_qjetVol_pT_1_0.pdf}}
-\subfigure[$\Gamma_{\rm Qjet}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_qjetVol_R_0_8.pdf}}
-\caption{Comparison of $\Gamma_{\rm Qjet}$ at $R=0.8$ and different values of the $\pt$.}
+\subfigure[$\Gamma_{\rm Qjet}$, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_qjetVol_pT_0_6.pdf}}
+\subfigure[$\Gamma_{\rm Qjet}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_qjetVol_R_0_8.pdf}}
+\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=600-700$ GeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_tau32b1_pT_0_6.pdf}}
+\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau32b1_R_0_8.pdf}}
+\caption{Comparison of $\Gamma_{\rm Qjet}$ and $\tau_{32}^{\beta=1}$ at $R=0.8$ and different values of the $\pt$. These shape observables are the most sensitive to varying $\pt$.}
 \label{fig:Qjet_comparison_pT}
 \end{center}
 \end{figure*}
 
-\begin{figure*}
-\begin{center}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_tau21b1_pT_0_6.pdf}}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_tau21b1_pT_1_0.pdf}}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau21b1_R_0_8.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_tau32b1_pT_0_6.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_tau32b1_pT_1_0.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau32b1_R_0_8.pdf}}
-\caption{Comparison of $\tau_{21}^{\beta=1}$ and $\tau_{32}^{\beta=1}$ with $R=0.8$ and different values of the $\pt$.}
-\label{fig:tau_comparison_pT}
-\end{center}
-\end{figure*}
+%\begin{figure*}
+%\begin{center}
+%\subfigure[$\Gamma_{\rm Qjet}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_qjetVol_pT_0_6.pdf}}
+%\subfigure[$\Gamma_{\rm Qjet}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_qjetVol_pT_1_0.pdf}}
+%\subfigure[$\Gamma_{\rm Qjet}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_qjetVol_R_0_8.pdf}}
+%\caption{Comparison of $\Gamma_{\rm Qjet}$ and $\tau_{32}^{\beta=1}$ at $R=0.8$ and different values of the $\pt$.}
+%\label{fig:Qjet_comparison_pT}
+%\end{center}
+%\end{figure*}
+
+%\begin{figure*}
+%\begin{center}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_tau21b1_pT_0_6.pdf}}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_tau21b1_pT_1_0.pdf}}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau21b1_R_0_8.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=600-700$ GeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.600GeV.R.0.8/h_tau32b1_pT_0_6.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=1-1.1$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1TeV.R.0.8/h_tau32b1_pT_1_0.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $\pt=1.5-1.6$ TeV]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau32b1_R_0_8.pdf}}
+%\caption{Comparison of $\tau_{21}^{\beta=1}$ and $\tau_{32}^{\beta=1}$ with $R=0.8$ and different values of the $\pt$.}
+%\label{fig:tau_comparison_pT}
+%\end{center}
+%\end{figure*}
 
 \begin{figure*}
 \begin{center}
@@ -134,8 +160,8 @@ In Figures~\ref{fig:ptcomparison_singleshape_top} and~\ref{fig:ptcomparison_sing
 \end{figure*}
 
 
-In Figures~\ref{fig:Rcomparison_singleshape_top} and~\ref{fig:Rcomparison_singletopmass_top} we directly compare ROC curves for jet shape observable performance and top mass performance respectively for the three different jet radii considered within the \pt 1.5-1.6 TeV bin. Again, the input parameters of the taggers, groomers and shape variables are separately optimized for each jet radius. We can see from these figures that most of the top tagging variables, both shape and reconstructued top mass, perform best for smaller radius. This is likely because, at such high $\pt$, most of the radiation from the top quark is confined within $R=0.4$, and having a larger jet radius makes the observable more susceptible to contamination from the underlying event and other uncorrelated radiation. In Figures~\ref{fig:C_comparison_R},~\ref{fig:Qjet_comparison_R} and~\ref{fig:tau_comparison_R}, we compare the individual top signal and QCD background distributions for each shape variable considered in the \pt 1.5-1.6 TeV bin for the various jet radii. One can see that the distributions for both signal broaden with increasing $R$, degrading the discriminating power. For $C_2^{(\beta=1)}$ and $C_3^{(\beta=1)}$, the background distributions are shifted upward as well. Therefore, the discriminating power generally gets worse with increasing $R$. The main exception is   for $C_3^{(\beta=1)}$, which performs optimally at $R=0.8$; in this case, the signal and background coincidentally happen to have the same distribution around $R=0.4$, and so $R=0.8$ gives better discrimination.
-{\bf ED: Should we also include 1-D plots comparing signal vs bkgd in the top mass, and how this varies with radius? Having said that, there a a lot of 1-D plots here already, might want to try and cut down.}
+In Figures~\ref{fig:Rcomparison_singleshape_top} and~\ref{fig:Rcomparison_singletopmass_top} we directly compare ROC curves for jet shape observable performance and top mass performance respectively for the three different jet radii considered within the \pt 1.5-1.6 TeV bin. Again, the input parameters of the taggers, groomers and shape variables are separately optimized for each jet radius. We can see from these figures that most of the top tagging variables, both shape and reconstructed top mass, perform best for smaller radius. This is likely because, at such high $\pt$, most of the radiation from the top quark is confined within $R=0.4$, and having a larger jet radius makes the observable more susceptible to contamination from the underlying event and other uncorrelated radiation. In Figure~\ref{fig:C_comparison_R}, we compare the individual top signal and QCD background distributions for each shape variable considered in the \pt 1.5-1.6 TeV bin for the various jet radii. One can see that the distributions for both signal and background broaden with increasing $R$, degrading the discriminating power. For $C_2^{(\beta=1)}$ and $C_3^{(\beta=1)}$, the background distributions are shifted upward as well. Therefore, the discriminating power generally gets worse with increasing $R$. The main exception is   for $C_3^{(\beta=1)}$, which performs optimally at $R=0.8$; in this case, the signal and background coincidentally happen to have the same distribution around $R=0.4$, and so $R=0.8$ gives better discrimination.
+{\bf ED: Should we also include 1-D plots comparing signal vs bkgd in the top mass, and how this varies with radius? Having said that, there a a lot of 1-D plots here already, might want to try and cut down.} {\bf (How about now? I've added them to Fig.~26, 27, and removed some other plots. We should decide if we want them; if we do, we need to explain about how the optimization at $\epsilon_S = 0.3-0.35$ prefers an aggressive trimmer which suppresses the background mass but also tends to give a spurious peak around $m_W$.} 
 
 %\noindent{\bf $R$ comparison:} We compare various top tagging observables for jets of different $R$ and $\pt=1.5-1.6$ TeV in Figs.~\ref{fig:Rcomparison_singleshape_top}-\ref{fig:Rcomparison_singletopmass_top}. Most of the top-tagging parameters perform best for smaller radius; this is because, at such high $\pt$, most of the radiation from the top quark is confined within $R=0.4$, and having a larger jet radius makes the observable more susceptible to contamination from the underlying event and other uncorrelated radiation. As we show in Figs.~\ref{fig:C_comparison_R}-\ref{fig:tau_comparison_R}, the distributions for both signal broaden with increasing $R$, degrading the discriminating power. For $C_2^{(\beta=1)}$ and $C_3^{(\beta=1)}$, the background distributions are shifted upward as well. Therefore, the discriminating power generally gets worse with increasing $R$. The main exception is   for $C_3^{(\beta=1)}$, which performs optimally at $R=0.8$; in this case, the signal and background coincidentally happen to have the same distribution around $R=0.4$, and so $R=0.8$ gives better discrimination.
 
@@ -154,39 +180,56 @@ In Figures~\ref{fig:Rcomparison_singleshape_top} and~\ref{fig:Rcomparison_single
 
 \begin{figure*}
 \begin{center}
-\subfigure[$C_2^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C2B1_R_0_4.pdf}}
-\subfigure[$C_2^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_C2B1_R_0_8.pdf}}
-\subfigure[$C_2^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C2B1_R_1_2.pdf}}
-\subfigure[$C_3^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C3B1_R_0_4.pdf}}
-\subfigure[$C_3^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_C3B1_R_0_8.pdf}}
-\subfigure[$C_3^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C3B1_R_1_2.pdf}}
-\caption{Comparison of $C_2^{\beta=1}$ and $C_3^{\beta=1}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
+\subfigure[$C_2^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C2B1_R_0_4.pdf}}
+\subfigure[$C_2^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C2B1_R_1_2.pdf}}
+\subfigure[$C_3^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C3B1_R_0_4.pdf}}
+\subfigure[$C_3^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C3B1_R_1_2.pdf}}\\
+\subfigure[$\tau_{21}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau21b1_R_0_4.pdf}}
+\subfigure[$\tau_{21}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau21b1_R_1_2.pdf}}
+\subfigure[$\tau_{32}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau32b1_R_0_4.pdf}}
+\subfigure[$\tau_{32}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau32b1_R_1_2.pdf}}\\
+\subfigure[$\Gamma_{\rm Qjet}$, $R=0.4$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_qjetVol_R_0_4.pdf}}
+\subfigure[$\Gamma_{\rm Qjet}$, $R=1.2$]{\includegraphics[width=0.245\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_qjetVol_R_1_2.pdf}}
+\caption{Comparison of various shape observables in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
 \label{fig:C_comparison_R}
 \end{center}
 \end{figure*}
 
-\begin{figure*}
-\begin{center}
-\subfigure[$\Gamma_{\rm Qjet}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_qjetVol_R_0_4.pdf}}
-\subfigure[$\Gamma_{\rm Qjet}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_qjetVol_R_0_8.pdf}}
-\subfigure[$\Gamma_{\rm Qjet}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_qjetVol_R_1_2.pdf}}
-\caption{Comparison of $\Gamma_{\rm Qjet}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
-\label{fig:Qjet_comparison_R}
-\end{center}
-\end{figure*}
+%%\begin{figure*}
+%%\begin{center}
+%\subfigure[$C_2^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C2B1_R_0_4.pdf}}
+%\subfigure[$C_2^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_C2B1_R_0_8.pdf}}
+%\subfigure[$C_2^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C2B1_R_1_2.pdf}}
+%\subfigure[$C_3^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_C3B1_R_0_4.pdf}}
+%\subfigure[$C_3^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_C3B1_R_0_8.pdf}}
+%\subfigure[$C_3^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_C3B1_R_1_2.pdf}}
+%\caption{Comparison of $C_2^{\beta=1}$ and $C_3^{\beta=1}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
+%\label{fig:C_comparison_R}
+%\end{center}
+%\end{figure*}
 
-\begin{figure*}
-\begin{center}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau21b1_R_0_4.pdf}}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau21b1_R_0_8.pdf}}
-\subfigure[$\tau_{21}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau21b1_R_1_2.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau32b1_R_0_4.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $R=1.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau32b1_R_0_8.pdf}}
-\subfigure[$\tau_{32}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau32b1_R_1_2.pdf}}
-\caption{Comparison of $\tau_{21}^{\beta=1}$ and $\tau_{32}^{\beta=1}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
-\label{fig:tau_comparison_R}
-\end{center}
-\end{figure*}
+%\begin{figure*}
+%\begin{center}
+%\subfigure[$\Gamma_{\rm Qjet}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_qjetVol_R_0_4.pdf}}
+%\subfigure[$\Gamma_{\rm Qjet}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_qjetVol_R_0_8.pdf}}
+%\subfigure[$\Gamma_{\rm Qjet}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_qjetVol_R_1_2.pdf}}
+%\caption{Comparison of $\Gamma_{\rm Qjet}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
+%\label{fig:Qjet_comparison_R}
+%\end{center}
+%\end{figure*}
+
+%\begin{figure*}
+%\begin{center}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau21b1_R_0_4.pdf}}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $R=0.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau21b1_R_0_8.pdf}}
+%\subfigure[$\tau_{21}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau21b1_R_1_2.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $R=0.4$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.4/h_tau32b1_R_0_4.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $R=1.8$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.0.8/h_tau32b1_R_0_8.pdf}}
+%\subfigure[$\tau_{32}^{(\beta=1)}$, $R=1.2$]{\includegraphics[width=0.32\textwidth]{./Figures/TTagging/single_variable/pT.1.5TeV.R.1.2/h_tau32b1_R_1_2.pdf}}
+%\caption{Comparison of $\tau_{21}^{\beta=1}$ and $\tau_{32}^{\beta=1}$ in the $\pt=1.5-1.6$ TeV bin and different values of the anti-$k_{\rm T}$ radius $R$.}
+%\label{fig:tau_comparison_R}
+%\end{center}
+%\end{figure*}
 
 
 \begin{figure*}
@@ -400,9 +443,7 @@ Similar behaviour holds for the BDT combinations of taggers + shape observables,
 \end{center}
 \end{figure*}
 
-\noindent {\bf Optimizing at a single $R$:}
-
-We perform a similar analysis, optimizing tagger parameters for each signal efficiency at $R=1.2$, and then use the same parameters for smaller $R$. We show the ratio of the performance of the top taggers with all input parameters optimized to the $R=1.2$ values compared to input parameters optimized separately at each radius, in Fig.~\ref{fig:Rcomparison_singletopmass_top_optOnce}. While the performance of each observable degrades at small $\epsilon_{\rm sig}$ compared to the optimized search, the HEPTopTagger fares the worst as the observed is quite sensitive to the selected value of $R$. It is not surprising that a tagger whose top mass reconstruction is susceptible to background-shaping at large $R$ and $\pt$ would require a more careful optimization of parameters to obtain the best performance.
+\noindent {\bf Optimizing at a single $R$:} We perform a similar analysis, optimizing tagger parameters for each signal efficiency at $R=1.2$, and then use the same parameters for smaller $R$. We show the ratio of the performance of the top taggers with all input parameters optimized to the $R=1.2$ values compared to input parameters optimized separately at each radius, in Fig.~\ref{fig:Rcomparison_singletopmass_top_optOnce}. While the performance of each observable degrades at small $\epsilon_{\rm sig}$ compared to the optimized search, the HEPTopTagger fares the worst as the observed is quite sensitive to the selected value of $R$. It is not surprising that a tagger whose top mass reconstruction is susceptible to background-shaping at large $R$ and $\pt$ would require a more careful optimization of parameters to obtain the best performance.
 
 \begin{figure*}
 \begin{center}
@@ -429,9 +470,7 @@ The same holds true for the BDT combinations of the full tagger outputs (see Fig
 \end{center}
 \end{figure*}
 
-\noindent {\bf Optimizing at a single efficiency:}
-
-The strongest assumption we have made so far is that the taggers can be reoptimized for each signal efficiency point. This is useful for making a direct comparison of different top tagging algorithms, but is not particularly practical for the LHC analyses. We now consider the effects when the tagger inputs are optimized once, in the $\varepsilon_S=0.3-0.35$ bin, and then used to determine the full ROC curve. We do this at $\pt=1-1.1$ TeV and with $R=0.8$.
+\noindent {\bf Optimizing at a single efficiency:} The strongest assumption we have made so far is that the taggers can be reoptimized for each signal efficiency point. This is useful for making a direct comparison of different top tagging algorithms, but is not particularly practical for the LHC analyses. We now consider the effects when the tagger inputs are optimized once, in the $\varepsilon_S=0.3-0.35$ bin, and then used to determine the full ROC curve. We do this at $\pt=1-1.1$ TeV and with $R=0.8$.
 
 The performance of each tagger, normalized to its performance optimized in each bin, is shown in Fig.~\ref{fig:single_variable_ROC_eps0_35} for cuts on the top mass and W mass, and in Fig.~\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} for BDT combinations of tagger outputs and shape variables. In both plots, it is apparent that optimizing the taggers in the 0.3-0.35 efficiency bin gives comparable performance over efficiencies ranging from 0.2-0.5, although performance degrades at small and large signal efficiencies. Pruning appears to give especially robust signal/background discrimination without re-optimization, possibly due to the fact that there are no absolute distance or $\pt$ scales that appear in the algorithm. Figs.~\ref{fig:single_variable_ROC_eps0_35}-\ref{fig:pt1000_allcompare_AKt_R08_eps0_35} suggest that, while optimization at all signal efficiencies is a useful tool for comparing different algorithms, it is not crucial to achieve good top-tagging performance in experiments.
 
@@ -560,6 +599,14 @@ The performance of each tagger, normalized to its performance optimized in each 
 
 
 \subsection{Conclusions}
+
+We have studied the performance of various jet substructure observables, groomed masses, and top taggers to study the performance of top tagging at different $\pt$ and jet radius parameter. At each $\pt$, $R$, and signal efficiency working point, we optimize the parameters for those observables with tuneable inputs. Overall, we have found that these techniques, individually and in combination, continue to perform well at high $\pt$, which is important for future LHC running. In general, the John Hopkins tagger performs best, while jet grooming algorithms under-perform relative to the best top taggers due to the lack of an optimized $W$-identification step. Tagger performance can be improved by a further factor of 2-4 through combination with jet substructure observables such as $\tau_{32}$, $C_3$, and Qjet mass volatility; when combined with jet substructure observables, the performance of various groomers and taggers becomes very comparable, suggesting that, taken together, the observables studied are sensitive to nearly all of the physical differences between top and QCD jets. A small improvement is also found by combining the Johns Hopkins and HEPTopTaggers, indicating that different taggers are not fully correlated.
+
+Comparing results at different $\pt$ and $R$, top tagging performance is generally better at smaller $R$ due to less contamination from uncorrelated radiation. Similarly, most observables perform better at larger $\pt$ due to the higher degree of collimation of radiation. Some observables fare worse at higher $\pt$, such as the $N$-subjettiness ratio $\tau_{32}$ and the Qjet mass volatility $\Gamma$, as higher-$\pt$ QCD jets have more, harder emissions that fake the top jet substructure. The HEPTopTagger is also worse at large $\pt$ due to the tendency of the tagger to shape backgrounds around the top mass. The $\pt$- and $R$-dependence of the multivariable combinations is dominated by the $\pt$- and $R$-dependence of the top mass reconstruction component of the tagger/groomer.
+
+Finally, we consider the performance of various observable combinations under the more realistic assumption that the input parameters are only optimized at a single $\pt$, $R$, or signal efficiency, and then the same inputs are used at other working points. Remarkably, the performance of all observables is typically within a factor of 2 of the fully optimized inputs, suggesting that while optimization can lead to substantial gains in performance, the general behaviour found in the fully optimized analyses extends to more general applications of each variable.
+
+
 
 % Comment on comparison of simple groomer based taggers (with the W candidate mass) versus the complex HTT and JH.
 
