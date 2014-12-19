@@ -8,7 +8,7 @@ desire to ``tag'' a jet as originating from a quark or gluon, but also
 to improve our  understanding of the quark and gluon components of the
 QCD backgrounds relative to boosted resonances.  While recent studies
 have suggested that quark/gluon tagging efficiencies depend highly on
-the Monte Carlo generator used, we are more interested in
+the Monte Carlo generator used\refneeded, we are more interested in
 understanding the scaling performance with $\pt$ and $R$, and the
 correlations between observables, which are expected to be treated
 consistently within a single shower scheme.
@@ -94,8 +94,8 @@ Only leading and subleading jets in each sample are used.
 
 
 Figure~\ref{fig:qg_pt500_mass_AKt_R08} shows the mass of jets in the quark and gluon samples when using
-different groomers. Jets built with the anti-\kT algorithm with
-R=0.8 and with $\pt=500-650 \GeV$ are used ({\bf BS:Check pT bins in this section!}). 
+different groomers, and the ungroomed jet mass, for jets with
+R=0.8 and in the $\pt=500-600 \GeV$ bin. 
 \begin{figure*}
 \begin{center}
 \subfigure[Ungroomed mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/jmass1.png}}
@@ -105,12 +105,12 @@ R=0.8 and with $\pt=500-650 \GeV$ are used ({\bf BS:Check pT bins in this sectio
 \subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdb2.png}}
 \subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_mass_sdm1.png}}
 \caption{Comparisons of ungroomed and groomed quark and gluon mass distributions for leading jets in the 
-$\pt=500-650 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
+$\pt=500-600 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
 \label{fig:qg_pt500_mass_AKt_R08}
 \end{center}
 \end{figure*}
 Qualitatively, the application of grooming shifts the mass distributions towards
-lower values as expected. No clear gain in discrimination can be seen, and for
+lower values when compared to the ungroomed mass, as expected. No clear gain in discrimination can be seen, and for
 certain grooming parameters, such as the use of soft drop with $\beta=-1$ a clear
 loss in discrimination power is observed; this is because the soft-drop condition for $\beta=-1$ discards collinear radiation, and the differences between quarks and gluons are manifest in the collinear structure (spin, splitting functions, etc.). 
 
@@ -125,41 +125,48 @@ loss in discrimination power is observed; this is because the soft-drop conditio
 \subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b1.png}}\\
 \subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT500/AKtR08/h_tau1_b2.png}}
 \caption{Comparisons of quark and gluon distributions of different substructure variables for leading jets in the 
-$\pt=500-650 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
+$\pt=500-600 \GeV$ bin using the anti-\kT R=0.8 algorithm. }
 \label{fig:qg_pt500_subst_AKt_R08}
 \end{center}
 \end{figure*}
 
-The performance of different substructure variables is explored in Figure~\ref{fig:qg_pt500_subst_AKt_R08}. Among those considered, $n_{\rm constits}$ provides the highest separation
-power, followed by $C_1^{\beta=0}$ and $C_1^{\beta=1}$ as was also found by the CMS and ATLAS Collaborations\refneeded.
+The quark and gluon distributions of different substructure variables
+are shown in Figure~\ref{fig:qg_pt500_subst_AKt_R08}. Among those
+considered, one can see by eye that $n_{\rm constits}$ provides the highest separation
+power, followed by $C_1^{\beta=0}$ and $C_1^{\beta=1}$, as was also
+found by the CMS and ATLAS Collaborations\refneeded. 
 
 To more quantitatively study the power of each observable as a
-discriminator for quark/gluon tagging, Receiver Operating Characteristic (ROC) curves are built by scanning each distribution
+discriminator for quark/gluon tagging, ROC curves are built by scanning each distribution
 and plotting the background efficiency (to select gluon jets) vs.~the signal efficiency (to select quark jets). 
-Figure~\ref{fig:qg_pt300_single} shows these ROC curves for all of the variables shown in 
-Figure~\ref{fig:qg_pt500_subst_AKt_R08} and the ungroomed mass, representing the 
-best performing mass variable, for jets of $\pt=300-400\GeV$. In addition, we show the ROC curve for 
-the tagger built from a BDT combining all the variables. The details of how the BDT is constructed 
-are explained in Section~\ref{sec:multivariate}. 
+Figure~\ref{fig:qg_pt300_single} shows these ROC curves for all of the
+substructure variables shown in 
+Figure~\ref{fig:qg_pt500_subst_AKt_R08}, along with the ungroomed mass, representing the 
+best performing mass variable, for R=0.4, 0.8 and 1.2 jets in the $\pt=300-400\GeV$
+bin. In addition, the ROC curve for a tagger built from a BDT
+combination of all the variables (see Section~\ref{sec:multivariate}) is shown.
 %
 \begin{figure*}
 \begin{center}
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR04/Rocs_1D_single.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT300/AKtR04/Rocs_1D_single.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR04/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR08/Rocs_1D_single.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT300/AKtR08/Rocs_1D_single.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR08/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR12/Rocs_1D_single.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT300/AKtR12/Rocs_1D_single.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR12/Rocs_1D_single.png}\\
-\caption{The ROC curve for all single variables considered for quark-gluon discrimination in the \pt 500 GeV bin using the anti-\kT R=0.8 algorithm.}
+\caption{The ROC curve for all single variables considered for
+  quark-gluon discrimination in the \pt 300-400 GeV bin using the
+  anti-\kT R=0.4, 0.8 and 1.2 algorithm.{\bf ED: Hard to tell the lines on the
+    plots apart}}
 \label{fig:qg_pt300_single}
 \end{center}
 \end{figure*}
 %
 Clearly, $n_{\rm constits}$ is the best performing variable for all Rs, even though $C_1^{\beta=0}$ is close, particularly
-for R=0.8. Most other variables have similar performance, except the Q-jet volatility, which shows significantly worse
+for R=0.8. Most other variables have similar performance, except $\Gamma_{\rm Qjet}$, which shows significantly worse
 discrimination (this may be due to our choice of
-rigidity $\alpha = 0.1$, while other studies suggest that a smaller value,
-such as $\alpha = 0.01$, produces better results). The combination of all variables shows somewhat better discrimination.
+rigidity $\alpha = 0.1$, with other studies suggesting that a smaller value,
+such as $\alpha = 0.01$, produces better results\refneeded). The combination of all variables shows somewhat better discrimination.
 
 We now examine how performance of masses and substructure observables changes with $\pt$ and $R$. For jet masses, few variations are observed as the 
 radius parameter of the jet reconstruction is increased in the two highest $\pt$ bins; this is because the radiation
@@ -174,7 +181,7 @@ The evolution of some of the substructure variable distributions with $\pt$ and 
  for the jet masses. In particular, changing the $R$ parameter at high $\pt$ changes significantly the $C_a^{\beta}$
 for $\beta>0$ and the $n_{\rm constits}$ distributions, while leaving all other distributions qualitatively unchanged. 
 This is illustrated in Figure~\ref{fig:Rdep_qg_C_pt1000} for $\beta=0$ and $\beta=1$ using $a=1$ in both cases for
-jets with $\pt=1-1.2\TeV$. 
+jets with $\pt=1.0-1.1\TeV$. 
 
  %
 \begin{figure*}
@@ -186,7 +193,7 @@ jets with $\pt=1-1.2\TeV$.
 \subfigure[$C_1^{\beta=1}$, $R=0.8$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR08/h_c1_b1.png}}
 \subfigure[$C_1^{\beta=1}$, $R=1.2$]{\includegraphics[width=0.30\textwidth]{./Figures/QGTagging/pT1000/AKtR12/h_c1_b1.png}}\\
 \caption{Comparisons of quark and gluon distributions of $C_1^{\beta=0}$ (top) and $C_1^{\beta=1}$ (bottom) 
-for leading jets in the $\pt=1-1.2 \TeV$ bin using the anti-\kT algorithm with $R=0.4$, 0.8 and 1.2. }
+for leading jets in the $\pt=1-1.1 \TeV$ bin using the anti-\kT algorithm with $R=0.4$, 0.8 and 1.2. }
 \label{fig:Rdep_qg_C_pt1000}
 \end{center}
 \end{figure*}
@@ -223,20 +230,21 @@ with the all-variable combination.
 
 In order to quantitatively study the value of each variable for quark/gluon tagging, we study the gluon 
 rejection, defined as $1/\epsilon_{\rm gluon}$, at a fixed quark selection efficiency
-of 50\% using jets with $\pt=1-1.2 \TeV$ and for different $R$ parameters. Figure~\ref{fig:qg_pt1000_comb} shows the gluon rejection for each pair-wise combination. 
+of 50\% using jets with $\pt=1-1.1 \TeV$ and for different $R$ parameters. Figure~\ref{fig:qg_pt1000_comb} shows the gluon rejection for each pair-wise combination. 
 The pair-wise gluon rejection at 50\% quark efficiency can be compared to the single-variable
 values shown along the diagonal. The gluon rejection for the 
 BDT all-variable combination is also shown on the bottom right of each plot.
 \begin{figure*}
 \begin{center}
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT1000/AKtR04/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT1000/AKtR04/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR04/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT1000/AKtR08/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT1000/AKtR08/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR08/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT1000/AKtR12/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT1000/AKtR12/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR12/Rocs_1D_single.png}\\
 \caption{Gluon rejection defined as $1/\epsilon_{\rm gluon}$ when using each 2-variable combination 
-as a tagger with 50\% acceptance for quark jets. Results are shown for jets with $\pt=1-1.2 \TeV$ and
+as a tagger with 50\% acceptance for quark jets. Results are shown for
+jets with $\pt=1-1.1 \TeV$ and
 for (left) $R=0.4$; (centre) $R=0.8$; (right) $R=1.2$. The rejection obtained with a tagger that uses all variables is also shown
 in the plots. }
 \label{fig:qg_pt1000_comb}
@@ -262,15 +270,15 @@ there is a loss of rejection power for the taggers made of a combination of vari
 This can be observed in Fig.~\ref{fig:qg_akt4_comb} for anti-$\kT$ R=0.4 jets of different $\pt$s. 
 \begin{figure*}
 \begin{center}
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT300/AKtR04/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT300/AKtR04/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR04/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT500/AKtR04/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT500/AKtR04/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR08/Rocs_1D_single.png}\\
-\includegraphics[width=0.32\textwidth]{./Figures/QGTagging/pT1000/AKtR04/effBkg2D.png}
+\includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT1000/AKtR04/effBkg2D.png}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR12/Rocs_1D_single.png}\\
 \caption{Gluon rejection defined as $1/\epsilon_{\rm gluon}$ when using each 2-variable combination 
 as a tagger with 50\% acceptance for quark jets. Results are shown for R=0.4 jets with $\pt=300-400 \GeV$, 
-$\pt=500-600 \GeV$ and $\pt=1-1.2 \TeV$. The rejection obtained with a tagger that uses all variables is also shown
+$\pt=500-600 \GeV$ and $\pt=1-1.1 \TeV$. The rejection obtained with a tagger that uses all variables is also shown
 in the plots. }
 \label{fig:qg_akt4_comb}
 \end{center}
