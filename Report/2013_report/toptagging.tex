@@ -21,7 +21,16 @@ We study a number of top-tagging strategies, in particular:
 %
 The top taggers have criteria for reconstructing a top and $W$ candidate, and a corresponding top and $W$ mass, as described in Section~\ref{sec:taggers}, while the grooming algorithms (trimming and pruning) do not incorporate a $W$-identification step. For a level playing field, where grooming is used we construct a $W$ candidate mass, \wmass, from the three leading subjets by taking the mass of the pair of subjets with the smallest invariant mass; in the case that only two subjets are reconstructed, we take the mass of the leading subjet. The top mass, \topmass, is the mass of the groomed jet. All of the above taggers and groomers incorporate a step to remove pile-up and other soft radiation.
 
-We also consider the performance of jet shape observables. In particular, we consider the $N$-subjettiness ratios $\tau_{32}^{\beta=1}$ and $\tau_{21}^{\beta=1}$, energy correlation function ratios $C_3^{\beta=1}$ and $C_2^{\beta=1}$, and the Qjet mass volatility $\Gamma$. In addition to the jet shape performance, we combine the jet shapes with the mass-reconstruction methods described above to determine the optimal combined performance.
+We also consider the performance of the following jet shape observables:
+\begin{itemize}
+\item The ungroomed jet mass.
+\item $N$-subjettiness ratios $\tau_2 / \tau_1$ and $\tau_3/\tau_2$ with $\beta=1$ and the ``winner-takes-all'' axes.
+\item 2-point energy correlation function ratios $C_2^{\beta=1}$ and $C_3^{\beta=1}$.
+\item The pruned Qjet mass volatility, $\Gamma_{\rm Qjet}$.
+\end{itemize}
+
+\noindent
+In addition to the jet shape performance, we combine the jet shapes with the mass-reconstruction methods described above to determine the optimal combined performance.
 
 For determining the performance of multiple variables, we combine the relevant tagger output observables and/or jet shapes into a boosted decision tree (BDT), which determines the optimal cut. Additionally, because each tagger has two input parameters, as described in Section~\ref{sec:taggers}, we scan over reasonable values of the parameters to determine the optimal value that gives the largest background rejection for each top tagging signal efficiency. This allows a direct comparison of the optimized version of each tagger. The input values scanned for the various algorithms are:
 %
