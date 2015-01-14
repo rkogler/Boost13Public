@@ -1,4 +1,4 @@
-% SVJour3 DOCUMENT CLASS -- version 3.2 for LaTeX2e
+% SVJour3 DOCUMENT CLASS -- version 3.3 for LaTeX2e
 %
 % LaTeX document class for Springer journals
 %
@@ -20,7 +20,7 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{svjour3}[2007/05/08 v3.2
+\ProvidesClass{svjour3}[2010/11/25 v3.3
 ^^JLaTeX document class for Springer journals]
 \newcommand\@ptsize{}
 \newif\if@restonecol
@@ -306,7 +306,7 @@ Springer class SVJour!}
 }\noindent\keywordname\enspace\ignorespaces#1\par}}
 %
 \def\subclassname{{\bfseries Mathematics Subject Classification
-(2000)}\enspace}
+(2010)}\enspace}
 \def\subclass#1{\par\addvspace\medskipamount{\rightskip=0pt plus1cm
 \def\and{\ifhmode\unskip\nobreak\fi\ $\cdot$
 }\noindent\subclassname\ignorespaces#1\par}}
@@ -456,11 +456,12 @@ used inside of \string\title, \string\author,\MessageBreak
 and \string\date\space prior to \string\maketitle}}
 %
 \def\maketitle{\par\let\thanks=\orithanks
-\ch@ckobl{journalname}{}
-\ch@ckobl{date}{}
-\ch@ckobl{title}{}
-\ch@ckobl{author}{}
-\ch@ckobl{institute}{}
+\ch@ckobl{journalname}{Noname}
+\ch@ckobl{date}{the date of receipt and acceptance should be inserted
+later}
+\ch@ckobl{title}{A title should be given}
+\ch@ckobl{author}{Name(s) and initial(s) of author(s) should be given}
+\ch@ckobl{institute}{Address(es) of author(s) should be given}
 \begingroup
 %
     \renewcommand\thefootnote{\@fnsymbol\c@footnote}%

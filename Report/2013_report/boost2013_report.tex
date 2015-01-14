@@ -1,36 +1,29 @@
+%\RequirePackage{fix-cm}
 
-\documentclass[twocolumn,epjc]{svjour3}
-\pdfoutput=1
-\usepackage{lineno}
-\usepackage{authblk}
-\usepackage[section]{placeins}% to prevent "too many unprocessed floats" error.
-\usepackage{subfigure}
-\usepackage{tabulary}
-\usepackage{booktabs}
-\usepackage{mathrsfs}
-\usepackage{rotating}
-\usepackage{float} 
-\usepackage{url}
-\usepackage{subfigure}
-\usepackage{graphicx}
-%\usepackage{caption}
-%\usepackage{subcaption}
-\usepackage{epstopdf}
-\usepackage{rotating}
-\usepackage{multirow}
-\usepackage{xspace}
-\usepackage{hyperref}
+\documentclass[pdftex,twocolumn,epjc3]{svjour3}          % twocolumn
 
-%\documentclass[twocolumn,epjc3]{svjour3}  
-%
+\RequirePackage[T1]{fontenc}
+
 \smartqed  % flush right qed marks, e.g. at end of proof
-%
-\RequirePackage{graphicx}
-\RequirePackage{amssymb}
-\RequirePackage{placeins}
-\RequirePackage{amsmath}
 
-\graphicspath{ {./Plots/} }
+\RequirePackage{graphicx}
+\RequirePackage{mathptmx}      % use Times fonts if available on your TeX system
+\RequirePackage{flushend}
+\RequirePackage[numbers,sort&compress]{natbib}
+\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
+
+%new (not in standard EPJC template)
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{xspace}
+\RequirePackage{subfigure}
+\RequirePackage{mathrsfs}
+\RequirePackage{lineno}
+%\RequirePackage{amssymb}
+%\RequirePackage{placeins}
+
+\journalname{Eur. Phys. J. C}
+
 
 \def\TeV{\ifmmode {\mathrm{\ Te\kern -0.1em V}}\else
                    \textrm{Te\kern -0.1em V}\fi}%
@@ -135,8 +128,6 @@
 \newcommand{\wmass}{\ensuremath{m_{W}}}
 \newcommand{\topmass}{\ensuremath{m_{t}}}
 
-
-
 \newcommand{\Ntrk}{\ensuremath{N_{\mathrm{trk}}}}
 \newcommand{\Npart}{\ensuremath{N_{\mathrm{part}}}}
  \newcommand{\coreF}{\ensuremath{\mathcal{F}_{\mathrm{core}}}}
@@ -148,7 +139,6 @@
 \newcommand{\bjet}{\ensuremath{b}\mbox{-}{\rm jet}}
 \newcommand{\FJ}{{\sc Fast\-Jet}}
 \newcommand{\JVF}{\ensuremath{\mathcal{F}_{\mathrm{jvf}}}}
-%\newcommand{\dfrac}[2]{\frac{\displaystyle{#1}}{\displaystyle{#2}}}
 
 \newcommand{\kT}{\ensuremath{k_{\mathrm{T}}}\xspace}
 \newcommand{\antikt}{{\rm anti-}\kT}
@@ -156,29 +146,9 @@
 % greek
 \newcommand{\w}{\omega}
 \newcommand{\W}{\Omega}
-%\newcommand{\al}{\alpha}
-%\newcommand{\ga}{\gamma}
-%\newcommand{\de}{\delta}
-%\newcommand{\ep}{\epsilon}
-%\newcommand{\ze}{\zeta}
-%\newcommand{\ka}{\kappa}
-%\newcommand{\la}{\lambda}
-%\newcommand{\si}{\sigma}
-%\newcommand{\up}{\upsilon}
-%\newcommand{\Ga}{\Gamma}
-%\newcommand{\De}{\Delta}
-%\newcommand{\La}{\Lambda}
-%\newcommand{\Si}{\Sigma}
-%\newcommand{\Up}{\Upsilon}
 
 % vectors:
 \renewcommand{\vec}[1]{\mathbf{#1}} 
-%\newcommand{\vj}{\vec{j}}
-%\newcommand{\vk}{\vec{k}}
-%\newcommand{\vn}{\vec{n}}
-%\newcommand{\vp}{\vec{p}}
-%\newcommand{\vt}{\vec{t}}
-
 
 % mathcal letters
 \newcommand{\cA}{ \mathcal{A} }
@@ -194,278 +164,83 @@
 \newcommand{\cR}{ \mathcal{R} }
 \newcommand{\cY}{ \mathcal{Y} }
 
-
 % physics constants
 \newcommand{\as}{\alpha_s} 
 
-%---------- math macros ------------------------------------------------------------------------------------------------
-
 \newcommand{\ord}[1]{\mathcal{O}(#1)} % order of magnitude
 
-%%%%%
-
-
-%
-% \RequirePackage{mathptmx}      % use Times fonts if available on your TeX system
-%
-% insert here the call for the packages your document requires
-%\RequirePackage{latexsym}
-%\RequirePackage[numbers,sort&compress]{natbib}
-%\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
-% etc.
-%
-% please place your own definitions here and don't use \def but
-% \newcommand{}{}
-%
-\journalname{Eur. Phys. J. C}
-%
-
-\linenumbers
-\title{\vskip -1cm Towards an Understanding of the Correlations in
-Jet Substructure}
-\subtitle{Report of BOOST2013, hosted by the University of Arizona, 12$^{th}$-16$^{th}$ of August 2013.}
-\titlerunning{Boosted objects at the LHC}
-\authorrunning{BOOST2013 participants} % if too long for running head
-%%%%%%%%%%%%%%
-%
-% NEED TO UPDATE PARTICIPANT LIST AND AFFILIATIONS!!!
-%
-%%%%%%%%%%%%%%
-\author[1]{\mbox{D. Adams}}
-\author[2]{\mbox{A. Arce}} 
-\author[3]{\mbox{L. Asquith}} 
-\author[4]{\mbox{M. Backovic}} 
-\author[5]{\mbox{T. Barillari}} 
-\author[6]{\mbox{P. Berta}} 
-\author[2]{\mbox{D. Bertolini}} 
-\author[8]{\mbox{A. Buckley}} 
-\author[9]{\mbox{J. Butterworth}}
-\author[10]{\mbox{R.~C. Camacho Toro}} 
-\author[9]{\mbox{J. Caudron}} 
-\author[11]{\mbox{Y.-T. Chien}} 
-\author[12]{\mbox{J. Cogan}}
-\author[9]{\mbox{B. Cooper}} 
-\author[17]{\mbox{D. Curtin}} 
-\author[18]{\mbox{C. Debenedetti}} 
-\author[9]{\mbox{J. Dolen}}
-\author[22]{\mbox{M. Eklund}}
-\author[22]{\mbox{S. El Hedri}} 
-\author[22]{\mbox{S.~D. Ellis}}  
-\author[22]{\mbox{T. Embry}} 
-\author[23]{\mbox{D. Ferencek}} 
-\author[24]{\mbox{J. Ferrando}} 
-\author[16]{\mbox{S. Fleischmann}} 
-\author[25]{\mbox{M. Freytsis}}  
-\author[21]{\mbox{M. Giulini}} 
-\author[27]{\mbox{Z. Han}} 
-\author[4]{\mbox{D. Hare}} 
-\author[4]{\mbox{P. Harris}}
-\author[4]{\mbox{A. Hinzmann}} 
-\author[4]{\mbox{R. Hoing}} 
-\author[22]{\mbox{A. Hornig}} 
-%% Los Alamos National Lab, Los Alamos, NM 87544 
-\author[4]{\mbox{M. Jankowiak}} 
-\author[28]{\mbox{K. Johns}} 
-\author[23]{\mbox{G. Kasieczka}} 
-\author[24]{\mbox{T. Knight}} 
-\author[29]{\mbox{G. Kasieczka}} 
-\author[30]{\mbox{R. Kogler}} 
-\author[4]{\mbox{W. Lampl}}
-\author[4]{\mbox{A.~J. Larkoski}} 
-\author[31]{\mbox{C. Lee}} 
-\author[31]{\mbox{R. Leone}} 
-\author[31]{\mbox{P. Loch}} 
-\author[27]{\mbox{D. Lopez Mateos}}
-\author[27]{\mbox{H. K. Lou}}
-\author[27]{\mbox{M. Low}} 
-\author[32]{\mbox{P. Maksimovic}}
-\author[32]{\mbox{I. Marchesini}}
-\author[32]{\mbox{S. Marzani}} 
-\author[33]{\mbox{L. Masetti}}
-\author[32]{\mbox{R. McCarthy}}
-\author[32]{\mbox{S. Menke}} 
-\author[35]{\mbox{D.~W. Miller}} 
-\author[36]{\mbox{K. Mishra}}
-\author[32]{\mbox{B. Nachman}} 
-\author[4]{\mbox{P. Nef}}
-\author[24]{\mbox{F.~T. O'Grady}}
-\author[23]{\mbox{A. Ovcharova}} 
-\author[37]{\mbox{A. Picazio}} 
-\author[38]{\mbox{C. Pollard}} 
-\author[29]{\mbox{B. Potter Landua}}
-\author[29]{\mbox{C. Potter}} 
-\author[39]{\mbox{S. Rappoccio}} 
-\author[48]{\mbox{J. Rojo}} 
-\author[40]{\mbox{J. Rutherfoord}}
-\author[10,11]{\mbox{G.~P. Salam}} 
-\author[23]{\mbox{J. Schabinger}}
-\author[4]{\mbox{A. Schwartzman}} 
-\author[27]{\mbox{M.~D. Schwartz}} 
-\author[43]{\mbox{B. Shuve}} 
-\author[44]{\mbox{P. Sinervo}}
-\author[45]{\mbox{D. Soper}}
-\author[45]{\mbox{D.~E. Sosa Corral}} 
-\author[32]{\mbox{M. Spannowsky}} 
-\author[34]{\mbox{E. Strauss}}
-\author[4]{\mbox{M. Swiatlowski}}
-\author[34]{\mbox{J. Thaler}} 
-\author[34]{\mbox{C. Thomas}} 
-\author[1]{\mbox{E. Thompson}} 
-\author[36]{\mbox{N.~V. Tran}} 
-\author[36]{\mbox{J. Tseng}} 
-\author[36]{\mbox{E. Usai}} 
-\author[36]{\mbox{L. Valery}}  
-\author[23]{\mbox{J. Veatch}} 
-\author[23]{\mbox{M. Vos}} 
-\author[4]{\mbox{W. Waalewijn}} 
-\author[47]{\mbox{C. Young}}
-
-% Still need to update afilliations!!!
-
-\affil[1]{Columbia University, Nevis Laboratory, Irvington, NY 10533, USA}
-\affil[2]{Duke University, Durham, NC 27708, USA}
-\affil[3]{Argonne National Laboratory, Lemont, IL 60439, USA}
-\affil[4]{SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA}
-\affil[5]{Deutsches Elektronen-Synchrotron, DESY, D-15738 Zeuthen, Germany}
-\affil[6]{Cornell University, Ithaca, NY 14853, USA}
-\affil[7]{Lund University, Lund, SE 22100, Sweden}
-\affil[8]{University of Edinburgh, EH9 3JZ, UK}
-\affil[9]{University College London, WC1E 6BT, UK}
-\affil[10]{LPTHE, UPMC Univ.~Paris 6 and CNRS UMR 7589, Paris, France}
-\affil[11]{CERN, CH-1211 Geneva 23, Switzerland}
-\affil[12]{CAFPE and U. of Granada, Granada, E-18071, Spain}
-\affil[13]{McGill University, Montreal, Quebec H3A 2T8, Canada}
-\affil[14]{Iowa State University, Ames, Iowa 50011, USA}
-\affil[15]{Rutgers University, Piscataway, NJ 08854, USA}
-\affil[16]{Bergische Universitaet Wuppertal, Wuppertal, D-42097, Germany}
-\affil[17]{YITP, Stony Brook University, Stony Brook, NY 11794-3840, USA}
-\affil[18]{University of Manchester, Manchester, M13 9PL, UK}
-\affil[19]{UNESP - Universidade Estadual Paulista, Sao Paulo, 01140-070, Brazil}
-\affil[20]{INFN and University of Naples, IT80216, Italy}
-\affil[21]{University of Geneva, CH-1211 Geneva 4, Switzerland}
-\affil[22]{University of Washington, Seattle, WA 98195, USA}
-\affil[23]{Instituto de F\'isica Corpuscular, IFIC/CSIC-UVEG, E-46071 Valencia, Spain}
-\affil[24]{University of Glasgow, Glasgow, G12 8QQ, UK}
-\affil[25]{Berkeley National Laboratory, University of California, Berkeley, CA 94720, USA}
-\affil[26]{Universidad de Buenos Aires, AR-1428, Argentina}   
-\affil[27]{Harvard University, Cambridge, MA 02138, USA}
-\affil[28]{Weizmann Institute, 76100 Rehovot, Israel}
-\affil[29]{Universitaet Hamburg, DE-22761, Germany}
-\affil[30]{Universitaet Heidelberg, DE-69117, Germany}
-\affil[31]{University of Arizona, Tucson, AZ 85719, USA}
-\affil[32]{IPPP, University of Durham, Durham, DH1 3LE, UK}
-\affil[33]{Universitaet Mainz, DE 55099, Germany}
-\affil[34]{MIT, Cambridge, MA 02139, USA}
-\affil[35]{University of Chicago, IL 60637, USA}
-\affil[36]{Fermi National Accelerator Laboratory, Batavia, IL 60510, USA}
-\affil[37]{Indiana University, Bloomington, IN 47405, USA}
-\affil[38]{University of California, Davis, CA 95616, USA}
-\affil[39]{Johns Hopkins University, Baltimore, MD 21218, USA}
-\affil[40]{INFN and University of Pisa, Pisa, IT-56127, Italy}
-\affil[41]{Texas A \& M University, College Station, TX 77843, USA}
-%\affil[42]{Princeton University, Princeton, NJ 08544, USA}
-\affil[42]{INFN and University of Calabria, Rende, IT-87036, Italy}
-\affil[43]{Brown University, Richmond, RI 02912, USA}
-\affil[44]{Yale University, New Haven, CT 06511, USA}
-\affil[45]{CEA Saclay, Gif-sur-Yvette, FR-91191, France}
-\affil[46]{University of Illinois, Chicago, IL 60607, USA}
-\affil[47]{University of California, Berkeley, CA 94720, USA}
-\affil[48]{University of Oxford, Oxford, OX1 3NP, UK}
-%placed here. General acknowledgments should be placed at the end of the article.
-%%\thankstext{e1}{e-mail: fauthor@example.com}
-%%$^*$ Editors, contact e-mail: \email{b.cooper@ucl.ac.uk,roman.kogler@cern.ch,larkoski@mit.edu}
-%
-
-%\date{??st of ???, 2014}
-% The correct dates will be entered by the editor
-%\authorrunning{XXX, YYY, ZZZ (editors)}
-
-
-
-
 \begin{document}
-%\renewcommand\Authfont{\footnotesize}
-\renewcommand\Affilfont{\textnormal\itshape\it\small}
+\linenumbers
+\title{Towards an Understanding of the Correlations in
+Jet Substructure}
+
+\subtitle{Report of BOOST2013, hosted by the University of Arizona, 12$^{th}$-16$^{th}$ of August 2013.}
+
+\author{First Author\thanksref{addr1}
+        \and
+        Second Author\thanksref{addr2,addr3} %etc.
+}
+
+
+\institute{First Address, Street, City, Country\label{addr1}
+          \and
+          Second Address, Street, City, Country\label{addr2}
+          \and
+          \emph{Present Address:} Street, City, Country\label{addr3}
+}
+
+\date{Received: date / Accepted: date}
+% The correct dates will be entered by the editor
+
+
 \maketitle
 
 \begin{abstract}
-Abstract for BOOST2013 report
-\keywords{boosted objects \and jet substructure \and beyond-the-Standard-Model physics searches \and Large Hadron Collider}
-% \PACS{PACS code1 \and PACS code2 \and more}
-% \subclass{MSC code1 \and MSC code2 \and more}
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
 \end{abstract}
-
-
 
 \section{Introduction}
 \label{sec:intro}
 \input{introduction}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Monte Carlo Samples}
 \label{sec:samples}
 \input{samples}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Jet Algorithms and Substructure Observables}
 \label{sec:algssubstructure}
 \input{substructure}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Multivariate Analysis Techniques}
 \label{sec:multivariate}
 \input{multivariate}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Quark-Gluon Discrimination}
 \label{sec:qgtagging}
 \input{qgtagging}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Boosted $W$-Tagging}
 \label{sec:wtagging}
 \input{wtagging}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Top Tagging}
 \label{sec:toptagging}
 \input{toptagging}
-\FloatBarrier
-
-%\section{Correlations between jet observables}
-%\label{sec:corr}
-%\input{correlations}
+%\FloatBarrier
 
 \section{Summary \& Conclusions}
 \label{sec:conclusions}
 \input{conclusions}  %% please uncomment it once the tex file is created
 
-\section*{Acknowledgements}
-
-We thank the Department of Physics at the University of Arizona and for hosting the conference at the Little America Hotel.  We also thank Harvard University for hosting the event samples used in this report.  This work was made possible in part by the facilities of the Shared Hierarchical Academic Research Computing Network (SHARCNET) and Compute/Calcul Canada.
-We also thank Hallie Bolonkin for the BOOST2013 poster design and Jackson Boelts' ART465 class (fall 2012) at the University of Arizona School of Arts VisCom program. (NEED TO ASK PETER LOCH FOR MORE ACKNOWLEDGEMENTS)
-
-% BibTeX users please use one of
-%\bibliographystyle{spbasic}      % basic style, author-year citations
-%\bibliographystyle{spmpsci}      % mathematics and physical sciences
 \bibliographystyle{JHEP}       % APS-like style for physics
 \bibliography{boost2013_report}   % name your BibTeX data base
 
-% Non-BibTeX users please use
-%\begin{thebibliography}{}
-%
-% and use \bibitem to create references. Consult the Instructions
-% for authors for reference list style.
-%
-%\bibitem{RefJ}
-% Format for Journal Reference
-%Author, Article title, Journal, Volume, page numbers (year)
-% Format for books
-%\bibitem{RefB}
-%Author, Book title, page numbers. Publisher, place (year)
-%% etc
-%\end{thebibliography}
-
 \end{document}
-% end of file template.tex
-
