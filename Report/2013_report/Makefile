@@ -27,6 +27,7 @@ pdflatex:
 	pdflatex  ${BASENAME}
 	bibtex    ${BASENAME}
 	pdflatex  ${BASENAME}
+	pdflatex  ${BASENAME}
 
 pdflatexnobibtex:
 	pdflatex  ${BASENAME}
