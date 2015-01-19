@@ -1,5 +1,34 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Boost:2009xx}
+{\em Boost2009}, SLAC National Accelerator Laboratory, 9-10 July, 2009,
+  [\href{http://www-conf.slac.stanford.edu/Boost2009}{{\tt
+  http://www-conf.slac.stanford.edu/Boost2009}}].
+
+\bibitem{Boost:2010xx}
+{\em Boost2010}, University of Oxford, 22-25 June 2010,
+  [\href{http://www.physics.ox.ac.uk/boost2010}{{\tt
+  http://www.physics.ox.ac.uk/boost2010}}].
+
+\bibitem{Boost:2011xx}
+{\em Boost2011}, Princeton University, 22-26 May 2011,
+  [\href{https://indico.cern.ch/event/138809/}{{\tt
+  https://indico.cern.ch/event/138809/}}].
+
+\bibitem{Boost:2012xx}
+{\em Boost2012}, IFIC Valencia, 23-27 July 2012,
+  [\href{http://ific.uv.es/boost2012}{{\tt http://ific.uv.es/boost2012}}].
+
+\bibitem{Boost:2013xx}
+{\em Boost2013}, University of Arizona, 12-16 August 2013,
+  [\href{https://indico.cern.ch/event/215704/}{{\tt
+  https://indico.cern.ch/event/215704/}}].
+
+\bibitem{Boost:2014xx}
+{\em Boost2014}, University College London, 18-22 August 2014,
+  [\href{http://www.hep.ucl.ac.uk/boost2014/}{{\tt
+  http://http://www.hep.ucl.ac.uk/boost2014/}}].
+
 \bibitem{Abdesselam:2010pt}
 A.~Abdesselam, E.~B. Kuutmann, U.~Bitenc, G.~Brooijmans, J.~Butterworth,
   et~al., {\it {Boosted objects: A Probe of beyond the Standard Model
