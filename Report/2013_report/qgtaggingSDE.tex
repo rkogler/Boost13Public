@@ -420,42 +420,81 @@ in the plots. }
 To close the discussion of the tagging of jets as either quark jets or gluon jets we provide some insight into the behavior of the masses of such QCD jets,
 both with and without grooming.  Recall that, in practice, an identified jet is simply a list of constituents, \textit{i.e.}, objects in the detector.  To the extent
 that the masses of these individual constituents are irrelevant, typically because the detected constituents are relativistic, each constituent has a ``well''
-defined 4-momentum.  It follows that 4-momentum of the jet  is simply the sum of the 4-momenta of the constituents and its square is the jet mass squared.
+defined 4-momentum.  It follows that the 4-momentum of the jet  is simply the sum of the 4-momenta of the constituents and its square is the jet mass squared.
 We have already seen one set of jet mass distributions in  Figure~\ref{fig:qg_pt500_subst_AKt_R08}(h) for quark and gluon jets found with the anti-$\kT$
 algorithm with  $R = 0.8$ and $\pt$ in the bin 500-600 GeV.  If we consider the mass distributions for other kinematic points (other values of $R$ and $\pt$),
 we observe considerable variation but that variation can largely be removed by plotting versus the scaled variable $m/p_T/R$.  Simply on dimensional grounds
 we know that jet mass must scale essentially linearly with $\pt$, with the remaining $\pt$ dependence arising predominantly from the running of the coupling,
-$\alpha_S(\pt)$.  The $R$ dependence is also crudely linear as the mass scales approximately with the largest angular opening between any 2 constituents
-and that is set by $R$.  The mass distributions for quark and gluon jets for all of our kinematic points are indicated in Figure~\ref{fig:qg_masses_log}, where
+$\alpha_s(\pt)$.  The $R$ dependence is also crudely linear as the mass scales approximately with the largest angular opening between any 2 constituents
+and that is set by $R$.  The mass distributions for quark and gluon jets versus $m/p_T/R$ for all of our kinematic points 
+are indicated in Figure~\ref{fig:qg_masses_log}, where
 we use a logarithmic scale on the y-axis to clearly exhibit the behavior of these distributions over a large dynamic range.  We observe that the distributions
-for the different kinematic points do approximately scale, \textit{i.e.}, the simple arguments above do capture most of the variation in the unscaled distributions.
+for the different kinematic points do approximately scale, \textit{i.e.}, the simple arguments above do capture most of the variation with $R$ and $\pt$.
 We will consider shortly an explanation of the residual non-scaling. 
 
 \begin{figure*}
 \centering
 \subfigure[Quark jets]{\includegraphics[width=0.40\textwidth]{./Figures/QGMass/mpr_quarks_log.png}}
 \subfigure[Gluon jets]{\includegraphics[width=0.40\textwidth]{./Figures/QGMass/mpr_gluon_log.png}}
-\caption{Comparisons of quark and gluon pruned mass distributions versus the scaled variable $m/p_T/R$. }
+\caption{Comparisons of quark and gluon pruned mass distributions versus the scaled variable $m_\text{pr}/p_T/R$. }
 \label{fig:qg_prmasses_log}
 \end{figure*}
 
 Several features of Figure~\ref{fig:qg_masses_log} can be easily understood.  The distributions all cut-off rapidly for $m/p_T/R > 0.5$, which is understood as
 the precise limit (maximum mass) for a jet composed of just 2 constituents.  As expected from the soft and collinear singularities in QCD, the mass distribution peaks 
 at small mass values.  The actual peak is ``pushed'' away from the origin by the so-called Sudakov form factor.  Summing the corresponding logarithmic structure 
-(singular in both $\pt$ and angle) to all orders in perturbation theory yields a distribution that is highly damped  as the mass vanishes.  In words, there is precisely zero
-probability that a color parton emits no radiation (and the resulting jet has zero mass). 
+(singular in both $\pt$ and angle) to all orders in perturbation theory yields a distribution that is highly damped  as the mass vanishes.  In words, there is precisely 
+\textit{zero} probability that a color parton emits \textit{no} radiation (and the resulting jet has zero mass). 
  The large mass ``shoulder" ($0.3 < m/p_T/R < 0.5$) is driven largely by the presence of a single large angle, energetic
-emission in the underlying QCD shower, \textit{i.e.}, this regime is well described by low-order perturbation theory.  (The shoulder label will be more clear after we groom the jet.)
-In contrast, we should think as the peak region as corresponding to multiple soft emissions.  This simple (approximate) picture allows an understanding of the
+emission in the underlying QCD shower, \textit{i.e.}, this regime is quite well described by low-order perturbation theory. 
+ (The shoulder label will be more clear after we groom the jet.)
+In contrast, we should think of the peak region as corresponding to multiple soft emissions.  This simple (approximate) picture 
+provides an understanding of the bulk of the
 differences between the quark and gluon jet mass distributions.  Since the probability of the single large angle, energetic emission is proportional to the color charge,
 the gluon distribution should be enhanced in this region by a factor of about $C_A/C_F = 9/4$, consistent with what is observed in Figure~\ref{fig:qg_masses_log}.
-Similarly the exponent in the Sudakov damping factor is enhanced by the same factor, leading to a peak ``pushed'' further from the origin.  So the gluon jet mass 
+Similarly the exponent in the Sudakov damping factor for the gluon jet mass distribution  is enhanced by the same factor, 
+leading to a peak ``pushed'' further from the origin.  So the gluon jet mass 
 distribution exhibits a larger average jet mass than the quark jet, with a larger relative contribution arising from the perturbative shoulder region.  Recall also that
-the number of constituents in the jet is also larger for the gluon jet.  This feature that the shoulder plays a larger role for the gluon jet provides an explanation
-for the difference in the observable $\Gamma_{Qjet}$.  Since the shoulder is dominated by a single large angle, hard emission, ii is minimally impacted by pruning,
+the number of constituents in the jet is also larger (on average) for the gluon jet simply because a gluon will radiate more than a quark.  
+These features explain much of what we observed earlier in terms of the effectiveness of the various observable to separate quark jets from gluons jets.
+Note in particular that the enhanced role of the shoulder for gluon jet explains, at least qualitatively, the difference in the distributions for the observable 
+$\Gamma_{Qjet}$.  Since the shoulder is dominated by a single large angle, hard emission, ii is minimally impacted by pruning,
 which removes the large angle, \textit{soft} constituents (as illustrated just below). Thus jets in the shoulder exhibit small volatility and they are a larger
 component in the gluon jet distribution.  Hence gluon jets, on average, have smaller values of  $\Gamma_{Qjet}$ than quark jets as in 
-Figure~\ref{fig:qg_pt500_subst_AKt_R08}(b).
+Figure~\ref{fig:qg_pt500_subst_AKt_R08}(b).  Further this feature of gluon jets is distinct from fact that there are more constituents, which explains why
+$\Gamma_{Qjet}$ and $\rm{N_ {constits}}$ supply largely independent information for distinguishing quark and gluon jets. 
 
-Figure~\ref{fig:qg_mprasses_log} exhibits the jet mass distributions (of  Figure~\ref{fig:qg_masses_log}) after pruning.  Removing the large angle,  soft constituents
-moves the peak in the distributions from  $m/p_T/R ~ 0.1 - 0.2$ to the region around $m/p_T/R ~ 0.05$.
+To illustrate some of these points in more detail, Figure~\ref{fig:qg_prmasses_log} exhibits the jet mass distributions (of  Figure~\ref{fig:qg_masses_log}) 
+\textit{after pruning}.  Removing the large angle,  soft constituents
+moves the peak in both of the distributions from  $m/p_T/R \sim 0.1 - 0.2$ to the region around $m/p_T/R \sim 0.05$.  This explains why pruning works to reduce the
+QCD background when looking for a signal in a specific jet mass bin.  The ``shoulder'' feature is much more apparent after pruning, as is the larger shoulder for
+the gluon jets.  
+
+Our final topic is the residual $R$ and $\pt$ dependence exhibited in Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, where we are
+using the scaled variable $m/p_T/R$.  As already suggested, the residual $\pt$ dependence can be understood as arising primarily from the slow decrease of the strong
+coupling $\alpha_s(\pt)$ as $\pt$ increases.  This will lead to a corresponding decrease in the (largely perturbative) shoulder regime for both distributions
+as $\pt$ increases.  At the same time, and for the same reason, the Sudakov damping is less strong with increasing $\pt$ and the peak moves towards the origin.
+Thus the overall impact of increasing $\pt$ for both distributions is a (slow) shift to smaller values of $m/p_T/R$.  This is just what is observed in 
+Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, although the numerical size of the effect is reduced in the pruned case.
+The $R$ dependence is more complicated as there are effectively three different contributions to the mass distribution.  
+The perturbative large angle, energetic single emission contribution
+largely scales in the variable $m/p_T/R$, which is why we see little residual $R$ dependence in either figure for $m/p_T/R > 0.4$.  
+The large angle soft emissions can both contribute
+at mass values that scale like $R$ and increase in number as $R$ increases (\textit{i.e.}, as the area of the jet grows as $R^2$).  Such contributions can yield
+a distribution that moves to the right as $R$ increases and presumably explain the behavior at small $\pt$ in Figure~\ref{fig:qg_masses_log}.  Since pruning
+largely removes this contribution, we observe no such behavior in Figure~\ref{fig:qg_prmasses_log}.  The contribution of small angle, soft emissions will be at
+fixed $m$ values and thus shift to the left versus the scaled variable as $R$ increases.  
+This presumably explains the small shifts in this direction observed in both figures.
+
+ \subsection{Conclusions}\label{sec:qg_concl}
+
+In Section~\ref{sec:qgtagging} we have seen that a variety of jet observables
+ provide information about the jet that can be employed effectively to separately tag quark and gluon jets.  Further,
+when used in combination, these observables can provide even better separation.  We saw that the best performing single observable is simply the number of
+constituents in the jet, $\rm{N_ {constits}}$,  while the largest further improvement comes from combining with $C_1^{\beta =1}$ (or $\tau_1^{\beta=1}$), 
+but the smallest
+$R$ and $\pt$ dependence arises from combining with $C_1^{\beta = 0}$.  On the other hand, some of the commonly used observables are highly correlated
+and do not provide extra information and enhanced tagging when used together.  We have both demonstrated these correlations and provided a discussion of the 
+physics behind the structure of the correlation.  In particular, using the jet mass as a specific example observable we have tried to explicitly explain the differences between jets 
+initiated by both quarks and gluons. 
+ 
