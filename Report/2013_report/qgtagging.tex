@@ -8,7 +8,7 @@ desire to ``tag'' a jet as originating from a quark or gluon, but also
 to improve our  understanding of the quark and gluon components of the
 QCD backgrounds relative to boosted resonances.  While recent studies
 have suggested that quark/gluon tagging efficiencies depend highly on
-the Monte Carlo generator used\refneeded, we are more interested in
+the Monte Carlo generator used\cite{Aad:2014gea,Gallicchio:2012ez}, we are more interested in
 understanding the scaling performance with $\pt$ and $R$, and the
 correlations between observables, which are expected to be treated
 consistently within a single shower scheme.
@@ -18,8 +18,8 @@ consistently within a single shower scheme.
 %{\it Start adding outline/discussion of theoretical understanding}
 These studies use the $qq$ and $gg$ MC samples, described previously in Section~\ref{sec:samples}. 
 The showered events were clustered with \textsc{FastJet}
-3.03\refneeded using
-the \antikt~algorithm\refneeded with jet radii of $R = 0.4,\, 0.8,\, 1.2$. In
+3.03 using
+the \antikt~algorithm with jet radii of $R = 0.4,\, 0.8,\, 1.2$. In
 both signal (quark) and background (gluon) samples, an upper and lower cut on
 the leading jet $\pt$ is applied after showering/clustering, to ensure
 similar $\pt$ spectra for signal and background in each \pt bin. The bins
@@ -102,10 +102,10 @@ ratio of the corresponding Casimir factors $C_F/C_A = 4/9$.  Since the quark has
 gluon and the resulting jet will contain fewer constituents. This difference is clearly indicated in Figure~\ref{fig:qg_pt500_subst_AKt_R08}(a), 
 suggesting that simply counting constituents will provide good separation between quark and gluon jets.  In fact, among the observables
 considered, one can see by eye that $N_{\rm constits}$ should provide the highest separation
-power, \textit{i.e.}, the quark and gluon distributions are most distinct, as was originally noted in \refneeded. 
+power, \textit{i.e.}, the quark and gluon distributions are most distinct, as was originally noted in \cite{Gallicchio:2011xq,Gallicchio:2012ez}. 
 Figure~\ref{fig:qg_pt500_subst_AKt_R08} further suggests
 that $C_1^{\beta=0}$ should provide the next best separation followed by $C_1^{\beta=1}$, as was also
-found by the CMS and ATLAS Collaborations\refneeded.   
+found by the CMS and ATLAS Collaborations\cite{Aad:2014gea}.   
 
 To more quantitatively study the power of each observable as a
 discriminator for quark/gluon tagging, ROC curves are built by scanning each distribution
@@ -136,7 +136,7 @@ Clearly, and as suggested earlier, $n_{\rm constits}$ is the best performing var
 for R=0.8. Most other variables have similar performance, except $\Gamma_{\rm Qjet}$, which shows significantly worse
 discrimination (this may be due to our choice of
 rigidity $\alpha = 0.1$, with other studies suggesting that a smaller value,
-such as $\alpha = 0.01$, produces better results\refneeded). The combination of all variables shows somewhat better discrimination, and
+such as $\alpha = 0.01$, produces better results\cite{Ellis:2012sn,Ellis:2014eya}). The combination of all variables shows somewhat better discrimination, and
 we will discuss in more detail below the correlations between the observables and their impact on the combined discrimination power.
 
 %
@@ -160,7 +160,7 @@ We now examine how the performance of the substructure observables changes with 
 we will focus on the gluon jet ``rejection'' factor, $1/\epsilon_\text{bkg}$, for a quark signal efficiency, $\epsilon_\text{sig}$, of $50\,\%$.
 We can use the values of $1/\epsilon_\text{bkg}$ generated for the 9 kinematic points introduced above ($R = 0.4, 0.8, 1.2$ and 
 the 100 GeV $\pt$ bins with lower limits
-$p_T = 300\, \text{GeV}, 500\, \text{GeV}, 1000\,\text{GeV}$) to generate surface plots.  The surface plots in Figure~\ref{fig:qg_surface_single}
+$p_T = 300\, \text{GeV}$, $500\, \text{GeV}$, $1000\,\text{GeV}$) to generate surface plots.  The surface plots in Figure~\ref{fig:qg_surface_single}
 indicate both the level of gluon rejection
 and the variation with $\pt$ and $R$ for each of the studied single observable.  The color shading is defined so that a change in color 
 corresponds to a change of about 0.4 in $1/\epsilon_\text{bkg}$.  The colors have the same correlation with the magnitude of $1/\epsilon_\text{bkg}$
@@ -465,7 +465,7 @@ Figure~\ref{fig:qg_pt500_subst_AKt_R08}(b).  Further this feature of gluon jets 
 $\Gamma_{Qjet}$ and $\rm{N_ {constits}}$ supply largely independent information for distinguishing quark and gluon jets. 
 
 To illustrate some of these points in more detail, Figure~\ref{fig:qg_prmasses_log} exhibits the jet mass distributions (of  Figure~\ref{fig:qg_masses_log}) 
-\textit{after pruning}.  Removing the large angle,  soft constituents
+\textit{after pruning}\cite{Ellis:2009me,Ellis:2009su}.  Removing the large angle,  soft constituents
 moves the peak in both of the distributions from  $m/p_T/R \sim 0.1 - 0.2$ to the region around $m/p_T/R \sim 0.05$.  This explains why pruning works to reduce the
 QCD background when looking for a signal in a specific jet mass bin.  The ``shoulder'' feature is much more apparent after pruning, as is the larger shoulder for
 the gluon jets.  
