@@ -1,36 +1,28 @@
+%\RequirePackage{fix-cm}
 
-\documentclass[twocolumn,epjc]{svjour3}
-\pdfoutput=1
-\usepackage{lineno}
-\usepackage{authblk}
-\usepackage[section]{placeins}% to prevent "too many unprocessed floats" error.
-\usepackage{subfigure}
-\usepackage{tabulary}
-\usepackage{booktabs}
-\usepackage{mathrsfs}
-\usepackage{rotating}
-\usepackage{float} 
-\usepackage{url}
-\usepackage{subfigure}
-\usepackage{graphicx}
-%\usepackage{caption}
-%\usepackage{subcaption}
-\usepackage{epstopdf}
-\usepackage{rotating}
-\usepackage{multirow}
-\usepackage{xspace}
-\usepackage{hyperref}
+\documentclass[pdftex,twocolumn,epjc3]{svjour3}          % twocolumn
 
-%\documentclass[twocolumn,epjc3]{svjour3}  
-%
+\RequirePackage[T1]{fontenc}
+
 \smartqed  % flush right qed marks, e.g. at end of proof
-%
-\RequirePackage{graphicx}
-\RequirePackage{amssymb}
-\RequirePackage{placeins}
-\RequirePackage{amsmath}
 
-\graphicspath{ {./Plots/} }
+\RequirePackage{graphicx}
+\RequirePackage{mathptmx}      % use Times fonts if available on your TeX system
+\RequirePackage{flushend}
+\RequirePackage[numbers,sort&compress]{natbib}
+\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
+
+%new (not in standard EPJC template)
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{xspace}
+\RequirePackage{subfigure}
+\RequirePackage{mathrsfs}
+\RequirePackage{lineno}
+\RequirePackage{authblk}
+
+\journalname{Eur. Phys. J. C}
+
 
 \def\TeV{\ifmmode {\mathrm{\ Te\kern -0.1em V}}\else
                    \textrm{Te\kern -0.1em V}\fi}%
@@ -135,8 +127,6 @@
 \newcommand{\wmass}{\ensuremath{m_{W}}}
 \newcommand{\topmass}{\ensuremath{m_{t}}}
 
-
-
 \newcommand{\Ntrk}{\ensuremath{N_{\mathrm{trk}}}}
 \newcommand{\Npart}{\ensuremath{N_{\mathrm{part}}}}
  \newcommand{\coreF}{\ensuremath{\mathcal{F}_{\mathrm{core}}}}
@@ -148,7 +138,6 @@
 \newcommand{\bjet}{\ensuremath{b}\mbox{-}{\rm jet}}
 \newcommand{\FJ}{{\sc Fast\-Jet}}
 \newcommand{\JVF}{\ensuremath{\mathcal{F}_{\mathrm{jvf}}}}
-%\newcommand{\dfrac}[2]{\frac{\displaystyle{#1}}{\displaystyle{#2}}}
 
 \newcommand{\kT}{\ensuremath{k_{\mathrm{T}}}\xspace}
 \newcommand{\antikt}{{\rm anti-}\kT}
@@ -156,29 +145,9 @@
 % greek
 \newcommand{\w}{\omega}
 \newcommand{\W}{\Omega}
-%\newcommand{\al}{\alpha}
-%\newcommand{\ga}{\gamma}
-%\newcommand{\de}{\delta}
-%\newcommand{\ep}{\epsilon}
-%\newcommand{\ze}{\zeta}
-%\newcommand{\ka}{\kappa}
-%\newcommand{\la}{\lambda}
-%\newcommand{\si}{\sigma}
-%\newcommand{\up}{\upsilon}
-%\newcommand{\Ga}{\Gamma}
-%\newcommand{\De}{\Delta}
-%\newcommand{\La}{\Lambda}
-%\newcommand{\Si}{\Sigma}
-%\newcommand{\Up}{\Upsilon}
 
 % vectors:
 \renewcommand{\vec}[1]{\mathbf{#1}} 
-%\newcommand{\vj}{\vec{j}}
-%\newcommand{\vk}{\vec{k}}
-%\newcommand{\vn}{\vec{n}}
-%\newcommand{\vp}{\vec{p}}
-%\newcommand{\vt}{\vec{t}}
-
 
 % mathcal letters
 \newcommand{\cA}{ \mathcal{A} }
@@ -194,38 +163,38 @@
 \newcommand{\cR}{ \mathcal{R} }
 \newcommand{\cY}{ \mathcal{Y} }
 
-
 % physics constants
 \newcommand{\as}{\alpha_s} 
 
-%---------- math macros ------------------------------------------------------------------------------------------------
-
 \newcommand{\ord}[1]{\mathcal{O}(#1)} % order of magnitude
 
-%%%%%
-
-
-%
-% \RequirePackage{mathptmx}      % use Times fonts if available on your TeX system
-%
-% insert here the call for the packages your document requires
-%\RequirePackage{latexsym}
-%\RequirePackage[numbers,sort&compress]{natbib}
-%\RequirePackage[colorlinks,citecolor=blue,urlcolor=blue,linkcolor=blue]{hyperref}
-% etc.
-%
-% please place your own definitions here and don't use \def but
-% \newcommand{}{}
-%
-\journalname{Eur. Phys. J. C}
-%
 
 \linenumbers
-\title{\vskip -1cm Towards an Understanding of the Correlations in
+\title{Towards an Understanding of the Correlations in
 Jet Substructure}
+
 \subtitle{Report of BOOST2013, hosted by the University of Arizona, 12$^{th}$-16$^{th}$ of August 2013.}
 \titlerunning{Boosted objects at the LHC}
 \authorrunning{BOOST2013 participants} % if too long for running head
+
+%\author{D. Adams\thanksref{addr1}
+%        \and
+%        A. Arce\thanksref{addr2}
+%        \and
+%        L. Asquith\thanksref{addr3}
+%}
+%
+%\institute{Columbia University, Nevis Laboratory, Irvington, NY 10533, USA\label{addr1}
+%          \and
+%          Duke University, Durham, NC 27708, USA\label{addr2}
+%          \and
+%          Argonne National Laboratory, Lemont, IL 60439, USA\label{addr3}
+%}
+
+%\author{D. Adams}
+%\affil{Columbia University, Nevis Laboratory, Irvington, NY 10533, USA}
+
+
 %%%%%%%%%%%%%%
 %
 % NEED TO UPDATE PARTICIPANT LIST AND AFFILIATIONS!!!
@@ -371,101 +340,62 @@ Jet Substructure}
 \affil[46]{University of Illinois, Chicago, IL 60607, USA}
 \affil[47]{University of California, Berkeley, CA 94720, USA}
 \affil[48]{University of Oxford, Oxford, OX1 3NP, UK}
-%placed here. General acknowledgments should be placed at the end of the article.
-%%\thankstext{e1}{e-mail: fauthor@example.com}
-%%$^*$ Editors, contact e-mail: \email{b.cooper@ucl.ac.uk,roman.kogler@cern.ch,larkoski@mit.edu}
-%
 
-%\date{??st of ???, 2014}
+%\institute{}
+
+\date{Received: date / Accepted: date}
 % The correct dates will be entered by the editor
-%\authorrunning{XXX, YYY, ZZZ (editors)}
-
-
-
 
 \begin{document}
-%\renewcommand\Authfont{\footnotesize}
 \renewcommand\Affilfont{\textnormal\itshape\it\small}
 \maketitle
 
 \begin{abstract}
-Abstract for BOOST2013 report
-\keywords{boosted objects \and jet substructure \and beyond-the-Standard-Model physics searches \and Large Hadron Collider}
-% \PACS{PACS code1 \and PACS code2 \and more}
-% \subclass{MSC code1 \and MSC code2 \and more}
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
+Insert your abstract here. Insert your abstract here. Insert your abstract here.
 \end{abstract}
-
-
 
 \section{Introduction}
 \label{sec:intro}
 \input{introduction}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Monte Carlo Samples}
 \label{sec:samples}
 \input{samples}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Jet Algorithms and Substructure Observables}
 \label{sec:algssubstructure}
 \input{substructure}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Multivariate Analysis Techniques}
 \label{sec:multivariate}
 \input{multivariate}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Quark-Gluon Discrimination}
 \label{sec:qgtagging}
 \input{qgtaggingSDE}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Boosted $W$-Tagging}
 \label{sec:wtagging}
 \input{wtagging}
-\FloatBarrier
+%\FloatBarrier
 
 \section{Top Tagging}
 \label{sec:toptagging}
 \input{toptagging}
-\FloatBarrier
-
-%\section{Correlations between jet observables}
-%\label{sec:corr}
-%\input{correlations}
+%\FloatBarrier
 
 \section{Summary \& Conclusions}
 \label{sec:conclusions}
 \input{conclusions}  %% please uncomment it once the tex file is created
-
-\section*{Acknowledgements}
-
-We thank the Department of Physics at the University of Arizona and for hosting the conference at the Little America Hotel.  We also thank Harvard University for hosting the event samples used in this report.  This work was made possible in part by the facilities of the Shared Hierarchical Academic Research Computing Network (SHARCNET) and Compute/Calcul Canada.
-We also thank Hallie Bolonkin for the BOOST2013 poster design and Jackson Boelts' ART465 class (fall 2012) at the University of Arizona School of Arts VisCom program. (NEED TO ASK PETER LOCH FOR MORE ACKNOWLEDGEMENTS)
-
-% BibTeX users please use one of
-%\bibliographystyle{spbasic}      % basic style, author-year citations
-%\bibliographystyle{spmpsci}      % mathematics and physical sciences
+%
 \bibliographystyle{JHEP}       % APS-like style for physics
 \bibliography{boost2013_report}   % name your BibTeX data base
 
-% Non-BibTeX users please use
-%\begin{thebibliography}{}
-%
-% and use \bibitem to create references. Consult the Instructions
-% for authors for reference list style.
-%
-%\bibitem{RefJ}
-% Format for Journal Reference
-%Author, Article title, Journal, Volume, page numbers (year)
-% Format for books
-%\bibitem{RefB}
-%Author, Book title, page numbers. Publisher, place (year)
-%% etc
-%\end{thebibliography}
-
 \end{document}
-% end of file template.tex
-
