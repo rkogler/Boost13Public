@@ -1,136 +1,107 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
-\bibitem{Boost:2009xx}
-{\em Boost2009}, SLAC National Accelerator Laboratory, 9-10 July, 2009,
-  [\href{http://www-conf.slac.stanford.edu/Boost2009}{{\tt
-  http://www-conf.slac.stanford.edu/Boost2009}}].
-
-\bibitem{Boost:2010xx}
-{\em Boost2010}, University of Oxford, 22-25 June 2010,
-  [\href{http://www.physics.ox.ac.uk/boost2010}{{\tt
-  http://www.physics.ox.ac.uk/boost2010}}].
-
-\bibitem{Boost:2011xx}
-{\em Boost2011}, Princeton University, 22-26 May 2011,
-  [\href{https://indico.cern.ch/event/138809/}{{\tt
-  https://indico.cern.ch/event/138809/}}].
-
-\bibitem{Boost:2012xx}
-{\em Boost2012}, IFIC Valencia, 23-27 July 2012,
-  [\href{http://ific.uv.es/boost2012}{{\tt http://ific.uv.es/boost2012}}].
-
-\bibitem{Boost:2013xx}
-{\em Boost2013}, University of Arizona, 12-16 August 2013,
-  [\href{https://indico.cern.ch/event/215704/}{{\tt
-  https://indico.cern.ch/event/215704/}}].
-
-\bibitem{Boost:2014xx}
-{\em Boost2014}, University College London, 18-22 August 2014,
-  [\href{http://www.hep.ucl.ac.uk/boost2014/}{{\tt
-  http://http://www.hep.ucl.ac.uk/boost2014/}}].
-
 \bibitem{Abdesselam:2010pt}
 A.~Abdesselam, E.~B. Kuutmann, U.~Bitenc, G.~Brooijmans, J.~Butterworth,
   et~al., {\it {Boosted objects: A Probe of beyond the Standard Model
   physics}},  {\em Eur.Phys.J.} {\bf C71} (2011) 1661,
-  [\href{http://xxx.lanl.gov/abs/1012.5412}{{\tt arXiv:1012.5412}}].
+  [\href{http://arxiv.org/abs/1012.5412}{{\tt arXiv:1012.5412}}].
 
 \bibitem{Altheimer:2012mn}
 A.~Altheimer, S.~Arora, L.~Asquith, G.~Brooijmans, J.~Butterworth, et~al., {\it
   {Jet Substructure at the Tevatron and LHC: New results, new tools, new
   benchmarks}},  {\em J.Phys.} {\bf G39} (2012) 063001,
-  [\href{http://xxx.lanl.gov/abs/1201.0008}{{\tt arXiv:1201.0008}}].
+  [\href{http://arxiv.org/abs/1201.0008}{{\tt arXiv:1201.0008}}].
 
 \bibitem{Altheimer:2013yza}
 A.~Altheimer, A.~Arce, L.~Asquith, J.~Backus~Mayes, E.~Bergeaas~Kuutmann,
   et~al., {\it {Boosted objects and jet substructure at the LHC}},
-  \href{http://xxx.lanl.gov/abs/1311.2708}{{\tt arXiv:1311.2708}}.
+  \href{http://arxiv.org/abs/1311.2708}{{\tt arXiv:1311.2708}}.
 
 \bibitem{Cacciari:2011ma}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {FastJet User Manual}},  {\em
   Eur.Phys.J.} {\bf C72} (2012) 1896,
-  [\href{http://xxx.lanl.gov/abs/1111.6097}{{\tt arXiv:1111.6097}}].
+  [\href{http://arxiv.org/abs/1111.6097}{{\tt arXiv:1111.6097}}].
 
 \bibitem{Plehn:2010st}
 T.~Plehn, M.~Spannowsky, M.~Takeuchi, and D.~Zerwas, {\it {Stop Reconstruction
   with Tagged Tops}},  {\em JHEP} {\bf 1010} (2010) 078,
-  [\href{http://xxx.lanl.gov/abs/1006.2833}{{\tt arXiv:1006.2833}}].
+  [\href{http://arxiv.org/abs/1006.2833}{{\tt arXiv:1006.2833}}].
 
 \bibitem{Kaplan:2008ie}
 D.~E. Kaplan, K.~Rehermann, M.~D. Schwartz, and B.~Tweedie, {\it {Top Tagging:
   A Method for Identifying Boosted Hadronically Decaying Top Quarks}},  {\em
   Phys.Rev.Lett.} {\bf 101} (2008) 142001,
-  [\href{http://xxx.lanl.gov/abs/0806.0848}{{\tt arXiv:0806.0848}}].
+  [\href{http://arxiv.org/abs/0806.0848}{{\tt arXiv:0806.0848}}].
 
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, and T.~Stelzer, {\it {MadGraph
   5 : Going Beyond}},  {\em JHEP} {\bf 1106} (2011) 128,
-  [\href{http://xxx.lanl.gov/abs/1106.0522}{{\tt arXiv:1106.0522}}].
+  [\href{http://arxiv.org/abs/1106.0522}{{\tt arXiv:1106.0522}}].
 
 \bibitem{Gao:2010qx}
 Y.~Gao, A.~V. Gritsan, Z.~Guo, K.~Melnikov, M.~Schulze, et~al., {\it {Spin
   determination of single-produced resonances at hadron colliders}},  {\em
   Phys.Rev.} {\bf D81} (2010) 075022,
-  [\href{http://xxx.lanl.gov/abs/1001.3396}{{\tt arXiv:1001.3396}}].
+  [\href{http://arxiv.org/abs/1001.3396}{{\tt arXiv:1001.3396}}].
 
 \bibitem{Bolognesi:2012mm}
 S.~Bolognesi, Y.~Gao, A.~V. Gritsan, K.~Melnikov, M.~Schulze, et~al., {\it {On
   the spin and parity of a single-produced resonance at the LHC}},  {\em
   Phys.Rev.} {\bf D86} (2012) 095031,
-  [\href{http://xxx.lanl.gov/abs/1208.4018}{{\tt arXiv:1208.4018}}].
+  [\href{http://arxiv.org/abs/1208.4018}{{\tt arXiv:1208.4018}}].
 
 \bibitem{Anderson:2013afp}
 I.~Anderson, S.~Bolognesi, F.~Caola, Y.~Gao, A.~V. Gritsan, et~al., {\it
   {Constraining anomalous HVV interactions at proton and lepton colliders}},
   {\em Phys.Rev.} {\bf D89} (2014) 035007,
-  [\href{http://xxx.lanl.gov/abs/1309.4819}{{\tt arXiv:1309.4819}}].
+  [\href{http://arxiv.org/abs/1309.4819}{{\tt arXiv:1309.4819}}].
 
 \bibitem{Pumplin:2002vw}
 J.~Pumplin, D.~Stump, J.~Huston, H.~Lai, P.~M. Nadolsky, et~al., {\it {New
   generation of parton distributions with uncertainties from global QCD
   analysis}},  {\em JHEP} {\bf 0207} (2002) 012,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/0201195}{{\tt hep-ph/0201195}}].
+  [\href{http://arxiv.org/abs/hep-ph/0201195}{{\tt hep-ph/0201195}}].
 
 \bibitem{Sjostrand:2007gs}
 T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, {\it {A Brief Introduction to PYTHIA
   8.1}},  {\em Comput.Phys.Commun.} {\bf 178} (2008) 852--867,
-  [\href{http://xxx.lanl.gov/abs/0710.3820}{{\tt arXiv:0710.3820}}].
+  [\href{http://arxiv.org/abs/0710.3820}{{\tt arXiv:0710.3820}}].
 
 \bibitem{Buckley:2011ms}
 A.~Buckley, J.~Butterworth, S.~Gieseke, D.~Grellscheid, S.~Hoche, et~al., {\it
   {General-purpose event generators for LHC physics}},  {\em Phys.Rept.} {\bf
-  504} (2011) 145--233, [\href{http://xxx.lanl.gov/abs/1101.2599}{{\tt
+  504} (2011) 145--233, [\href{http://arxiv.org/abs/1101.2599}{{\tt
   arXiv:1101.2599}}].
 
 \bibitem{Gleisberg:2008ta}
 T.~Gleisberg, S.~Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, et~al., {\it
   {Event generation with SHERPA 1.1}},  {\em JHEP} {\bf 0902} (2009) 007,
-  [\href{http://xxx.lanl.gov/abs/0811.4622}{{\tt arXiv:0811.4622}}].
+  [\href{http://arxiv.org/abs/0811.4622}{{\tt arXiv:0811.4622}}].
 
 \bibitem{Schumann:2007mg}
 S.~Schumann and F.~Krauss, {\it {A Parton shower algorithm based on
   Catani-Seymour dipole factorisation}},  {\em JHEP} {\bf 0803} (2008) 038,
-  [\href{http://xxx.lanl.gov/abs/0709.1027}{{\tt arXiv:0709.1027}}].
+  [\href{http://arxiv.org/abs/0709.1027}{{\tt arXiv:0709.1027}}].
 
 \bibitem{Krauss:2001iv}
 F.~Krauss, R.~Kuhn, and G.~Soff, {\it {AMEGIC++ 1.0: A Matrix element generator
   in C++}},  {\em JHEP} {\bf 0202} (2002) 044,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/0109036}{{\tt hep-ph/0109036}}].
+  [\href{http://arxiv.org/abs/hep-ph/0109036}{{\tt hep-ph/0109036}}].
 
 \bibitem{Gleisberg:2008fv}
 T.~Gleisberg and S.~Hoeche, {\it {Comix, a new matrix element generator}},
-  {\em JHEP} {\bf 0812} (2008) 039,
-  [\href{http://xxx.lanl.gov/abs/0808.3674}{{\tt arXiv:0808.3674}}].
+  {\em JHEP} {\bf 0812} (2008) 039, [\href{http://arxiv.org/abs/0808.3674}{{\tt
+  arXiv:0808.3674}}].
 
 \bibitem{Hoeche:2009rj}
 S.~Hoeche, F.~Krauss, S.~Schumann, and F.~Siegert, {\it {QCD matrix elements
   and truncated showers}},  {\em JHEP} {\bf 0905} (2009) 053,
-  [\href{http://xxx.lanl.gov/abs/0903.1219}{{\tt arXiv:0903.1219}}].
+  [\href{http://arxiv.org/abs/0903.1219}{{\tt arXiv:0903.1219}}].
 
 \bibitem{Schonherr:2008av}
 M.~Schonherr and F.~Krauss, {\it {Soft Photon Radiation in Particle Decays in
   SHERPA}},  {\em JHEP} {\bf 0812} (2008) 018,
-  [\href{http://xxx.lanl.gov/abs/0810.5071}{{\tt arXiv:0810.5071}}].
+  [\href{http://arxiv.org/abs/0810.5071}{{\tt arXiv:0810.5071}}].
 
 \bibitem{Bethke:1988zc}
 {\bf JADE Collaboration} Collaboration, S.~Bethke et~al., {\it {Experimental
@@ -140,17 +111,17 @@ M.~Schonherr and F.~Krauss, {\it {Soft Photon Radiation in Particle Decays in
 \bibitem{Cacciari:2008gp}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {The Anti-k(t) jet clustering
   algorithm}},  {\em JHEP} {\bf 0804} (2008) 063,
-  [\href{http://xxx.lanl.gov/abs/0802.1189}{{\tt arXiv:0802.1189}}].
+  [\href{http://arxiv.org/abs/0802.1189}{{\tt arXiv:0802.1189}}].
 
 \bibitem{Dokshitzer:1997in}
 Y.~L. Dokshitzer, G.~Leder, S.~Moretti, and B.~Webber, {\it {Better jet
   clustering algorithms}},  {\em JHEP} {\bf 9708} (1997) 001,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/9707323}{{\tt hep-ph/9707323}}].
+  [\href{http://arxiv.org/abs/hep-ph/9707323}{{\tt hep-ph/9707323}}].
 
 \bibitem{Wobisch:1998wt}
 M.~Wobisch and T.~Wengler, {\it {Hadronization corrections to jet
   cross-sections in deep inelastic scattering}},
-  \href{http://xxx.lanl.gov/abs/hep-ph/9907280}{{\tt hep-ph/9907280}}.
+  \href{http://arxiv.org/abs/hep-ph/9907280}{{\tt hep-ph/9907280}}.
 
 \bibitem{Catani:1993hr}
 S.~Catani, Y.~L. Dokshitzer, M.~Seymour, and B.~Webber, {\it {Longitudinally
@@ -160,71 +131,71 @@ S.~Catani, Y.~L. Dokshitzer, M.~Seymour, and B.~Webber, {\it {Longitudinally
 \bibitem{Ellis:1993tq}
 S.~D. Ellis and D.~E. Soper, {\it {Successive combination jet algorithm for
   hadron collisions}},  {\em Phys.Rev.} {\bf D48} (1993) 3160--3166,
-  [\href{http://xxx.lanl.gov/abs/hep-ph/9305266}{{\tt hep-ph/9305266}}].
+  [\href{http://arxiv.org/abs/hep-ph/9305266}{{\tt hep-ph/9305266}}].
 
 \bibitem{Ellis:2012sn}
 S.~D. Ellis, A.~Hornig, T.~S. Roy, D.~Krohn, and M.~D. Schwartz, {\it {Qjets: A
   Non-Deterministic Approach to Tree-Based Jet Substructure}},  {\em
   Phys.Rev.Lett.} {\bf 108} (2012) 182003,
-  [\href{http://xxx.lanl.gov/abs/1201.1914}{{\tt arXiv:1201.1914}}].
+  [\href{http://arxiv.org/abs/1201.1914}{{\tt arXiv:1201.1914}}].
 
 \bibitem{Ellis:2009me}
 S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, {\it {Recombination Algorithms
   and Jet Substructure: Pruning as a Tool for Heavy Particle Searches}},  {\em
   Phys.Rev.} {\bf D81} (2010) 094023,
-  [\href{http://xxx.lanl.gov/abs/0912.0033}{{\tt arXiv:0912.0033}}].
+  [\href{http://arxiv.org/abs/0912.0033}{{\tt arXiv:0912.0033}}].
 
 \bibitem{Krohn:2009th}
 D.~Krohn, J.~Thaler, and L.-T. Wang, {\it {Jet Trimming}},  {\em JHEP} {\bf
-  1002} (2010) 084, [\href{http://xxx.lanl.gov/abs/0912.1342}{{\tt
+  1002} (2010) 084, [\href{http://arxiv.org/abs/0912.1342}{{\tt
   arXiv:0912.1342}}].
 
 \bibitem{Butterworth:2008iy}
 J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam, {\it {Jet
   substructure as a new Higgs search channel at the LHC}},  {\em
   Phys.Rev.Lett.} {\bf 100} (2008) 242001,
-  [\href{http://xxx.lanl.gov/abs/0802.2470}{{\tt arXiv:0802.2470}}].
+  [\href{http://arxiv.org/abs/0802.2470}{{\tt arXiv:0802.2470}}].
 
 \bibitem{Larkoski:2014wba}
 A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, {\it {Soft Drop}},  {\em
-  JHEP} {\bf 1405} (2014) 146, [\href{http://xxx.lanl.gov/abs/1402.2657}{{\tt
+  JHEP} {\bf 1405} (2014) 146, [\href{http://arxiv.org/abs/1402.2657}{{\tt
   arXiv:1402.2657}}].
 
 \bibitem{Dasgupta:2013ihk}
 M.~Dasgupta, A.~Fregoso, S.~Marzani, and G.~P. Salam, {\it {Towards an
   understanding of jet substructure}},  {\em JHEP} {\bf 1309} (2013) 029,
-  [\href{http://xxx.lanl.gov/abs/1307.0007}{{\tt arXiv:1307.0007}}].
+  [\href{http://arxiv.org/abs/1307.0007}{{\tt arXiv:1307.0007}}].
 
 \bibitem{Thaler:2010tr}
 J.~Thaler and K.~Van~Tilburg, {\it {Identifying Boosted Objects with
   N-subjettiness}},  {\em JHEP} {\bf 1103} (2011) 015,
-  [\href{http://xxx.lanl.gov/abs/1011.2268}{{\tt arXiv:1011.2268}}].
+  [\href{http://arxiv.org/abs/1011.2268}{{\tt arXiv:1011.2268}}].
 
 \bibitem{Larkoski:2014uqa}
 A.~J. Larkoski, D.~Neill, and J.~Thaler, {\it {Jet Shapes with the Broadening
   Axis}},  {\em JHEP} {\bf 1404} (2014) 017,
-  [\href{http://xxx.lanl.gov/abs/1401.2158}{{\tt arXiv:1401.2158}}].
+  [\href{http://arxiv.org/abs/1401.2158}{{\tt arXiv:1401.2158}}].
 
 \bibitem{Larkoski:2013paa}
 A.~J. Larkoski and J.~Thaler, {\it {Unsafe but Calculable: Ratios of
   Angularities in Perturbative QCD}},  {\em JHEP} {\bf 1309} (2013) 137,
-  [\href{http://xxx.lanl.gov/abs/1307.1699}{{\tt arXiv:1307.1699}}].
+  [\href{http://arxiv.org/abs/1307.1699}{{\tt arXiv:1307.1699}}].
 
 \bibitem{Larkoski:2013eya}
 A.~J. Larkoski, G.~P. Salam, and J.~Thaler, {\it {Energy Correlation Functions
   for Jet Substructure}},  {\em JHEP} {\bf 1306} (2013) 108,
-  [\href{http://xxx.lanl.gov/abs/1305.0007}{{\tt arXiv:1305.0007}}].
+  [\href{http://arxiv.org/abs/1305.0007}{{\tt arXiv:1305.0007}}].
 
 \bibitem{Hocker:2007ht}
 A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, and H.~Voss,
   {\it {TMVA: Toolkit for Multivariate Data Analysis}},  {\em PoS} {\bf ACAT}
-  (2007) 040, [\href{http://xxx.lanl.gov/abs/physics/0703039}{{\tt
+  (2007) 040, [\href{http://arxiv.org/abs/physics/0703039}{{\tt
   physics/0703039}}].
 
 \bibitem{Anders:2013oga}
 C.~Anders, C.~Bernaciak, G.~Kasieczka, T.~Plehn, and T.~Schell, {\it
   {Benchmarking an Even Better HEPTopTagger}},  {\em Phys.Rev.} {\bf D89}
-  (2014) 074047, [\href{http://xxx.lanl.gov/abs/1312.1504}{{\tt
+  (2014) 074047, [\href{http://arxiv.org/abs/1312.1504}{{\tt
   arXiv:1312.1504}}].
 
 \end{thebibliography}\endgroup

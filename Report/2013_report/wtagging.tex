@@ -1,9 +1,11 @@
 In this section, we study the discrimination of a boosted hadronically decaying $W$ signal against a gluon
 background, comparing the performance of various groomed jet
 masses, substructure variables, and BDT combinations of groomed mass
-and substructure. We produce ROC
-curves that elucidate the performance of the various groomed mass and
-substructure variables. A
+and substructure. 
+%We produce ROC
+%curves that elucidate the performance of the various groomed mass and
+%substructure variables.
+A
 range of different distance parameters $R$ for the \antikt~jet
 algorithm are explored, as well as a variety of kinematic regimes
 (lead jet \pt 300-400 GeV, 500-600 GeV, 1.0-1.1 TeV). This allows us to determine the
@@ -18,8 +20,11 @@ this changes with jet boost and jet radius.
 
 These studies use the $WW$ samples as signal and the dijet $gg$ as background, described previously in Section~\ref{sec:samples}. Whilst only gluonic backgrounds
 are explored here, the conclusions as to the dependence of the
-performance and correlations on the jet boost and radius have been
-verified to hold also for $qq$ backgrounds. {\bf ED: To be checked!}
+performance and correlations on the jet boost and radius are not
+expected to be substantially different for quark backgrounds; we will
+see that the differences in the substructure properties of quark- and
+gluon-initiated jets, explored in the last section, are significantly
+smaller than the differences between W-initiated and gluon-initiated jets.
 
 As in the q/g tagging studies, the showered events were clustered with \textsc{FastJet}
 3.03 using
@@ -256,75 +261,6 @@ rejections for a single variable BDT, and can thus be examined to get a
 quantitative measure of the individual single variable performance,
 and to study how this changes with jet radius and momenta. 
 
-One can see that in general the most performant single variables are
-the groomed masses. However, in certain kinematic bins and for certain
-jet radii, $C_2^{\beta=1}$ has a background rejection that is
-comparable to or better than the groomed masses. 
-
-%By comparing Figures~\ref{fig:pt300_comb2D_08}
-%and~\ref{fig:pt300_comb2D_12}, Figures 
-By comparing
-Figures~\ref{fig:pt300_comb2D_08},~\ref{fig:pt500_comb2D_08}
-and~\ref{fig:pt1000_comb2D_08}, we can see how the background
-rejection performance evolves as we increase momenta whilst keeping the jet
-radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
-and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
-\pt~for R=1.2. For both R=0.8 and R=1.2 the background rejection power of
-the groomed masses increases with increasing \pt, with a factor 1.5-2.5 increase in rejection in going from the 300-400 GeV to
-1.0-1.1 TeV bins. {\bf ED: Add some of the 1-D plots comparing signal and bkgd
-  in the different masses and pT bins here?} However, the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
-$\tau_{21}^{\beta=1}$ substructure variables behave somewhat
-differently. The background rejection power of the $\Gamma_{Qjet}$ and
-$\tau_{21}^{\beta=1}$ variables both decrease with increasing \pt, by
-up to a factor two in going from the 300-400 GeV to
-1.0-1.1 TeV bins. Conversely the rejection power of $C_2^{\beta=1}$
-dramatically increases with increasing \pt~for R=0.8, but does not
-improve with \pt~for the larger jet radius R=1.2. {\bf ED: Can we
-  explain this? Again, should we add some of the 1-D plots?}
-
-By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
-and~\ref{fig:pt1000_comb2D} we can see how the background rejection
-performance depends on jet radius within the same \pt bin. To within
-$\sim$~25\%, the background rejection power of the groomed masses remains
-constant with respect to the jet radius. However, we again see rather
-different behaviour for the substructure variables. In all \pt bins
-considered the most performant substructure variable, $C_2^{\beta=1}$,
-performs best for an \antikt distance parameter of R=0.8. The
-performance of this variable is dramatically worse for the larger jet
-radius of R=1.2 (a factor seven worse background rejection in
-the 1.0-1.1 TeV bin), and substantially worse for R=0.4. For the other
-jet substructure variables considered, $\Gamma_{Qjet}$ and
-$\tau_{21}^{\beta=1}$, their background rejection
-power also reduces for larger jet radius, but not to the same extent.
-{\bf
-  ED: Insert some nice discussion/explanation of why jet substructure
-  power generally gets worse as we go to large jet radius, but groomed
-mass performance does not. Probably need the 1-D figures for this.}
-
-%The best performant individual variables for a reasonable signal
-%efficiency are the groomed masses, which all have a similar
-%level of performance that is superior to that of any of the
-%substructure variables considered. 
-%
-%Because we
-%have not attempted to optimise the grooming parameter settings of
-%each grooming algorithm, we do not want to place too much emphasis
-%here on the relative performance of the groomed masses, but instead
-%look at the trends veresus \pt and R. One
-%can see clearly that the background rejection power of the groomed mass
-%variables increases as the \pt is increased. Within a \pt
-%bin, one can also see that the groomed mass performance is rather invariant to
-%changes in the jet radius. In contrast, the substructure variable
-%performance varies considerably as the jet radius is changed. In
-%general, the background rejection power of individual jet substructure
-%variables gets worse as the jet radius is increased. The only
-%exception to this is in the highest \pt~bin, where the background
-%rejection power of $C_2^{\beta=1}$ improves when going from jet radius
-%R=0.4 to R=0.8, but then gets worse again as we go to R=1.2. {\it
-%  Insert some nice discussion/explanation of why jet substructure
-%  power generally gets worse as we go to large jet radius, but groomed
-%mass performance does not}
-
 \begin{figure*}
 \centering
 \subfigure[\antikt R=0.8, \pt 300-400 GeV bin]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT300/AKtR08/effBkg2D.png}\label{fig:pt300_comb2D_08}}
@@ -364,6 +300,180 @@ the anti-\kT R=0.4, R=0.8 and R=1.2 algorithm. Also shown is the background reje
 for a BDT combination of all of the variables considered.}
 \label{fig:pt1000_comb2D}
 \end{figure*}
+
+
+
+One can see that in general the most performant single variables are
+the groomed masses. However, in certain kinematic bins and for certain
+jet radii, $C_2^{\beta=1}$ has a background rejection that is
+comparable to or better than the groomed masses. 
+
+%By comparing Figures~\ref{fig:pt300_comb2D_08}
+%and~\ref{fig:pt300_comb2D_12}, Figures 
+By comparing
+Figures~\ref{fig:pt300_comb2D_08},~\ref{fig:pt500_comb2D_08}
+and~\ref{fig:pt1000_comb2D_08}, we can see how the background
+rejection performance evolves as we increase momenta whilst keeping the jet
+radius fixed to R=0.8. Similarly, by comparing Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
+and~\ref{fig:pt1000_comb2D_12} we can see how performance evolves with
+\pt~for R=1.2. For both R=0.8 and R=1.2 the background rejection power of
+the groomed masses increases with increasing \pt, with a factor 1.5-2.5 increase in rejection in going from the 300-400 GeV to
+1.0-1.1 TeV bins. In Figure~\ref{fig:ptdepend_groomedmass} we show the
+Soft-drop $\beta=2$ groomed mass and the pruned mass for signal and background in the \pt
+300-400 and \pt 1.0-1.1 TeV bins for R=1.2 jets. Two effects result in the improved
+performance of the groomed mass at high \pt. Firstly, as is evident
+from the figure, the resolution of the signal peak after grooming
+improves, because the groomer finds it easier to pick out the hard
+signal component of the jet against the softer components of the
+underlying event when the signal is boosted. Secondly, one can see
+from Figure~\ref{fig:qg_prmasses_log} 
+that as \pt increases the perturbative shoulder of the gluon
+distribution decreases in size, as
+discussed in Section~\ref{sec:qg_mass}, and
+thus there is a slight decrease (or at least no increase) in the level of background in the
+signal mass region (m/\pt/R $\sim$ 0.5). 
+%as the \pt~increases, more of the gluon
+%background in the W mass window comes from jets building up their
+%masses from radiation that can be understood in the eikonal limits and
+%not from hard splittings. This is precisely the radiation grooming
+%methods are designed to remove, and so their performance increases with \pt.  
+
+\begin{figure*}
+\centering
+\subfigure[\antikt R=1.2, \pt 300-400 GeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT300/AKtR12/h_mass_sdb2.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.png}}
+\subfigure[\antikt R=1.2, \pt 300-400 GeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT300/AKtR12/h_mass_prun.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_mass_prun.png}}
+\caption{The Soft-drop $\beta=2$ and pruned groomed mass distribution for signal
+  and background R=1.2 jets in two different \pt bins.}
+\label{fig:ptdepend_groomedmass}
+\end{figure*}
+
+
+However, one can see from the Figures~\ref{fig:pt300_comb2D_12},~\ref{fig:pt500_comb2D_12}
+and~\ref{fig:pt1000_comb2D_12} that the $C_2^{\beta=1}$, $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$ substructure variables behave somewhat
+differently. The background rejection power of the $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$ variables both decrease with increasing \pt, by
+up to a factor two in going from the 300-400 GeV to
+1.0-1.1 TeV bins. Conversely the rejection power of $C_2^{\beta=1}$
+dramatically increases with increasing \pt~for R=0.8, but does not
+improve with \pt~for the larger jet radius R=1.2. In Figure~\ref{fig:ptdepend_substructure} we show the
+$\tau_{21}^{\beta=1}$ and $C_2^{\beta=1}$ distributions for signal and background in the \pt
+300-400 and \pt 1.0-1.1 TeV bins for R=0.8 jets. For
+$\tau_{21}^{\beta=1}$ one can see that in moving from the lower to the
+higher \pt bin, the signal peak remains fairly unchanged, whereas the
+background peak shifts to smaller $\tau_{21}^{\beta=1}$ values,
+reducing the discrimination power of the variable. This is expected,
+since jet substructure methods explicitly relying on identifying hard
+prongs would expect to work better at low \pt, where the prongs would
+tend to be more separated. However, $C_2^{\beta=1}$ does not rely on
+the explicit identification of subjets, and one can see from
+Figure~\ref{fig:ptdepend_substructure} that the discrimination power
+visibly increases with increasing \pt. This is in line with the
+observation in~\cite{Larkoski:2013eya} that $C_2^{\beta=1}$ performs best when m/\pt is small.
+
+\begin{figure*}
+\centering
+\subfigure[\antikt R=0.8, \pt 300-400 GeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT300/AKtR08/h_tau21_b1.png}}
+\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.png}}
+\subfigure[\antikt R=0.8, \pt 300-400 GeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT300/AKtR08/h_c2_b1.png}}
+\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR08/h_c2_b1.png}}
+\caption{The $\tau_{21}^{\beta=1}$ and $C_2^{\beta=1}$ distributions for signal
+  and background R=0.8 jets in two different \pt bins.}
+\label{fig:ptdepend_substructure}
+\end{figure*}
+
+By comparing the individual sub-figures of Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
+and~\ref{fig:pt1000_comb2D} we can see how the background rejection
+performance depends on jet radius within the same \pt bin. To within
+$\sim$~25\%, the background rejection power of the groomed masses remains
+constant with respect to the jet
+radius. Figure~\ref{fig:Rdepend_groomedmass} shows how the groomed
+mass changes for varying jet radius in the \pt 1.0-1.1 TeV bin. One
+can see that the signal mass peak remains unaffected by the increased
+radius, as expected, since grooming removes the soft contamination
+which could otherwise increase the mass of the jet as the radius
+increased. The gluon background in the signal mass region also remains
+largely unaffected, as expected from Figure~\ref{fig:qg_prmasses_log},
+which shows very little dependence of the groomed gluon mass
+distribution on R in the signal region (m/\pt/R $\sim$ 0.5). This is
+discussed further in Section~\ref{sec:qg_mass}.
+
+\begin{figure*}
+\centering
+\subfigure[\antikt R=0.4, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR04/h_mass_sdb2.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.png}}
+\subfigure[\antikt R=0.4, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR04/h_mass_prun.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_mass_prun.png}}
+\caption{The Soft-drop $\beta=2$ and pruned groomed mass distribution for signal
+  and background R=0.4 and R=1.2 jets in the 1.0-1.1 TeV \pt~bin.}
+\label{fig:Rdepend_groomedmass}
+\end{figure*}
+
+
+However, we again see rather
+different behaviour versus R for the substructure variables. In all \pt bins
+considered the most performant substructure variable, $C_2^{\beta=1}$,
+performs best for an \antikt distance parameter of R=0.8. The
+performance of this variable is dramatically worse for the larger jet
+radius of R=1.2 (a factor seven worse background rejection in
+the 1.0-1.1 TeV bin), and substantially worse for R=0.4. For the other
+jet substructure variables considered, $\Gamma_{Qjet}$ and
+$\tau_{21}^{\beta=1}$, their background rejection
+power also reduces for larger jet radius, but not to the same
+extent. Figure~\ref{fig:Rdepend_substructure} shows the
+$\tau_{21}^{\beta=1}$ and $C_2^{\beta=1}$ distributions for signal and
+background in the 1.0-1.1 TeV \pt~bin for R=0.8 and R=1.2 jet
+radii. One can clearly see that for the larger jet radius the
+$C_2^{\beta=1}$  distribution of both signal and background get wider,
+and consequently the discrimination power decreases. For
+$\tau_{21}^{\beta=1}$ there is comparitively little change in the distributions
+with increasing jet radius. The increased sensitivity of $C_{2}$ to
+soft wide angle radiation in comparison to $\tau_{21}$ is a known
+feature of this variable~\cite{Larkoski:2013eya}, and a useful feature
+in discriminating coloured versus colour singlet jets. However, at
+very large jet radii (R$\sim$1.2), this feature becomes
+disadvantageous; the jet can pick up a significant amount of initial
+state or other uncorrelated radiation, and $C_{2}$ is more sensitive
+to this than is $\tau_{21}$.  This uncorrelated radiation has no (or
+very little) dependence on whether the jet is W- or gluon-initiated, and so sensitivity to this radiation means that the discrimination power will decrease.
+
+\begin{figure*}
+\centering
+\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_tau21_b1.png}}
+\subfigure[\antikt R=0.8, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR08/h_c2_b1.png}}
+\subfigure[\antikt R=1.2, \pt 1.0-1.1 TeV bin]{\includegraphics[width=0.4\textwidth]{./Figures/WTagging/pT1000/AKtR12/h_c2_b1.png}}
+\caption{The $\tau_{21}^{\beta=1}$ and $C_2^{\beta=1}$ distributions for signal
+  and background R=0.8 and R=1.2 jets in the 1.0-1.1 TeV \pt~bin.}
+\label{fig:Rdepend_substructure}
+\end{figure*}
+
+
+%The best performant individual variables for a reasonable signal
+%efficiency are the groomed masses, which all have a similar
+%level of performance that is superior to that of any of the
+%substructure variables considered. 
+%
+%Because we
+%have not attempted to optimise the grooming parameter settings of
+%each grooming algorithm, we do not want to place too much emphasis
+%here on the relative performance of the groomed masses, but instead
+%look at the trends veresus \pt and R. One
+%can see clearly that the background rejection power of the groomed mass
+%variables increases as the \pt is increased. Within a \pt
+%bin, one can also see that the groomed mass performance is rather invariant to
+%changes in the jet radius. In contrast, the substructure variable
+%performance varies considerably as the jet radius is changed. In
+%general, the background rejection power of individual jet substructure
+%variables gets worse as the jet radius is increased. The only
+%exception to this is in the highest \pt~bin, where the background
+%rejection power of $C_2^{\beta=1}$ improves when going from jet radius
+%R=0.4 to R=0.8, but then gets worse again as we go to R=1.2. {\it
+%  Insert some nice discussion/explanation of why jet substructure
+%  power generally gets worse as we go to large jet radius, but groomed
+%mass performance does not}
 
 
 \subsection{Combined Performance}
@@ -626,10 +736,13 @@ In terms of the performance of individual variables, we find that, in
 agreement with other studies\refneeded, in
 general the groomed masses perform best, with a background rejection
 power that increases with increasing \pt, but which is more constant
-with respect to changes in R. Conversely, the performance of other
+with respect to changes in R. We have explained the dependence of the
+groomed mass performance on \pt and R using the understanding of the QCD mass distribution
+gleaned in Section~\ref{sec:qg_mass}. Conversely, the performance of other
 substructure variables, such as $C_2^{\beta=1}$ and
 $\tau_{21}^{\beta=1}$ is more susceptible to changes in radius, with
-background rejection power decreasing with increasing R.
+background rejection power decreasing with increasing R. This is due
+to the inherent sensitivity of these observables to soft, wide angle radiation.
 
 The best two-variable performance is obtained by combining a groomed
 mass with a substructure variable. Which particular substructure
