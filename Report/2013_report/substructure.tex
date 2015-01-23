@@ -18,7 +18,7 @@ where $\Delta R_{ij}^2=(\Delta \eta)^2+(\Delta\phi)^2$. In this analysis, we use
 P_{ij} \propto \,e^{-\alpha \,(d_{ij}-d_{\rm min})/d_{\rm min}},
 \end{equation}
 %
-where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorithm at a particular step. This leads to a different cluster sequence for the jet each time the Qjet algorithm is used, and consequently different substructure properties. The parameter $\alpha$ is called the rigidity and is used to control how sharply peaked the probability distribution is around the usual, deterministic value. The Qjets method uses statistical analysis of the resulting distributions to extract more information from the jet than can be found in the usual cluster sequence. We use $\alpha=0.1$ and 25 trees per event for all of the studies presented here.
+where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorithm at a particular step. This leads to a different cluster sequence for the jet each time the Qjet algorithm is used, and consequently different substructure properties. The parameter $\alpha$ is called the rigidity and is used to control how sharply peaked the probability distribution is around the usual, deterministic value. The Qjets method uses statistical analysis of the resulting distributions to extract more information from the jet than can be found in the usual cluster sequence.
 
 \subsection{Jet Grooming Algorithms}
 \label{sec:groomers}
@@ -73,8 +73,11 @@ then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_
 
 \noindent {\bf Top Tagging with Trimming:}~For comparison with the other top taggers, we add a $W$ reconstruction step to the trimming algorithm described above. A $W$ candidate is found as follows:~if there are two subjets, the highest-mass subjet is the $W$ candidate (because the $W$ prongs end up clustered in the same subjet); if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.
 
-\subsection{Other Jet Substructure Observables}
-\label{sec:substructure}
+\subsection{Other Jet Substructure Observables} \label{sec:substructure}
+
+Jet substructure observables are computed using ungroomed jets.\\
+
+
 
 \noindent {\bf Qjet mass volatility:}~As described above, Qjet algorithms re-cluster the same jet non-deterministically to obtain a collection of interpretations of the jet. For each jet interpretation, the pruned jet mass is computed with the default pruning parameters. The mass volatility, $\Gamma_{\rm Qjet}$, is defined as \cite{Ellis:2012sn}
 %
@@ -82,7 +85,7 @@ then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_
 \Gamma_{\rm Qjet} = \frac{\sqrt{\langle m_J^2 \rangle-\langle m_J\rangle^2}}{\langle m_J\rangle},
 \end{equation}
 %
-where averages are computed over the Qjet interpretations.\\
+where averages are computed over the Qjet interpretations. We use a rigidity parameter of $\alpha=0.1$ (although other studies suggest a smaller value of $\alpha$ may be optimal \cite{Ellis:2012sn,Ellis:2014eya}), and 25 trees per event for all of the studies presented here.\\
 
 \noindent {\bf $N$-subjettiness:}~$N$-subjettiness \cite{Thaler:2010tr} quantifies how well the radiation in the jet is aligned along $N$ directions. To compute $N$-subjettiness, $\tau_N^{(\beta)}$, one must first identify $N$ axes within the jet. Then,
 %
