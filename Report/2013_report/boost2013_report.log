@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.2)  3 FEB 2015 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.2)  3 FEB 2015 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3327,7 +3327,7 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on boost2013_report.pdf (51 pages, 3799833 bytes).
+Output written on boost2013_report.pdf (51 pages, 3799741 bytes).
 PDF statistics:
  5722 PDF objects out of 6186 (max. 8388607)
  2807 compressed objects within 29 object streams
