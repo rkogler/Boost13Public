@@ -246,11 +246,38 @@ J.~Gallicchio and M.~D. Schwartz, {\it {Quark and Gluon Tagging at the LHC}},
 {\bf CMS Collaboration} Collaboration, C.~Collaboration, {\it {Performance of
   quark/gluon discrimination in 8 TeV pp data}}, .
 
+\bibitem{Li:2012bw}
+H.-n. Li, Z.~Li, and C.-P. Yuan, {\it {QCD resummation for light-particle
+  jets}},  {\em Phys.Rev.} {\bf D87} (2013) 074025,
+  [\href{http://arxiv.org/abs/1206.1344}{{\tt arXiv:1206.1344}}].
+
+\bibitem{Dasgupta:2012hg}
+M.~Dasgupta, K.~Khelifa-Kerfa, S.~Marzani, and M.~Spannowsky, {\it {On jet mass
+  distributions in Z+jet and dijet processes at the LHC}},  {\em JHEP} {\bf
+  1210} (2012) 126, [\href{http://arxiv.org/abs/1207.1640}{{\tt
+  arXiv:1207.1640}}].
+
+\bibitem{Chien:2012ur}
+Y.-T. Chien, R.~Kelley, M.~D. Schwartz, and H.~X. Zhu, {\it {Resummation of Jet
+  Mass at Hadron Colliders}},  {\em Phys.Rev.} {\bf D87} (2013), no.~1 014010,
+  [\href{http://arxiv.org/abs/1208.0010}{{\tt arXiv:1208.0010}}].
+
+\bibitem{Jouttenus:2013hs}
+T.~T. Jouttenus, I.~W. Stewart, F.~J. Tackmann, and W.~J. Waalewijn, {\it {Jet
+  mass spectra in Higgs boson plus one jet at next-to-next-to-leading
+  logarithmic order}},  {\em Phys.Rev.} {\bf D88} (2013), no.~5 054031,
+  [\href{http://arxiv.org/abs/1302.0846}{{\tt arXiv:1302.0846}}].
+
 \bibitem{Ellis:2009su}
 S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, {\it {Techniques for improved
   heavy particle searches with jet substructure}},  {\em Phys.Rev.} {\bf D80}
   (2009) 051501, [\href{http://arxiv.org/abs/0903.5081}{{\tt
   arXiv:0903.5081}}].
+
+\bibitem{Dasgupta:2013via}
+M.~Dasgupta, A.~Fregoso, S.~Marzani, and A.~Powling, {\it {Jet substructure
+  with analytical methods}},  {\em Eur.Phys.J.} {\bf C73} (2013), no.~11 2623,
+  [\href{http://arxiv.org/abs/1307.0013}{{\tt arXiv:1307.0013}}].
 
 \bibitem{ATL-PHYS-PUB-2014-004}
 {\it {Performance of Boosted W Boson Identification with the ATLAS Detector}},
