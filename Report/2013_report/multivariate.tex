@@ -1,7 +1,14 @@
 \noindent
 
-Multivariate techniques are used to combine variables into an optimal discriminant.  
-In all cases variables are combined using a boosted decision tree (BDT) as implemented in the TMVA package~\cite{Hocker:2007ht}.
+Multivariate techniques are used to combine variables into an optimal
+discriminant, and the extent to which the discrimination power
+increases when this is done is used to indicate how much the
+discriminatory information present in the variables overlaps. An
+alternative strategy for studying correlations in discrimination power
+that is not explored here  is ``truth
+matching''~\cite{Larkoski:2014pca}.
+
+In all cases the multivariate technique used to combine variables is a boosted decision tree (BDT) as implemented in the TMVA package~\cite{Hocker:2007ht}.
 We use the BDT implementation including gradient boost.  
 An example of the BDT settings are as follows: 
 \begin{itemize}
