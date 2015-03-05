@@ -1,16 +1,16 @@
-In this section, we define the jet algorithms and observables used in our analysis. Over the course of our study, we considered a larger set of observables, but for the final analysis, we eliminated redundant observables for presentation purposes. In Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and~\ref{sec:substructure} we first describe the various jet algorithms, groomers, taggers and other substructure variables used in these studies.%, and then in Section~\ref{sec:observables} list which observables are considered in each section of this report, and the exact settings of the parameters used.
+In Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and~\ref{sec:substructure}, we describe the various jet algorithms, groomers, taggers and other substructure variables used in these studies. Over the course of our study, we considered a larger set of observables, but for presentation purposes we included only a subset in the final analysis, eliminating redundant observables.
 
 \subsection{Jet Clustering Algorithms}
 \label{sec:jetalgs}
 
-{\bf Jet clustering:}~Jets were clustered using sequential jet clustering algorithms \cite{Bethke:1988zc} implemented in \textsc{FastJet} 3.0.3. Final state particles $i$, $j$ are assigned a mutual distance $d_{ij}$ and a distance to the beam, $d_{i\mathrm{B}}$. The particle pair with smallest $d_{ij}$ are  recombined and the algorithm repeated until the smallest distance is instead the distance to the beam, $d_{i\mathrm{B}}$, in which case $i$ is set aside and labelled as a jet. The distance metrics are defined as
+{\bf Jet clustering:}~Jets were clustered using sequential jet clustering algorithms \cite{Bethke:1988zc} implemented in \textsc{FastJet} 3.0.3. Final state particles $i$, $j$ are assigned a mutual distance $d_{ij}$ and a distance to the beam, $d_{i\mathrm{B}}$. The particle pair with smallest $d_{ij}$ are  recombined and the algorithm repeated until the smallest distance is from a particle $i$ to the beam, $d_{i\mathrm{B}}$, in which case $i$ is set aside and labelled as a jet. The distance metrics are defined as
 %
 \begin{eqnarray}
 d_{ij} &=& \mathrm{min}(p_{Ti}^{2\gamma},p_{Tj}^{2\gamma})\,\frac{\Delta R_{ij}^2}{R^2},\\
 d_{i\mathrm{B}} &=& p_{Ti}^{2\gamma},
 \end{eqnarray}
 %
-where $\Delta R_{ij}^2=(\Delta \eta)^2+(\Delta\phi)^2$. In this analysis, we use the anti-$k_t$ algorithm ($\gamma=-1$) \cite{Cacciari:2008gp}, the Cambridge/Aachen (C/A) algorithm ($\gamma=0$) \cite{Dokshitzer:1997in,Wobisch:1998wt}, and the $k_t$ algorithm ($\gamma=1$) \cite{Catani:1993hr,Ellis:1993tq}, each of which has varying sensitivity to soft radiation in defining the jet.\\
+where $\Delta R_{ij}^2=(\Delta \eta_{ij})^2+(\Delta\phi_{ij})^2$. In this analysis, we use the anti-$k_t$ algorithm ($\gamma=-1$) \cite{Cacciari:2008gp}, the Cambridge/Aachen (C/A) algorithm ($\gamma=0$) \cite{Dokshitzer:1997in,Wobisch:1998wt}, and the $k_t$ algorithm ($\gamma=1$) \cite{Catani:1993hr,Ellis:1993tq}, each of which has varying sensitivity to soft radiation in the definition of the jet.\\
 
 \noindent {\bf Qjets:}~We also perform non-deterministic jet clustering \cite{Ellis:2012sn,Ellis:2014eya}. Instead of always clustering the particle pair with smallest distance $d_{ij}$, the pair selected for combination is chosen probabilistically according to a measure
 %
@@ -29,7 +29,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  \frac{\mathrm{min}(p_{Ti},p_{Tj})}{p_{Tij}} < z_{\rm cut}\,\,\,\mathrm{and}\,\,\,\Delta R_{ij} > \frac{2m_j}{p_{Tj}} R_{\rm cut},
  \end{equation}
  %
- in which case the merger is vetoed and the softer branch  discarded. The default parameters used for pruning \cite{Ellis:2009me} in this study are $z_{\rm cut}=0.1$ and $R_{\rm cut}=0.5$. One advantage of pruning is that the thresholds used
+ in which case the merger is vetoed and the softer branch  discarded. The default parameters used for pruning \cite{Ellis:2009me} in most studies in this report are $z_{\rm cut}=0.1$ and $R_{\rm cut}=0.5$. One advantage of pruning is that the thresholds used
  to veto soft, wide-angle radiation scale with the jet kinematics, and so the algorithm is expected to perform comparably over a wide range of momenta.\\
 
  \noindent {\bf Trimming:}~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm trim}$ with the $k_t$ algorithm. Discard all subjets $i$ with 
@@ -38,7 +38,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  p_{Ti} < f_{\rm cut} \, p_{TJ}.
  \end{equation}
  %
- The default parameters used for trimming \cite{Krohn:2009th} in this study are $R_{\rm trim}=0.2$ and $f_{\rm cut}=0.03$.\\
+ The default parameters used for trimming \cite{Krohn:2009th} in most studies in this report are $R_{\rm trim}=0.2$ and $f_{\rm cut}=0.03$.\\
  
    \noindent {\bf Filtering:}~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm filt}$ with the C/A algorithm. Re-define the jet to consist of only the hardest $N$ subjets, where $N$ is determined by the final state topology and is typically one more than the number of hard prongs in the resonance decay (to include the leading final-state gluon emission) \cite{Butterworth:2008iy}. While we do not independently use filtering, it is an important step of the HEPTopTagger to be defined later.\\
  
@@ -65,9 +65,9 @@ m_{j_1} > \mu \, m_j\,\,\,\mathrm{or}\,\,\, \frac{\mathrm{min}(p_{T1}^2,p_{T2}^2
 then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_{Ti}^2}$, and re-define $j$ as the branch with the larger transverse mass. Otherwise, the jet is tagged. If de-clustering continues until only one branch remains, the jet is considered to have failed the tagging criteria \cite{Dasgupta:2013ihk}. In this study we use by default $\mu = 1.0$ (i.e. implement no mass drop criteria) and $y_{\rm cut} = 0.1$.\\
 
 
-\noindent {\bf Johns Hopkins Tagger:}~Re-cluster the jet using the C/A algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if its $p_{\rm T}$ is less than $\delta_p\,p_{\mathrm{T\,jet}}$. This continues until both prongs are harder than the $p_{\rm T}$ threshold, both prongs are softer than the $p_{\rm T}$ threshold, or if they are too close ($|\Delta\eta_{ij}|+|\Delta\phi_{ij}|<\delta_R$); the jet is rejected if either of the latter conditions apply. If both are harder than the $p_{\rm T}$ threshold, the same procedure is applied to each: this results in 2, 3, or 4 subjets. If there exist 3 or 4 subjets, then the jet is accepted: the top candidate is the sum of the subjets, and $W$ candidate is the pair of subjets closest to the $W$ mass \cite{Kaplan:2008ie}. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$, a helicity angle defined as the angle, measured in the rest frame of the $W$ candidate, between the top direction and one of the $W$ decay products. The two free input parameters of the John Hopkins tagger in this study are $\delta_p$ and $\delta_R$, defined above.\\
+\noindent {\bf Johns Hopkins Tagger:}~Re-cluster the jet using the C/A algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if its $p_{\rm T}$ is less than $\delta_p\,p_{\mathrm{T\,jet}}$. This continues until both prongs are harder than the $p_{\rm T}$ threshold, both prongs are softer than the $p_{\rm T}$ threshold, or if they are too close ($|\Delta\eta_{ij}|+|\Delta\phi_{ij}|<\delta_R$); the jet is rejected if either of the latter conditions apply. If both are harder than the $p_{\rm T}$ threshold, the same procedure is applied to each: this results in 2, 3, or 4 subjets. If there exist 3 or 4 subjets, then the jet is accepted: the top candidate is the sum of the subjets, and $W$ candidate is the pair of subjets closest to the $W$ mass \cite{Kaplan:2008ie}. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$, a helicity angle defined as the angle, measured in the rest frame of the $W$ candidate, between the top direction and one of the $W$ decay products. The two free input parameters of the John Hopkins tagger in this study are $\delta_p$ and $\delta_R$, defined above, and their values are optimized for different jet kinematics and parameters in Section~\ref{sec:toptagging}.\\
 
-\noindent {\bf HEPTopTagger:}~Re-cluster the jet using the C/A algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if $m_1/m_{12}>\mu$ (there is not a significant mass drop). Otherwise, both prongs are kept. This continues until a prong has a mass $m_i < m$, at which point it is added to the list of subjets. Filter the jet using $R_{\rm filt}=\mathrm{min}(0.3,\Delta R_{ij})$, keeping the five hardest subjets (where $\Delta R_{ij}$ is the distance between the two hardest subjets). Select the three subjets whose invariant mass is closest to $m_t$ \cite{Plehn:2010st}. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$ (defined above). The two free input parameters of the HEPTopTagger in this study are $m$ and $\mu$, defined above.\\
+\noindent {\bf HEPTopTagger:}~Re-cluster the jet using the C/A algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if $m_1/m_{12}>\mu$ (there is not a significant mass drop). Otherwise, both prongs are kept. This continues until a prong has a mass $m_i < m$, at which point it is added to the list of subjets. Filter the jet using $R_{\rm filt}=\mathrm{min}(0.3,\Delta R_{ij})$, keeping the five hardest subjets (where $\Delta R_{ij}$ is the distance between the two hardest subjets). Select the three subjets whose invariant mass is closest to $m_t$ \cite{Plehn:2010st}. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$ (as defined in the Johns Hopkins Tagger). The two free input parameters of the HEPTopTagger in this study are $m$ and $\mu$, defined above, and their values are optimized for different jet kinematics and parameters in Section~\ref{sec:toptagging}.\\
 
 \noindent {\bf Top Tagging with Pruning or Trimming:}~For comparison with the other top taggers, we add a $W$ reconstruction step to the pruning and trimming algorithms described above. A $W$ candidate is found as follows:~if there are two subjets, the highest-mass subjet is the $W$ candidate (because the $W$ prongs end up clustered in the same subjet); if there are three subjets, the two subjets with the smallest invariant mass comprise the $W$ candidate. In the case of only one subjet, no $W$ is reconstructed.\\
 
@@ -75,7 +75,7 @@ then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_
 
 \subsection{Other Jet Substructure Observables} \label{sec:substructure}
 
-Jet substructure observables are calculated using jet constituents prior to any grooming.\\
+The jet substructure observables defined in this section are calculated using jet constituents prior to any grooming.\\
 
 
 
@@ -102,7 +102,7 @@ d_0 = \sum_i p_{Ti}\,R^\beta
 and $R$ is the jet clustering radius. The exponent $\beta$ is a free parameter. There is also some choice in how the axes used to compute $N$-subjettiness are determined. The optimal configuration of axes is the one that minimizes
 $N$-subjettiness; recently, it was shown that the ``winner-takes-all'' (WTA) axes can be easily computed and have superior performance compared to other minimization techniques \cite{Larkoski:2014uqa}. We use both the WTA and one-pass $k_t$ optimization axes in our analyses.
 
-A more powerful discriminant is often the ratio,
+Often, a  powerful discriminant is  the ratio,
 %
 \begin{equation}
 \tau_{N,N-1} \equiv \frac{\tau_N}{\tau_{N-1}}.

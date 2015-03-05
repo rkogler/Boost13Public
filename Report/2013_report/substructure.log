@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 NOV 2014 09:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAR 2015 23:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -25,14 +25,14 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.1 I
-     n this section, we define the jet algorithms and observables used in ou...
+     n Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and...
 
 ? 
 ./substructure.tex:1: Emergency stop.
  ...                                              
                                                   
 l.1 I
-     n this section, we define the jet algorithms and observables used in ou...
+     n Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -45,5 +45,5 @@ Here is how much of TeX's memory you used:
  3412 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 5i,0n,4p,266b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,4p,416b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
 ./substructure.tex:1:  ==> Fatal error occurred, no output PDF file produced!
