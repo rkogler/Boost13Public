@@ -148,14 +148,14 @@ we  give a more detailed discussion in Section~\ref{sec:qg_combi} of the correla
 %
 \begin{figure*}
 \centering
-\subfigure[$\rm{N_ {constits}}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Ncon.png}}
-\subfigure[$\Gamma_{\rm Qjet}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/GamQ.png}}
-\subfigure[$C_1^{\beta=0}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C10.png}}\\
-\subfigure[$C_1^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C11.png}}
-\subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Tau11.png}}\\
-\subfigure[$C_1^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C12.png}}
-\subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Tau12.png}}
-\subfigure[Ungroomed mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Mass.png}}\\
+\subfigure[$\rm{N_ {constits}}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/NconB.png}}
+\subfigure[$\Gamma_{\rm Qjet}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/GamQB.png}}
+\subfigure[$C_1^{\beta=0}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C10B.png}}\\
+\subfigure[$C_1^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C11B.png}}
+\subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Tau11B.png}}\\
+\subfigure[$C_1^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C12B.png}}
+\subfigure[$\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Tau12B.png}}
+\subfigure[Ungroomed mass]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/MassB.png}}\\
 \caption{Surface plots of $1/\epsilon_\text{bkg}$ for all single variables considered for
   quark-gluon discrimination as functions of $R$ and $\pt$. The first three plots are Classes I-III, with Class IV in the second row, and Class V in the third row. }
 \label{fig:qg_surface_single}
@@ -168,13 +168,16 @@ We can use the values of $1/\epsilon_\text{bkg}$ generated for the 9 kinematic p
 the 100 GeV $\pt$ bins with lower limits
 $p_T = 300\, \text{GeV}$, $500\, \text{GeV}$, $1000\,\text{GeV}$) to generate surface plots.  The surface plots in Figure~\ref{fig:qg_surface_single}
 indicate both the level of gluon rejection
-and the variation with $\pt$ and $R$ for each of the studied single observable.  We organize our results by class:
-%The color shading is defined so that a change in color 
-%corresponds to a change of about 0.4 in $1/\epsilon_\text{bkg}$.  The colors have the same correlation with the magnitude of $1/\epsilon_\text{bkg}$
+and the variation with $\pt$ and $R$ for each of the studied single observable. 
+The color shading in these plots is defined so that a value of $1/\epsilon_\text{bkg}\simeq 1$ yields the color ``violet'', while 
+$1/\epsilon_\text{bkg}\simeq 20 $ yields the color ``red''.   The ``rainbow'' of colors in between vary linearly with $\log_{10} (1/\epsilon_\text{bkg})$. 
+% The colors have the same correlation with the magnitude of $1/\epsilon_\text{bkg}$
 %in all of the plots, but repeat after a change of about 4.  Thus ``blue'' corresponds to a value of about 2.5 in  Figure~\ref{fig:qg_surface_single}(b) and the
 %values 6.5 and 10.5
 %in  Figure~\ref{fig:qg_surface_single}(a), while ''yellow'' corresponds to about 5 in  Figures~\ref{fig:qg_surface_single}(c) to (h) and about 9 in
 % Figure~\ref{fig:qg_surface_single}(a).
+
+ We organize our results by the classes introduced in the previous subsection:
 
 \noindent{\bf Class I:}~The sole constituent of this class is $N_{\rm constits}$. We see in  Figure~\ref{fig:qg_surface_single}(a) that, as expected,  the numerically largest rejection rates occur
 for this observable, with the rejection factor ranging from 6 to 11 and 
@@ -272,8 +275,8 @@ In the following section, we study the effect of combining multiple observables.
 %
 \begin{figure*}
 \centering
-\subfigure[$C_1^{\beta=1}+\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C11Tau11.png}}
-\subfigure[$C_1^{\beta=2}+\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C12Tau12.png}}
+\subfigure[$C_1^{\beta=1}+\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C11Tau11B.png}}
+\subfigure[$C_1^{\beta=2}+\tau_{1}^{\beta=2}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C12Tau12B.png}}
 %\subfigure[$C_1^{\beta=0}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C10.png}}\\
 %\subfigure[$C_1^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/C11.png}}
 %\subfigure[$\tau_{1}^{\beta=1}$]{\includegraphics[width=0.30\textwidth]{./Figures/QGSurface/Tau11.png}}\\
@@ -310,17 +313,17 @@ observables within a single class effectively probe the \textit{same} jet proper
 %
 \begin{figure*}
 \centering
-\subfigure[$\rm{N_ {constits}}+\Gamma_{\rm Qjet}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconGamQ.png}}
-\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC11.png}}
-\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC12.png}}\\
-\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC10.png}}
-\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10GamQ.png}}
-\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11GamQ.png}}\\
-\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C12GamQ.png}}
-\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C11.png}}
-\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C12.png}}\\
-\subfigure[$ C_{1}^{\beta=1}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11C12.png}}
-\subfigure[All]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/All.png}}
+\subfigure[$\rm{N_ {constits}}+\Gamma_{\rm Qjet}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconGamQB.png}}
+\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC11B.png}}
+\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC12B.png}}\\
+\subfigure[$\rm{N_ {constits}}+ C_1^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC10B.png}}
+\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10GamQB.png}}
+\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11GamQB.png}}\\
+\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C12GamQB.png}}
+\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C11B.png}}
+\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C12B.png}}\\
+\subfigure[$ C_{1}^{\beta=1}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11C12B.png}}
+\subfigure[All]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/AllB.png}}
 \caption{Surface plots of $1/\epsilon_\text{bkg}$ for the indicated pairs of variables from different classes considered for
   quark-gluon discrimination as functions of $R$ and $\pt$. }
 \label{fig:qg_surface_pairB}
@@ -486,7 +489,7 @@ the gluon jets.  A quantitative (all-orders) understanding of groomed mass distr
 
 Our final topic in this section is the residual $R$ and $\pt$ dependence exhibited in Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, which
 deviates from the linear scaling removed with the variable $m/p_T/R$.  As already suggested, the residual $\pt$ dependence can be understood as arising primarily from the slow decrease of the strong coupling $\alpha_s(\pt)$ as $\pt$ increases.  This leads to a corresponding decrease in the (largely perturbative) shoulder regime for both distributions
-asat higher $\pt$.  At the same time, and for the same reason, the Sudakov damping is less strong with increasing $\pt$ and the peak moves in towards the origin.
+at higher $\pt$.  At the same time, and for the same reason, the Sudakov damping is less strong with increasing $\pt$ and the peak moves in towards the origin.
 Thus the overall impact of increasing $\pt$ for both distributions is a (gradual) shift to smaller values of $m/p_T/R$.  This is just what is observed in 
 Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, although the numerical size of the effect is reduced in the pruned case.
 
