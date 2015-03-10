@@ -317,11 +317,12 @@ observables within a single class effectively probe the \textit{same} jet proper
 \subfigure[$\rm{N_ {constits}}+ C_1^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC11B.png}}
 \subfigure[$\rm{N_ {constits}}+ C_1^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC12B.png}}\\
 \subfigure[$\rm{N_ {constits}}+ C_1^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconC10B.png}}
-\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10GamQB.png}}
-\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11GamQB.png}}\\
+\subfigure[$\rm{N_ {constits}}+ \tau_1^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/NconTau11B.png}}
+\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=0}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10GamQB.png}}\\
+\subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11GamQB.png}}
 \subfigure[$\Gamma_{\rm Qjet}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C12GamQB.png}}
-\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C11B.png}}
-\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C12B.png}}\\
+\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=1}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C11B.png}}\\
+\subfigure[$ C_{1}^{\beta=0}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C10C12B.png}}
 \subfigure[$ C_{1}^{\beta=1}+ C_{1}^{\beta=2}$]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/C11C12B.png}}
 \subfigure[All]{\includegraphics[width=0.28\textwidth]{./Figures/QGSurface/AllB.png}}
 \caption{Surface plots of $1/\epsilon_\text{bkg}$ for the indicated pairs of variables from different classes considered for
@@ -330,28 +331,38 @@ observables within a single class effectively probe the \textit{same} jet proper
 \end{figure*}
 %
 
-Next, we consider  cross-class pairs of observables  in Figure~\ref{fig:qg_surface_pairB}, where for each class we only use a single observable for illustrative purposes.
+Next, we consider  cross-class pairs of observables  in Figure~\ref{fig:qg_surface_pairB}, where, except in the one case noted below,
+we use only a single observable from each class for illustrative purposes.
 Since $\rm N_{constits}$ is the best performing single variable, the largest rejection
-rates are obtained from combining another observable with $\rm{N_ {constits}}$ (Figures~\ref{fig:qg_surface_pairB}(a) to (d)).  
+rates are obtained from combining another observable with $\rm{N_ {constits}}$ (Figures~\ref{fig:qg_surface_pairB}(a) to (e)).  
 In general, the rejection rates are larger for the pair-wise case
-than for the single variable case.  In particular, the pair $\rm{N_ {constits}}+ C_1^{\beta=1}$ 
+than for the single variable case.  In particular, the pair $\rm{N_ {constits}}+ C_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(b)
 yields rejection rates in the range 6.4 to 14.7 with the largest
-values at small $R$ and large $\pt$.  The other pairings with $\rm{N_ {constits}}$ (except with $\tau_1^{\beta=1}$) yield smaller 
-rejection rates and smaller dynamic range.  The pair $\rm{N_ {constits}}+ C_1^{\beta=0}$ (Figure~\ref{fig:qg_surface_pairB}(d)) exhibits
+values at small $R$ and large $\pt$.  As expected, the pair  $\rm{N_ {constits}}+ \tau_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(e)
+yields very similar rejection rates (6.4 to 15.0), since $C_1^{\beta=1}$ and $\tau_1^{\beta=1}$ are both in Class IV. 
+The other pairings with $\rm{N_ {constits}}$ yield smaller 
+rejection rates and smaller dynamic ranges.  The pair $\rm{N_ {constits}}+ C_1^{\beta=0}$ (Figure~\ref{fig:qg_surface_pairB}(d)) exhibits
 the smallest range of rates (8.3 to 11.3), suggesting that the differences between these two observables serve to substantially 
-reduce the $R$ and $\pt$ dependence for the pair, but this also reduces the possible optimization.  The other pairs shown exhibit
+reduce the $R$ and $\pt$ dependence for the pair, but this also to reduce the possible optimization.  The other pairs shown exhibit
 similar behavior.  
 
-The $R$ and $\pt$ dependence of the pair-wise combinations is generally similar to the single observable with the most dependence on $R$ and $\pt$.  The smallest $R$ and $\pt$ variation always occurs 
+The $R$ and $\pt$ dependence of the pair-wise combinations is generally similar to the single observable with the most dependence 
+on $R$ and $\pt$.  The smallest $R$ and $\pt$ variation always occurs 
 when pairing with $C_1^{\beta=0}$.  Changing any of the observables in these pairs with a different observable in the same class (\textit{e.g.},
 $C_1^{\beta=2}$ for $\tau_1^{\beta=2}$) produces very similar results.  Figure~\ref{fig:qg_surface_pairB}(k) shows the
 result of a BDT analysis including all of the current observables with rejection rates in the range 10.5 to 17.1.  This is a somewhat narrower range
 than in Figure~\ref{fig:qg_surface_pairB}(b) but with  larger maximum values.
 
-Some features are more easily seen with an alternative presentation of the data:~we fix  $R$ and $\pt$ and simultaneously show the single- and pair-wise  observables performance in a single matrix, and these matrices are shown in Figures~\ref{fig:qg_pt1000_comb} and \ref{fig:qg_akt4_comb}.  The numbers in each cell are the same rejection rate for gluons used earlier,
+Some features are more easily seen with an alternative presentation of the data:~we fix  $R$ and $\pt$ and simultaneously show the single- and pair-wise  observables performance in a single matrix, and these matrices are shown in Figures~\ref{fig:qg_pt1000_comb} and \ref{fig:qg_akt4_comb}.  
+The numbers in each cell are the same rejection rate for gluons used earlier,
  $1/\epsilon_\text{bkg}$, with $\epsilon_\text{sig}= 50\,\% $ (quarks).  Figure~\ref{fig:qg_pt1000_comb} shows the results for $\pt=1-1.1 \TeV$ and
-$R =0.4,0.8,1.2$, while  Figure~\ref{fig:qg_akt4_comb} is for $R = 0.4$ and the 3 $\pt$ bins.  The single observable rejection rates appear on the diagonal, and the pairwise results are off the diagonal. 
-The correlations indicated by the shading should be largely understood as indicating the organization of the observables into the now-familiar
+$R =0.4,0.8,1.2$, while  Figure~\ref{fig:qg_akt4_comb} is for $R = 0.4$ and the 3 $\pt$ bins.  The single observable rejection rates appear on the 
+diagonal, and the pairwise results are off the diagonal.  The largest pair-wise rejection rate, as already suggested by Figure~\ref{fig:qg_surface_pairB}(e),
+appears at large $\pt$ and small $R$ for the pair $\rm{N_ {constits}}+ \tau_1^{\beta=1}$ 
+(with very similar results for $\rm{N_ {constits}}+ C_1^{\beta=1}$). 
+The correlations indicated by the shading\footnote{The connection between the value of the rejection rate and the shading color in 
+Figures~\ref{fig:qg_pt1000_comb} and \ref{fig:qg_akt4_comb} is the same as that in Figures~\ref{fig:qg_surface_single} to \ref{fig:qg_surface_pairB}.}   
+should be largely understood as indicating the organization of the observables into the now-familiar
 classes.  The all-observable (BDT) result appears as the number at the lower right in each plot.
 
 %In order to quantitatively study the value of each variable for quark/gluon tagging, we study the gluon 
@@ -470,8 +481,9 @@ provides an understanding of the bulk of the
 differences between the quark and gluon jet mass distributions.  Since the probability of the single large angle, energetic emission is proportional to the color charge,
 the gluon distribution should be enhanced in this region by a factor of about $C_A/C_F = 9/4$, consistent with what is observed in Figure~\ref{fig:qg_masses_log}.
 Similarly the exponent in the Sudakov damping factor for the gluon jet mass distribution  is enhanced by the same factor, 
-leading to a peak ``pushed'' further from the origin.  Therefore, the gluon jet mass 
-distribution exhibits a larger average jet mass than the quark jet, with a larger relative contribution arising from the perturbative shoulder region.  
+leading to a peak ``pushed'' further from the origin.  Therefore, compared to a quark jet, the gluon jet mass 
+distribution exhibits a larger average jet mass, with a larger relative contribution arising from the perturbative shoulder region and a small mass peak that is further
+from the origin.  
 
  
 Together with  the fact that the number of constituents in the jet is also larger (on average) for the gluon jet simply because a gluon will radiate more than a quark, these features explain much of what we observed earlier in terms of the effectiveness of the various observable to separate quark jets from gluons jets. They also give us insight into the difference in the distributions for the observable 
@@ -488,19 +500,39 @@ QCD background when looking for a signal in a specific jet mass bin.  The should
 the gluon jets.  A quantitative (all-orders) understanding of groomed mass distributions is also possible. For instance, resummation of the pruned mass distribution was achieved in~\cite{Dasgupta:2013ihk,Dasgupta:2013via}. Figure~\ref{fig:qg_prmasses_log} serves to confirm the physical understanding of the relative behavior of $\Gamma_{\rm Qjet}$ for quark and gluon jets.
 
 Our final topic in this section is the residual $R$ and $\pt$ dependence exhibited in Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, which
-deviates from the linear scaling removed with the variable $m/p_T/R$.  As already suggested, the residual $\pt$ dependence can be understood as arising primarily from the slow decrease of the strong coupling $\alpha_s(\pt)$ as $\pt$ increases.  This leads to a corresponding decrease in the (largely perturbative) shoulder regime for both distributions
-at higher $\pt$.  At the same time, and for the same reason, the Sudakov damping is less strong with increasing $\pt$ and the peak moves in towards the origin.
+indicates a deviation from the naive linear scaling that has been removed by using the scaled variable $m/p_T/R$.  
+A helpful, intuitively simple, if admittedly imprecise, model of a jet is to separate the constituents of the jet into ``hard'' (with $\pt$'s that are of order the jet 
+$\pt$) versus ``soft'' (with $\pt$'s small and fixed compared to the jet $\pt$), and ``large'' angle (with an angular separation from the jet direction of order $R$)
+versus ``small'' angle (with an angular separation from the jet direction smaller than and not scaling with $R$) components. 
+As described above the Sudakov damping factor excludes constituents that are very soft or very small angle (or both).
+In this simple picture 
+perturbative large angle, hard constituents appear rarely, but, as described above, they characterize the large mass jets that appear in the
+``shoulder'' of the jet mass distribution where the mass scales approximately linearly with the jet $\pt$ and with $R$.  
+The hard, small angle constituents are somewhat more numerous
+and contribute to a jet mass that does not scale with $R$.  The soft constituents are much more numerous (becoming more numerous
+with increasing jet $\pt$) and contribute to a jet mass that scales like
+$\sqrt{p_{T,\text{jet}}}$.  The small angle, soft constituents contribute to a jet mass that does not scale with $R$, while the large angle, soft
+constituents do contribute to a jet mass that scales like $R$  and grow in number approximately linearly in $R$ (\textit{i.e.}, with the area
+of the annulus at the outer edge of the jet).  This simple picture allows at least a qualitative explanation of the behavior observed in 
+Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}.
+    
+As already suggested, the residual $\pt$ dependence can be understood as arising primarily from the slow decrease of the strong coupling $\alpha_s(\pt)$ as $\pt$ increases.  This leads to a corresponding decrease in the (largely perturbative) shoulder regime for both distributions
+at higher $\pt$, \textit{i.e.}, a decrease in the number of hard, large angle constituents.  
+At the same time, and for the same reason, the Sudakov damping is less strong with increasing $\pt$ and the peak moves in towards the origin.
+While the number of soft constituents increases with increasing jet $\pt$, their contributions to the scaled jet mass distribution shift to smaller
+values of $m/\pt$ (decreasing approximately like $1/\sqrt{\pt}$).
 Thus the overall impact of increasing $\pt$ for both distributions is a (gradual) shift to smaller values of $m/p_T/R$.  This is just what is observed in 
 Figures~\ref{fig:qg_masses_log} and \ref{fig:qg_prmasses_log}, although the numerical size of the effect is reduced in the pruned case.
 
-The $R$ dependence is more complicated as there are effectively three different contributions to the mass distribution.  
-The perturbative large angle, energetic single emission contribution
+The residual $R$ dependence is somewhat more complicated.  
+The perturbative large angle, hard constituent contribution
 largely scales in the variable $m/p_T/R$, which is why we see little residual $R$ dependence in either figure at higher masses ($m/p_T/R > 0.4$).  
-The large angle, soft emissions can  contribute in two ways:~by contributing to mass values that scale like $R$, and by increasing the number of large angle, soft emissions included in the jet as $R$ increases (\textit{i.e.}, as the area of the jet grows as $R^2$).  Such contributions  yield
-a distribution that shifts to the right with increasing $R$  and presumably explain the behavior at small $\pt$ in Figure~\ref{fig:qg_masses_log}.  Since pruning
-largely removes this contribution, we observe no such behavior in Figure~\ref{fig:qg_prmasses_log}.  The contribution of small angle, soft emissions will be at
-fixed $m$ values and thus shift to the left versus the scaled variable as $R$ increases.  
-This presumably explains the small shifts in this direction observed in both figures.
+The contribution of the small angle constituents (hard and soft) contribute at fixed $m$ and thus shift to the left versus the scaled variable as $R$ increases.  
+This presumably explains the small shifts in this direction at small mass observed in both figures.
+The large angle, soft constituents contribute to mass values that scale like $R$, and, as noted above, tend to increase in number as $R$ increases 
+(\textit{i.e.}, as the area of the jet grows).  Such contributions  yield a scaled jet mass
+distribution that shifts to the right with increasing $R$  and presumably explain the behavior at small $\pt$ in Figure~\ref{fig:qg_masses_log}.  Since pruning
+largely removes this contribution, we observe no such behavior in Figure~\ref{fig:qg_prmasses_log}. 
 
  \subsection{Conclusions}\label{sec:qg_concl}
 
