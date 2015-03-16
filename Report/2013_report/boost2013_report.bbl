@@ -46,11 +46,6 @@ A.~Altheimer, A.~Arce, L.~Asquith, J.~Backus~Mayes, E.~Bergeaas~Kuutmann,
   et~al., {\it {Boosted objects and jet substructure at the LHC}},
   \href{http://arxiv.org/abs/1311.2708}{{\tt arXiv:1311.2708}}.
 
-\bibitem{Cacciari:2011ma}
-M.~Cacciari, G.~P. Salam, and G.~Soyez, {\it {FastJet User Manual}},  {\em
-  Eur.Phys.J.} {\bf C72} (2012) 1896,
-  [\href{http://arxiv.org/abs/1111.6097}{{\tt arXiv:1111.6097}}].
-
 \bibitem{Plehn:2010st}
 T.~Plehn, M.~Spannowsky, M.~Takeuchi, and D.~Zerwas, {\it {Stop Reconstruction
   with Tagged Tops}},  {\em JHEP} {\bf 1010} (2010) 078,
@@ -200,6 +195,24 @@ M.~Dasgupta, A.~Fregoso, S.~Marzani, and G.~P. Salam, {\it {Towards an
   understanding of jet substructure}},  {\em JHEP} {\bf 1309} (2013) 029,
   [\href{http://arxiv.org/abs/1307.0007}{{\tt arXiv:1307.0007}}].
 
+\bibitem{Khachatryan:2014hpa}
+{\bf CMS} Collaboration, V.~Khachatryan et~al., {\it {Search for massive
+  resonances in dijet systems containing jets tagged as W or Z boson decays in
+  pp collisions at $ \sqrt{s} $ = 8 TeV}},  {\em JHEP} {\bf 1408} (2014) 173,
+  [\href{http://arxiv.org/abs/1405.1994}{{\tt arXiv:1405.1994}}].
+
+\bibitem{Aad:2014haa}
+{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Measurement of the
+  cross-section of high transverse momentum vector bosons reconstructed as
+  single jets and studies of jet substructure in $pp$ collisions at
+  ${\sqrt{s}}$ = 7 TeV with the ATLAS detector}},  {\em New J.Phys.} {\bf 16}
+  (2014), no.~11 113013, [\href{http://arxiv.org/abs/1407.0800}{{\tt
+  arXiv:1407.0800}}].
+
+\bibitem{ATL-PHYS-PUB-2014-004}
+{\it {Performance of Boosted W Boson Identification with the ATLAS Detector}},
+  Tech. Rep. ATL-PHYS-PUB-2014-004, CERN, Geneva, Mar, 2014.
+
 \bibitem{Thaler:2010tr}
 J.~Thaler and K.~Van~Tilburg, {\it {Identifying Boosted Objects with
   N-subjettiness}},  {\em JHEP} {\bf 1103} (2011) 015,
@@ -235,7 +248,20 @@ A.~J. Larkoski, J.~Thaler, and W.~J. Waalewijn, {\it {Gaining (Mutual)
 A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, and H.~Voss,
   {\it {TMVA: Toolkit for Multivariate Data Analysis}},  {\em PoS} {\bf ACAT}
   (2007) 040, [\href{http://arxiv.org/abs/physics/0703039}{{\tt
-  physics/0703039}}].
+  physics/0703039}}]. An example of the BDT settings used in these studies are
+  as follows: NTrees=1000; BoostType=Grad; Shrinkage=0.1; UseBaggedGrad=F;
+  nCuts=10000; MaxDepth=3; UseYesNoLeaf=F; nEventsMin=200.
+
+\bibitem{Aad:2014gea}
+{\bf ATLAS Collaboration} Collaboration, G.~Aad et~al., {\it {Light-quark and
+  gluon jet discrimination in $pp$ collisions at $\sqrt{s}=7\mathrm {\ TeV}$
+  with the ATLAS detector}},  {\em Eur.Phys.J.} {\bf C74} (2014), no.~8 3023,
+  [\href{http://arxiv.org/abs/1405.6583}{{\tt arXiv:1405.6583}}].
+
+\bibitem{Gallicchio:2012ez}
+J.~Gallicchio and M.~D. Schwartz, {\it {Quark and Gluon Jet Substructure}},
+  {\em JHEP} {\bf 1304} (2013) 090, [\href{http://arxiv.org/abs/1211.7038}{{\tt
+  arXiv:1211.7038}}].
 
 \bibitem{Larkoski:2014tva}
 A.~J. Larkoski, I.~Moult, and D.~Neill, {\it {Toward Multi-Differential Cross
@@ -248,17 +274,6 @@ M.~Procura, W.~J. Waalewijn, and L.~Zeune, {\it {Resummation of
   Double-Differential Cross Sections and Fully-Unintegrated Parton Distribution
   Functions}},  {\em JHEP} {\bf 1502} (2015) 117,
   [\href{http://arxiv.org/abs/1410.6483}{{\tt arXiv:1410.6483}}].
-
-\bibitem{Aad:2014gea}
-{\bf ATLAS Collaboration} Collaboration, G.~Aad et~al., {\it {Light-quark and
-  gluon jet discrimination in $pp$ collisions at $\sqrt{s}=7\mathrm {\ TeV}$
-  with the ATLAS detector}},  {\em Eur.Phys.J.} {\bf C74} (2014), no.~8 3023,
-  [\href{http://arxiv.org/abs/1405.6583}{{\tt arXiv:1405.6583}}].
-
-\bibitem{Gallicchio:2012ez}
-J.~Gallicchio and M.~D. Schwartz, {\it {Quark and Gluon Jet Substructure}},
-  {\em JHEP} {\bf 1304} (2013) 090, [\href{http://arxiv.org/abs/1211.7038}{{\tt
-  arXiv:1211.7038}}].
 
 \bibitem{Gallicchio:2011xq}
 J.~Gallicchio and M.~D. Schwartz, {\it {Quark and Gluon Tagging at the LHC}},
@@ -301,10 +316,6 @@ S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, {\it {Techniques for improved
 M.~Dasgupta, A.~Fregoso, S.~Marzani, and A.~Powling, {\it {Jet substructure
   with analytical methods}},  {\em Eur.Phys.J.} {\bf C73} (2013), no.~11 2623,
   [\href{http://arxiv.org/abs/1307.0013}{{\tt arXiv:1307.0013}}].
-
-\bibitem{ATL-PHYS-PUB-2014-004}
-{\it {Performance of Boosted W Boson Identification with the ATLAS Detector}},
-  Tech. Rep. ATL-PHYS-PUB-2014-004, CERN, Geneva, Mar, 2014.
 
 \bibitem{Schaetzel:2013vka}
 S.~Schaetzel and M.~Spannowsky, {\it {Tagging highly boosted top quarks}},

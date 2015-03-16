@@ -7,18 +7,23 @@ discriminatory information in the variables overlaps. There exist alternative
  strategies for studying correlations in discrimination power, such as 
  ``truth matching''~\cite{Larkoski:2014pca}, but these are not explored here.
 
-In all cases, the multivariate technique used to combine variables is a Boosted Decision Tree (BDT) as implemented in the TMVA package~\cite{Hocker:2007ht}.
-We use the BDT implementation including gradient boost.  
-An example of the BDT settings are as follows: 
-\begin{itemize}
-\item NTrees=1000
-\item BoostType=Grad
-\item Shrinkage=0.1
-\item UseBaggedGrad=F
-\item nCuts=10000
-\item MaxDepth=3
-\item UseYesNoLeaf=F
-\item nEventsMin=200
-\end{itemize}
-These parameter values are chosen to reduce the effect of overtraining.
+In all cases, the multivariate technique used to combine variables is
+a Boosted Decision Tree (BDT) as implemented in the TMVA
+package~\cite{Hocker:2007ht}. An example of the BDT settings used in
+these studies, chosen to reduce the effect of overtraining, is given
+in~\cite{Hocker:2007ht}. The BDT implementation including gradient
+boost is used.
+%We use the BDT implementation including gradient boost.  
+%An example of the BDT settings are as follows: 
+%\begin{itemize}
+%\item NTrees=1000
+%\item BoostType=Grad
+%\item Shrinkage=0.1
+%\item UseBaggedGrad=F
+%\item nCuts=10000
+%\item MaxDepth=3
+%\item UseYesNoLeaf=F
+%\item nEventsMin=200
+%\end{itemize}
+%These parameter values are chosen to reduce the effect of overtraining.
 Additionally, the simulated data were split into training and testing samples and comparisons of the BDT output were compared to ensure that the BDT performance was not affected by overtraining.  
