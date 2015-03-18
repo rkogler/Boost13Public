@@ -10,7 +10,7 @@ d_{ij} &=& \mathrm{min}(p_{Ti}^{2\gamma},p_{Tj}^{2\gamma})\,\frac{\Delta R_{ij}^
 d_{i\mathrm{B}} &=& p_{Ti}^{2\gamma},
 \end{eqnarray}
 %
-where $\Delta R_{ij}^2=(\Delta \eta_{ij})^2+(\Delta\phi_{ij})^2$, with $\Delta \eta_{ij}$ being the separation in pseudorapidity of particles $i$ and $j$, and $\Delta \phi_{ij}$ being the separation in azimuth. In this analysis, we use the anti-$k_t$ algorithm ($\gamma=-1$) \cite{Cacciari:2008gp}, the Cambridge/Aachen (C/A) algorithm ($\gamma=0$) \cite{Dokshitzer:1997in,Wobisch:1998wt}, and the $k_t$ algorithm ($\gamma=1$) \cite{Catani:1993hr,Ellis:1993tq}, each of which has varying sensitivity to soft radiation in the definition of the jet.\\
+where $\Delta R_{ij}^2=(\Delta \eta_{ij})^2+(\Delta\phi_{ij})^2$, with $\Delta \eta_{ij}$ being the separation in pseudorapidity of particles $i$ and $j$, and $\Delta \phi_{ij}$ being the separation in azimuth. In this analysis, we use the \antikt algorithm ($\gamma=-1$) \cite{Cacciari:2008gp}, the Cambridge/Aachen (C/A) algorithm ($\gamma=0$) \cite{Dokshitzer:1997in,Wobisch:1998wt}, and the \kT algorithm ($\gamma=1$) \cite{Catani:1993hr,Ellis:1993tq}, each of which has varying sensitivity to soft radiation in the definition of the jet.\\
 
 \noindent {\bf Qjets:}~We also perform non-deterministic jet clustering \cite{Ellis:2012sn,Ellis:2014eya}. Instead of always clustering the particle pair with smallest distance $d_{ij}$, the pair selected for combination is chosen probabilistically according to a measure
 %
@@ -32,7 +32,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
  in which case the merger is vetoed and the softer branch  discarded. The default parameters used for pruning \cite{Ellis:2009me} in this report are $z_{\rm cut}=0.1$ and $R_{\rm cut}=0.5$, unless otherwise stated. One advantage of pruning is that the thresholds used
  to veto soft, wide-angle radiation scale with the jet kinematics, and so the algorithm is expected to perform comparably over a wide range of momenta.\\
 
- \noindent {\bf Trimming:}~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm trim}$ with the $k_t$ algorithm. Discard all subjets $i$ with 
+ \noindent {\bf Trimming:}~Given a jet, re-cluster the constituents into subjets of radius $R_{\rm trim}$ with the \kT algorithm. Discard all subjets $i$ with 
  %
  \begin{equation}
  p_{Ti} < f_{\rm cut} \, p_{TJ}.
@@ -61,7 +61,7 @@ where $d_{\rm min}$ is the minimum distance for the usual jet clustering algorit
 m_{j_1} > \mu \, m_j\,\,\,\mathrm{or}\,\,\, \frac{\mathrm{min}(p_{T1}^2,p_{T2}^2)}{m_j^2}\,\Delta R_{12}^2 < y_{\rm cut},
 \end{equation}
 %
-then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_{Ti}^2}$, and re-define $j$ as the branch with the larger transverse mass. Otherwise, the jet is tagged. If de-clustering continues until only one branch remains, the jet is considered to have failed the tagging criteria \cite{Dasgupta:2013ihk}. In this study we use by default $\mu = 1.0$ (i.e. implement no mass drop criteria) and $y_{\rm cut} = 0.1$.\\
+then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_{Ti}^2}$, and re-define $j$ as the branch with the larger transverse mass. Otherwise, the jet is tagged. If de-clustering continues until only one branch remains, the jet is considered to have failed the tagging criteria \cite{Dasgupta:2013ihk}. In this study we use by default $\mu = 1.0$ (i.e. implement no mass drop criteria) and $y_{\rm cut} = 0.1$. With respect to the singular parts of the splitting functions, this describes the same algorithm as running soft drop with $\beta = 0$. \\
 
 
 \noindent {\bf Johns Hopkins Tagger:}~Re-cluster the jet using the C/A algorithm. The jet is iteratively de-clustered, and at each step the softer prong is discarded if its $p_{\rm T}$ is less than $\delta_p\,p_{\mathrm{T\,jet}}$. This continues until both prongs are harder than the $p_{\rm T}$ threshold, both prongs are softer than the $p_{\rm T}$ threshold, or if they are too close ($|\Delta\eta_{ij}|+|\Delta\phi_{ij}|<\delta_R$); the jet is rejected if either of the latter conditions apply. If both are harder than the $p_{\rm T}$ threshold, the same procedure is applied to each: this results in 2, 3, or 4 subjets. If there exist 3 or 4 subjets, then the jet is accepted: the top candidate is the sum of the subjets, and $W$ candidate is the pair of subjets closest to the $W$ mass \cite{Kaplan:2008ie}. The output of the tagger is $m_t$, $m_W$, and $\theta_{\rm h}$, a helicity angle defined as the angle, measured in the rest frame of the $W$ candidate, between the top direction and one of the $W$ decay products. The two free input parameters of the John Hopkins tagger in this study are $\delta_p$ and $\delta_R$, defined above, and their values are optimized for different jet kinematics and parameters in Section~\ref{sec:toptagging}.\\
@@ -99,7 +99,7 @@ d_0 = \sum_i p_{Ti}\,R^\beta
 \end{equation}
 %
 and $R$ is the jet clustering radius. The exponent $\beta$ is a free parameter. There is also some choice in how the axes used to compute $N$-subjettiness are determined. The optimal configuration of axes is the one that minimizes
-$N$-subjettiness; recently, it was shown that the ``winner-takes-all'' (WTA) axes can be easily computed and have superior performance compared to other minimization techniques \cite{Larkoski:2014uqa}. We use both the WTA (Section~\ref{sec:toptagging}) and one-pass $k_t$ optimization axes (Sections~\ref{sec:qgtagging} and~\ref{sec:wtagging}) in our studies.
+$N$-subjettiness; recently, it was shown that the ``winner-take-all'' (WTA) axes can be easily computed and have superior performance compared to other minimization techniques \cite{Larkoski:2014uqa}. We use both the WTA (Section~\ref{sec:toptagging}) and one-pass \kT optimization axes (Sections~\ref{sec:qgtagging} and~\ref{sec:wtagging}) in our studies.
 
 Often, a  powerful discriminant is  the ratio,
 %
@@ -122,7 +122,7 @@ where $i$ is a particle inside the jet. It is preferable to work in terms of dim
 C_N^{(\beta)} = \frac{\mathrm{ECF}(N+1,\beta)\,\mathrm{ECF}(N-1,\beta)}{\mathrm{ECF}(N,\beta)^2}.
 \end{equation}
 %
-This observable measures higher-order radiation from leading-order substructure. Note that $C_2^{(0)}$ is identical to the variable PTD introduced by CMS in~\cite{Chatrchyan:2012sn}. 
+This observable measures higher-order radiation from leading-order substructure. Note that $C_2^{(0)}$ is identical to the variable \ptd introduced by CMS in~\cite{Chatrchyan:2012sn}. 
 
 %\subsection{Observables for Each Analysis}
 %\label{sec:observables}

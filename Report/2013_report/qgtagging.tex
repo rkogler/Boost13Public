@@ -130,7 +130,7 @@ discriminator for quark/gluon tagging, Receiver Operating Characteristic (ROC) c
 and plotting the background efficiency (to select gluon jets) vs.~the signal efficiency (to select quark jets). 
 Figure~\ref{fig:qg_pt300_single} shows these ROC curves for all of the
 substructure variables shown in 
-Figure~\ref{fig:qg_pt500_subst_AKt_R08} for R=0.4, 0.8 and 1.2 jets (in the $\pt=300-400\GeV$
+Figure~\ref{fig:qg_pt500_subst_AKt_R08} for $R=0.4, 0.8$ and $1.2$ jets (in the $\pt=300$-$400\GeV$
 bin). In addition, the ROC curve for a tagger built from a BDT
 combination of all the variables (see Section~\ref{sec:multivariate}) is shown.
 %
@@ -143,14 +143,14 @@ combination of all the variables (see Section~\ref{sec:multivariate}) is shown.
 \includegraphics[width=0.48\textwidth]{./Figures/QGTagging/pT300/AKtR12/Rocs_1D_single.pdf}
 %\includegraphics[width=0.4\textwidth]{./Figures/QGTagging/pT1000/AKtR12/Rocs_1D_single.pdf}\\
 \caption{The ROC curve for all single variables considered for
-  quark-gluon discrimination in the \pt 300-400 GeV bin using the
-  anti-\kT R=0.4 (top-left), 0.8 (top-right) and 1.2 (bottom) algorithm.%{\bf ED: Hard to tell the lines on the plots apart}
+  quark-gluon discrimination in the \pt 300-400 \GeV bin using the
+  \antikt $R=0.4$ (top-left), 0.8 (top-right) and 1.2 (bottom) algorithm.%{\bf ED: Hard to tell the lines on the plots apart}
 }
 \label{fig:qg_pt300_single}
 \end{figure*}
 %
 As suggested earlier, $n_{\rm constits}$ is the best performing variable for all $R$ values, although $C_1^{\beta=0}$ is not far behind, particularly
-for R=0.8. Most other variables have similar performance, with the main exception of $\Gamma_{\rm Qjet}$, which shows significantly worse
+for $R=0.8$. Most other variables have similar performance, with the main exception of $\Gamma_{\rm Qjet}$, which shows significantly worse
 discrimination (this may be due to our choice of
 rigidity $\alpha = 0.1$, with other studies suggesting that a smaller value,
 such as $\alpha = 0.01$, produces better results \cite{Ellis:2012sn,Ellis:2014eya}). The combination of all variables shows somewhat better discrimination than any individual observable, and
@@ -344,16 +344,15 @@ observables within a single class effectively probe the \textit{same} jet proper
 
 Next, we consider  cross-class pairs of observables  in Figure~\ref{fig:qg_surface_pairB}, where, except in the one case noted below,
 we use only a single observable from each class for illustrative purposes.
-Since $\rm n_{\rm constits}$ is the best performing single variable, the largest rejection
-rates are obtained from combining another observable with $\rm{n_ {\rm
-    constits}}$ (Figures~\ref{fig:qg_surface_pairB}(a) to (e)).  
+Since $n_{\rm constits}$ is the best performing single variable, the largest rejection
+rates are obtained from combining another observable with $n_ {\rm constits}$ (Figures~\ref{fig:qg_surface_pairB}(a) to (e)).  
 In general, the rejection rates are larger for the pair-wise case
-than for the single variable case.  In particular, the pair $\rm{n_{\rm constits}}+ C_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(b)
+than for the single variable case.  In particular, the pair $n_{\rm constits}+ C_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(b)
 yields rejection rates in the range 6.4 to 14.7 with the largest
-values at small $R$ and large $\pt$.  As expected, the pair  $\rm{n_{\rm constits}}+ \tau_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(e)
+values at small $R$ and large $\pt$.  As expected, the pair  $n_{\rm constits}+ \tau_1^{\beta=1}$ in Figure~\ref{fig:qg_surface_pairB}(e)
 yields very similar rejection rates (6.4 to 15.0), since $C_1^{\beta=1}$ and $\tau_1^{\beta=1}$ are both in Class IV. 
-The other pairings with $\rm{n_{\rm constits}}$ yield smaller 
-rejection rates and smaller dynamic ranges.  The pair $\rm{n_ {\rm constits}}+ C_1^{\beta=0}$ (Figure~\ref{fig:qg_surface_pairB}(d)) exhibits
+The other pairings with $n_{\rm constits}$ yield smaller 
+rejection rates and smaller dynamic ranges.  The pair $n_ {\rm constits}+ C_1^{\beta=0}$ (Figure~\ref{fig:qg_surface_pairB}(d)) exhibits
 the smallest range of rates (8.3 to 11.3), suggesting that the differences between these two observables serve to substantially 
 reduce the $R$ and $\pt$ dependence for the pair, but this also to reduce the possible optimization.  The other pairs shown exhibit
 similar behavior.  
@@ -370,8 +369,8 @@ The numbers in each cell are the same rejection rate for gluons used earlier,
  $1/\epsilon_\text{bkg}$, with $\epsilon_\text{sig}= 50\,\% $ (quarks).  Figure~\ref{fig:qg_pt1000_comb} shows the results for $\pt=1-1.1 \TeV$ and
 $R =0.4,0.8,1.2$, while  Figure~\ref{fig:qg_akt4_comb} is for $R = 0.4$ and the 3 $\pt$ bins.  The single observable rejection rates appear on the 
 diagonal, and the pairwise results are off the diagonal.  The largest pair-wise rejection rate, as already suggested by Figure~\ref{fig:qg_surface_pairB}(e),
-appears at large $\pt$ and small $R$ for the pair $\rm{n_ {\rm constits}}+ \tau_1^{\beta=1}$ 
-(with very similar results for $\rm{n_ {\rm constits}}+ C_1^{\beta=1}$). 
+appears at large $\pt$ and small $R$ for the pair $n_ {\rm constits}+ \tau_1^{\beta=1}$ 
+(with very similar results for $n_ {\rm constits}+ C_1^{\beta=1}$). 
 The correlations indicated by the shading\footnote{The connection between the value of the rejection rate and the shading color in 
 Figures~\ref{fig:qg_pt1000_comb} and \ref{fig:qg_akt4_comb} is the same as that in Figures~\ref{fig:qg_surface_single} to \ref{fig:qg_surface_pairB}.}   
 should be largely understood as indicating the organization of the observables into the now-familiar
@@ -503,7 +502,7 @@ $\Gamma_{\rm Qjet}$. Since the shoulder is dominated by a single large angle, \t
 which is designed to remove the large angle, \textit{soft} constituents (as shown in more detail below). Thus, jets in the shoulder exhibit small volatility and they are a larger
 component in the gluon jet distribution.  Hence gluon jets, on average, have smaller values of  $\Gamma_{\rm Qjet}$ than quark jets as in 
 Figure~\ref{fig:qg_pt500_subst_AKt_R08}(b).  Further, this feature of gluon jets is distinct from the fact that there are more constituents, explaining why
-$\Gamma_{\rm Qjet}$ and $\rm{n_ {\rm constits}}$ supply largely independent information for distinguishing quark and gluon jets. 
+$\Gamma_{\rm Qjet}$ and $n_ {\rm constits}$ supply largely independent information for distinguishing quark and gluon jets. 
 
 To illustrate some of these points in more detail, Figure~\ref{fig:qg_prmasses_log} exhibits the same jet mass distributions  
 \textit{after pruning}~\cite{Ellis:2009me,Ellis:2009su}.  Removing the large angle,  soft constituents
@@ -553,7 +552,7 @@ In Section~\ref{sec:qgtagging} we have seen that a variety of jet observables
 when used in combination, these observables can provide superior separation. Since the improvement depends on the correlation between observables,
 we use the multivariable performance to separate the observables into different classes, with each class containing highly correlated observables.  
 We saw that the best performing single observable is simply the number of
-constituents in the jet, $\rm{n_ {\rm constits}}$,  while the largest further improvement comes from combining with $C_1^{\beta =1}$ (or $\tau_1^{\beta=1}$), 
+constituents in the jet, $n_ {\rm constits}$,  while the largest further improvement comes from combining with $C_1^{\beta =1}$ (or $\tau_1^{\beta=1}$), 
 but the smallest
 $R$ and $\pt$ dependence arises from combining with $C_1^{\beta = 0}$.  On the other hand, some of the commonly used observables are highly correlated
 and do not provide extra information and enhanced tagging when used together.  In addition to demonstrating these correlations, we have provided a discussion of the 

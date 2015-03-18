@@ -25,15 +25,15 @@
 
 
 \def\TeV{\ifmmode {\mathrm{\ Te\kern -0.1em V}}\else
-                   \textrm{Te\kern -0.1em V}\fi}%
+                   \textrm{Te\kern -0.1em V}\xspace\fi}%
 \def\GeV{\ifmmode {\mathrm{\ Ge\kern -0.1em V}}\else
-                   \textrm{Ge\kern -0.1em V}\fi}%
+                   \textrm{Ge\kern -0.1em V}\xspace\fi}%
 \def\MeV{\ifmmode {\mathrm{\ Me\kern -0.1em V}}\else
-                   \textrm{Me\kern -0.1em V}\fi}%
+                   \textrm{Me\kern -0.1em V}\xspace\fi}%
 \def\keV{\ifmmode {\mathrm{\ ke\kern -0.1em V}}\else
-                   \textrm{ke\kern -0.1em V}\fi}%
+                   \textrm{ke\kern -0.1em V}\xspace\fi}%
 \def\eV{\ifmmode  {\mathrm{\ e\kern -0.1em V}}\else
-                   \textrm{e\kern -0.1em V}\fi}%
+                   \textrm{e\kern -0.1em V}\xspace\fi}%
 \let\tev=\TeV
 \let\gev=\GeV
 \let\mev=\MeV
@@ -52,9 +52,9 @@
 \newcommand{\ZprimeM}{\ensuremath{M_{\Zprime}}}
 
 
-\newcommand{\ttbar}{\ensuremath{t\overline{t}} }
+\newcommand{\ttbar}{\ensuremath{t\overline{t}}\xspace}
 \newcommand{\Zprime}{\ensuremath{Z'} }
-\newcommand{\pt}{\ensuremath{p_T} }
+\newcommand{\pt}{\ensuremath{p_T}\xspace}
 \newcommand{\hpp}{\textsc{Herwig}\texttt{++} }
 \newcommand{\eq}[1]{Eq.~\eqref{eq:#1}}
 \newcommand{\eqs}[2]{Eqs.~\eqref{eq:#1} and \eqref{eq:#2}}
@@ -116,16 +116,16 @@
 \newcommand{\Vprim}{\ensuremath{V_{0}}}
 
 %observables
-\newcommand{\ptd}{p_TD}
+\newcommand{\ptd}{\ensuremath{p_TD}\xspace}
 \newcommand{\C}[2]{C_{#1}^{(#2)}}
 \newcommand{\Cnobeta}[1]{C_{#1}}
 \newcommand{\zcut}{z_\text{cut}}
-\newcommand{\mtrim}{\ensuremath{m_{\mathrm{trim}}}\xspace}
-\newcommand{\mprun}{\ensuremath{m_{\mathrm{prun}}}\xspace}
-\newcommand{\mmdt}{\ensuremath{m_{\mathrm{mmdt}}}\xspace}
-\newcommand{\msd}{\ensuremath{m_{\mathrm{sd}}^{\beta=2}}\xspace}
-\newcommand{\wmass}{\ensuremath{m_{W}}\xspace}
-\newcommand{\topmass}{\ensuremath{m_{t}}\xspace}
+\newcommand{\mtrim}{\ensuremath{m_{\text{trim}}}}
+\newcommand{\mprun}{\ensuremath{m_{\text{prun}}}}
+\newcommand{\mmdt}{\ensuremath{m_{\text{mmdt}}}}
+\newcommand{\msd}{\ensuremath{m_{\mathrm{sd}}}}
+\newcommand{\wmass}{\ensuremath{m_{W}}}
+\newcommand{\topmass}{\ensuremath{m_{t}}}
 
 \newcommand{\Ntrk}{\ensuremath{N_{\mathrm{trk}}}}
 \newcommand{\Npart}{\ensuremath{N_{\mathrm{part}}}}
@@ -139,7 +139,7 @@
 \newcommand{\FJ}{{\sc Fast\-Jet}}
 \newcommand{\JVF}{\ensuremath{\mathcal{F}_{\mathrm{jvf}}}}
 
-\newcommand{\kT}{\ensuremath{k_{\mathrm{T}}}\xspace}
+\newcommand{\kT}{\ensuremath{k_T}\xspace}
 \newcommand{\antikt}{{\rm anti-}\kT}
 
 % greek
