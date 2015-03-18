@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.2)  16 MAR 2015 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.2)  18 MAR 2015 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,31 +1210,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 412.
 
-(./wtagging.tex
-Overfull \hbox (2.98344pt too wide) in paragraph at lines 1--18
-\T1/ptm/m/n/10 com-bi-na-tions of groomed mass and sub-struc-ture ob-serv-ables
-.
- []
-
-
-Overfull \hbox (7.59412pt too wide) in paragraph at lines 1--18
-\T1/ptm/m/n/10 see where dif-fer-ent ap-proaches may break down. The groomed
- []
-
-[15]
-Overfull \hbox (13.69365pt too wide) in paragraph at lines 44--45
+(./wtagging.tex [15]
+Overfull \hbox (13.69365pt too wide) in paragraph at lines 46--47
 []\T1/ptm/m/n/10 Ungroomed, trimmed ($\OML/ztmcm/m/it/10 m[]$\T1/ptm/m/n/10 ), 
 and pruned ($\OML/ztmcm/m/it/10 m[]$\T1/ptm/m/n/10 ) jet masses. 
  []
 
 
-Overfull \hbox (2.59525pt too wide) in paragraph at lines 45--46
+Overfull \hbox (2.59525pt too wide) in paragraph at lines 47--48
 []\T1/ptm/m/n/10 Mass out-put from the mod-i-fied mass drop tag-ger ($\OML/ztmc
 m/m/it/10 m[]$\T1/ptm/m/n/10 ). 
  []
 
 
-Overfull \hbox (6.03688pt too wide) in paragraph at lines 47--48
+Overfull \hbox (6.03688pt too wide) in paragraph at lines 49--50
 \T1/ptm/m/n/10 stud-ied $\OML/ztmcm/m/it/10 ^^L \OT1/ztmcm/m/n/10 = 2$ \T1/ptm/
 m/n/10 but do not show its re-sults be-cause it showed
  []
@@ -1244,7 +1233,7 @@ m/n/10 but do not show its re-sults be-cause it showed
 File: ./Figures/WTagging/pT500/AKtR08/jmass1.pdf Graphic file (type pdf)
 <use ./Figures/WTagging/pT500/AKtR08/jmass1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/jmass1.pdf used on inp
-ut line 126.
+ut line 127.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_mass_prun.pdf, id=1208, 569.12625pt x 552.06
@@ -1252,7 +1241,7 @@ ut line 126.
 File: ./Figures/WTagging/pT500/AKtR08/h_mass_prun.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_mass_prun.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_prun.pdf used o
-n input line 127.
+n input line 128.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_mass_trim.pdf, id=1209, 569.12625pt x 552.06
@@ -1260,7 +1249,7 @@ n input line 127.
 File: ./Figures/WTagging/pT500/AKtR08/h_mass_trim.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_mass_trim.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_trim.pdf used o
-n input line 128.
+n input line 129.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.pdf, id=1210, 569.12625pt x 552.06
@@ -1268,7 +1257,7 @@ n input line 128.
 File: ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.pdf used o
-n input line 129.
+n input line 130.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.pdf, id=1211, 569.12625pt x 552.06
@@ -1276,7 +1265,7 @@ n input line 129.
 File: ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.pdf used o
-n input line 130.
+n input line 131.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_c2_b1.pdf, id=1212, 569.12625pt x 552.0625pt
@@ -1284,7 +1273,7 @@ n input line 130.
 File: ./Figures/WTagging/pT500/AKtR08/h_c2_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_c2_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_c2_b1.pdf used on in
-put line 139.
+put line 140.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_c2_b2.pdf, id=1213, 569.12625pt x 552.0625pt
@@ -1292,7 +1281,7 @@ put line 139.
 File: ./Figures/WTagging/pT500/AKtR08/h_c2_b2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_c2_b2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_c2_b2.pdf used on in
-put line 140.
+put line 141.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_qjetVol.pdf, id=1214, 569.12625pt x 552.0625
@@ -1300,7 +1289,7 @@ pt>
 File: ./Figures/WTagging/pT500/AKtR08/h_qjetVol.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_qjetVol.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_qjetVol.pdf used on 
-input line 141.
+input line 142.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_tau21_b1.pdf, id=1215, 569.12625pt x 552.062
@@ -1308,7 +1297,7 @@ input line 141.
 File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.pdf used on
- input line 142.
+ input line 143.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
 <./Figures/WTagging/pT500/AKtR08/h_tau21_b2.pdf, id=1216, 569.12625pt x 552.062
@@ -1316,10 +1305,10 @@ Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_tau21_b1.pdf used on
 File: ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h_tau21_b2.pdf used on
- input line 143.
+ input line 144.
 (pdftex.def)             Requested size: 148.50151pt x 144.0467pt.
 
-Overfull \hbox (6.21794pt too wide) in paragraph at lines 150--158
+Overfull \hbox (5.68526pt too wide) in paragraph at lines 151--159
 \T1/ptm/m/n/10 curves for var-i-ous $\OML/ztmcm/m/it/10 p[]$ \T1/ptm/m/n/10 bin
 s and val-ues of $\OML/ztmcm/m/it/10 R$\T1/ptm/m/n/10 . The single-variable
  []
@@ -1331,7 +1320,7 @@ File: ./Figures/WTagging/pT300/AKtR08/Rocs_1D_single.pdf Graphic file (type pdf
 )
  <use ./Figures/WTagging/pT300/AKtR08/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/Rocs_1D_single.pdf use
-d on input line 202.
+d on input line 203.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.pdf, id=1222, 569.12625pt x 362
@@ -1340,7 +1329,7 @@ File: ./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.pdf Graphic file (type pdf
 )
  <use ./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR12/Rocs_1D_single.pdf use
-d on input line 203.
+d on input line 204.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.pdf, id=1223, 569.12625pt x 362
@@ -1349,7 +1338,7 @@ File: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.pdf Graphic file (type pdf
 )
  <use ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/Rocs_1D_single.pdf use
-d on input line 212.
+d on input line 213.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.pdf, id=1224, 569.12625pt x 362
@@ -1358,7 +1347,7 @@ File: ./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.pdf Graphic file (type pdf
 )
  <use ./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR12/Rocs_1D_single.pdf use
-d on input line 213.
+d on input line 214.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.pdf, id=1225, 569.12625pt x 36
@@ -1367,7 +1356,7 @@ File: ./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.pdf Graphic file (type pd
 f)
  <use ./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/Rocs_1D_single.pdf us
-ed on input line 221.
+ed on input line 222.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.pdf, id=1226, 569.12625pt x 36
@@ -1376,7 +1365,7 @@ File: ./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.pdf Graphic file (type pd
 f)
  <use ./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/Rocs_1D_single.pdf us
-ed on input line 222.
+ed on input line 223.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.pdf, id=1227, 569.12625pt x 36
@@ -1385,7 +1374,7 @@ File: ./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.pdf Graphic file (type pd
 f)
  <use ./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/Rocs_1D_single.pdf us
-ed on input line 223.
+ed on input line 224.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/WTagging/pT300/AKtR08/effBkg2D.pdf, id=1232, 569.12625pt x 440.64626
@@ -1393,7 +1382,7 @@ pt>
 File: ./Figures/WTagging/pT300/AKtR08/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR08/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/effBkg2D.pdf used on i
-nput line 263.
+nput line 266.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT300/AKtR12/effBkg2D.pdf, id=1233, 569.12625pt x 440.64626
@@ -1401,7 +1390,7 @@ pt>
 File: ./Figures/WTagging/pT300/AKtR12/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR12/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR12/effBkg2D.pdf used on i
-nput line 264.
+nput line 267.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT500/AKtR08/effBkg2D.pdf, id=1234, 569.12625pt x 440.64626
@@ -1409,7 +1398,7 @@ pt>
 File: ./Figures/WTagging/pT500/AKtR08/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR08/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/effBkg2D.pdf used on i
-nput line 278.
+nput line 282.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT500/AKtR12/effBkg2D.pdf, id=1235, 569.12625pt x 440.64626
@@ -1417,7 +1406,7 @@ pt>
 File: ./Figures/WTagging/pT500/AKtR12/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT500/AKtR12/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR12/effBkg2D.pdf used on i
-nput line 279.
+nput line 283.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT1000/AKtR04/effBkg2D.pdf, id=1236, 569.12625pt x 440.6462
@@ -1425,7 +1414,7 @@ nput line 279.
 File: ./Figures/WTagging/pT1000/AKtR04/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR04/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/effBkg2D.pdf used on 
-input line 290.
+input line 295.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT1000/AKtR08/effBkg2D.pdf, id=1237, 569.12625pt x 440.6462
@@ -1433,7 +1422,7 @@ input line 290.
 File: ./Figures/WTagging/pT1000/AKtR08/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR08/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/effBkg2D.pdf used on 
-input line 291.
+input line 296.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
 <./Figures/WTagging/pT1000/AKtR12/effBkg2D.pdf, id=1238, 569.12625pt x 440.6462
@@ -1441,10 +1430,10 @@ input line 291.
 File: ./Figures/WTagging/pT1000/AKtR12/effBkg2D.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR12/effBkg2D.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/effBkg2D.pdf used on 
-input line 292.
+input line 297.
 (pdftex.def)             Requested size: 237.59789pt x 183.96074pt.
 
-Overfull \hbox (1.3209pt too wide) in paragraph at lines 310--336
+Overfull \hbox (1.3209pt too wide) in paragraph at lines 316--341
 \T1/ptm/m/n/10 For both $\OML/ztmcm/m/it/10 R \OT1/ztmcm/m/n/10 = 0\OML/ztmcm/m
 /it/10 :\OT1/ztmcm/m/n/10 8$ \T1/ptm/m/n/10 and $\OML/ztmcm/m/it/10 R \OT1/ztmc
 m/m/n/10 = 1\OML/ztmcm/m/it/10 :\OT1/ztmcm/m/n/10 2$ \T1/ptm/m/n/10 the back-gr
@@ -1457,7 +1446,7 @@ ound re-jec-tion power
 File: ./Figures/WTagging/pT300/AKtR12/h_mass_sdb2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR12/h_mass_sdb2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR12/h_mass_sdb2.pdf used o
-n input line 339.
+n input line 344.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf, id=1249, 569.12625pt x 552.0
@@ -1465,7 +1454,7 @@ n input line 339.
 File: ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf used 
-on input line 340.
+on input line 345.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT300/AKtR12/h_mass_prun.pdf, id=1250, 569.12625pt x 552.06
@@ -1473,7 +1462,7 @@ on input line 340.
 File: ./Figures/WTagging/pT300/AKtR12/h_mass_prun.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR12/h_mass_prun.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR12/h_mass_prun.pdf used o
-n input line 341.
+n input line 346.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf, id=1251, 569.12625pt x 552.0
@@ -1481,12 +1470,18 @@ n input line 341.
 File: ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf used 
-on input line 342.
+on input line 347.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
-Overfull \hbox (17.2445pt too wide) in paragraph at lines 349--371
+Overfull \hbox (17.2445pt too wide) in paragraph at lines 354--376
 []\T1/ptm/m/n/10 However, one can see from the Fig-ures [][]15(b)[][], [][]16(b
 )[][] and [][]17(c)[][]
+ []
+
+
+Overfull \hbox (2.40468pt too wide) in paragraph at lines 354--376
+\T1/ptm/m/n/10 dra-mat-i-cally in-creases with in-creas-ing $\OML/ztmcm/m/it/10
+ p[]$ \T1/ptm/m/n/10 for R=0.8, but does
  []
 
 
@@ -1500,7 +1495,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: ./Figures/WTagging/pT300/AKtR08/h_tau21_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR08/h_tau21_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/h_tau21_b1.pdf used on
- input line 374.
+ input line 379.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf, id=1281, 569.12625pt x 552.06
@@ -1508,7 +1503,7 @@ Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/h_tau21_b1.pdf used on
 File: ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf used o
-n input line 375.
+n input line 380.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT300/AKtR08/h_c2_b1.pdf, id=1282, 569.12625pt x 552.0625pt
@@ -1516,7 +1511,7 @@ n input line 375.
 File: ./Figures/WTagging/pT300/AKtR08/h_c2_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT300/AKtR08/h_c2_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/h_c2_b1.pdf used on in
-put line 376.
+put line 381.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf, id=1283, 569.12625pt x 552.0625p
@@ -1524,7 +1519,7 @@ t>
 File: ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf used on i
-nput line 377.
+nput line 382.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1535,13 +1530,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./Figures/WTagging/pT1000/AKtR04/h_mass_sdb2.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR04/h_mass_sdb2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h_mass_sdb2.pdf used 
-on input line 401.
+on input line 407.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 File: ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf used 
-on input line 402.
+on input line 408.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR04/h_mass_prun.pdf, id=1291, 569.12625pt x 552.0
@@ -1549,16 +1544,16 @@ on input line 402.
 File: ./Figures/WTagging/pT1000/AKtR04/h_mass_prun.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR04/h_mass_prun.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h_mass_prun.pdf used 
-on input line 403.
+on input line 409.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 File: ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf used 
-on input line 404.
+on input line 410.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
-Underfull \vbox (badness 1968) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./Figures/WTagging/pT500/AKtR08/jmass1.pdf, page is rotated 90 degrees> <
 ./Figures/WTagging/pT500/AKtR08/h_mass_prun.pdf, page is rotated 90 degrees> <.
@@ -1588,7 +1583,7 @@ File: ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h_tau21_b1.pdf used o
-n input line 440.
+n input line 446.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h_tau21_b1.pdf, id=2061, 569.12625pt x 552.06
@@ -1596,13 +1591,13 @@ n input line 440.
 File: ./Figures/WTagging/pT1000/AKtR12/h_tau21_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR12/h_tau21_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_tau21_b1.pdf used o
-n input line 441.
+n input line 447.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 File: ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h_c2_b1.pdf used on i
-nput line 442.
+nput line 448.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h_c2_b1.pdf, id=2062, 569.12625pt x 552.0625p
@@ -1610,8 +1605,11 @@ t>
 File: ./Figures/WTagging/pT1000/AKtR12/h_c2_b1.pdf Graphic file (type pdf)
  <use ./Figures/WTagging/pT1000/AKtR12/h_c2_b1.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h_c2_b1.pdf used on i
-nput line 443.
+nput line 449.
 (pdftex.def)             Requested size: 197.99698pt x 192.06229pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
@@ -1623,43 +1621,16 @@ igures/WTagging/pT500/AKtR08/effBkg2D.pdf, page is rotated 90 degrees> <./Figur
 es/WTagging/pT500/AKtR12/effBkg2D.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [21 <./Figures/WTagging/pT1000/AKtR04/effBkg2D.pdf, page is rotated 90 degrees
 > <./Figures/WTagging/pT1000/AKtR08/effBkg2D.pdf, page is rotated 90 degrees> <
 ./Figures/WTagging/pT1000/AKtR12/effBkg2D.pdf, page is rotated 90 degrees>]
-Overfull \hbox (0.3638pt too wide) in paragraph at lines 533--546
+Overfull \hbox (0.3638pt too wide) in paragraph at lines 539--552
 \T1/ptm/m/n/10 ground re-jec-tion com-pared to us-ing the groomed mass alone.
  []
 
-
-<./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2379,
- 569.12625pt x 275.0275pt>
-File: ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Grap
-hic file (type pdf)
-
-<use ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
-Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2
-_WW_onSame.pdf used on input line 549.
-(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
-
-<./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2380,
- 569.12625pt x 275.0275pt>
-File: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Grap
-hic file (type pdf)
-
-<use ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
-Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2
-_WW_onSame.pdf used on input line 550.
-(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
-
-<./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2381
-, 569.12625pt x 275.0275pt>
-File: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Gra
-phic file (type pdf)
-
-<use ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
-Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb
-2_WW_onSame.pdf used on input line 551.
-(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1673,6 +1644,36 @@ s> <./Figures/WTagging/pT1000/AKtR12/h_mass_sdb2.pdf, page is rotated 90 degree
 s> <./Figures/WTagging/pT300/AKtR12/h_mass_prun.pdf, page is rotated 90 degrees
 > <./Figures/WTagging/pT1000/AKtR12/h_mass_prun.pdf, page is rotated 90 degrees
 >]
+<./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2562,
+ 569.12625pt x 275.0275pt>
+File: ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Grap
+hic file (type pdf)
+
+<use ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
+Package pdftex.def Info: ./Figures/WTagging/pT300/AKtR08/h2d_jc2_b1_j_mass_sdb2
+_WW_onSame.pdf used on input line 555.
+(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
+
+<./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2563,
+ 569.12625pt x 275.0275pt>
+File: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Grap
+hic file (type pdf)
+
+<use ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
+Package pdftex.def Info: ./Figures/WTagging/pT500/AKtR08/h2d_jc2_b1_j_mass_sdb2
+_WW_onSame.pdf used on input line 556.
+(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
+
+<./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2564
+, 569.12625pt x 275.0275pt>
+File: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Gra
+phic file (type pdf)
+
+<use ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
+Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb
+2_WW_onSame.pdf used on input line 557.
+(pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1683,14 +1684,14 @@ phic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR04/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h2d_jc2_b1_j_mass_sdb
-2_WW_onSame.pdf used on input line 583.
+2_WW_onSame.pdf used on input line 589.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 File: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jc2_b1_j_mass_sdb
-2_WW_onSame.pdf used on input line 584.
+2_WW_onSame.pdf used on input line 590.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf, id=2570
@@ -1700,7 +1701,7 @@ phic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h2d_jc2_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h2d_jc2_b1_j_mass_sdb
-2_WW_onSame.pdf used on input line 585.
+2_WW_onSame.pdf used on input line 591.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR04/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf, id=2
@@ -1710,7 +1711,7 @@ Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR04/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h2d_jtau21_b1_j_mass_
-sdb2_WW_onSame.pdf used on input line 593.
+sdb2_WW_onSame.pdf used on input line 599.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR08/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf, id=2
@@ -1720,7 +1721,7 @@ Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jtau21_b1_j_mass_
-sdb2_WW_onSame.pdf used on input line 594.
+sdb2_WW_onSame.pdf used on input line 600.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf, id=2
@@ -1730,10 +1731,10 @@ Graphic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h2d_jtau21_b1_j_mass_sdb2_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h2d_jtau21_b1_j_mass_
-sdb2_WW_onSame.pdf used on input line 595.
+sdb2_WW_onSame.pdf used on input line 601.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
-Overfull \hbox (0.34413pt too wide) in paragraph at lines 607--644
+Overfull \hbox (0.34413pt too wide) in paragraph at lines 613--650
 \T1/ptm/m/n/10 some kind of im-prove-ment in the back-ground re-jec-tion when
  []
 
@@ -1761,7 +1762,7 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_prun_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_prun
-_WW_onSame.pdf used on input line 647.
+_WW_onSame.pdf used on input line 653.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_trim_WW_onSame.pdf, id=2861,
@@ -1771,7 +1772,7 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_trim_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_trim
-_WW_onSame.pdf used on input line 648.
+_WW_onSame.pdf used on input line 654.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_prun_WW_onSame.pdf, id=2862,
@@ -1781,7 +1782,7 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_prun_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_prun
-_WW_onSame.pdf used on input line 657.
+_WW_onSame.pdf used on input line 662.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_trim_WW_onSame.pdf, id=2863,
@@ -1791,7 +1792,7 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_trim_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_trim
-_WW_onSame.pdf used on input line 658.
+_WW_onSame.pdf used on input line 663.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_prun_WW_onSame.pdf, id=2864,
@@ -1801,7 +1802,7 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_prun_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_prun
-_WW_onSame.pdf used on input line 667.
+_WW_onSame.pdf used on input line 671.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
 <./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_trim_WW_onSame.pdf, id=2865,
@@ -1811,16 +1812,16 @@ hic file (type pdf)
 
 <use ./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_trim_WW_onSame.pdf>
 Package pdftex.def Info: ./Figures/WTagging/pT1000/AKtR12/h2d_jmass_j_mass_trim
-_WW_onSame.pdf used on input line 668.
+_WW_onSame.pdf used on input line 672.
 (pdftex.def)             Requested size: 386.0994pt x 186.58817pt.
 
-Overfull \hbox (8.51424pt too wide) in paragraph at lines 677--691
+Overfull \hbox (8.51424pt too wide) in paragraph at lines 680--694
 \T1/ptm/m/n/10 Figures [][]15[][], [][]16[][] and [][]17[][] re-port the back-g
 round re-jec-tion achieved
  []
 
 
-Overfull \hbox (2.604pt too wide) in paragraph at lines 677--691
+Overfull \hbox (2.604pt too wide) in paragraph at lines 680--694
 \T1/ptm/m/n/10 to im-prove the dis-crim-i-na-tion of sig-nal and back-ground. H
 ow
  []
@@ -1857,8 +1858,7 @@ e is rotated 90 degrees> <./Figures/WTagging/pT1000/AKtR04/h2d_jmass_j_mass_tri
 m_WW_onSame.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
-(./toptagging.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1868,10 +1868,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [30 <./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_prun_WW_onSame.pdf, page
  is rotated 90 degrees> <./Figures/WTagging/pT1000/AKtR08/h2d_jmass_j_mass_trim
-_WW_onSame.pdf, page is rotated 90 degrees>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+_WW_onSame.pdf, page is rotated 90 degrees>]) (./toptagging.tex
 Overfull \hbox (0.60349pt too wide) in paragraph at lines 3--9
 []\T1/ptm/m/n/10 We use the Top quark MC sam-ples for each bin de-scribed
  []
@@ -3395,7 +3392,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  9880 strings out of 493117
  180387 string characters out of 6135433
- 263976 words of memory out of 5000000
+ 264369 words of memory out of 5000000
  12557 multiletter control sequences out of 15000+600000
  91530 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3413,7 +3410,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on boost2013_report.pdf (53 pages, 3534127 bytes).
+Output written on boost2013_report.pdf (53 pages, 3534344 bytes).
 PDF statistics:
  8732 PDF objects out of 8907 (max. 8388607)
  4132 compressed objects within 42 object streams
