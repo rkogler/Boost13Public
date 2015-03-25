@@ -524,7 +524,10 @@ combined performance in all \pt bins explored here. This is despite
 the fact that in the highest \pt = 1.0-1.1 \TeV bin the average
 separation of the quarks from the $W$ decay is much smaller than 0.8,
 and well within 0.4. This conclusion could of course be susceptible to
-pile-up, which is not considered in this study.
+pile-up, which is not considered in this study. It is in marked
+contrast to the $R$ dependence of the $q/g$ tagging performance
+shown in Section~\ref{sec:qgtagging}, where a monotonic improvement
+in performance with reducing $R$ is observed.
 
 %\subsubsection{Dependence on \pt and R}
 \subsubsection{Mass + Substructure Performance}
@@ -570,7 +573,7 @@ $C_2^{\beta=1}$ combinations changes dramatically. These become
 significantly less powerful, and the most powerful variable in groomed
 mass combinations becomes $\tau_{21}^{\beta=1}$ for all jet
 \pt considered. Figure~\ref{fig:2d_c2b1_pt1000} shows the correlation between
-$m_{sd}^{\beta=2}$ and $C_2^{\beta=1}$ in the \pt = 1.0 - 1.2 \TeV bin for
+$m_{sd}^{\beta=2}$ and $C_2^{\beta=1}$ in the \pt = 1.0 - 1.1 \TeV bin for
 the various jet radii considered. Figure~\ref{fig:2d_tau21_pt1000} is
 the equivalent set of distributions for $m_{sd}^{\beta=2}$ and
 $\tau_{21}^{\beta=1}$. One can see from
@@ -751,12 +754,17 @@ to the inherent sensitivity of these observables to soft, wide angle radiation.
 
 The best two-variable performance is obtained by combining a groomed
 mass with a substructure variable. Which particular substructure
-variable works best in combination  strongly depends on \pT and
-$R$. $C_2^{\beta=1}$ offers significant complementarity to groomed mass
-at smaller $R$, owing to the small degree of correlation between the
-variables. However, the sensitivity of $C_2^{\beta=1}$ to soft,
-wide-angle radiation leads to worse discrimination power at large $R$,
-where $\tau_{21}^{\beta=1}$ performs better in combination. Our
+variable works best in combination strongly depends on \pT and
+$R$. The variable $C_2^{\beta=1}$ offers significant complementarity to groomed mass
+for the smaller values of $R$ investigated ($R=0.4$ and 0.8), owing to the small degree of correlation between the
+variables. 
+However, the sensitivity of $C_2^{\beta=1}$ to soft,
+wide-angle radiation leads to worse discrimination power at $R=1.2$,
+where $\tau_{21}^{\beta=1}$ performs better in combination. The best
+two-variable performance in each \pt bin examined is obtained for
+$C_2^{\beta=1}$ in combination with a groomed mass, using $R=0.8$,
+with a performance that is better at higher \pt.
+Our
 studies also demonstrate the potential for enhancing discrimination by
 combining groomed and ungroomed mass information, although the use of
 ungroomed mass in this may be limited in practice by the presence of
@@ -765,249 +773,3 @@ pile-up that is not considered in these studies.
 By examining the performance of a BDT combination of all  variables
 considered, it is clear that there are potentially substantial performance gains to be made by designing a more
 complex multivariate $W$ tagger, especially at higher \pt.
-
-
-
-
-%\subsubsection*{Mass + X Performance}
-%
-%Figure~\ref{fig:pt500_2Dcomb_AKt_R08} shows the background efficiency
-%for a fixed signal efficiency (50\%) of each BDT combination of
-%each pair of variables considered, in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%algorithm. One can see that the best background rejection is achieved
-%using combinations of the groomed mass variables with other
-%substructure variables (with the exception
-%of the soft drop mass with $\beta=-1$). Combinations of the mass
-%variables themselves are not particularly powerful, but are
-%interesting for understanding the correlations between the masses (see
-%Section~\ref{sec:wtag_massplusmass}). Equally, combination of the
-%substructure variables, without using a mass, are not powerful. 
-%
-%Figure~\ref{fig:pt500_masscomb_AKt_R08} shows the actual ROC curves of the BDT combinations of each mass variable with every other
-%variable considered in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%algorithm. {\it Can we drop the combinations of mass + mass
-%from these plots to make them clearer? Also would be good to put the
-%single variable mass curve on these plots, so you can see how much
-%improvement the combination gives, and the ``all variables'' curve.}
-%
-%No combination with other variables can recover the poor performance
-%of the ungroomed mass and the soft drop mass with
-%$\beta=-1$. Figures~\ref{fig:pt500_2Dcomb_AKt_R08}
-%and~\ref{fig:pt500_masscomb_AKt_R08} show that the
-%other groomed/filtered masses are all most improved by combination
-%with the $C_{2}^{\beta=1}$ energy correlation
-%function. Figure~\ref{fig:pt500_2d_mmdt_AKt_R08} shows the 2-D
-%correlation plots between the mMDT mass and the $C_{2}^{\beta=1}$,
-%$\Gamma_{Qjet}$ and $\tau_{21}^{\beta=1}$ variables. One can clearly
-%see that there is substantially less correlation between the mass and
-%$C_{2}^{\beta=1}$ than the other variables. Similar results are seen
-%for the other groomed masses.
-%
-%\begin{figure*}
-%\centering
-%\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/effBkg2D.eps}
-%\caption{The background efficiency
-%for a fixed signal efficiency (50\%) of each BDT combination of
-%each pair of variables considered, in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%algorithm.}
-%\label{fig:pt500_2Dcomb_AKt_R08}
-%
-%\end{figure*}
-%
-%
-%\begin{figure*}
-%\centering
-%\subfigure[Ungroomed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_jmass.eps}}
-%\subfigure[Trimmed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_trim.eps}}
-%\subfigure[Pruned mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_prun.eps}}
-%%\subfigure[Soft drop mass ($\beta=-1$) +X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdm1.eps}}
-%\subfigure[Soft drop mass ($\beta=2$) + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_sdb2.eps}}
-%\subfigure[mMDT mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/Rocs_1D_j_mass_mmdt.eps}}
-%\caption{The BDT combinations of each mass variable with every other
-%variable considered in the \pT = 500 GeV bin using the anti-\kT R=0.8 algorithm.}
-%\label{fig:pt500_masscomb_AKt_R08}
-%
-%\end{figure*}
-%
-%
-%\begin{figure*}
-%\centering
-%\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jc2_b1_j_mass_mmdt_gg.eps}}
-%\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_j_qjetVol_j_mass_mmdt_gg.eps}}
-%\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/twoD/h2d_jtau21_b1_j_mass_mmdt_gg.eps}}
-%\caption{2-D plots showing the correlation between mMDT mass and
-%  various substructure variables in the \pT = 500 GeV bin using the
-%  anti-\kT R=0.8 algorithm in the gg sample.}
-%\label{fig:pt500_2d_mmdt_AKt_R08}
-%
-%\end{figure*}
-%
-%Figure~\ref{fig:pt500_2Dcomb_AKt_R12} shows the background efficiency
-%for a fixed signal efficiency (50\%) of each BDT combination of
-%each pair of variables considered, in the \pT = 500 GeV bin, now using the anti-\kT R=1.2
-%algorithm. Compared to Figure~\ref{fig:pt500_2Dcomb_AKt_R08}, the
-%overall trends are similar, but there are clear differences in the
-%relative power of the mass + X combinations. Interestingly, the groomed masses are now all most improved by combination
-%with the $\tau_{21}^{\beta=1}$ variable, in contrast with
-%$C_{2}^{\beta=1}$ which performed best for the smaller radius of
-%R=0.8. 
-%%Q-jet volatility also performs markedly better than it did in
-%%the R=0.8 case. 
-%Figure~\ref{fig:pt500_masscomb_AKt_R12} shows the actual ROC curves
-%for the BDT combinations of
-%the best performant groomed masses with every other
-%variable considered in the \pT = 500 GeV bin using the anti-\kT R=1.2
-%algorithm. 
-%%Interestingly, the groomed masses are now all most improved by combination
-%%with the $\tau_{21}^{\beta=1}$ variable, in contrast with
-%%$C_{2}^{\beta=1}$ which performed best for the smaller radius of
-%%R=0.8. 
-%One can see from Figure~\ref{fig:pt500_single_AKt_R12} that the
-%single variable discrimination of $\tau_{21}^{\beta=1}$ and
-%$C_{2}^{\beta=1}$ changes quite markedly when the distance parameter R
-%is varied, although in both cases $C_{2}^{\beta=1}$ is a better single
-%variable discriminant (except for very high signal
-%efficiencies). Figure~\ref{fig:pt500_subst_AKt_R08_R12} shows how the
-%actual distributions of the $C_{2}^{\beta=1}$ and $\tau_{21}^{\beta=1}$
-%change when we change the distance parameter. Figure~\ref{fig:pt500_2d_mmdt_AKt_R12} shows the 2-D
-%correlation plots between between the mMDT mass and the $C_{2}^{\beta=1}$,
-%$\Gamma_{Qjet}$ and $\tau_{21}^{\beta=1}$ variables for the R=1.2
-%case. It is hard to see a substantial difference in the correlations
-%here versus Figure~\ref{fig:pt500_2d_mmdt_AKt_R08}, but perhaps
-%$C_{2}^{\beta=1}$ is marginally more correlated with the mass for
-%R=1.2 compared to R=0.8.
-%{\it Andrew to add his explanation of why discrimination power of C2 versus tau21
-%  gets worse when we go to larger jet radii (email 0606/2014)}
-%
-%
-%{\it Now show a plot which compares on one plot the best combined performance for
-%each groomed mass + X for both R=0.8 and 1.2 cases e.g. mass +
-%$C_{2}^{\beta=1}$ for R=0.8 and mass + $\tau_{21}^{\beta=1}$ for R=1.2,
-%  and draw on also the
-%all variables curve for both R=0.8,1.2. 
-%Then we can see if there is much dependence on choice of mass once you
-%combine with another variable, and compare directly the two distance parameters.
-%This plot is just for
-%one kinematic bin, we should make the same plot for others.}
-%
-%{\it Repeat these studies for different R and different kinematic
-%bins. Finally make plots which compare best combined performance for
-%different R and kinematics.}
-%
-%{\it Do we want to look at other combinations of variables which don't
-%involve mass? Practically I think we will always be making mass + X though.}
-%
-%
-%\begin{figure*}
-%\centering
-%\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/effBkg2D.eps}
-%\caption{The background efficiency
-%for a fixed signal efficiency (50\%) of each BDT combination of
-%each pair of variables considered, in the \pT = 500 GeV bin using the anti-\kT R=1.2
-%algorithm.}
-%\label{fig:pt500_2Dcomb_AKt_R12}
-%
-%\end{figure*}
-%
-%\begin{figure*}
-%\centering
-%%\subfigure[Ungroomed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_jmass.eps}}
-%\subfigure[Trimmed mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_trim.eps}}
-%\subfigure[Pruned mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_prun.eps}}
-%%\subfigure[Soft drop mass ($\beta=-1$) +X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_sdm1.eps}}
-%\subfigure[Soft drop mass ($\beta=2$) + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_sdb2.eps}}
-%\subfigure[mMDT mass + X]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/Rocs_1D_j_mass_mmdt.eps}}
-%\caption{The BDT combinations of each mass variable with every other
-%variable considered in the \pT = 500 GeV bin using the anti-\kT R=1.2 algorithm.}
-%\label{fig:pt500_masscomb_AKt_R12}
-%
-%\end{figure*}
-%
-%\begin{figure*}
-%\centering
-%\subfigure[$C_2^{\beta=1}$, R=0.8]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_c2_b1.eps}}
-%\subfigure[$C_2^{\beta=1}$, R=1.2]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/h_c2_b1.eps}}
-%\subfigure[$\tau_{21}^{\beta=1}$, R=0.8]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/h_tau21_b1.eps}}
-%\subfigure[$\tau_{21}^{\beta=1}$, R=1.2]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR12/h_tau21_b1.eps}}
-%\caption{Comparisons of the QCD background to the WW signal in the \pT
-%  500 GeV bin for $C_2^{\beta=1}$ and $\tau_{21}^{\beta=1}$ variables
-%  and using the R=0.8 and R=1.2 anti-\kT distance parameters.}
-%\label{fig:pt500_subst_AKt_R08_R12}
-%
-%\end{figure*}
-%
-%
-%\begin{figure*}
-%\centering
-%\subfigure[mMDT mass vs $C_2^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jc2_b1_j_mass_mmdt_gg.eps}}
-%\subfigure[mMDT mass vs $\Gamma_{Qjet}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_j_qjetVol_j_mass_mmdt_gg.eps}}
-%\subfigure[mMDT mass vs $\tau_{21}^{\beta=1}$]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak12/twoD/h2d_jtau21_b1_j_mass_mmdt_gg.eps}}
-%\caption{2-D plots showing the correlation between mMDT mass and
-%  various substructure variables in the \pT = 500 GeV bin using the
-%  anti-\kT R=1.2 algorithm in the gg sample.}
-%\label{fig:pt500_2d_mmdt_AKt_R12}
-%
-%\end{figure*}
-%
-%
-%\subsubsection*{Mass + Mass Performance}
-%\label{sec:wtag_massplusmass}
-%It's interesting also to study and understand how the different
-%groomed masses relate to each other and how they are correlated.
-%
-%Figures~\ref{fig:pt500_2d_massQQ_AKt_R08} and Figures~\ref{fig:pt500_2d_massGG_AKt_R08} shows 2-D correlation plots of
-%the different types of groomed mass in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%algorithm.
-%
-%{\it Worth also showing some ROC curves for mass + mass combinations?}
-%
-%
-%\begin{table*}[htbp!]
-%\centering
-%%\setlength\fboxsep{0pt}
-%%\setlength\fboxrule{0.25pt}
-%\caption{Action of various groomers on the jet mass distribution in the different phase space regions.  For pruning, $a_\text{prune} = \zcut R_0$ and for trimming $a_\text{trim} = \sqrt{\zcut} R_\text{sub}$.}
-%\begin{tabular}{c|c|c|c|c} 
-%Action & Pruning & Trimming & mMDT & SD ($\beta > 0$) \\ \hline
-%$m>\sqrt{\zcut}R_0 p_T$  &  $-$ & $-$ &  $-$  & $-$ \\ \hline
-%\parbox[c][3em][c]{7em}{$m<\sqrt{\zcut}R_0 p_T$\\$m>a_x p_T$} & \parbox[c][3em][c]{6em}{cuts soft \& \\ soft-collinear}  & \parbox[c][3em][c]{6em}{cuts soft \& \\ soft-collinear} & \parbox[c][3em][c]{6em}{cuts soft \& \\ soft-collinear} & \parbox[c][5em][c]{7em}{cuts soft \& \\ partially ($\beta$) \\ on soft-collinear}  \\ \hline
-%$m<a_x p_T$ & \parbox[c][5em][c]{7em}{cuts partially \\ on both soft \& \\  soft-collinear}   &$-$ & \parbox[c][3em][c]{6em}{cuts soft \& \\ soft-collinear} & \parbox[c][5em][c]{7em}{cuts soft \& \\ partially ($\beta$) \\ on soft-collinear} 
-%\end{tabular}
-%\label{tab:boostedtoprates}
-%\end{table*}
-%
-%
-%\begin{figure*}
-%\centering
-%\subfigure[Trimmed mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[Trimmed mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_prun_WW_onSame.eps}}
-%\subfigure[Trimmed mass vs mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.eps}}
-%\subfigure[mMDT mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[Pruned mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[mMDT mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsQ/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.eps}}
-%\caption{2-D plots showing the correlation between different types of
-%  groomed mass in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%  algorithm, separately for the jets in the $X \rightarrow WW$ sample and the
-%  jets in the quark-quark sample.}
-%\label{fig:pt500_2d_massQQ_AKt_R08}
-%
-%\end{figure*}
-%
-%\begin{figure*}
-%\centering
-%\subfigure[Trimmed mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[Trimmed mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_prun_WW_onSame.eps}}
-%\subfigure[Trimmed mass vs mMDT mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_trim_j_mass_mmdt_WW_onSame.eps}}
-%\subfigure[mMDT mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[Pruned mass vs Soft drop mass ($\beta=2$)]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_prun_j_mass_sdb2_WW_onSame.eps}}
-%\subfigure[mMDT mass vs Pruned mass]{\includegraphics[width=0.48\textwidth]{./Figures/WTagging/pT500/AKtR08/WvsG/h2d_j_mass_mmdt_j_mass_prun_WW_onSame.eps}}
-%\caption{2-D plots showing the correlation between different types of
-%  groomed mass in the \pT = 500 GeV bin using the anti-\kT R=0.8
-%  algorithm, separately for the jets in the $X \rightarrow WW$ sample and the
-%  jets in the gluon-gluon sample.}
-%\label{fig:pt500_2d_massGG_AKt_R08}
-%
-%\end{figure*}
-
-
-
