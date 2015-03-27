@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAR 2015 00:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAR 2015 02:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,21 +432,21 @@ Package: authblk 2009/11/18 1.3 (PWD)
 (./boost2013_report.aux)
 \openout1 = `boost2013_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 368.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 369.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -489,7 +489,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 368.
+Package hyperref Info: Link coloring ON on input line 369.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -499,9 +499,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 368.
-LaTeX Info: Redefining \pageref on input line 368.
-LaTeX Info: Redefining \nameref on input line 368.
+LaTeX Info: Redefining \ref on input line 369.
+LaTeX Info: Redefining \pageref on input line 369.
+LaTeX Info: Redefining \nameref on input line 369.
 
 (./boost2013_report.out) (./boost2013_report.out)
 \@outlinefile=\write3
@@ -510,68 +510,68 @@ LaTeX Info: Redefining \nameref on input line 368.
 
 SVJour3 warning: Missing \institute
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 37
-0.
+1.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 37
-0.
+1.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 37
-0.
+1.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 37
-0.
+1.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 370.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 371.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 371.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 370.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 371.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 370.
+(Font)              size <8> substituted on input line 371.
 
 
 LaTeX Warning: Optional argument of \twocolumn too tall on page 1.
@@ -593,14 +593,14 @@ Overfull \vbox (16.0pt too high) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 385.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 386.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
-Package mathptmx Warning: There are no bold math fonts on input line 389.
+Package mathptmx Warning: There are no bold math fonts on input line 390.
 
 (./introduction.tex
 Overfull \hbox (14.27391pt too wide) in paragraph at lines 1--11
@@ -620,7 +620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 )
-Overfull \hbox (10.71402pt too wide) in paragraph at lines 27--393
+Overfull \hbox (10.71402pt too wide) in paragraph at lines 27--394
 \T1/ptm/m/it/10 M. Freyt-sis, A. Hornig, A. Larkoski, D. Lopez Ma-teos, B. Shuv
 e,
  []
@@ -638,7 +638,7 @@ File: omlptm.fd
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 24.
 )
-Overfull \hbox (10.35378pt too wide) in paragraph at lines 49--398
+Overfull \hbox (10.35378pt too wide) in paragraph at lines 49--399
 \T1/ptm/m/n/10 matched to the shower. The top sam-ples in-cluded only hadronic
  []
 
@@ -1228,11 +1228,11 @@ Overfull \hbox (0.69398pt too wide) in paragraph at lines 591--600
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 414.
+(hyperref)                removing `math shift' on input line 415.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 414.
+(hyperref)                removing `math shift' on input line 415.
 
 (./wtagging.tex
 Overfull \hbox (13.69365pt too wide) in paragraph at lines 45--47
@@ -3319,7 +3319,7 @@ d 90 degrees> <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum_eff
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 432.
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
 - LAST -
@@ -3328,11 +3328,11 @@ Left:0.0pt
 Right:0.0pt
 Output:0.0pt
  [53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 432.
 
 (./boost2013_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 432.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 432.
 Package rerunfilecheck Info: File `boost2013_report.out' has not changed.
 (rerunfilecheck)             Checksum: EA1920B8F25D641B16F90A86D47E5713;464.
 
@@ -3340,12 +3340,12 @@ Package rerunfilecheck Info: File `boost2013_report.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 432.
  ) 
 Here is how much of TeX's memory you used:
  9391 strings out of 493488
  173485 string characters out of 3141326
- 266104 words of memory out of 3000000
+ 266271 words of memory out of 3000000
  11923 multiletter control sequences out of 15000+200000
  91530 words of font info for 155 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -3411,7 +3411,7 @@ onts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on boost2013_report.pdf (53 pages, 3506485 bytes).
+Output written on boost2013_report.pdf (53 pages, 3506492 bytes).
 PDF statistics:
  8652 PDF objects out of 8907 (max. 8388607)
  4089 compressed objects within 41 object streams
