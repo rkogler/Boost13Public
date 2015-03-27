@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 MAR 2015 17:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAR 2015 00:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3093,104 +3093,94 @@ Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
 top_mass_eff0_35.pdf used on input line 480.
 (pdftex.def)             Requested size: 242.55272pt x 154.43233pt.
 
-<./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass_eff0_35.pdf, id=6
-598, 569.12625pt x 362.35374pt>
-File: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass_eff0_35.pdf 
-Graphic file (type pdf)
-
-<use ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_w_mass_eff0_35.pdf>
-Package pdftex.def Info: ./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
-w_mass_eff0_35.pdf used on input line 481.
-(pdftex.def)             Requested size: 242.55272pt x 154.43233pt.
-
 <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom_eff0_35.pdf,
- id=6599, 569.12625pt x 362.35374pt>
+ id=6598, 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom_eff0_35
 .pdf Graphic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_groom_eff0_35.
 pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
-agger_groom_eff0_35.pdf used on input line 488.
+agger_groom_eff0_35.pdf used on input line 487.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
-<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP_eff0_35.pdf, id=6600,
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP_eff0_35.pdf, id=6599,
  569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP_eff0_35.pdf Grap
 hic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_HEP_eff0_35.pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_H
-EP_eff0_35.pdf used on input line 489.
+EP_eff0_35.pdf used on input line 488.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
-<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH_eff0_35.pdf, id=6601, 
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH_eff0_35.pdf, id=6600, 
 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH_eff0_35.pdf Graph
 ic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_JH_eff0_35.pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_J
-H_eff0_35.pdf used on input line 490.
+H_eff0_35.pdf used on input line 489.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape_eff0_35.pdf,
- id=6602, 569.12625pt x 362.35374pt>
+ id=6601, 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape_eff0_35
 .pdf Graphic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_tagger_shape_eff0_35.
 pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
-agger_shape_eff0_35.pdf used on input line 491.
+agger_shape_eff0_35.pdf used on input line 490.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune_eff0_35.pdf, id=660
-3, 569.12625pt x 362.35374pt>
+2, 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune_eff0_35.pdf Gr
 aphic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_prune_eff0_35.pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_p
-rune_eff0_35.pdf used on input line 492.
+rune_eff0_35.pdf used on input line 491.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
-<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim_eff0_35.pdf, id=6604
+<./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim_eff0_35.pdf, id=6603
 , 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim_eff0_35.pdf Gra
 phic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_trim_eff0_35.pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_t
-rim_eff0_35.pdf used on input line 493.
+rim_eff0_35.pdf used on input line 492.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape_eff0_35.pdf, 
-id=6605, 569.12625pt x 362.35374pt>
+id=6604, 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape_eff0_35.
 pdf Graphic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_groom_shape_eff0_35.p
 df>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_g
-room_shape_eff0_35.pdf used on input line 494.
+room_shape_eff0_35.pdf used on input line 493.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 <./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum_eff0_35.pdf, id=6
-606, 569.12625pt x 362.35374pt>
+605, 569.12625pt x 362.35374pt>
 File: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum_eff0_35.pdf 
 Graphic file (type pdf)
 
 <use ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_optimum_eff0_35.pdf>
 Package pdftex.def Info: ./Figures/TTagging/multi_variable/pT.1TeV.R.0.8/Rocs_o
-ptimum_eff0_35.pdf used on input line 495.
+ptimum_eff0_35.pdf used on input line 494.
 (pdftex.def)             Requested size: 237.59789pt x 151.27524pt.
 
 
-LaTeX Warning: Float too large for page by 68.26639pt on input line 498.
+LaTeX Warning: Float too large for page by 68.26639pt on input line 497.
 
 
-Overfull \hbox (0.10791pt too wide) in paragraph at lines 607--608
+Overfull \hbox (0.10791pt too wide) in paragraph at lines 606--607
 []\T1/ptm/m/n/10 Comparing re-sults at dif-fer-ent $\OML/ztmcm/m/it/10 p[]$ \T1
 /ptm/m/n/10 and $\OML/ztmcm/m/it/10 R$\T1/ptm/m/n/10 , top-tagging per-
  []
@@ -3310,8 +3300,7 @@ Tagging/multi_variable/R_compare/Rocs_JH_Rcompare_optOnce.pdf, page is rotated
 are_optOnce.pdf, page is rotated 90 degrees> <./Figures/TTagging/multi_variable
 /R_compare/Rocs_trim_mt_mw_Rcompare_optOnce.pdf, page is rotated 90 degrees> <.
 /Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_top_mass_eff0_35.pdf, page
- is rotated 90 degrees> <./Figures/TTagging/single_variable/pT.1TeV.R.0.8/Rocs_
-w_mass_eff0_35.pdf, page is rotated 90 degrees>]
+ is rotated 90 degrees>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 [][]
  []
@@ -3354,10 +3343,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
  ) 
 Here is how much of TeX's memory you used:
- 9398 strings out of 493488
- 173843 string characters out of 3141326
- 266111 words of memory out of 3000000
- 11927 multiletter control sequences out of 15000+200000
+ 9391 strings out of 493488
+ 173485 string characters out of 3141326
+ 266104 words of memory out of 3000000
+ 11923 multiletter control sequences out of 15000+200000
  91530 words of font info for 155 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  30i,11n,33p,2717b,642s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3422,10 +3411,10 @@ onts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on boost2013_report.pdf (53 pages, 3519072 bytes).
+Output written on boost2013_report.pdf (53 pages, 3506485 bytes).
 PDF statistics:
- 8700 PDF objects out of 8907 (max. 8388607)
- 4110 compressed objects within 42 object streams
- 410 named destinations out of 1000 (max. 500000)
- 1045 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8652 PDF objects out of 8907 (max. 8388607)
+ 4089 compressed objects within 41 object streams
+ 408 named destinations out of 1000 (max. 500000)
+ 1040 words of extra memory for PDF output out of 10000 (max. 10000000)
 
