@@ -1,14 +1,8 @@
 In this section, we study the discrimination of a boosted, hadronically decaying $W$ boson (signal) against a gluon-initiated jet
 background, comparing the performance of various groomed jet
 masses and substructure variables.
-%, and BDT combinations of groomed mass
-%and substructure observables. 
-%We produce ROC
-%curves that elucidate the performance of the various groomed mass and
-%substructure variables.
 A range of different distance parameters for the \antikt jet
 algorithm are explored, in a range of different leading jet \pt bins.
-%(lead jet \pt 300-400 GeV, 500-600 GeV, 1.0-1.1 TeV). 
 This allows us to determine the
 performance of observables as a function of jet radius and jet boost, and to see
 where different approaches may break down. The groomed
@@ -51,51 +45,7 @@ jet  masses.
 \item Pruned Qjet mass volatility, $\Gamma_{\rm Qjet}$.
 \end{itemize}
 
-% and have various
-%jet grooming approaches applied as described in Section~\ref{sec:substructure}. The following event selection is then applied to these
-%samples....(presumably this will vary depending on which kinematic bin
-%is used, as will the actual samples used - maybe summarize in a table).
-%
-%Figure~\ref{fig:pt300_basics} shows a comparison of the
-%leading jet \pT for the signal and background in the \pT 300-400 GeV bin, for the two different \antikt jet
-%algorithm distance parameters explored in this bin (R=0.8 and R=1.2). Figures~\ref{fig:pt500_basics} and~\ref{fig:pt1000_basics}  show the same for the
-%\pT = 500-600 GeV bin and \pT = 1.0-1.1 TeV bin respectively, where for
-%the \pT = 1.0-1.1 TeV bin the distance parameter R=0.4 is also explored because the W radiation at this boost is typically confined to 
-%a cone of this size.
-%
-%
-%
-%\begin{figure*}
-%\centering
-%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR08/jpt1.eps}}
-%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT300/AKtR12/jpt1.eps}}
-%\caption{Comparisons of the leading jet \pT spectrum of the $gg$
-%  background to the WW signal in the \pT 300-400 GeV bin using the
-%  different \antikt jet distance parameters explored.}
-%\label{fig:pt300_basics}
-%\end{figure*}
-%
-%\begin{figure*}
-%\centering
-%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/jpt1.eps}}
-%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR12/jpt1.eps}}
-%\caption{Comparisons of the leading jet \pT spectrum of the $gg$
-%  background to the WW signal in the \pT = 500-600 GeV bin using the
-%  different \antikt jet distance parameters explored.}
-%\label{fig:pt500_basics}
-%\end{figure*}
-%
-%\begin{figure*}
-%\centering
-%\subfigure[\antikt R=0.4]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR04/jpt1.eps}}
-%\subfigure[\antikt R=0.8]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR08/jpt1.eps}}
-%\subfigure[\antikt R=1.2]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT1000/AKtR12/jpt1.eps}}
-%\caption{Comparisons of the leading jet \pT spectrum of the $gg$
-%  background to the WW signal in the \pT = 1.0-1.1 TeV bin using the
-%  different \antikt jet distance parameters explored.}
-%\label{fig:pt1000_basics}
-%
-%\end{figure*}
+
 
 
 
@@ -104,8 +54,6 @@ jet  masses.
 In this section we  explore the performance of the various groomed
 jet mass and substructure variables in separating signal
 from background.
-%, and how this performance changes depending on the
-%kinematic bin and jet radius considered.
 Since we
 have not attempted to optimise the grooming parameter settings of
 each grooming algorithm, we do not place much emphasis
@@ -129,7 +77,6 @@ studied.
 \subfigure[Trimmed mass]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_trim.pdf}}\\
 \subfigure[mMDT mass]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_mmdt.pdf}}
 \subfigure[Soft-drop $\beta=2$ mass]{\includegraphics[width=0.30\textwidth]{./Figures/WTagging/pT500/AKtR08/h_mass_sdb2.pdf}}
-%\subfigure[Soft-drop $\beta=-1$ mass]{\includegraphics[width=0.48\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak08/oneD/h_mass_sdm1.pdf}}
 \caption{Leading jet mass distributions in the $gg$ background and
   $WW$ signal samples in the \pt = 500-600 \GeV bin using the \antikt $R=0.8$ algorithm.}
 \label{fig:pt500_mass_AKt_R08}
@@ -157,46 +104,7 @@ is significantly more performant than any of the individual single variables
 considered, indicating that there is considerable complementarity
 between the variables, and this is explored further in Section~\ref{sec:w_combined}.
 
-%Comparing the impact of increasing the jet
-%radius in the same kinematic bin, one can see that the groomed mass
-%performance does not vary greatly, but that the performance of the
-%substructure variables is markedly worse for larger jet radius.
 
-
-
-%At low pT, substructure performance gets worse across the board as radius increases
-%In Figure~\ref{fig:pt500_comb2D}  we can also
-%observe that the degradation of the substructure variable performance
-%with increased jet radius is not uniform. The background rejection of
-%$C_2^{\beta=1}$ degrades substantially more than that of
-%$\tau_{21}^{\beta=1}$ as the 
-%At highest pT, the situation is different again....
-
-% when you are at the characteristic scale of the jet, C2B1 does well,
-% but when it is wider than necessaruy it starts to fail
-
-%Figure~\ref{fig:pt500_single_AKt_R08} shows the single variable ROC curves in
-%the \pT = 500 GeV bin for the anti-\kT R=0.8 algorithm, compared to the
-%ROC curve for a BDT combination of all the variables. One can see that
-%the best performant single variables for a reasonable signal
-%efficiency are the groomed/filtered masses, which all have a similar
-%level of performance with the exception of the soft drop mass with $\beta=-1$. {\it Would be good to split this into two plots, one
-%using the masses and one for other variables, or somehow make the mass
-%and other variable curves more distinct from one another by using same
-%colour for all the mass curves}.
-%
-%{\it We want to look also at:
-%\begin{itemize}
-%\item Dependence on R. So have the same single variable ROC for
-%e.g. R=1.2, R=0.4. Then possibly have another plot which compares the
-%best single variable (e.g. groomed mass) for
-%different R.
-%\item Dependence on pT. Again want to repeat the plot for different
-%kinematic bins, and then have a plot which compares the best
-%performance in each kinematic bin to see the dependence of performance
-%on kinematics.
-%\end{itemize}
-%}
 
 \begin{figure*}
 \centering
@@ -227,23 +135,6 @@ tagging in the \pt = 1.0-1.1 \TeV bin using the \antikt $R=0.4$ algorithm,
 anti-\kT $R=0.8$ algorithm and $R=1.2$ algorithm, along with a BDT combination of all variables (``allvars'')}
 \label{fig:pt1000_single}
 \end{figure*}
-
-%Figure~\ref{fig:pt500_single_AKt_R12} shows the single variable ROC curves in
-%the \pT = 500 GeV bin for the anti-\kT R=1.2 algorithm, compared to the
-%ROC curve for a BDT combination of all the variables. Comparing to
-%Figure~\ref{fig:pt500_single_AKt_R08}, one can see that the
-%performance of the groomed masses is quite similar. However, the
-%performance of the other non-mass substructure variables is markedly
-%different, and better in the R=0.8 case.
-%
-%\begin{figure*}
-%\centering
-%\includegraphics[width=0.8\textwidth]{./Figures/figs072514/figs071614_Wg_bin500_ak12/Rocs_1D_single.pdf}
-%\caption{The ROC curve for all single variables considered for $W$
-%tagging in the \pT = 500 GeV bin using the anti-\kT R=1.2 algorithm.}
-%\label{fig:pt500_single_AKt_R12}
-%
-%\end{figure*}
 
  In
 Figures~\ref{fig:pt300_comb2D},~\ref{fig:pt500_comb2D}
@@ -315,8 +206,6 @@ the groomed masses. However, in certain kinematic bins and for certain
 jet radii, $C_2^{\beta=1}$ has a background rejection that is
 comparable to or better than the groomed masses. 
 
-%By comparing Figures~\ref{fig:pt300_comb2D_08}
-%and~\ref{fig:pt300_comb2D_12}, Figures 
 We first examine the variation of performance with jet \pt. By comparing
 Figures~\ref{fig:pt300_comb2D_08},~\ref{fig:pt500_comb2D_08}
 and~\ref{fig:pt1000_comb2D_08}, we can see how the background
@@ -337,11 +226,6 @@ that, for increasing \pt, the perturbative shoulder of the gluon
 distribution decreases in size, and
 thus there is a slight decrease (or at least no increase) of the background contamination in the
 signal mass region (m/$p_{T}$/R $\sim$ 0.5). 
-%as the \pT increases, more of the gluon
-%background in the W mass window comes from jets building up their
-%masses from radiation that can be understood in the eikonal limits and
-%not from hard splittings. This is precisely the radiation grooming
-%methods are designed to remove, and so their performance increases with \pT.  
 
 \begin{figure*}
 \centering
@@ -412,7 +296,6 @@ largely unaffected, as follows from Figure~\ref{fig:qg_prmasses_log}
 and the discussion in Section~\ref{sec:qg_mass},
 where it is shown that there is very little dependence of the groomed gluon mass
 distribution on $R$ in the signal region ($m/\pt/R \sim$ 0.5). 
-%This is discussed further in Section~\ref{sec:qg_mass}.
 
 \begin{figure*}
 \centering
@@ -473,29 +356,6 @@ reduced discrimination power.
 \end{figure*}
 
 
-%The best performant individual variables for a reasonable signal
-%efficiency are the groomed masses, which all have a similar
-%level of performance that is superior to that of any of the
-%substructure variables considered. 
-%
-%Because we
-%have not attempted to optimise the grooming parameter settings of
-%each grooming algorithm, we do not want to place too much emphasis
-%here on the relative performance of the groomed masses, but instead
-%look at the trends veresus \pT and R. One
-%can see clearly that the background rejection power of the groomed mass
-%variables increases as the \pT is increased. Within a \pT
-%bin, one can also see that the groomed mass performance is rather invariant to
-%changes in the jet radius. In contrast, the substructure variable
-%performance varies considerably as the jet radius is changed. In
-%general, the background rejection power of individual jet substructure
-%variables gets worse as the jet radius is increased. The only
-%exception to this is in the highest \pT bin, where the background
-%rejection power of $C_2^{\beta=1}$ improves when going from jet radius
-%R=0.4 to R=0.8, but then gets worse again as we go to R=1.2. {\it
-%  Insert some nice discussion/explanation of why jet substructure
-%  power generally gets worse as we go to large jet radius, but groomed
-%mass performance does not}
 
 
 \subsection{Combined Performance}\label{sec:w_combined}
@@ -519,12 +379,6 @@ substructure variable combination is the most
 powerful depends strongly on the \pt and $R$ of the jet, as discussed
 in the sections to follow. 
 
-%The background rejection of
-%the most powerful mass + substructure combination comes very close to
-%that achieved in the ``all variables'' case, indicating that there is
-%little to be gained by making a BDT that is more complex, and that
-%there is little more complementary information available, at least in
-%terms of that which is offered by the variables considered here.
 
 There is also modest improvement in
 the background rejection when different groomed masses are combined,
@@ -545,10 +399,7 @@ contrast to the $R$ dependence of the $q/g$ tagging performance
 shown in Section~\ref{sec:qgtagging}, where a monotonic improvement
 in performance with reducing $R$ is observed.
 
-%\subsubsection{Dependence on \pt and R}
 \subsubsection{Mass + Substructure Performance}
-%maybe change title to "Mass + Substructure Performance"
-%then can have a final section titled "All Variables Performance"
 
 As already noted, the largest background rejection at 70\% signal
 efficiency are in general achieved using those two-variable BDT combinations
@@ -606,7 +457,6 @@ larger jet radius, such that the groomed mass and substructure variable
 are far less correlated and $\tau_{21}^{\beta=1}$ offers improved
 discrimination within a $m_{sd}^{\beta=2}$ mass window.
 
-% all variables results
 
 
 \begin{figure*}
