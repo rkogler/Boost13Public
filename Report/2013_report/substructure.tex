@@ -1,8 +1,8 @@
 In Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and~\ref{sec:substructure}, we describe the various jet algorithms, groomers, taggers and other substructure variables used in these studies. Over the course of our study, we considered a larger set of observables, but for presentation purposes we included only a subset in the final analysis, eliminating redundant observables.
 
-As a starting point we can think of the final state of an LHC collision event as being described by a list of ``final state particles''. In the analyses of the simulated events 
-described below (with an effectively perfect detector) these particles include the sufficiently long lived protons, neutrons, photons, pions, electrons and muons.  
-(Neutrinos are not detected and not included in the analyses.)  
+As a starting point we can think of the final state of an LHC collision event as being described by a list of ``final state particles''. In the analyses of the simulated
+events described below (with no detector simulation) these particles include the sufficiently long lived protons, neutrons, photons, pions, electrons and muons
+with no requirements on \pT or rapidity.  (Neutrinos are not included in the jet analyses.)  
 
 \subsection{Jet Clustering Algorithms}
 \label{sec:jetalgs}
@@ -16,11 +16,12 @@ d_{i\mathrm{B}} &=& p_{Ti}^{2\gamma},
 %
 where $\Delta R_{ij}^2=(\Delta \eta_{ij})^2+(\Delta\phi_{ij})^2$, with $\Delta \eta_{ij}$ being the separation in pseudorapidity of particles $i$ and $j$, and $\Delta \phi_{ij}$ being the separation in azimuth. In this analysis, we use the \antikt algorithm ($\gamma=-1$) \cite{Cacciari:2008gp}, the Cambridge/Aachen (C/A) algorithm ($\gamma=0$) \cite{Dokshitzer:1997in,Wobisch:1998wt}, and the \kT algorithm ($\gamma=1$) \cite{Catani:1993hr,Ellis:1993tq}, each of which has varying sensitivity to soft radiation in the definition of the jet.
 
-This process of jet clustering serves to identify jets as (non-overlapping) sub-lists of final state particles within the original event-wide list.  The particles on the sub-list 
-corresponding to a specific jet are labeled the ``constituents'' of that jet, and most of the tools described here process this sub-list of jet constituents in some specific 
-fashion to determine some property of that jet.  The concept of constituents of a jet can be generalized to a more detector-centric version where the constituents are, 
-for example, tracks and calorimeter cells, or to a perturbative QCD version where the constituents are partons (quarks and gluons).  These different descriptions are not identical, 
-but are closely related.  We will focus on the MC based analysis of simulated events, while drawing insight from the perturbative QCD view.\\
+This process of jet clustering serves to identify jets as (non-overlapping) sub-lists of final state particles within the original event-wide list.  The particles 
+on the sub-list corresponding to a specific jet are labeled the ``constituents'' of that jet, and most of the tools described here process this sub-list of 
+jet constituents in some specific fashion to determine some property of that jet.  The concept of constituents of a jet can be generalized to a more detector-centric version where the constituents are, for example, tracks and calorimeter cells, or to a perturbative QCD version where the constituents are partons (quarks and gluons).  These different descriptions are not identical, but are closely related.  We will focus on the MC based analysis of simulated events, while drawing 
+insight from the perturbative QCD view.  Note also that, when a detector (with a magnetic field) is included in the analysis, there will generally be a minimum \pT
+requirement on the constituents so that realistic numbers of constituents will be smaller than but presumably still track the numbers found in the analyses 
+described here.\\
 
 
 \noindent {\bf Qjets:}~We also perform non-deterministic jet clustering \cite{Ellis:2012sn,Ellis:2014eya}. Instead of always clustering the particle pair with smallest distance $d_{ij}$, the pair selected for combination is chosen probabilistically according to a measure
