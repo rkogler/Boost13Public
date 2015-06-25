@@ -1,8 +1,10 @@
 In Sections~\ref{sec:jetalgs},~\ref{sec:groomers},~\ref{sec:taggers} and~\ref{sec:substructure}, we describe the various jet algorithms, groomers, taggers and other substructure variables used in these studies. Over the course of our study, we considered a larger set of observables, but for presentation purposes we included only a subset in the final analysis, eliminating redundant observables.
 
-As a starting point we can think of the final state of an LHC collision event as being described by a list of ``final state particles''. In the analyses of the simulated
-events described below (with no detector simulation) these particles include the sufficiently long lived protons, neutrons, photons, pions, electrons and muons
-with no requirements on \pT or rapidity.  (Neutrinos are not included in the jet analyses.)  
+We organize the algorithms into four categories:~clustering algorithms,  grooming algorithms, tagging algorithms, and other substructure variables that incorporate information about the shape of radiation inside the jet. We emphasize that these distinctions are arbitrary:~for example, some of the ``grooming'' algorithms (such as trimming and pruning) as well as $N$-subjettiness can be used in a ``tagging'' capacity. This ambiguity is particularly pronounced in multivariate analyses, such as the ones we present here, since a single variable can act in different roles depending on which other variables it is combined with. Therefore, the following classification is  intended only to give an approximate organization of the variables, rather than as a definitive taxonomy.
+
+Before describing the observables used in our analysis, we give our definition of jet constituents. As a starting point, we can think of the final state of an LHC collision event as being described by a list of ``final state particles''. In the analyses of the simulated
+events described below (with no detector simulation), these particles include the sufficiently long lived protons, neutrons, photons, pions, electrons and muons
+with no requirements on \pT or rapidity. Neutrinos are excluded from the jet analyses.
 
 \subsection{Jet Clustering Algorithms}
 \label{sec:jetalgs}
@@ -85,7 +87,7 @@ then discard the branch with the smaller transverse mass $m_T = \sqrt{m_i^2 + p_
 
 \subsection{Other Jet Substructure Observables} \label{sec:substructure}
 
-The jet substructure observables defined in this section are calculated using jet constituents prior to any grooming. This approach has been used in several analyses in the past, for example~\cite{Khachatryan:2014hpa, Aad:2014haa}, whilst others have used the approach of only considering the jet constituents that survive the grooming procedure~\cite{ATL-PHYS-PUB-2014-004}. We expect that, in the absence of pile-up, the difference between these approaches will be small.\\
+The jet substructure observables defined in this section are calculated using jet constituents prior to any grooming. This approach has been used in several analyses in the past, for example~\cite{Khachatryan:2014hpa, Aad:2014haa}, whilst others have used the approach of only considering the jet constituents that survive the grooming procedure~\cite{ATL-PHYS-PUB-2014-004}. We take the first approach throughout our analyses, as this approach allows a study of both the hard and soft radiation characteristic of signal vs.~background. However, we do include the effects of initial state radiation and the underlying event, and unsurprisingly these can have a non-negligible effect on variable performance, particularly at large \pt and jet $R$. This suggests that the differences we see between variable performance at large \pt/$R$ will be accentuated in a high pile-up environment, necessitating a dedicated study of pile-up to recover as much as possible the ``ideal'' performance seen here. Such a study is beyond the scope of this paper. \\
 
 
 \noindent {\bf Qjet mass volatility:}~As described above, Qjet algorithms re-cluster the same jet non-deterministically to obtain a collection of interpretations of the jet. For each jet interpretation, the pruned jet mass is computed with the default pruning parameters. The mass volatility, $\Gamma_{\rm Qjet}$, is defined as \cite{Ellis:2012sn}
